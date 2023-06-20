@@ -1,0 +1,44 @@
+---
+const {
+	slug,
+	data: { title, pubDate }
+} = Astro.props.post;
+
+const formattedDate = pubDate.toLocaleDateString('en-us', { month: 'short', day: '2-digit' });
+---
+
+<li>
+	<time datetime={pubDate.toISOString()}>{formattedDate}</time>
+	<a href={`/blog/${slug}`}>{title}</a>
+</li>
+
+<style lang="scss">
+	@font-face {
+		font-family: 'Dank Mono';
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+		src: url('/fonts/Dank Mono Italic.woff2') format('woff2');
+	}
+
+	li {
+		column-gap: 0.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	time {
+		width: 6ch;
+		font-size: 0.95rem;
+		font-weight: 350;
+		font-style: italic;
+		line-height: 1.3;
+		color: var(--foreground);
+	}
+
+	a:visited {
+		color: #8e32dc;
+	}
+</style>

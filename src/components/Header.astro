@@ -1,25 +1,89 @@
 ---
-import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 ---
 
 <header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
+	<h1>
+		<a href="/">{SITE_TITLE}</a>
+	</h1>
 	<nav>
-		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-		<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank">Twitter</HeaderLink>
-		<HeaderLink href="https://github.com/withastro/astro" target="_blank">GitHub</HeaderLink>
+		<ul>
+			<li>
+				<a href="/blog">Blog</a>
+			</li>
+			<li>
+				<a href="/">About</a>
+			</li>
+			<li>
+				<div id="sun">
+					<div></div>
+				</div>
+			</li>
+		</ul>
 	</nav>
 </header>
-<style>
+
+<style lang="scss">
+	$max-header-width: 720px;
+
 	header {
-		margin: 0em 0 2em;
+		z-index: 5;
+		position: fixed;
+		inset: 0 0 auto 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		max-width: $max-header-width;
+		padding: 0.8rem max(calc((100vw - $max-header-width) / 2), 1rem);
+		background-color: var(--background);
+		transition: box-shadow 0.3s ease;
+		&.elevated {
+			box-shadow: 0 2px 5px 1px var(--shadow);
+		}
 	}
-	h2 {
-		margin: 0.5em 0;
+
+	h1,
+	h1 > a {
+		display: inline-block;
+		font-size: 1.1rem;
+		font-weight: 480;
+		line-height: 1;
+	}
+
+	nav > ul {
+		gap: 1.6rem;
+		display: flex;
+		align-items: center;
+		list-style: none;
+		padding-inline: 0;
+		a {
+			font-size: 0.85rem;
+			font-weight: 470;
+			&.active {
+				color: var(--primary);
+			}
+		}
+	}
+
+	#sun {
+		cursor: pointer;
+		position: relative;
+		width: 1.05rem;
+		height: 1.05rem;
+		border-radius: 100%;
+		background: var(--sun-bg);
+
+		& > div {
+			position: absolute;
+			right: 0;
+			width: 72%;
+			height: 72%;
+			border-radius: 100%;
+			background-color: var(--background);
+			transform: scale(var(--eclipse));
+			transform-origin: top right;
+			transition: transform 0.5s ease;
+		}
 	}
 </style>
