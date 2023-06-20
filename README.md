@@ -2,4 +2,4 @@
 
 ### Development
 
-Clone and `yarn dev`.
+Clone, `yarn install` and `yarn dev`.
