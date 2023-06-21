@@ -4,18 +4,54 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
-const { title = SITE_TITLE, description=SITE_DESCRIPTION } = Astro.props;
+const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead {...{ title, description }} />
 	</head>
 	<body>
 		<Header />
 		<div id="intersecter"></div>
 		<script>
-			let[csp,mq,[dt,lt],doc,ls,attach]=["color-scheme-pref","(prefers-color-scheme: dark)",["dark","light"],document,localStorage,(e,t,s)=>e.addEventListener(t,s)],theme={get(){let e=ls.getItem(csp);return[dt,lt].includes(e)?e:matchMedia(mq).matches?dt:lt},set(e){doc.body.className=e,ls.setItem(csp,e)}},infra={sun:e=>attach(e,"click",()=>theme.set(theme.get()==dt?lt:dt)),year:e=>e.innerText=new Date().getFullYear(),intersecter(e){let t=doc.querySelector("header");new IntersectionObserver(([e])=>t.classList.toggle("elevated",!e.isIntersecting)).observe(e)}},setup=()=>{theme.set(theme.get()),Object.keys(infra).forEach(e=>{let t=doc.getElementById(e);t&&infra[e](t)})};["interactive","complete"].includes(doc.readyState)?setup():attach(doc,"DOMContentLoaded",setup);
+			let [csp, mq, [dt, lt], doc, ls, attach] = [
+					'color-scheme-pref',
+					'(prefers-color-scheme: dark)',
+					['dark', 'light'],
+					document,
+					localStorage,
+					(e, t, s) => e.addEventListener(t, s)
+				],
+				theme = {
+					get() {
+						let e = ls.getItem(csp);
+						return [dt, lt].includes(e) ? e : matchMedia(mq).matches ? dt : lt;
+					},
+					set(e) {
+						(doc.body.className = e), ls.setItem(csp, e);
+					}
+				},
+				infra = {
+					sun: (e) => attach(e, 'click', () => theme.set(theme.get() == dt ? lt : dt)),
+					year: (e) => (e.innerText = new Date().getFullYear()),
+					intersecter(e) {
+						let t = doc.querySelector('header');
+						new IntersectionObserver(([e]) =>
+							t.classList.toggle('elevated', !e.isIntersecting)
+						).observe(e);
+					}
+				},
+				setup = () => {
+					theme.set(theme.get()),
+						Object.keys(infra).forEach((e) => {
+							let t = doc.getElementById(e);
+							t && infra[e](t);
+						});
+				};
+			['interactive', 'complete'].includes(doc.readyState)
+				? setup()
+				: attach(doc, 'DOMContentLoaded', setup);
 		</script>
 		<main><slot /></main>
 	</body>

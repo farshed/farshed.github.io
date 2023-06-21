@@ -5,10 +5,10 @@ const socials = {
 	Github: 'https://github.com/farshed',
 	Linkedin: 'https://linkedin.com/in/faisal-arshed',
 	Twitter: 'https://twitter.com/MatchOfJericho',
-	Spotify: 'https://open.spotify.com/user/jy6o6o9a9x3rfrhi5dtd5dj6d?si=4b59495d5a214fb3',
-	Quora: 'https://www.quora.com/profile/Faisal-Arshed',
-	Unsplash: 'https://unsplash.com/@farshed',
 	Discord: 'https://discord.com/channels/@farshed',
+	Spotify: 'https://open.spotify.com/user/jy6o6o9a9x3rfrhi5dtd5dj6d?si=4b59495d5a214fb3',
+	Unsplash: 'https://unsplash.com/@farshed',
+	Quora: 'https://www.quora.com/profile/Faisal-Arshed',
 	Couchers: 'https://couchers.org/user/farshed'
 };
 ---
@@ -46,11 +46,14 @@ const socials = {
 
 <style lang="scss">
 	#links {
+		max-width: 22rem;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		column-gap: 1rem;
-		margin: 0.15rem 0;
+		row-gap: 0.35rem;
+		margin: 0.5rem 0;
+
 		a::after {
 			content: '↗';
 			opacity: 0.8;
