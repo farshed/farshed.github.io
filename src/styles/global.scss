@@ -94,7 +94,7 @@ $font-mono: ui-monospace, 'JetBrains Mono', Menlo, Monaco, 'Cascadia Mono', 'Seg
 	'Droid Sans Mono', 'Courier New', monospace;
 
 $one-rem: clamp(16px, calc(13.5px + 0.15vh + 0.35vw), 24px);
-$fw-regular: 325;
+$fw-regular: 340;
 $fw-bold: 450;
 $header-width: 720px;
 $body-width: 640px;
@@ -103,6 +103,7 @@ $body-width: 640px;
 
 $light-mode: #5200ff, #3cffd070, #172b4d, #fafafa, #0d2b5a1a,
 	linear-gradient(40deg, #ff0080, #ff8c00 65%), 0;
+
 $dark-mode: #3cffd0, #7a81ff44, #b6c2cf, #1d2125, #00000020,
 	linear-gradient(40deg, #7a81ff, #a3dafb 75%), 1;
 
@@ -186,13 +187,9 @@ a {
 	line-height: 1.3;
 	color: var(--primary);
 	text-decoration: none;
-	&:hover {
-		background-color: var(--secondary);
+	show &:hover {
+		color: var(--primary);
 	}
-	// &:visited {
-	// color: var(--primary);
-	//   opacity: 0.7;
-	// }
 }
 
 main {
@@ -202,7 +199,3 @@ main {
 	row-gap: 1.6rem;
 	font-weight: $fw-regular;
 }
-
-// time {
-// 	font-family: $font-mono;
-// }

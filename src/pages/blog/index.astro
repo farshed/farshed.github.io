@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 import PostItem from '../../components/PostItem.astro';
+import { SITE_TITLE } from '../../consts';
 
 const allPosts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -13,9 +14,14 @@ const postsByYear = allPosts.reduce((acc, post) => {
 	acc[year].push(post);
 	return acc;
 }, {});
+
+const meta = {
+	title: `Blog · ${SITE_TITLE}`,
+	description: 'Personal blog of Faisal Arshed'
+};
 ---
 
-<Page>
+<Page {...meta}>
 	{
 		Object.keys(postsByYear).map((year) => (
 			<section>
