@@ -71,11 +71,6 @@
 	}
 }
 
-@mixin contain($max-width, $padding-y: 0) {
-	max-width: $max-width;
-	padding: $padding-y max(calc((100vw - $max-width) / 2), 1rem);
-}
-
 @mixin color-scheme-def($values) {
 	$keys: primary, secondary, foreground, background, shadow, sun-bg, eclipse;
 	@each $key, $val in zip($keys, $values) {
@@ -193,7 +188,9 @@ a {
 }
 
 main {
-	@include contain($body-width, 5.25rem);
+	max-width: $body-width;
+	padding: 5.25rem max(calc((100vw - $body-width) / 2), 1rem);
+	padding-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
 	row-gap: 1.6rem;

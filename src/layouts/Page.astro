@@ -4,7 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
-const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
+const { title = SITE_TITLE, description = SITE_DESCRIPTION, hideFooter } = Astro.props;
 ---
 
 <html lang="en">
@@ -34,7 +34,6 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 				},
 				infra = {
 					sun: (e) => attach(e, 'click', () => theme.set(theme.get() == dt ? lt : dt)),
-					year: (e) => (e.innerText = new Date().getFullYear()),
 					intersecter(e) {
 						let t = doc.querySelector('header');
 						new IntersectionObserver(([e]) =>
@@ -54,5 +53,6 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 				: attach(doc, 'DOMContentLoaded', setup);
 		</script>
 		<main><slot /></main>
+		{!hideFooter && <Footer />}
 	</body>
 </html>
