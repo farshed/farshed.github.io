@@ -8,51 +8,49 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, hideFooter } = Astro
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead {...{ title, description }} />
-	</head>
-	<body>
-		<Header />
-		<div id="intersecter"></div>
-		<script>
-			let [csp, mq, [dt, lt], doc, ls, attach] = [
-					'color-scheme-pref',
-					'(prefers-color-scheme: dark)',
-					['dark', 'light'],
-					document,
-					localStorage,
-					(e, t, s) => e.addEventListener(t, s)
-				],
-				theme = {
-					get() {
-						let e = ls.getItem(csp);
-						return [dt, lt].includes(e) ? e : matchMedia(mq).matches ? dt : lt;
-					},
-					set(e) {
-						(doc.body.className = e), ls.setItem(csp, e);
-					}
-				},
-				infra = {
-					sun: (e) => attach(e, 'click', () => theme.set(theme.get() == dt ? lt : dt)),
-					intersecter(e) {
-						let t = doc.querySelector('header');
-						new IntersectionObserver(([e]) =>
-							t.classList.toggle('elevated', !e.isIntersecting)
-						).observe(e);
-					}
-				},
-				setup = () => {
-					theme.set(theme.get()),
-						Object.keys(infra).forEach((e) => {
-							let t = doc.getElementById(e);
-							t && infra[e](t);
-						});
-				};
-			['interactive', 'complete'].includes(doc.readyState)
-				? setup()
-				: attach(doc, 'DOMContentLoaded', setup);
-		</script>
-		<main><slot /></main>
-		{!hideFooter && <Footer />}
-	</body>
+  <head>
+    <BaseHead {...{ title, description }} />
+  </head>
+  <body>
+    <Header />
+    <div id="intersecter"></div>
+    <script>
+      let [csp, mq, [dt, lt]] = ['color-scheme-pref', '(prefers-color-scheme: dark)', ['dark', 'light']];
+
+      let theme = {
+        get() {
+          let e = localStorage.getItem(csp);
+          return [dt, lt].includes(e) ? e : matchMedia(mq).matches ? dt : lt;
+        },
+        set(e) {
+          document.body.className = e;
+          localStorage.setItem(csp, e);
+        }
+      };
+
+      let infra = {
+        sun(e) {
+          e.addEventListener('click', () => theme.set(theme.get() == dt ? lt : dt));
+        },
+        intersecter(e) {
+          let t = document.querySelector('header');
+          new IntersectionObserver(([e]) => t.classList.toggle('elevated', !e.isIntersecting)).observe(e);
+        }
+      };
+
+      let setup = () => {
+        theme.set(theme.get()),
+          Object.keys(infra).forEach((e) => {
+            let t = document.getElementById(e);
+            t && infra[e](t);
+          });
+      };
+
+      ['interactive', 'complete'].includes(document.readyState)
+        ? setup()
+        : document.addEventListener('DOMContentLoaded', setup);
+    </script>
+    <main><slot /></main>
+    {!hideFooter && <Footer />}
+  </body>
 </html>

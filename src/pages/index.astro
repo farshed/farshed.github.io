@@ -1,16 +1,7 @@
 ---
 import Page from '../layouts/Page.astro';
-
-const socials = {
-	Github: 'https://github.com/farshed',
-	Linkedin: 'https://linkedin.com/in/faisal-arshed',
-	Twitter: 'https://twitter.com/MatchOfJericho',
-	Discord: 'https://discord.com/channels/@farshed',
-	Spotify: 'https://open.spotify.com/user/jy6o6o9a9x3rfrhi5dtd5dj6d?si=4b59495d5a214fb3',
-	Unsplash: 'https://unsplash.com/@farshed',
-	Quora: 'https://www.quora.com/profile/Faisal-Arshed',
-	Couchers: 'https://couchers.org/user/farshed'
-};
+import Social from '../components/Social.astro';
+import { EMAIL } from '../consts';
 ---
 
 <Page>
@@ -28,38 +19,10 @@ const socials = {
 		in my <a href="/resume" target="_blank">resume</a>.
 	</p>
 	<p>
-		To get in touch, shoot me an email at <a id="email" target="_blank">
-			<span>mail</span><span>@</span>farshed.me
+		To get in touch, shoot me an email at <a id="email" href={`mailto:${EMAIL}`}>
+			{EMAIL}
 		</a>.<br />
 		Feel free to say hi or follow me on:<br />
-		<span id="links">
-			{
-				Object.entries(socials).map(([name, url]) => (
-					<a href={url} target="_blank">
-						{name}
-					</a>
-				))
-			}
-		</span>
+		<Social />
 	</p>
 </Page>
-
-<style lang="scss">
-	#links {
-		max-width: 22rem;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		column-gap: 1rem;
-		row-gap: 0.45rem;
-		margin: 0.5rem 0;
-
-		a::after {
-			content: '↗';
-			color: var(--primary);
-			font-size: 0.9rem;
-			display: inline-block;
-			transform: translateY(-4px);
-		}
-	}
-</style>
