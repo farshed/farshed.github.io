@@ -1,0 +1,142 @@
+<svg width="2480" height="3508" viewBox="0 0 2480 3508" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  @media print {
+    @page {
+        size: 2480px 3508px;
+    }
+  }
+@font-face {
+    font-family: Apercu;
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://farshed.me/fonts/regular.woff2') format("woff2-variations")
+}
+
+@font-face {
+    font-family: Apercu;
+    font-weight: 50 900;
+    font-style: italic;
+    font-display: swap;
+    src: url('https://farshed.me/fonts/italic.woff2') format("woff2-variations")
+}
+
+  text {
+    font-family: 'Apercu';
+    font-variant-ligatures: none;
+    font-size: 46px;
+    font-weight: 300;
+    white-space: pre;
+    fill: #000;
+  }
+  circle {
+    fill: #000;
+  }
+  line {
+    stroke: #2A3FFB;
+    stroke-width: 6px; 
+  }
+  .blue { fill: #2A3FFB; }
+  .fs44 { font-size: 44px; }
+  .fs48 { font-size: 48px; }
+  .fs50 { font-size: 50px; }
+  .fs54 { font-size: 54px; }
+  .fs60 { font-size: 60px; }
+  .fs100 { font-size: 100px; }
+  .fw400 { font-weight: 400; }
+  .fw500 { font-weight: 500; }
+  .lite { fill-opacity: 0.72; }
+  .tag {
+    fill: #2A3FFB;
+    fill-opacity: 0.12;
+    height: 94px;
+  }
+</style>
+
+<text x="150" y="240" class="fs100 fw500">Faisal Arshed</text>
+<text x="150" y="334" class="fs54 fw500">Software Engineer</text>
+<text x="150" y="414" class="fs48">github.com/farshed</text>
+<text x="150" y="488" class="fs48">mail@farshed.me</text>
+<text x="150" y="562" class="fs48">(+92) 309 6855375</text>
+
+<text><tspan x="876" y="340">Full Stack Engineer with 3+ years of experience who enjoys working in </tspan><tspan x="876" y="413">small teams and having a high impact on the product from design to </tspan><tspan x="876" y="486">delivery. Interested in roles that offer ample opportunities for technical </tspan><tspan x="876" y="559">growth beyond my current expertise.</tspan></text>
+
+<text x="150" y="721" class="blue fs60 fw500">Work Experience</text>
+<line x1="670" y1="709" x2="2330" y2="709" />
+
+<text x="150" y="862.4" class="fw400 lite">Jul 2022 - Present</text>
+<text x="670" y="861.6" class="fs54 fw500">Senior Software Engineer</text>
+<text x="670" y="939.2" class="fs48 fw400 lite">SmashCloud</text>
+
+<circle r="5.5" cx="687" cy="1029.4" />
+<text><tspan x="716" y="1044.4">Involved in engineering for a Fortune Global 500 venture in a leading role.</tspan></text>
+<circle r="5.5" cx="687" cy="1103.4" />
+<text><tspan x="716" y="1118.4">Implemented new features for a tenant turnover management system used by</tspan><tspan x="716" y="1192.4">some of the top student housing owners across North America.</tspan></text>
+
+<text x="150" y="1322.4" class="fw400 lite">Mar 2021 - Jun 2022</text>
+<text x="670" y="1321.6" class="fs54 fw500">Software Engineer</text>
+<text x="670" y="1399.2" class="fs48 fw400 lite">Pursue Today</text>
+
+<circle r="5.5" cx="687" cy="1489.4" />
+<text><tspan x="716" y="1504.4">Developed pribox.io, acting as the sole engineer for the majority of its MVP stage.</tspan></text>
+<circle r="5.5" cx="687" cy="1563.4" />
+<text><tspan x="716" y="1578.4">Wrote automated planning and job scheduling services which closely interacted </tspan><tspan x="716" y="1652.4">with SMTP and IMAP protocols.</tspan></text>
+
+<text x="150" y="1782.4" class="fw400 lite">Sep 2020 - Apr 2021</text>
+<text x="670" y="1781.6" class="fs54 fw500">Full Stack Engineer</text>
+<text x="670" y="1859.2" class="fs48 fw400 lite">BookOtto</text>
+
+<circle r="5.5" cx="687" cy="1949.4" />
+<text><tspan x="716" y="1964.4">Prototyped and developed the flagship MVP using React Native and GraphQL.</tspan></text>
+<circle r="5.5" cx="687" cy="2023.4" />
+<text><tspan x="716" y="2038.4">Helped create and maintain the AWS backend and DevOps infrastructure.</tspan></text>
+<circle r="5.5" cx="687" cy="2097.4" />
+<text><tspan x="716" y="2112.4">Developed solutions to streamline bureaucracy in the NYC real estate market.</tspan></text>
+
+<text x="150" y="2242.4" class="fw400 lite">Mar 2019 - Dec 2019</text>
+<text x="670" y="2241.6" class="fs54 fw500">React Native Developer</text>
+<text x="670" y="2320.2" class="fs48 fw400 lite">MoneyWhere</text>
+
+<circle r="5.5" cx="687" cy="2411.4" />
+<text><tspan x="716" y="2426.4">Developed core fintech MVP using React Native and Node.js.</tspan></text>
+<circle r="5.5" cx="687" cy="2485.4" />
+<text><tspan x="716" y="2500.4">Implemented a virtual currency system, payments, geolocation services and</tspan><tspan x="716" y="2574.4">advanced map capabilities.</tspan></text>
+
+<text x="150" y="2712" class="blue fs60 fw500">Education</text>
+<line x1="490" y1="2701" x2="2330" y2="2701" />
+
+<text x="150" y="2844.4" class="fw400 lite">2016 - 2020</text>
+<text x="670" y="2843.6" class="fs54 fw500">BS in Computer Science</text>
+<text x="670" y="2921.2" class="fs48 fw400 lite">PMAS University of Arid Agriculture</text>
+
+<text x="150" y="3060" class="blue fs60 fw500">Skills</text>
+<line x1="363" y1="3049" x2="2330" y2="3049" />
+
+<rect x="670" y="3135" width="249" rx="8" ry="8" class="tag" />
+<rect x="983" y="3135" width="173" rx="8" ry="8" class="tag" />
+<rect x="1220" y="3135" width="196" rx="8" ry="8" class="tag" />
+<rect x="1480" y="3135" width="285" rx="8" ry="8" class="tag" />
+<rect x="1829" y="3135" width="206" rx="8" ry="8" class="tag" />
+<rect x="2099" y="3135" width="150" rx="8" ry="8" class="tag" />
+<rect x="670" y="3293" width="205" rx="8" ry="8" class="tag" />
+<rect x="939" y="3293" width="223" rx="8" ry="8" class="tag" />
+<rect x="1226" y="3293" width="268" rx="8" ry="8" class="tag" />
+<rect x="1558" y="3293" width="149" rx="8" ry="8" class="tag" />
+<rect x="1771" y="3293" width="143" rx="8" ry="8" class="tag" />
+<rect x="1978" y="3293" width="191" rx="8" ry="8" class="tag" />
+
+  <text class="fs44">
+    <tspan x="690" y="3199">JavaScript</tspan>
+    <tspan x="1013" y="3199">React</tspan>
+    <tspan x="1250" y="3199">Next.js</tspan>
+    <tspan x="1500" y="3199">React Native</tspan>
+    <tspan x="1859" y="3199">Node.js</tspan>
+    <tspan x="2129" y="3199">AWS</tspan>
+    <tspan x="690" y="3357">GraphQL</tspan>
+    <tspan x="959" y="3357">MongoDB</tspan>
+    <tspan x="1246" y="3357">PostgreSQL</tspan>
+    <tspan x="1588" y="3357">Rust</tspan>
+    <tspan x="1801" y="3357">Dart</tspan>
+    <tspan x="2008" y="3357">Flutter</tspan>
+  </text>
+</svg>
