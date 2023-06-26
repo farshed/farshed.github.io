@@ -62,133 +62,130 @@
 // }
 
 @mixin font-def($fam, $style, $wght, $file) {
-	@font-face {
-		font-family: $fam;
-		font-weight: $wght;
-		font-style: $style;
-		font-display: swap;
-		src: url('/fonts/#{$file}.woff2') format('woff2-variations');
-	}
+  @font-face {
+    font-family: $fam;
+    font-weight: $wght;
+    font-style: $style;
+    font-display: swap;
+    src: url('/fonts/#{$file}.woff2') format('woff2-variations');
+  }
 }
 
 @mixin color-scheme-def($values) {
-	$keys: primary, secondary, foreground, background, shadow, sun-bg, eclipse;
-	@each $key, $val in zip($keys, $values) {
-		--#{$key}: #{$val};
-	}
+  $keys: primary, secondary, foreground, background, shadow, sun-bg, eclipse;
+  @each $key, $val in zip($keys, $values) {
+    --#{$key}: #{$val};
+  }
 }
 
 @include font-def('Apercu', normal, 100 900, 'regular'); // apercu
 @include font-def('Apercu', italic, 50 900, 'italic'); // cotford
 
 $font-regular: 'Apercu', Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Roboto,
-	Oxygen, Ubuntu, sans-serif;
+  Oxygen, Ubuntu, sans-serif;
 
 $font-mono: ui-monospace, 'JetBrains Mono', Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-	'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono',
-	'Droid Sans Mono', 'Courier New', monospace;
+  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono',
+  'Droid Sans Mono', 'Courier New', monospace;
 
 $one-rem: clamp(16px, calc(13.5px + 0.15vh + 0.35vw), 24px);
-$fw-regular: 340;
-$fw-bold: 450;
 $header-width: 720px;
 $body-width: 640px;
 
 // palettes
 
 $light-mode: #5200ff, #3cffd070, #172b4d, #fafafa, #0d2b5a1a,
-	linear-gradient(40deg, #ff0080, #ff8c00 65%), 0;
+  linear-gradient(40deg, #ff0080, #ff8c00 65%), 0;
 
 $dark-mode: #3cffd0, #7a81ff44, #b6c2cf, #1d2125, #00000020,
-	linear-gradient(40deg, #7a81ff, #a3dafb 75%), 1;
+  linear-gradient(40deg, #7a81ff, #a3dafb 75%), 1;
 
 //#21fe64 ##f7f8f9 ##161a1d
 
 // linear-gradient(250deg,#d60036,#d56339 19%,#d1963d 27%,#c6c13f 34%,#b0db4d 41%,#93cd6a 47%,#70c285 53%,#38b79e 59%,#2e9aa8 66%,#3b75ab 73%,#344cad 81%,#1421ad)
 
 * {
-	margin: 0;
-	&::selection {
-		background-color: var(--secondary);
-	}
+  margin: 0;
+  &::selection {
+    background-color: var(--secondary);
+  }
 }
 
 :root {
-	@include color-scheme-def($light-mode);
-	@media (prefers-color-scheme: dark) {
-		@include color-scheme-def($dark-mode);
-	}
+  @include color-scheme-def($light-mode);
+  @media (prefers-color-scheme: dark) {
+    @include color-scheme-def($dark-mode);
+  }
 }
 
 .light {
-	@include color-scheme-def($light-mode);
+  @include color-scheme-def($light-mode);
 }
 
 .dark {
-	@include color-scheme-def($dark-mode);
+  @include color-scheme-def($dark-mode);
 }
 
 html,
 body {
-	min-height: 100%;
-	font-size: $one-rem;
-	box-sizing: border-box;
+  min-height: 100%;
+  font-size: $one-rem;
+  box-sizing: border-box;
 }
 
 html {
-	color-scheme: light dark;
+  color-scheme: light dark;
 }
 
 body {
-	color: var(--foreground);
-	background-color: var(--background);
-	font-family: $font-regular;
-	line-height: 1.6;
-	font-weight: 400;
-	scroll-behavior: smooth;
-	font-variant-ligatures: none;
-	text-rendering: optimizeLegibility;
-	text-size-adjust: none;
-	-webkit-text-size-adjust: none;
-	-webkit-font-smoothing: antialiased;
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: $font-regular;
+  line-height: 1.6;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 div {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img,
 picture,
 canvas,
 svg {
-	display: block;
-	max-width: 100%;
-	user-select: none;
+  display: block;
+  max-width: 100%;
+  user-select: none;
 }
 
 b {
-	font-weight: $fw-bold;
+  font-weight: 500;
 }
 
 i {
-	font-size: 98%;
+  font-size: 98%;
 }
 
 a {
-	cursor: pointer;
-	display: inline-block;
-	font-weight: $fw-bold;
-	line-height: 1.3;
-	color: var(--primary);
-	text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 420;
+  line-height: 1.3;
+  color: var(--primary);
+  text-decoration: none;
 }
 
 main {
-	max-width: $body-width;
-	padding: 5.25rem max(calc((100vw - $body-width) / 2), 1rem);
-	padding-bottom: 2rem;
-	display: flex;
-	flex-direction: column;
-	row-gap: 1.6rem;
-	font-weight: $fw-regular;
+  max-width: $body-width;
+  padding: 5.25rem max(calc((100vw - $body-width) / 2), 1rem);
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
 }

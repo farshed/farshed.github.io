@@ -5,52 +5,56 @@ import PostItem from '../../components/PostItem.astro';
 import { SITE_TITLE } from '../../consts';
 
 const allPosts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
 const postsByYear = allPosts.reduce((acc, post) => {
-	const year = post.data.pubDate.getFullYear();
-	if (!acc[year]) acc[year] = [];
-	acc[year].push(post);
-	return acc;
+  const year = post.data.pubDate.getFullYear();
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(post);
+  return acc;
 }, {});
 
 const meta = {
-	title: `Blog · ${SITE_TITLE}`,
-	description: "Faisal Arshed's Personal blog"
+  title: `Blog · ${SITE_TITLE}`,
+  description: "Faisal Arshed's Personal blog"
 };
 ---
 
 <Page {...meta}>
-	{
-		Object.keys(postsByYear).map((year) => (
-			<section>
-				<p class="year">{year}</p>
-				<ul>
-					{postsByYear[year].map((post) => (
-						<PostItem post={post} />
-					))}
-				</ul>
-			</section>
-		))
-	}
+  {
+    Object.keys(postsByYear).map((year) => (
+      <section>
+        <p class="year">{year}</p>
+        <ul>
+          {postsByYear[year].map((post) => (
+            <PostItem post={post} />
+          ))}
+        </ul>
+      </section>
+    ))
+  }
 </Page>
 
 <style lang="scss">
-	section {
-		margin-bottom: 1rem;
-		& > p {
-			font-size: 1.25rem;
-			font-weight: 500;
-			margin-bottom: 1rem;
-		}
-	}
+  section {
+    margin-bottom: 1rem;
+    & > p {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+  }
 
-	ul {
-		row-gap: 0.7rem;
-		padding: unset;
-		display: flex;
-		flex-direction: column;
-		list-style-type: none;
-	}
+  ul {
+    row-gap: 0.7rem;
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+    a {
+      font-weight: 500;
+    }
+  }
 </style>
