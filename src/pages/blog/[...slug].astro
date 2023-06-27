@@ -3,44 +3,47 @@ import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
 
 export async function getStaticPaths() {
-	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.slug },
-		props: post
-	}));
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post
+  }));
 }
 
 const post = Astro.props;
 const { title, pubDate } = post.data;
 const { Content } = await post.render();
 
-const formattedDate = pubDate.toLocaleDateString('en-us', {
-	month: 'short',
-	day: '2-digit',
-	year: 'numeric'
+const date = pubDate.toLocaleDateString('en-us', {
+  month: 'short',
+  day: '2-digit',
+  year: 'numeric'
 });
 ---
 
 <Page {...post.data}>
-	<article>
-		<h1 class="title">{title}</h1>
-		<time datetime={pubDate.toISOString()}>{formattedDate}</time>
-		<hr />
-		<Content />
-	</article>
+  <article>
+    <h1>{title}</h1>
+    <time datetime={pubDate.toISOString()}>{date}</time>
+    <div class="hr"></div>
+    <Content />
+  </article>
 </Page>
 
 <style lang="scss">
-	.title {
-		font-size: 1.3rem;
-	}
+  h1 {
+    font-size: 1.5rem;
+  }
 
-	time {
-		font-size: 0.92rem;
-	}
+  time {
+    font-size: 0.92rem;
+    font-weight: 500;
+  }
 
-	hr {
-		border-top: 1px solid #ddd;
-		margin: 0.9rem 0;
-	}
+  .hr {
+    height: 1px;
+    width: 100%;
+    margin: 0.9rem 0;
+    background-color: color-mix(in srgb, var(--foreground), var(--background) 75%);
+  }
 </style>

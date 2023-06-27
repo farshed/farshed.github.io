@@ -25,7 +25,7 @@ const meta = {
   {
     Object.keys(postsByYear).map((year) => (
       <section>
-        <p class="year">{year}</p>
+        <p>{year}</p>
         <ul>
           {postsByYear[year].map((post) => (
             <PostItem post={post} />
@@ -41,7 +41,7 @@ const meta = {
     margin-bottom: 1rem;
     & > p {
       font-size: 1.25rem;
-      font-weight: 500;
+      font-weight: 700;
       margin-bottom: 1rem;
     }
   }
@@ -52,9 +52,5 @@ const meta = {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-
-    a {
-      font-weight: 500;
-    }
   }
 </style>

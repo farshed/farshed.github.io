@@ -88,7 +88,7 @@ $font-mono: ui-monospace, 'JetBrains Mono', Menlo, Monaco, 'Cascadia Mono', 'Seg
   'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono',
   'Droid Sans Mono', 'Courier New', monospace;
 
-$one-rem: clamp(16px, calc(13.5px + 0.15vh + 0.35vw), 24px);
+$one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
 $header-width: 720px;
 $body-width: 640px;
 
@@ -175,7 +175,7 @@ i {
 a {
   cursor: pointer;
   display: inline-block;
-  font-weight: 420;
+  font-weight: 430;
   line-height: 1.3;
   color: var(--primary);
   text-decoration: none;
