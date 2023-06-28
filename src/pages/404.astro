@@ -3,20 +3,20 @@ import Page from '../layouts/Page.astro';
 ---
 
 <Page title="404 · Page not found" hideFooter>
-	<h1>404</h1>
-	<p>Ha, gotcha! You really thought there was a page here? Cute.</p>
+  <h1 class="err-code">404</h1>
+  <p class="err-info">Ha, gotcha! You really thought there was a page here? Cute.</p>
 </Page>
 
 <style>
-	h1 {
-		font-size: 6rem;
-		line-height: 1;
-		margin-block: 0;
-		margin-top: 1rem;
-	}
+  .err-code {
+    font-size: 6rem;
+    line-height: 1;
+    margin-block: 0;
+    margin-top: 1rem;
+  }
 
-	p {
-		font-size: 1.1rem;
-		line-height: 1;
-	}
+  .err-info {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
 </style>

@@ -23,7 +23,7 @@ const date = pubDate.toLocaleDateString('en-us', {
 
 <Page {...post.data}>
   <article>
-    <h1>{title}</h1>
+    <h1 class="title">{title}</h1>
     <time datetime={pubDate.toISOString()}>{date}</time>
     <div class="hr"></div>
     <Content />
@@ -31,7 +31,7 @@ const date = pubDate.toLocaleDateString('en-us', {
 </Page>
 
 <style lang="scss">
-  h1 {
+  .title {
     font-size: 1.5rem;
   }
 
@@ -44,6 +44,6 @@ const date = pubDate.toLocaleDateString('en-us', {
     height: 1px;
     width: 100%;
     margin: 0.9rem 0;
-    background-color: color-mix(in srgb, var(--foreground), var(--background) 75%);
+    background-color: var(--divider);
   }
 </style>
