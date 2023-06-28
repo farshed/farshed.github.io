@@ -48,7 +48,7 @@ Almost everyone you know will fall somewhere between these two extremes.
 
 How can we leverage this insight to our advantage to build more fulfilling relationships? Well, the first thing to understand is that both extremes are harmful in their own ways. So it's recommended that one's internalized worldview avoids these extremes and instead lies somewhere between them, preferably with a leaning towards the positive end.
 
-Secondly, these behaviours tend to be internalized. This means one must actively work to notice the flaws in their existing worldview and make a conscious effort to correct them until their internalized worldview improves. For those who think that they may be too close to the positive end, I recommend reading Dr. Cloud's [Boundaries](https://www.drcloud.com/books/boundaries) as a good starting point.
+Secondly, these behaviours tend to be internalized. This means one has to actively work to notice the flaws in their existing worldview and must make a conscious effort to correct them until their internalized worldview improves. For those who think that they may be too close to the positive end, I recommend reading Dr. Cloud's [Boundaries](https://www.drcloud.com/books/boundaries) as a good starting point.
 
 Thirdly, if you think you might have a PI and are looking to get romantically serious, it would be advisable to seek out a partner with a similar inclination as yours. NI-PI relationships don't tend to bode very well for the PI partner.
 
