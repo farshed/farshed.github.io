@@ -1,16 +1,17 @@
 ---
 import Page from '../layouts/Page.astro';
 import Social from '../components/Social.astro';
-import { EMAIL } from '../consts';
+
+const email = 'mail@farshed.me';
 ---
 
 <Page>
   <p>
-    Hi! I'm Faisal, a <i>software engineer</i> with a passion for building and tinkering with things.
-    I'm currently working at <a href="https://smashcloud.com" target="_blank">SmashCloud</a>, where
-    I craft tailored software solutions using React, Node.js, and the cloud. Besides work, my
-    current areas of active interest include compilers, data-oriented design, WASM, and 2D graphics.
-    I mostly work with JavaScript and Rust.
+    Hi! I'm Faisal, a software engineer with a passion for building and tinkering with things. I'm
+    currently working at <a href="https://smashcloud.com" target="_blank">SmashCloud</a>, where I
+    craft tailored software solutions using React, Node.js and the cloud. Besides work, my current
+    areas of active interest include compilers, data-oriented design, WASM and 2D graphics. I mostly
+    work with JavaScript and Rust.
   </p>
   <p>
     Apart from tech, I enjoy exploring music, science fiction, existentialist literature,
@@ -19,9 +20,7 @@ import { EMAIL } from '../consts';
     in my <a href="/faisal-arshed-resume.pdf" target="_blank">resume</a>.
   </p>
   <p>
-    To get in touch, shoot me an email at <a id="email" href={`mailto:${EMAIL}`}>
-      {EMAIL}
-    </a>.<br />
+    To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.<br />
     Feel free to say hi or follow me on:<br />
     <Social />
   </p>

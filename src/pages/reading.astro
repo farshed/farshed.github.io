@@ -1,5 +1,87 @@
 ---
+import { getCollection } from 'astro:content';
 import Page from '../layouts/Page.astro';
+import { SITE_TITLE } from '../consts';
+
+const items = {
+  'Computer Science': {
+    Books: [['Nystrom, Robert. Crafting Interpreters', 'https://craftinginterpreters.com']],
+
+    Papers: [
+      [
+        'Bacon et al. (2004). A Unified Theory of Garbage Collection',
+        'https://courses.cs.washington.edu/courses/cse590p/05au/p50-bacon.pdf'
+      ]
+    ]
+  },
+
+  Philosophy: {
+    Books: [
+      ['Aurelius, Marcus. Meditations'],
+      ['Camus, Albert. The Stranger'],
+      ['Nietzsche, Friedrich. Thus Spoke Zarathustra']
+    ]
+  }
+};
+
+const meta = {
+  title: `Reading · ${SITE_TITLE}`,
+  description: "Faisal Arshed's reading list"
+};
 ---
 
-<Page />
+<Page {...meta}>
+  <p>
+    This page hosts a curated selection of literature that I have read and enjoyed, or am in the
+    process of reading.
+  </p>
+  {
+    Object.keys(items).map((subject) => (
+      <section>
+        <h1>{subject}</h1>
+        {Object.keys(items[subject]).map((category) => (
+          <>
+            <p>{category}</p>
+            <ul>
+              {items[subject][category].map(([title, url]) => (
+                <li>
+                  {url ? (
+                    <a href={url} target="_blank">
+                      {title}
+                    </a>
+                  ) : (
+                    title
+                  )}
+                </li>
+              ))}
+            </ul>
+          </>
+        ))}
+      </section>
+    ))
+  }
+</Page>
+
+<style lang="scss">
+  section {
+    margin-bottom: 1rem;
+    & > p {
+      font-size: 1.25rem;
+      font-weight: 600;
+      // margin-bottom: 1rem;
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+  }
+
+  ul {
+    row-gap: 0.7rem;
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+    // list-style-type: none;
+    margin: 0.5rem 0;
+  }
+</style>
