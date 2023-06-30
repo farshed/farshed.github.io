@@ -52,7 +52,7 @@ How can we leverage this insight to our advantage to build more fulfilling relat
 
 Secondly, since these behaviours are internalized, one has to actively work to notice the flaws in their existing worldview and must make a conscious effort to correct them until their internalized worldview improves. For those who think that they may be too close to the positive end, I recommend reading Dr. Cloud's [Boundaries](https://www.drcloud.com/books/boundaries) as a good starting point.
 
-Thirdly, if you think you might have a PI and are looking to get romantically serious, it would be advisable to seek out a partner with a similar inclination as yours. Romantic NI-PI relationships don't tend to bode very well for the PI partner.
+Thirdly, if you think you might have a PI and are looking to get romantically serious, it would be advisable to seek out a partner with the same inclination as yours. Romantic NI-PI relationships don't tend to bode very well for the PI partner.
 
 ## Final Thoughts
 
