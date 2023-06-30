@@ -44,7 +44,7 @@ People with a negative inclination or NI tend to possess the following traits.
 
 People with a very high NI will tend to have what is referred to as an HCP or a _high-conflict personality_. They are characterized by their negative conflict resolution, often unstable relationships, and are more likely to be manipulative and abusive because they expect others to be the same way.
 
-Imagine a person who expects others to be selfish. Would this person be more likely to behave selfishly themselves in order to protect their own interests, or would they still be as generous as they might have been otherwise?
+Imagine a person who expects others to be selfish. Would such a person be more likely to behave selfishly themselves in order to protect their own interests, or would they still be as generous as they might have been otherwise?
 
 ## Takeaways
 
