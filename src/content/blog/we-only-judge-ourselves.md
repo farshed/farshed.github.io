@@ -10,6 +10,8 @@ What it means is that a person's character tends to be a reflection of their sub
 
 One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we're more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions. Based on this information, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum.
 
+Almost everyone you know will fall somewhere between these two extremes.
+
 ## Positively Inclined Individual
 
 People on the very positive end of the spectrum usually tend to have the following set of traits.
@@ -24,7 +26,7 @@ People on the very positive end of the spectrum usually tend to have the followi
 - Poor with enforcing their personal boundaries.
 - Potentially naive due to their trusting nature.
 
-For brevity, I will henceforth refer to an inclination towards these traits as PI (short for positive inclination or positively inclined). People with a PI tend to have better conflict resolution, report higher life satisfaction, and tend to foster healthier interpersonal relationships.
+For brevity, I will henceforth refer to an inclination towards these traits as PI (short for positive inclination or positively inclined). People with a PI tend to have better conflict resolution, report higher life satisfaction, and tend to foster healthier interpersonal relationships. In essence, they're more likely to follow the social rules of good behaviour because they expect others to do the same.
 
 ## Negatively Inclined Individual
 
@@ -40,9 +42,9 @@ People with a negative inclination or NI tend to possess the following traits.
 - Poor at respecting the personal boundaries of others.
 - Cynical of others due to their mistrusting nature.
 
-People with a very high NI will tend to have what is referred to as an HCP or a _high-conflict personality_. They are characterized by their negative conflict resolution, often unstable relationships, and are more likely to be manipulative and abusive because they expect others to be the same way. HCPs are estimated to constitute about 10-20% of the general population.
+People with a very high NI will tend to have what is referred to as an HCP or a _high-conflict personality_. They are characterized by their negative conflict resolution, often unstable relationships, and are more likely to be manipulative and abusive because they expect others to be the same way.
 
-Almost everyone you know will fall somewhere between these two extremes.
+Imagine a person who expects others to act selfishly. Are they more likely to behave selfishly themselves in order to protect their own interests? Or would they still be as generous as they might have been otherwise?
 
 ## Takeaways
 
