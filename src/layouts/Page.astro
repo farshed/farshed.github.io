@@ -1,10 +1,9 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
-const { title = SITE_TITLE, description = SITE_DESCRIPTION, hideFooter } = Astro.props;
+const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 ---
 
 <html lang="en">
@@ -15,7 +14,11 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, hideFooter } = Astro
     <Header />
     <div id="intersecter"></div>
     <script>
-      let [csp, mq, [dt, lt]] = ['color-scheme-pref', '(prefers-color-scheme: dark)', ['dark', 'light']];
+      let [csp, mq, [dt, lt]] = [
+        'color-scheme-pref',
+        '(prefers-color-scheme: dark)',
+        ['dark', 'light']
+      ];
 
       let theme = {
         get() {
@@ -34,7 +37,9 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, hideFooter } = Astro
         },
         intersecter(e) {
           let t = document.querySelector('header');
-          new IntersectionObserver(([e]) => t.classList.toggle('elevated', !e.isIntersecting)).observe(e);
+          new IntersectionObserver(([e]) =>
+            t.classList.toggle('elevated', !e.isIntersecting)
+          ).observe(e);
         }
       };
 
@@ -51,6 +56,5 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, hideFooter } = Astro
         : document.addEventListener('DOMContentLoaded', setup);
     </script>
     <main><slot /></main>
-    {!hideFooter && <Footer />}
   </body>
 </html>
