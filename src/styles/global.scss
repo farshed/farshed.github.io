@@ -16,14 +16,13 @@
 }
 
 @include font-def('Apercu', normal, 100 900, 'regular');
-@include font-def('Apercu', italic, 50 900, 'italic');
+@include font-def('Apercu', italic, 100 900, 'italic');
 
-$font-regular: 'Apercu', Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Roboto,
-  Oxygen, Ubuntu, sans-serif;
+$font-regular: 'Apercu', Helvetica, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Arial, Roboto, Oxygen, Ubuntu;
 
-$font-mono: ui-monospace, 'JetBrains Mono', Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono',
-  'Droid Sans Mono', 'Courier New', monospace;
+$font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
+  monospace;
 
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
 $header-width: 720px;
@@ -136,6 +135,12 @@ main {
     margin-top: -0.2rem;
     margin-bottom: 0.5rem;
   }
+}
+
+pre {
+  font-family: $font-mono;
+  padding: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 // body {

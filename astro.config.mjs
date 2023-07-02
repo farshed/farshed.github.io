@@ -8,6 +8,10 @@ export default defineConfig({
   compressHTML: true,
   integrations: [mdx(), sitemap()],
   markdown: {
-    rehypePlugins: [[rehypeExternalLinks, { target: ['_blank'] }]]
+    rehypePlugins: [[rehypeExternalLinks, { target: ['_blank'] }]],
+    shikiConfig: {
+      theme: 'dracula',
+      langs: ['js', 'rs']
+    }
   }
 });
