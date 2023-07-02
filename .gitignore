@@ -19,6 +19,5 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-
 resume.html
-resume.svg
+*.draft.md*
