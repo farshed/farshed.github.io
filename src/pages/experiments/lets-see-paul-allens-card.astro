@@ -1,0 +1,362 @@
+---
+import Page from '../../layouts/Page.astro';
+---
+
+<script>
+  let rect, active, queued;
+  const [card, glare] = ['card', 'glare'].map((k) => document.getElementById(k));
+  const curve = 'all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99)';
+
+  const round = (n) => Math.round(n * 1e3) / 1e3;
+  const setVar = (k, v) => card.style.setProperty(k, v);
+  const setTFunc = (fn) => {
+    card.style.transition = fn;
+    glare.style.transition = fn;
+  };
+  const unsetTFunc = () => setTFunc('none');
+
+  card.addEventListener('mouseenter', () => {
+    setTFunc(curve);
+    queued = setTimeout(unsetTFunc, 1e3);
+    setVar('--opacity', 0.2);
+    rect = card.getBoundingClientRect();
+    active = true;
+  });
+
+  card.addEventListener('mouseleave', () => {
+    if (queued) clearTimeout(queued);
+    active = false;
+    setTFunc(curve);
+    setVar('--tiltX', '0deg');
+    setVar('--tiltY', '0deg');
+    setVar('--opacity', 0);
+  });
+
+  card.addEventListener('mousemove', (e) => {
+    if (active) {
+      const x = (e.clientX - rect.left) / rect.width;
+      const y = (e.clientY - rect.top) / rect.height;
+      setVar('--px', `${round(x * 100)}%`);
+      setVar('--py', `${round(y * 100)}%`);
+      setVar('--tiltX', `${round((y * 2 - 1) * 15)}deg`);
+      setVar('--tiltY', `${round((x * 2 - 1) * -15)}deg`);
+    }
+  });
+</script>
+
+<Page>
+  <div id="card">
+    <div id="heading">
+      <h1 id="name"><i>F</i>aisal <i>A</i>rshed</h1>
+      <div id="arch" oncontextmenu="return false">
+        <div id="interior">
+          <svg id="sun" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"></svg>
+          <img src="/public/media/me.webp" alt="mugshot" fetchpriority="high" />
+        </div>
+      </div>
+    </div>
+    <div id="main" role="main">
+      <p>
+        Hey, I'm a <i>software engineer</i> with a deep interest in <i>hacking</i><span
+          class="with-tooltip"
+          >*
+          <span class="tooltip"
+            >The philosophy that glorifies what is fun and clever. Nothing to do with unauthorised
+            access of computers. <a href="https://wikipedia.org/wiki/Hacker_culture">Learn more</a
+            ></span
+          ></span
+        > things and peeling back layers of abstraction in computer science. My current areas of interest
+        include compilers, data-oriented design, WASM, and vector rendering pipelines.
+      </p>
+      <p>
+        For my 9-to-5, I collaborate with the talented people at <a href="https://smashcloud.com"
+          >SmashCloud</a
+        > to craft tailored software solutions using React, Node.js, and the cloud.
+      </p>
+      <p>
+        Apart from tech, I'm fascinated by and enjoy exploring cosmology, existentialist philosophy,
+        epigenetics, and psychoanalysis. I have a <a href="/blog" target="_blank">blog</a> where I sometimes
+        dump my thoughts and opinions about stuff that I find interesting.
+      </p>
+    </div>
+    <!-- <p id="tl-decor" class="decor mirror">Enter the void</p> -->
+    <p id="br-decor" class="decor mirror">Let's see Paul Allen's card</p>
+    <div id="footer">
+      <span id="copyright">© <span id="year"></span> Faisal Arshed</span>
+      <div id="links">
+        <a href="https://github.com/farshed">
+          <svg>
+            <use href="/public/media/sprite.svg#github"></use>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/faisal-arshed"
+          ><svg>
+            <use href="/public/media/sprite.svg#linkedin"></use>
+          </svg></a
+        >
+        <a href="https://open.spotify.com/user/jy6o6o9a9x3rfrhi5dtd5dj6d"
+          ><svg>
+            <use xlink:href="/public/media/sprite.svg#spotify"></use>
+          </svg></a
+        >
+        <a href="https://unsplash.com/@farshed"
+          ><svg>
+            <use xlink:href="/public/media/sprite.svg#unsplash"></use>
+          </svg></a
+        >
+        <!-- <a href="/faisal-arshed-resume.pdf">Resume</a> -->
+      </div>
+    </div>
+    <div id="glare"></div>
+  </div>
+  <div id="cloudy">
+    <video
+      src="/public/media/cloudy.mp4"
+      poster="/public/media/cloudy-poster.jpg"
+      autoplay
+      playsinline
+      muted
+      loop
+    >
+    </video>
+  </div>
+</Page>
+
+<style lang="scss">
+  #heading {
+    width: 100%;
+    position: relative;
+    font-family: 'The Seasons';
+    font-weight: 400;
+  }
+
+  #main {
+    line-height: 1.65;
+    padding-top: 0.4rem;
+
+    & > p:last-child {
+      margin-block-end: 0.8rem;
+    }
+  }
+
+  #card {
+    --px: 0%;
+    --py: 0%;
+    --tiltX: 0deg;
+    --tiltY: 0deg;
+    --opacity: 0;
+    z-index: 1;
+    font-weight: 300;
+    position: relative;
+    width: 100%;
+    max-width: 570px;
+    padding: 1.75rem;
+    padding-bottom: 1rem;
+    margin: 4rem 1rem;
+    border-radius: 14px;
+    will-change: transform;
+    background-color: rgba(#fff, 0.15);
+    box-shadow: 0 0 0 12px rgb(#fff, 0.15), 0 0 20px 12px rgb(#000, 0.05);
+    backdrop-filter: blur(20px);
+    transform: perspective(1000px) rotateX(var(--tiltX)) rotateY(var(--tiltY));
+    transform-style: preserve-3d;
+    transform-origin: center;
+    -webkit-backdrop-filter: blur(20px);
+    -webkit-transform: perspective(1000px) rotateX(var(--tiltX)) rotateY(var(--tiltY));
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: center;
+  }
+
+  #glare {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-radius: 14px;
+    opacity: var(--opacity);
+    mix-blend-mode: overlay;
+    transform: translateZ(1.4px);
+    background: radial-gradient(
+      farthest-corner circle at var(--px) var(--py),
+      rgba(#fff, 0.8) 10%,
+      rgba(#fff, 0.65) 20%,
+      rgba(#000, 0.5) 90%
+    );
+  }
+
+  #name {
+    margin: 0;
+    & > i {
+      line-height: 1.28;
+    }
+  }
+
+  #arch {
+    width: 60%;
+    padding: 0.6rem;
+    max-width: 400px;
+    aspect-ratio: 1 / 1.2;
+    border: 0.5px solid var(--foreground);
+    border-radius: 200px 200px 0 0;
+    background-color: transparent;
+  }
+
+  #sun {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    stroke: var(--foreground);
+    stroke-width: 0.5px;
+    transform: scale(0);
+    transition: transform 2s ease-in-out;
+  }
+
+  #arch > div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: inherit;
+    border-radius: calc(200px - 1rem) calc(200px - 1rem) 0 0;
+    overflow: hidden;
+
+    & > img {
+      z-index: 10;
+      width: 100%;
+      aspect-ratio: 1.2 / 1;
+      transition: filter 2s ease-in-out;
+      transform: scale(1.08);
+      filter: grayscale(1);
+      // filter: brightness(1.25) grayscale(1) contrast(1.04);
+    }
+  }
+
+  #arch:hover > div {
+    & > #sun {
+      transform: scale(1.5);
+    }
+    & > img {
+      filter: grayscale(0.025);
+      // filter: brightness(1.2) grayscale(0.15) contrast(1);
+    }
+  }
+
+  #the-eye {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #footer {
+    // position: absolute;
+    // left: 0;
+    // bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  #copyright {
+    font-size: 10px;
+    text-transform: uppercase;
+    bottom: 1em;
+    left: 28.8px;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    & svg {
+      margin-left: 1rem;
+      width: 23px;
+      height: 23px;
+    }
+  }
+
+  .decor {
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+  }
+
+  .mirror {
+    transform-origin: top left;
+    transform: scaleX(-1) rotate(-90deg);
+  }
+
+  #tl-decor {
+    font-size: 14px;
+    top: 150px;
+    left: 20px;
+  }
+
+  #br-decor {
+    bottom: 0.8rem;
+    right: -136px;
+  }
+
+  // @keyframes rotation {
+  // 	from {
+  // 		rotate: 0deg;
+  // 	}
+  // 	to {
+  // 		rotate: 359deg;
+  // 	}
+  // }
+
+  #cloudy {
+    z-index: -1;
+    position: fixed;
+    inset: 0;
+
+    & > video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+
+  .with-tooltip {
+    position: relative;
+    color: var(--primary);
+    cursor: pointer;
+    &:hover > .tooltip {
+      z-index: 100;
+      visibility: visible;
+      opacity: 1;
+      transform: translate(-50%, -101%);
+    }
+  }
+
+  .tooltip {
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    color: #000;
+    position: absolute;
+    top: 0px;
+    width: 270px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    transform: translate(-50%, -75%);
+    box-shadow: 0 10px 10px rgba(#000, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+</style>

@@ -18,6 +18,9 @@
 @include font-def('Apercu', normal, 100 900, 'regular');
 @include font-def('Apercu', italic, 100 900, 'italic');
 
+@include font-def('The Seasons', normal, 400, 'theseasons-400');
+@include font-def('The Seasons', italic, 400, 'theseasons-400i');
+
 $font-regular: 'Apercu', Helvetica, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
   Segoe UI, Arial, Roboto, Oxygen, Ubuntu;
 
