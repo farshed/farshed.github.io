@@ -14,7 +14,7 @@ Almost everyone you know will fall somewhere between these two extremes.
 
 ## Positively Inclined Individual
 
-People on the very positive end of the spectrum usually tend to have the following set of traits.
+People on the very positive end of the spectrum usually tend to possess the following set of traits.
 
 - Optimistic.
 - Easily trusting.
@@ -30,7 +30,7 @@ For brevity, I will henceforth refer to an inclination towards these traits as P
 
 ## Negatively Inclined Individual
 
-People with a negative inclination or NI tend to possess the following traits.
+People with a negative inclination or NI lean towards the following traits.
 
 - Pessimistic.
 - Mistrusting.

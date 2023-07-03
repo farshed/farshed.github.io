@@ -2,11 +2,11 @@
 import { SITE_TITLE } from '../consts';
 
 const pathname = Astro.url.pathname.replaceAll(/^\/+|\/+$/g, '');
-const links = [
-  'blog'
-  // 'reading',
-  // 'experiments'
-];
+const links = {
+  blog: 'Blog'
+  // reading: 'Reading',
+  // lab: 'Experiments'
+};
 ---
 
 <header>
@@ -16,10 +16,10 @@ const links = [
   <nav>
     <ul>
       {
-        links.map((path) => (
+        Object.entries(links).map(([path, label]) => (
           <li>
             <a href={`/${path}`} class={path === pathname ? 'active' : ''}>
-              {path.charAt(0).toUpperCase() + path.slice(1)}
+              {label}
             </a>
           </li>
         ))

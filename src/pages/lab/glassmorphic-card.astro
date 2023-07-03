@@ -48,64 +48,32 @@ import Page from '../../layouts/Page.astro';
   <div id="card">
     <div id="heading">
       <h1 id="name"><i>F</i>aisal <i>A</i>rshed</h1>
-      <div id="arch" oncontextmenu="return false">
+      <!-- <div id="arch" oncontextmenu="return false">
         <div id="interior">
           <svg id="sun" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"></svg>
           <img src="/public/media/me.webp" alt="mugshot" fetchpriority="high" />
         </div>
-      </div>
+      </div> -->
     </div>
     <div id="main" role="main">
       <p>
-        Hey, I'm a <i>software engineer</i> with a deep interest in <i>hacking</i><span
-          class="with-tooltip"
-          >*
-          <span class="tooltip"
-            >The philosophy that glorifies what is fun and clever. Nothing to do with unauthorised
-            access of computers. <a href="https://wikipedia.org/wiki/Hacker_culture">Learn more</a
-            ></span
-          ></span
-        > things and peeling back layers of abstraction in computer science. My current areas of interest
-        include compilers, data-oriented design, WASM, and vector rendering pipelines.
+        Hi! I'm Faisal, a software engineer with a passion for building and tinkering with things.
+        I'm currently working at <a href="https://smashcloud.com" target="_blank">SmashCloud</a>,
+        where I craft tailored software solutions using React, Node.js and the cloud. Besides work,
+        my current areas of active interest include compilers, data-oriented design, WASM and 2D
+        graphics. I mostly work with JavaScript and Rust.
       </p>
       <p>
-        For my 9-to-5, I collaborate with the talented people at <a href="https://smashcloud.com"
-          >SmashCloud</a
-        > to craft tailored software solutions using React, Node.js, and the cloud.
-      </p>
-      <p>
-        Apart from tech, I'm fascinated by and enjoy exploring cosmology, existentialist philosophy,
-        epigenetics, and psychoanalysis. I have a <a href="/blog" target="_blank">blog</a> where I sometimes
-        dump my thoughts and opinions about stuff that I find interesting.
+        Apart from tech, I enjoy exploring music, science fiction, existentialist literature,
+        psychology, and (epi)genetics. I have a <a href="/blog">blog</a> where I sometimes dump my thoughts
+        and opinions about stuff that I find interesting. If you're a recruiter, you might be interested
+        in my <a href="/faisal-arshed-resume.pdf" target="_blank">resume</a>.
       </p>
     </div>
     <!-- <p id="tl-decor" class="decor mirror">Enter the void</p> -->
     <p id="br-decor" class="decor mirror">Let's see Paul Allen's card</p>
     <div id="footer">
-      <span id="copyright">© <span id="year"></span> Faisal Arshed</span>
-      <div id="links">
-        <a href="https://github.com/farshed">
-          <svg>
-            <use href="/public/media/sprite.svg#github"></use>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/faisal-arshed"
-          ><svg>
-            <use href="/public/media/sprite.svg#linkedin"></use>
-          </svg></a
-        >
-        <a href="https://open.spotify.com/user/jy6o6o9a9x3rfrhi5dtd5dj6d"
-          ><svg>
-            <use xlink:href="/public/media/sprite.svg#spotify"></use>
-          </svg></a
-        >
-        <a href="https://unsplash.com/@farshed"
-          ><svg>
-            <use xlink:href="/public/media/sprite.svg#unsplash"></use>
-          </svg></a
-        >
-        <!-- <a href="/faisal-arshed-resume.pdf">Resume</a> -->
-      </div>
+      <span id="copyright">© {new Date().getFullYear()} Faisal Arshed</span>
     </div>
     <div id="glare"></div>
   </div>
@@ -127,7 +95,6 @@ import Page from '../../layouts/Page.astro';
     width: 100%;
     position: relative;
     font-family: 'The Seasons';
-    font-weight: 400;
   }
 
   #main {
@@ -149,7 +116,7 @@ import Page from '../../layouts/Page.astro';
     font-weight: 300;
     position: relative;
     width: 100%;
-    max-width: 570px;
+    max-width: 520px;
     padding: 1.75rem;
     padding-bottom: 1rem;
     margin: 4rem 1rem;
@@ -188,6 +155,7 @@ import Page from '../../layouts/Page.astro';
   }
 
   #name {
+    font-weight: 400;
     margin: 0;
     & > i {
       line-height: 1.28;
