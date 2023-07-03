@@ -25,8 +25,9 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   monospace;
 
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
-$header-width: 720px;
-$body-width: 640px;
+
+$max-header-width: 720px;
+$max-body-width: 640px;
 
 // palettes
 
@@ -112,13 +113,92 @@ a {
   text-decoration: none;
 }
 
+header {
+  z-index: 5;
+  position: fixed;
+  inset: 0 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+  row-gap: 0.5rem;
+  max-width: $max-header-width;
+  padding: 0.8rem max(calc((100vw - $max-header-width) / 2), 1rem);
+  background-color: var(--background);
+  transition: box-shadow 0.3s ease;
+  &.elevated {
+    box-shadow: 0 2px 5px 1px var(--shadow);
+  }
+
+  a {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--foreground);
+    transition: color 0.3s ease;
+    &:hover {
+      color: var(--primary);
+    }
+  }
+
+  h1,
+  h1 > a {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+}
+
+nav > ul {
+  gap: 1.6rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-inline: 0;
+
+  a.active {
+    color: var(--primary);
+    box-shadow: 0 2px var(--primary);
+    padding-bottom: 0.2rem;
+  }
+}
+
+#sun {
+  cursor: pointer;
+  position: relative;
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 100%;
+  background: var(--sun-bg);
+  & > div {
+    position: absolute;
+    right: 0;
+    width: 72%;
+    height: 72%;
+    border-radius: 100%;
+    background-color: var(--background);
+    transform: scale(var(--eclipse));
+    transform-origin: top right;
+    transition: transform 0.3s ease;
+  }
+}
+
 main {
-  max-width: $body-width;
-  padding: 5.25rem max(calc((100vw - $body-width) / 2), 1rem);
+  max-width: $max-body-width;
+  padding: 5.25rem max(calc((100vw - $max-body-width) / 2), 1rem);
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   row-gap: 1.6rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+time {
+  font-size: 0.92rem;
+  font-weight: 500;
 }
 
 #post {
@@ -135,6 +215,13 @@ main {
     margin-top: -0.2rem;
     margin-bottom: 0.5rem;
   }
+}
+
+.hr {
+  height: 1px;
+  width: 100%;
+  margin: 0.9rem 0;
+  background-color: var(--divider);
 }
 
 pre {
