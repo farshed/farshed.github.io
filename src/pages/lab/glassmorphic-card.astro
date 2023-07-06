@@ -1,5 +1,5 @@
 ---
-import Page from '../../layouts/Page.astro';
+import BareBones from '../../layouts/BareBones.astro';
 ---
 
 <script>
@@ -44,7 +44,7 @@ import Page from '../../layouts/Page.astro';
   });
 </script>
 
-<Page>
+<BareBones>
   <div id="card">
     <div id="heading">
       <h1 id="name"><i>F</i>aisal <i>A</i>rshed</h1>
@@ -79,8 +79,8 @@ import Page from '../../layouts/Page.astro';
   </div>
   <div id="cloudy">
     <video
-      src="/public/media/cloudy.mp4"
-      poster="/public/media/cloudy-poster.jpg"
+      src="/media/cloudy.mp4"
+      poster="/media/cloudy-poster.jpg"
       autoplay
       playsinline
       muted
@@ -88,7 +88,7 @@ import Page from '../../layouts/Page.astro';
     >
     </video>
   </div>
-</Page>
+</BareBones>
 
 <style lang="scss">
   #heading {

@@ -1,0 +1,25 @@
+@mixin font-def($fam, $style, $wght, $file) {
+  @font-face {
+    font-family: $fam;
+    font-weight: $wght;
+    font-style: $style;
+    font-display: swap;
+    src: url('/fonts/#{$file}.woff2') format('woff2-variations');
+  }
+}
+
+@mixin color-scheme-def($values) {
+  $keys: primary, secondary, foreground, background, shadow, visited-a, divider, sun-bg, eclipse;
+  @each $key, $val in zip($keys, $values) {
+    --#{$key}: #{$val};
+  }
+}
+
+$font-regular: 'Apercu', Helvetica, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Arial, Roboto, Oxygen, Ubuntu;
+
+$font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
+  monospace;
+
+$one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
+$max-body-width: 640px;
