@@ -14,7 +14,7 @@ This trend continues for the next few decades as computers shrink further to bec
 
 ## The Four-Decade Cycle
 
-A repeating pattern of four-decade-long periods is revealed if you observe the history of computing. It seems that roughly every 40 years or so, a major breakthrough happens that drives growth and sets the direction for the next 40 years.
+A repeating pattern of four-decade-long periods is revealed if you observe the history of computing. It seems that roughly every 40 years or so, a major technological breakthrough happens that drives growth and sets the direction for the next 40 years.
 
 - **1900 - 1940** period began with the invention of radio and vacuum tubes. The progress during the subsequent years laid the groundwork for electronic computers.
 - **1940 - 1980** period is marked by the beginning of WWII. For better or worse, wars have always been the catalysts of change in human societies and this time, it resulted in the birth of computers, nuclear energy, modern rockets, and first commercially available antibiotics.
