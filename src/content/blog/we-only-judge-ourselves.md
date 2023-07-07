@@ -8,7 +8,7 @@ I recently had the chance to watch _Puss in Boots: The Last Wish_ (no I'm not jo
 
 What it means is that a person's character tends to be a reflection of their subconscious worldly outlook. People with a positive worldview tend to have generally more positive personality traits while those with a negative worldview tend to have more negative ones. This is in part due to how we judge others. There is at least some [evidence](https://en.wikipedia.org/wiki/Social_projection) to suggest that people tend to be more likely to judge others to be similar to themselves.
 
-One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we're more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions. Based on this information, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum.
+One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we are more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions. Based on this information, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum.
 
 Almost everyone you know will fall somewhere between these two extremes.
 
@@ -26,7 +26,7 @@ People on the very positive end of the spectrum usually tend to possess the foll
 - Poor with enforcing their personal boundaries.
 - Potentially naive due to their trusting nature.
 
-For brevity, I will henceforth refer to an inclination towards these traits as PI (short for positive inclination or positively inclined). People with a PI tend to have better conflict resolution, report higher life satisfaction, and tend to foster healthier interpersonal relationships. In essence, they're more likely to follow the social rules of good behaviour because they expect others to do the same.
+For brevity, I will henceforth refer to an inclination towards these traits as PI (short for positive inclination or positively inclined). People with a PI tend to have better conflict resolution, report higher life satisfaction, and tend to foster healthier interpersonal relationships. In essence, they are more likely to follow the social rules of good behaviour because they expect others to do the same.
 
 ## Negatively Inclined Individual
 

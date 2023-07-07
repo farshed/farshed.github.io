@@ -20,9 +20,9 @@ A repeating pattern of four-decade-long periods is revealed if you observe the h
 - **1940 - 1980** period began with WWII. For better or worse, wars have always been the catalysts of change in human societies and this time, it resulted in the birth of computers, nuclear energy, modern rockets, and first commercially available antibiotics.
 - **1980 - 2020**. This period's beginning was marked by the advent of personal computers like Apple II and IBM PC in 1977 and 1981 respectively. The world witnessed a huge explosion of information and technology in all areas of life, thanks to the internet.
 
-Now it seems that we're in another forty-year cycle, one whose beginning is heralded by an artificial intelligence boom. What do these next four decades really have in store for us? Honestly, I am as clueless as you're, but we can try to guess based on how history has unfolded and where we currently stand.
+Now it seems that we are in another forty-year cycle, one whose beginning is heralded by an artificial intelligence boom. At the dawn of this new era, we find ourselves asking, what do these next four decades really have in store for us? Honestly, I am as clueless as you are, but we can try to guess based on historical trends and where we presently stand.
 
-I believe that in the coming decades (or maybe in a matter of just years), we are going to witness several breakthroughs in not just artificial intelligence, but fusion power, genetic engineering, space exploration, neural interfaces, and entirely novel ways to build computers. Without a doubt, these breakthroughs will be at least partially driven by AI. We have only begun to scratch the surface and have yet to tap into AI's immense potential in areas ranging from material science to protein folding and more.
+I believe that in the coming decades (or perhaps in a matter of just years), we are going to witness several breakthroughs in not just artificial intelligence, but fusion power, genetic engineering, space exploration, neural interfaces, and entirely novel ways to build computers. Without a doubt, these breakthroughs will be at least partially driven by AI. We have only begun to scratch the surface and have yet to tap into AI's immense potential in areas ranging from material science to protein folding and more.
 
 ## Accelerating Change
 
