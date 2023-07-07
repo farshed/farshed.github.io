@@ -26,7 +26,7 @@ I believe that in the coming decades (or perhaps in a matter of just years), we 
 
 ## Accelerating Change
 
-One important thing to keep in mind is that the forty-year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all. It's actually cumulatively exponential, i.e. With each technological discovery or innovation, the time to the next discovery/innovation shortens. This is known as the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
+One important thing to keep in mind is that the forty-year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all. It's actually cumulatively exponential, i.e. With each technological discovery or innovation, the time to reach the next one becomes increasingly shorter, accelerating the pace of advancement. This is known as the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
 
 ![Exponential change graph](/media/blog/accelerating-change.jpeg)
 
