@@ -18,7 +18,7 @@ A repeating pattern of four-decade-long periods is revealed if you observe the h
 
 - **1900 - 1940** period began with the invention of radio and vacuum tubes. The progress during the subsequent years laid the groundwork for electronic computers.
 - **1940 - 1980** period began with WWII. For better or worse, wars have always been the catalysts of change in human societies and this time, it resulted in the birth of computers, nuclear energy, modern rockets, and first commercially available antibiotics.
-- **1980 - 2020**. This period's beginning was marked by the advent of Apple II and IBM PC in 1977 and 1981 respectively. The world witnessed a huge explosion of information and technology in all areas of life, thanks to the internet.
+- **1980 - 2020**. This period's beginning is marked by the advent of personal computers like Apple II and IBM PC in 1977 and 1981 respectively. The world witnessed a huge explosion of information and technology in all areas of life, thanks to the internet.
 
 Now it seems that we're in another forty-year cycle, one whose beginning is heralded by an artificial intelligence boom. What do these next four decades really have in store for us? Honestly, I am as clueless as you're, but we can try to guess based on how history has unfolded and where do we currently stand.
 
