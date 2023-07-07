@@ -28,6 +28,6 @@ I believe that in the coming decades (or perhaps in a matter of just years), we 
 
 One important thing to keep in mind is that the forty-year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all. It's actually cumulatively exponential, i.e. With each technological discovery or innovation, the time to the next discovery/innovation shortens. This is called the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
 
-![Accelerating change graph](/media/blog/accelerating-change.jpeg)
+![Exponential change graph](/media/blog/accelerating-change.jpeg)
 
 In other words, _not only is technological progress accelerating; the rate at which it is accelerating, is also accelerating._ Let that sink in.
