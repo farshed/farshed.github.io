@@ -6,7 +6,7 @@ pubDate: 'July 7 2023'
 
 It's November of 1904. An engineer named John Ambrose Fleming is hunched over a contraption of glass and metal in his small, cluttered lab at University College London. The glow of the first practical vacuum tube fills the room as he places it into its circuit. It's a pivotal moment that, unbeknownst to many, paves the way for the dawn of the electronic age. This humble diode, capable of amplifying and switching electronic signals, provides the first glimmers of the coming storm of electronic computers.
 
-Fast forward to the early 1940s. The Second Great War rages on. The Ballistic Research Laboratory in Maryland needs a faster way to calculate artillery ballistic tables. So U.S. Army Ordnance Corps funds the construction of ENIAC, the world's first general-purpose, electronic computer. ENIAC hums into life in 1945. It looks more like a room than a tool — a vast, clattering array of metal and wire, vacuum tubes and punch cards, weighing in at a staggering 30 tons. And yet, it crunches numbers for the war effort with an accuracy and speed unparalleled by human hands, marking the dawn of a new era in technology.
+Fast forward to the early 1940s. The Second Great War rages on. The Ballistic Research Laboratory in Maryland needs a faster way to calculate ballistic tables for the artillery. So U.S. Army Ordnance Corps funds the construction of ENIAC, the world's first general-purpose, electronic computer. ENIAC hums into life in 1945. It looks more like a room than a tool — a vast, clattering array of metal and wire, vacuum tubes and punch cards, weighing in at a staggering 30 tons. And yet, it crunches numbers for the war effort with an accuracy and speed unparalleled by human hands, marking the dawn of a new era in technology.
 
 The decades following the war usher in the era of mainframe computers, precursors to the corporate technology boom. It is now early 1980s. Computers have begun to shrink and are now finding their way out of university labs and corporate mainframes, and into our homes. They have now become desk-bound. Behold! The era of internet and personal computers is upon us. The static of a dial-up connection becomes a familiar sound in homes across the globe, as the World Wide Web weaves its way into everyday life.
 
@@ -14,7 +14,7 @@ This trend continues for the next few decades as computers shrink further to bec
 
 ## The Four-Decade Cycle
 
-A repeating pattern of four decade long periods is revealed if you observe the history of computing. It seems that roughly every 40 years or so, a major breakthrough happens that drives growth and sets the direction for the next 40 years.
+A repeating pattern of four-decade-long periods is revealed if you observe the history of computing. It seems that roughly every 40 years or so, a major breakthrough happens that drives growth and sets the direction for the next 40 years.
 
 - **1900 - 1940** period began with the invention of radio and vacuum tubes. The progress during the subsequent years laid the groundwork for electronic computers.
 - **1940 - 1980** period is marked by the beginning of WWII. For better or worse, wars have always been the catalysts of change in human societies and this time, it resulted in the birth of computers, nuclear energy, modern rockets, and first commercially available antibiotics.
