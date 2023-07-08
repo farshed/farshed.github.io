@@ -29,4 +29,4 @@ One important thing to keep in mind is that the forty-year cycle is not really a
 
 ![Exponential change graph](/media/blog/accelerating-change.jpeg)
 
-In other words, _not only is technological progress accelerating; the rate at which it is accelerating, is also accelerating._ Let that sink in.
+In other words, _not only is technological progress accelerating; the rate at which it is accelerating, is also accelerating._ Let that one sink in.
