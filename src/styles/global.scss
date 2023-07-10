@@ -131,6 +131,14 @@ time {
   font-weight: 500;
 }
 
+hr {
+  height: 1px;
+  width: 100%;
+  border: none;
+  margin: 0.9rem 0;
+  background-color: var(--divider);
+}
+
 #post {
   p:not(:last-child) {
     margin-bottom: 1.4rem;
@@ -145,13 +153,21 @@ time {
     margin-top: -0.2rem;
     margin-bottom: 0.5rem;
   }
-}
 
-.hr {
-  height: 1px;
-  width: 100%;
-  margin: 0.9rem 0;
-  background-color: var(--divider);
+  blockquote {
+    width: 88%;
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 1.8rem 0;
+    padding-left: 1.8rem;
+    border-left: 0.25rem solid var(--primary);
+    span {
+      display: block;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+  }
 }
 
 pre {
@@ -214,11 +230,4 @@ pre {
 // }
 // pre > code {
 // 	all: unset;
-// }
-// blockquote {
-// 	border: 1px solid #999;
-// 	color: #222;
-// 	padding: 2px 0px 2px 20px;
-// 	margin: 0px;
-// 	font-style: italic;
 // }
