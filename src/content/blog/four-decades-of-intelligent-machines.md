@@ -1,5 +1,5 @@
 ---
-title: 'Four Decades of AI'
+title: 'Four Decades of Intelligent Machines'
 description: 'What can the history of technology tell us about its future?'
 pubDate: 'July 7 2023'
 ---
