@@ -31,7 +31,7 @@ Here's an expanded version.
 
 ![Epicurean Paradox](/media/blog/epicurean-paradox.webp)
 
-Before one gets to the question whether God exists or not, there's another more fundamental problem that people seem to miss entirely and that is the nature of worship.
+Before one gets to the question of whether God exists or not, there's another more fundamental problem that people seem to miss entirely and that is the nature of worship.
 
 ## Nature of Worship
 
