@@ -9,7 +9,7 @@ pubDate: 'June 29 2023'
 
 I recently had the chance to watch _Puss in Boots: The Last Wish_ (no I'm not joking) and _Perrito_'s character reminded me of a realization that I had about human behaviour not so while ago. This insight had to do with how one's internalized worldview shapes their personality. I worded it as "_We become as we perceive the world to be_" or more succinctly (and rather dramatically) as the title of this post.
 
-What it means is that a person's character tends to be a reflection of their subconscious worldly outlook. People with a positive worldview tend to have generally more positive personality traits while those with a negative worldview tend to have more negative ones. This is in part due to how we judge others. There is at least some [evidence](https://en.wikipedia.org/wiki/Social_projection) to suggest that people tend to be more likely to judge others to be similar to themselves.
+What it means is that a person's character tends to be a reflection of their subconscious worldly outlook. People with a positive worldview tend to have generally more positive personality traits while those with a negative worldview tend to have more negative ones. This is in part due to how we judge others. There is at least some [evidence](https://en.wikipedia.org/wiki/Social_projection) to suggest that people are more likely to judge others to be similar to themselves.
 
 One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we are more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions. Based on this information, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum.
 
@@ -17,7 +17,7 @@ Almost everyone you know will fall somewhere between these two extremes.
 
 ## Positively Inclined Individual
 
-People on the very positive end of the spectrum usually tend to possess the following set of traits.
+Someone on the extreme positive end of the spectrum will possess the following set of traits.
 
 - Optimistic.
 - Easily trusting.
