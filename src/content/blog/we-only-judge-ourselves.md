@@ -9,11 +9,13 @@ pubDate: 'June 29 2023'
 
 I recently had the chance to watch _Puss in Boots: The Last Wish_ (no I'm not joking) and _Perrito_'s character reminded me of a realization that I had about human behaviour not so while ago. This insight had to do with how one's internalized worldview shapes their personality. I worded it as "_We become as we perceive the world to be_" or more succinctly (and rather dramatically) as the title of this post.
 
-What it means is that a person's character tends to be a reflection of their subconscious worldly outlook. People with a positive worldview tend to have generally more positive personality traits while those with a negative worldview tend to have more negative ones. This is in part due to how we judge others. There is at least some [evidence](https://en.wikipedia.org/wiki/Social_projection) to suggest that people are more likely to judge others to be similar to themselves.
+What it means is that a person's character tends to be a reflection of their subconscious worldly outlook. People with a positive worldview tend to have generally more positive personality traits while those with a negative worldview tend to have more negative ones. This is in part due to how we judge others.
 
-One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we are more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions. Based on this information, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum.
+There is at least some [evidence](https://en.wikipedia.org/wiki/Social_projection) to suggest that people are more likely to judge others to be similar to themselves. One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we are more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions.
 
-Almost everyone you know will fall somewhere between these two extremes.
+Moreover, how we judge others also affects our own behaviour. For example, imagine a person who expects others to be selfish. Would such a person be more likely to behave selfishly themselves in order to protect their own interests, or would they still be as generous as they might have been otherwise? In essence, by judging others, the person has judged themselves.
+
+Based on this information, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum. Almost everyone you know will fall somewhere between these two extremes.
 
 ## Positively Inclined Individual
 
@@ -46,8 +48,6 @@ People with a negative inclination or NI lean towards the following traits.
 - Cynical of others due to their mistrusting nature.
 
 People with a very high NI tend to exhibit what is referred to as a _high-conflict personality (HCP)_. They are characterized by their negative approach to conflict resolution, a tendency to externalize problems, and often unstable relationships. These individuals are also more likely to exhibit manipulative and abusive behavior because they expect others to behave in the same way.
-
-Imagine a person who expects others to be selfish. Would such a person be more likely to behave selfishly themselves in order to protect their own interests, or would they still be as generous as they might have been otherwise?
 
 ## Takeaways
 
