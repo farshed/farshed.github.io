@@ -59,6 +59,6 @@ Thirdly, if you think that you might have a PI and are looking to get romantical
 
 ## Final Thoughts
 
-A question arises here if you think about it a little more. Which came first; the person's inclination that shaped their worldview, or their worldview that shaped their inclination? I'm not sure but this has important implications for the nature vs. nurture debate and how it ties into free will. I believe I have a half-written post about that lying around somewhere, which I'll probably share soon.
+A question arises here if you think about it a little more. Which came first — the person's inclination that shaped their worldview, or their worldview that shaped their inclination? I'm not sure but this has important implications for the nature vs. nurture debate and how it ties into free will. I believe I have a half-written post about that lying around somewhere, which I'll probably share soon.
 
 As a final note, I want to emphasize that the aforementioned traits are merely behavioural generalizations based on common trends and should not be taken as universal truths. Also, this model is definitely flawed in many ways since human behaviour is far too complex to be encapsulated by a single unidimensional spectrum. Nevertheless, I have found it generally good enough to help me with my personal growth and to better navigate my social exchanges.
