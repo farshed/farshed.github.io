@@ -55,10 +55,10 @@ How can we leverage this insight to our advantage to build more fulfilling relat
 
 Secondly, since these behaviours are internalized, one has to actively work to notice the flaws in their existing worldview and must make a conscious effort to correct them until their internalized worldview improves. For those who think that they may be too close to the positive end, I recommend reading Dr. Cloud's [Boundaries](https://www.drcloud.com/books/boundaries) as a good starting point.
 
-Thirdly, if you think you might have a PI and are looking to get romantically serious, it would be advisable to seek out a partner with the same inclination as yours. Romantic NI-PI relationships don't tend to bode very well for the PI partner.
+Thirdly, if you think that you might have a PI and are looking to get romantically serious, it would be advisable to seek out a partner with the same inclination as yours. Romantic NI-PI relationships don't tend to bode very well for the PI partner.
 
 ## Final Thoughts
 
 A question arises here if you think about it a little more. Which came first; the person's inclination that shaped their worldview, or their worldview that shaped their inclination? I'm not sure but this has important implications for the nature vs. nurture debate and how it ties into free will. I believe I have a half-written post about that lying around somewhere, which I'll probably share soon.
 
-As a final note, I want to emphasize that the aforementioned traits are merely behavioural generalizations based on common trends and should not be taken as universal truths. Also, this model is definitely flawed in many ways since human behaviour is far too complex to be encapsulated by a singular, unidimensional spectrum. Nevertheless, I have found it generally good enough to help me with my personal growth and to better navigate my social exchanges.
+As a final note, I want to emphasize that the aforementioned traits are merely behavioural generalizations based on common trends and should not be taken as universal truths. Also, this model is definitely flawed in many ways since human behaviour is far too complex to be encapsulated by a single unidimensional spectrum. Nevertheless, I have found it generally good enough to help me with my personal growth and to better navigate my social exchanges.
