@@ -35,7 +35,7 @@ Before one gets to the question of whether God exists or not, there's another mo
 
 ## Nature of Worship
 
-The entire notion of worship is inherently absurd if you really think about it. Why would a being of unimaginable knowledge and power need daily reminders and acknowledgement of his grandiosity from lesser beings? The very act of worshipping is absolutely pointless and serves no purpose. Could it be that this act of submission was all our ancestors could come up with to please a (non-existent) supreme being that they thought could bring them a good harvest or save them from disease and hunger?
+The entire notion of worship is inherently absurd if you really think about it. Why would a being of unimaginable knowledge and power need daily reminders and acknowledgement of his superiority from lesser beings? The very act of worshipping is absolutely pointless and serves no purpose. Could it be that this act of submission was all our ancestors could come up with to please a (non-existent) supreme being that they thought could bring them a good harvest or save them from disease and hunger?
 
 As these questions whirled in my mind, I must admit that I felt a little afraid. Afraid because these thoughts had the potential to land me in hell. Yet, the obligation I felt towards myself to discover the truth far outweighed the fear I felt. "If a truly intelligent God exists, would he care for my faith if it's solely out of the fear of divine punishment?", I rationalized to myself.
 
