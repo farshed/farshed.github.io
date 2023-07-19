@@ -14,16 +14,12 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
     <Header />
     <div id="intersecter"></div>
     <script>
-      let [csp, mq, [dt, lt]] = [
-        'color-scheme-pref',
-        '(prefers-color-scheme: dark)',
-        ['dark', 'light']
-      ];
+      let [csp, [dt, lt]] = ['color-scheme-pref', ['dark', 'light']];
 
       let theme = {
         get() {
           let e = localStorage.getItem(csp);
-          return [dt, lt].includes(e) ? e : matchMedia(mq).matches ? dt : lt;
+          return [dt, lt].includes(e) ? e : lt;
         },
         set(e) {
           document.body.className = e;
