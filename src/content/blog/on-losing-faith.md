@@ -22,7 +22,7 @@ _Since God is an infinitely higher being than humans, what reason could he possi
 
 ## Problem of Evil
 
-While looking for answers, I came upon more questions. _The Epicurean Paradox_, for instance.
+While searching for answers, I encountered more questions. _The Epicurean Paradox_, for instance.
 
 > Is God willing to prevent evil, but not able? Then he is not omnipotent. Is he able, but not willing? Then he is malevolent. Is he both able and willing? Then whence cometh evil?
 > <span>Epicurus (3rd Century BC)</span>
