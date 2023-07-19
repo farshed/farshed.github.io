@@ -19,7 +19,7 @@ Based on the above premise, we can imagine two distinct personality archetypes, 
 
 ## Positively Inclined Individual
 
-Someone on the extreme positive end of the spectrum will possess the following set of traits.
+On the very positive end of the spectrum lies the following set of traits.
 
 - Optimistic.
 - Easily trusting.
