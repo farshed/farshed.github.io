@@ -17,10 +17,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
       let [csp, [dt, lt]] = ['color-scheme-pref', ['dark', 'light']];
 
       let theme = {
-        get() {
-          let e = localStorage.getItem(csp);
-          return [dt, lt].includes(e) ? e : lt;
-        },
+        get: () => (localStorage.getItem(csp) === dt ? dt : lt),
         set(e) {
           document.body.className = e;
           localStorage.setItem(csp, e);
