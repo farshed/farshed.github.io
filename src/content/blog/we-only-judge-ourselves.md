@@ -13,9 +13,9 @@ What it means is that a person's character tends to be a reflection of their sub
 
 There is at least some [evidence](https://en.wikipedia.org/wiki/Social_projection) to suggest that people are more likely to judge others to be similar to themselves. One reason for this may be that we often rely on our own experiences and perspectives to understand others. So, we are more likely to interpret the behaviors and intentions of others in a way that aligns with our own behaviors and intentions.
 
-Moreover, how we judge others also influences our own behaviour. For example, imagine a person who expects others to be selfish. Would such a person be more likely to behave selfishly themselves in order to protect their own interests, or would they still be as generous as they might have been otherwise? In essence, the person's judgement of others reflects in their own behaviour and by judging others, the person judges themself.
+Moreover, how we judge others also influences our own behaviour. For example, imagine a person who expects others to be selfish. Would such a person be more likely to behave selfishly themselves in order to protect their own interests, or would they still be as generous as they might have been otherwise?
 
-Based on this premise, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum. Almost everyone you know should fall somewhere between these two extremes.
+Based on the above premise, we can imagine two distinct personality archetypes, each of which lies on the opposite extremes of a spectrum. Almost everyone you know should fall somewhere between these two extremes.
 
 ## Positively Inclined Individual
 
