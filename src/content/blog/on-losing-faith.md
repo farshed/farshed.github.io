@@ -45,8 +45,4 @@ I suppose you can probably deduce the conclusions that I reached from the title 
 
 ## Aftermath
 
-In the years that followed, I invested quite a bit of time learning about theistic and antitheistic arguments. I immersed myself in the works of thinkers like Christopher Hitchens, Richard Dawkins, Stephen Fry and Ayaan Hirsi Ali. I lost some people I used to call friends and found some new ones. In the end, after considering everything, I believe that losing my faith was one of the best things that ever happened to me. It left me a wiser and kinder human being. Now, I leave you with this compilation of George Carlin's brilliant stand-up about religion.
-
-<div class="iframe-wrapper">
-  <iframe src="https://www.youtube.com/embed/2tp0UNcjzl8" title="George Carlin - Stand Up About Religion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+In the years that followed, I invested quite a bit of time learning about theistic and antitheistic arguments. I immersed myself in the works of thinkers like Christopher Hitchens, Richard Dawkins, Stephen Fry and Ayaan Hirsi Ali. I lost some people I used to call friends and found some new ones. In the end, after considering everything, I believe that losing my faith was one of the best things that ever happened to me. It left me a wiser and kinder human being. Now, I leave you with this compilation of [George Carlin's brilliant stand-up about religion](https://youtu.be/2tp0UNcjzl8).
