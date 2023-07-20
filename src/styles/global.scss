@@ -96,7 +96,8 @@ div {
 img,
 picture,
 svg,
-canvas {
+canvas,
+iframe {
   display: block;
   max-width: 100%;
   user-select: none;
