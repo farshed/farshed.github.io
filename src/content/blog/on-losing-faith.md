@@ -16,7 +16,7 @@ _**Disclaimer:** I have tried to keep it respectful but it might be best to skip
 
 It all began with a question in the summer of 2018. Just one simple, harmless question became the seed to undoing years of my indoctrination. I don't recall how exactly I came upon it but it started as "Why does God care?". It defied any attempts at answering it and the more I thought about it, the more it grew and evolved.
 
-_Why does the creator of such an unfathomably vast cosmos needs me to perform a ritual that involves facing in the direction of a black room on the other side of the planet, making intricate body movements, and uttering some magical words in a language that I do not understand, five times every day?_
+_Why does the creator of such an unfathomably vast cosmos need me, an ape on a small planet circling a yellow dwarf, to perform a ritual that involves facing in the direction of a black room on the other side of the planet, making intricate body movements, and uttering some magic words in a language that I do not understand, five times every day?_
 
 _Since God is an infinitely higher being than humans, what reason could he possibly have for asking these pointless gestures of us? I'm a (finitely) higher being than ants but would I ever want the ants to worship me? Would I be interested in appointing an ant as my prophet and asking it to go tell the other ants to either submit to my will, or to prepare themselves for the wrath of my magnifying glass? Would I ask them to mutilate the peepees of little baby ants? Or to always wear their trousers above their ankles? Do ants even have ankles?_
 
@@ -35,7 +35,7 @@ Before one gets to the question of whether God exists or not, there's another mo
 
 ## Nature of Worship
 
-The entire notion of worship is inherently absurd if you really think about it. Why would a being of unimaginable knowledge and power need daily reminders and acknowledgement of his superiority from lesser beings? The very act of worshipping is absolutely pointless and serves no purpose. Could it be that this act of submission was all our ancestors could come up with to please a (non-existent) supreme being that they thought could bring them a good harvest or save them from disease and hunger?
+The entire notion of worship is inherently absurd if you really think about it. Why would a being of unimaginable knowledge and power need daily reminders and acknowledgements of his superiority from lesser beings? The very act of worshipping is absolutely pointless and serves no purpose. Could it be that this act of submission was all our ancestors could come up with to please a (non-existent) supreme being that they thought could bring them a good harvest or save them from disease and hunger?
 
 As these questions whirled in my mind, I must admit that I felt a little afraid. Afraid because these thoughts had the potential to land me in hell. Yet, the obligation I felt towards myself to discover the truth far outweighed the fear. "If a truly intelligent God exists, would he care for my faith if it's solely out of the fear of divine punishment?", I rationalized to myself.
 
