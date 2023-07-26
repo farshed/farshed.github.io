@@ -12,7 +12,7 @@ _**Disclaimer:** I have tried to keep it respectful but it might be best to skip
 > Some rituals, tales and a rationale.  
 > An answer to a question  
 > That does not have any answer.  
-> <span>Ghani Khan</span>
+> <span>Ghani Khan, Niqab</span>
 
 It all began with a question in the summer of 2018. Just one simple, harmless question became the seed to undoing years of my indoctrination. I don't recall how exactly I came upon it but it started as "Why does God care?". It defied any attempts at answering it and the more I thought about it, the more it grew and evolved.
 
