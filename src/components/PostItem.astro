@@ -7,29 +7,7 @@ const {
 const formattedDate = pubDate.toLocaleDateString('en-us', { month: 'short', day: '2-digit' });
 ---
 
-<li>
+<li class="post-item">
   <time datetime={pubDate.toISOString()}>{formattedDate}</time>
   <a href={`/blog/${slug}`}>{title}</a>
 </li>
-
-<style lang="scss">
-  li {
-    column-gap: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  time {
-    width: 6ch;
-    font-size: 0.95rem;
-  }
-
-  a {
-    font-weight: 500;
-    // &:visited {
-    //   color: var(--visited-a);
-    // }
-  }
-</style>

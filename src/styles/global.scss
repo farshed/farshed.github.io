@@ -28,7 +28,9 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   monospace;
 
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
-$max-body-width: 640px;
+
+$max-header-width: 65ch;
+$max-body-width: 57ch;
 
 // palettes
 
@@ -94,8 +96,8 @@ div {
 }
 
 img,
-picture,
 svg,
+picture,
 canvas,
 iframe {
   display: block;
@@ -126,6 +128,98 @@ a {
   font-weight: 430;
   color: var(--primary);
   text-decoration: none;
+}
+
+header {
+  z-index: 5;
+  position: fixed;
+  inset: 0 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+  row-gap: 0.5rem;
+  max-width: $max-header-width;
+  padding: 0.8rem max(calc((100vw - $max-header-width) / 2), 1rem);
+  background-color: var(--background);
+  transition: box-shadow 0.3s ease;
+  &.elevated {
+    box-shadow: 0 2px 5px 1px var(--shadow);
+  }
+
+  a {
+    font-weight: 500;
+    color: var(--foreground);
+    transition: color 0.3s ease;
+    &:hover {
+      color: var(--primary);
+    }
+  }
+
+  h1,
+  h1 > a {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+}
+
+nav > ul {
+  gap: 1.6rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-inline: 0;
+  a {
+    font-size: 0.95rem;
+    &.active {
+      color: var(--primary);
+      box-shadow: 0 2px var(--primary);
+      padding-bottom: 0.2rem;
+    }
+  }
+}
+
+#sun {
+  position: relative;
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 100%;
+  background: var(--sun-bg);
+  cursor: pointer;
+
+  & > div {
+    position: absolute;
+    right: 0;
+    width: 72%;
+    height: 72%;
+    border-radius: 100%;
+    background-color: var(--background);
+    transform: scale(var(--eclipse));
+    transform-origin: top right;
+    transition: transform 0.3s ease;
+  }
+}
+
+.post-item {
+  column-gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
+  time {
+    width: 6ch;
+    font-size: 0.95rem;
+  }
+
+  a {
+    font-weight: 500;
+    // &:visited {
+    //   color: var(--visited-a);
+    // }
+  }
 }
 
 main {
@@ -189,6 +283,18 @@ pre {
   font-family: $font-mono;
   padding: 1rem;
   margin-bottom: 1.4rem;
+}
+
+.err-code {
+  font-size: 6rem;
+  line-height: 1;
+  margin-block: 0;
+  margin-top: 1rem;
+}
+
+.err-info {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 // body {
