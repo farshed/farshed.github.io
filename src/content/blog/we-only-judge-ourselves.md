@@ -21,7 +21,6 @@ Based on the above premise, we can imagine two distinct personality archetypes, 
 
 On the very positive end of the spectrum lies the following set of traits.
 
-- Optimistic.
 - Easily trusting.
 - Non-judgmental.
 - Plays defense.
@@ -37,7 +36,6 @@ For brevity, I will henceforth refer to an inclination towards these traits as P
 
 People with a negative inclination or NI lean towards the following traits.
 
-- Pessimistic.
 - Mistrusting.
 - Judgemental.
 - Plays offense.
