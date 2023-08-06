@@ -14,7 +14,7 @@ _**Disclaimer:** I have tried to keep it respectful but it might be best to skip
 > That does not have any answer.  
 > <span>Ghani Khan</span>
 
-It all began with a question in the summer of 2018. Just one simple, harmless question became the seed to undoing years of my indoctrination. I don't recall how exactly I came upon it but it started as "Why does God care?". It defied any attempts at answering it and the more I thought about it, the more it grew and evolved.
+It all began with a question in the summer of 2018. Just one simple, harmless question became the seed to undoing years of my religious indoctrination. I don't recall how exactly I came upon it but it started as "Why does God care?". It defied any attempts at answering it and the more I thought about it, the more it grew and evolved.
 
 _Why does the creator of such an unfathomably vast cosmos need me, an ape on a small planet circling a yellow dwarf, to perform a ritual that involves facing in the direction of a black room on the other side of the planet, making intricate body movements, and uttering some magic words in a language that I do not understand, five times every day?_
 
