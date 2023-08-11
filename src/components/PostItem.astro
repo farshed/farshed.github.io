@@ -1,13 +1,13 @@
 ---
+import Date from './Date.astro';
+
 const {
   slug,
   data: { title, pubDate }
 } = Astro.props.post;
-
-const formattedDate = pubDate.toLocaleDateString('en-us', { month: 'short', day: '2-digit' });
 ---
 
 <li class="post-item">
-  <time datetime={pubDate.toISOString()}>{formattedDate}</time>
   <a href={`/blog/${slug}`}>{title}</a>
+  <Date date={pubDate} />
 </li>

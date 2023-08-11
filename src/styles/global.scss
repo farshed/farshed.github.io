@@ -30,7 +30,7 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
 
 $max-header-width: 70ch;
-$max-body-width: 60ch;
+$max-body-width: 58ch;
 
 // palettes
 
@@ -202,26 +202,6 @@ nav > ul {
   }
 }
 
-.post-item {
-  column-gap: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-
-  time {
-    width: 6ch;
-    font-size: 0.95rem;
-  }
-
-  a {
-    font-weight: 500;
-    // &:visited {
-    //   color: var(--visited-a);
-    // }
-  }
-}
-
 main {
   max-width: $max-body-width;
   padding: 5.25rem max(calc((100vw - $max-body-width) / 2), 1rem);
@@ -236,7 +216,7 @@ main {
 }
 
 time {
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   font-weight: 500;
 }
 
@@ -246,6 +226,26 @@ hr {
   border: none;
   margin: 0.9rem 0;
   background-color: var(--divider);
+}
+
+.post-item {
+  column-gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  time {
+    font-size: 0.8rem;
+    font-family: 400;
+  }
+
+  a {
+    font-size: 1.25rem;
+    font-weight: 500;
+    // &:visited {
+    //   color: var(--visited-a);
+    // }
+  }
 }
 
 #post {

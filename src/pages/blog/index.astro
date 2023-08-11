@@ -22,8 +22,8 @@ const meta = {
 ---
 
 <Page {...meta}>
-  <p>Also accessible as an <a href="/rss.xml" target="_blank">RSS Feed</a>.</p>
-  {
+  <!-- <p>Also accessible as an <a href="/rss.xml" target="_blank">RSS Feed</a>.</p> -->
+  <!-- {
     Object.keys(postsByYear).map((year) => (
       <section>
         <p>{year}</p>
@@ -34,21 +34,24 @@ const meta = {
         </ul>
       </section>
     ))
-  }
+  } -->
+  <ul>
+    {allPosts.map((post) => <PostItem post={post} />)}
+  </ul>
 </Page>
 
 <style lang="scss">
-  section {
-    margin-bottom: 1rem;
-    & > p {
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-    }
-  }
+  // section {
+  //   margin-bottom: 1rem;
+  //   & > p {
+  //     font-size: 1.25rem;
+  //     font-weight: 700;
+  //     margin-bottom: 1rem;
+  //   }
+  // }
 
   ul {
-    row-gap: 0.7rem;
+    row-gap: 1.5rem;
     padding: unset;
     display: flex;
     flex-direction: column;
