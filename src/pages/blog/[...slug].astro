@@ -18,9 +18,10 @@ const { Content } = await post.render();
 
 <Page {...post.data}>
   <article>
-    <h1 class="title">{title}</h1>
-    <Date date={pubDate} />
-    <hr />
-    <div id="post"><Content /></div>
+    <div id="post-head">
+      <h1 id="title">{title}</h1>
+      <Date date={pubDate} />
+    </div>
+    <div id="post-body"><Content /></div>
   </article>
 </Page>

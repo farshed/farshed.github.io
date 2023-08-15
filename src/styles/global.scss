@@ -1,13 +1,3 @@
-@mixin font-def($fam, $style, $wght, $file) {
-  @font-face {
-    font-family: $fam;
-    font-weight: $wght;
-    font-style: $style;
-    font-display: swap;
-    src: url('/fonts/#{$file}.woff2') format('woff2-variations');
-  }
-}
-
 @mixin color-scheme-def($values) {
   $keys: primary, secondary, foreground, background, shadow, visited-a, divider, sun-bg, eclipse;
   @each $key, $val in zip($keys, $values) {
@@ -15,26 +5,19 @@
   }
 }
 
-@include font-def('Apercu', normal, 100 900, 'regular');
-@include font-def('Apercu', italic, 100 900, 'italic');
-
-@include font-def('The Seasons', normal, 400, 'theseasons-400');
-@include font-def('The Seasons', italic, 400, 'theseasons-400i');
-
-$font-regular: 'Apercu', Helvetica, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-  Segoe UI, Arial, Roboto, Oxygen, Ubuntu;
+$font-regular: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, serif;
 
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
   monospace;
 
-$one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 24px);
+$one-rem: clamp(17px, calc(14px + 0.1vh + 0.3vw), 25px);
 
-$max-header-width: 70ch;
-$max-body-width: 58ch;
+$max-header-width: 720px;
+$max-body-width: 720px;
 
 // palettes
 
-$light-mode: #5200ff, #3cffd070, #172b4d, #fafafa, #0d2b5a1a, #844bfe, #c1c6cf,
+$light-mode: #5200ff, #3cffd070, #172b4d, #fff, #0d2b5a1a, #844bfe, #c1c6cf,
   linear-gradient(40deg, #ff0080, #ff8c00 65%), 0;
 
 $dark-mode: #3bc8a4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
@@ -125,7 +108,7 @@ b {
 
 a {
   cursor: pointer;
-  font-weight: 430;
+  font-weight: 500;
   color: var(--primary);
   text-decoration: none;
 }
@@ -149,7 +132,6 @@ header {
   }
 
   a {
-    font-weight: 500;
     color: var(--foreground);
     transition: color 0.3s ease;
     &:hover {
@@ -203,6 +185,7 @@ nav > ul {
 }
 
 main {
+  // width: 100%;
   max-width: $max-body-width;
   padding: 5.25rem max(calc((100vw - $max-body-width) / 2), 1rem);
   padding-bottom: 2rem;
@@ -211,20 +194,15 @@ main {
   row-gap: 1.6rem;
 }
 
-.title {
-  font-size: 1.5rem;
-}
-
 time {
   font-size: 0.88rem;
-  font-weight: 500;
 }
 
 hr {
   height: 1px;
   width: 100%;
   border: none;
-  margin: 0.9rem 0;
+  margin: 2rem 0;
   background-color: var(--divider);
 }
 
@@ -236,19 +214,27 @@ hr {
 
   time {
     font-size: 0.8rem;
-    font-family: 400;
   }
 
   a {
     font-size: 1.25rem;
-    font-weight: 500;
     // &:visited {
     //   color: var(--visited-a);
     // }
   }
 }
 
-#post {
+#post-head {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px var(--divider) solid;
+}
+
+#title {
+  font-size: 1.5rem;
+}
+
+#post-body {
   p:not(:last-child) {
     margin-bottom: 1.4rem;
   }
