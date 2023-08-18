@@ -4,6 +4,9 @@ description: 'What can the history of technology tell us about its future?'
 pubDate: 'July 7 2023'
 ---
 
+> I do not think that the radio waves I have discovered will have any practical application.
+> <span>Heinrich Hertz</span>
+
 It's November of 1904. An engineer named John Ambrose Fleming is hunched over a contraption of glass and metal in his small, cluttered lab at University College London. The glow of the first practical vacuum tube fills the room as he places it into a circuit. This humble diode, capable of amplifying and switching electronic signals, provides the first glimmers of the coming age of electronic computers.
 
 Fast forward to the early 1940s. The Second World War rages on. The Ballistic Research Laboratory in Maryland needs a faster way to calculate ballistic firing tables for the artillery. So U.S. Army Ordnance Corps funds the construction of ENIAC, the world's first general-purpose, electronic computer. ENIAC hums into life in 1945. It looks more like a room than a tool — a vast, clattering array of metal and wire, vacuum tubes and punch cards, weighing in at a staggering 30 tons. And yet, it crunches numbers for the war effort with an accuracy and speed unparalleled by human hands, marking the dawn of a new era in technology.

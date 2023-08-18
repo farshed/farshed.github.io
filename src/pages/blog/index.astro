@@ -8,13 +8,6 @@ const allPosts = (await getCollection('blog')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const postsByYear = allPosts.reduce((acc, post) => {
-  const year = post.data.pubDate.getFullYear();
-  if (!acc[year]) acc[year] = [];
-  acc[year].push(post);
-  return acc;
-}, {});
-
 const meta = {
   title: `Blog · ${SITE_TITLE}`,
   description: "Faisal Arshed's Personal blog"
@@ -22,34 +15,12 @@ const meta = {
 ---
 
 <Page {...meta}>
-  <!-- <p>Also accessible as an <a href="/rss.xml" target="_blank">RSS Feed</a>.</p> -->
-  <!-- {
-    Object.keys(postsByYear).map((year) => (
-      <section>
-        <p>{year}</p>
-        <ul>
-          {postsByYear[year].map((post) => (
-            <PostItem post={post} />
-          ))}
-        </ul>
-      </section>
-    ))
-  } -->
   <ul>
     {allPosts.map((post) => <PostItem post={post} />)}
   </ul>
 </Page>
 
 <style lang="scss">
-  // section {
-  //   margin-bottom: 1rem;
-  //   & > p {
-  //     font-size: 1.25rem;
-  //     font-weight: 700;
-  //     margin-bottom: 1rem;
-  //   }
-  // }
-
   ul {
     row-gap: 1.5rem;
     padding: unset;

@@ -1,27 +1,52 @@
 ---
-import { getCollection } from 'astro:content';
 import Page from '../layouts/Page.astro';
 import { SITE_TITLE } from '../consts';
 
-const items = {
-  'Computer Science': {
-    Books: [['Nystrom, Robert. Crafting Interpreters', 'https://craftinginterpreters.com']],
-
-    Papers: [
-      [
-        'Bacon et al. (2004). A Unified Theory of Garbage Collection',
-        'https://courses.cs.washington.edu/courses/cse590p/05au/p50-bacon.pdf'
-      ]
-    ]
-  },
-
-  Philosophy: {
-    Books: [
-      ['Aurelius, Marcus. Meditations'],
-      ['Camus, Albert. The Stranger'],
-      ['Nietzsche, Friedrich. Thus Spoke Zarathustra']
-    ]
-  }
+const booksByYear = {
+  2023: [
+    {
+      title: 'Dangerous Personalities',
+      author: 'Joe Navarro and Toni Sciarra Poynter'
+    },
+    {
+      title: 'Maps of Meaning',
+      author: 'Jordan Peterson'
+    },
+    {
+      title: 'Crafting Interpreters',
+      author: 'Robert Nystrom'
+    }
+    // {
+    //   title: 'Notes From Underground',
+    //   author: 'Fyodor Dostoevsky'
+    // },
+    // {
+    //   title: 'The Blind Owl',
+    //   author: 'Sadegh Hedayat'
+    // },
+    // {
+    //   title: 'Evil Genes',
+    //   author: 'Barbara Oakley'
+    // }
+  ],
+  2022: [
+    {
+      title: 'Foundation series',
+      author: 'Isaac Asimov'
+    },
+    {
+      title: 'A Case of Exploding Mangoes',
+      author: 'Mohammed Hanif'
+    },
+    {
+      title: 'The Complete Works of H.P. Lovecraft',
+      author: 'H.P. Lovecraft'
+    },
+    {
+      title: 'Meditations',
+      author: 'Marcus Aurelius'
+    }
+  ]
 };
 
 const meta = {
@@ -31,7 +56,7 @@ const meta = {
 ---
 
 <Page {...meta}>
-  <p>
+  <!-- <p>
     This page hosts a curated selection of literature that I have read and enjoyed, or am in the
     process of reading.
   </p>
@@ -59,7 +84,7 @@ const meta = {
         ))}
       </section>
     ))
-  }
+  } -->
 </Page>
 
 <style lang="scss">
