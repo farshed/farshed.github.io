@@ -5,7 +5,7 @@ pubDate: 'June 29 2023'
 ---
 
 > A man sees in the world what he carries in his heart.
-> <span>Faust: A Tragedy</span>
+> **Faust: A Tragedy**
 
 I recently had the chance to watch _Puss in Boots: The Last Wish_ (no I'm not joking) and _Perrito_'s character reminded me of a realization that I had about human behaviour not so while ago. This insight had to do with how one's internalized worldview shapes their personality. I worded it as "_We become as we perceive the world to be_" or more succinctly (and rather dramatically) as the title of this post.
 

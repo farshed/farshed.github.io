@@ -5,7 +5,7 @@ pubDate: 'July 7 2023'
 ---
 
 > I do not think that the radio waves I have discovered will have any practical application.
-> <span>Heinrich Hertz</span>
+> **Heinrich Hertz**
 
 It's November of 1904. An engineer named John Ambrose Fleming is hunched over a contraption of glass and metal in his small, cluttered lab at University College London. The glow of the first practical vacuum tube fills the room as he places it into a circuit. This humble diode, capable of amplifying and switching electronic signals, provides the first glimmers of the coming age of electronic computers.
 

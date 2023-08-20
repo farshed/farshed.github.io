@@ -11,8 +11,8 @@ _**Disclaimer:** I have tried to keep it respectful but it might be best to skip
 > What is religion?  
 > Some rituals, tales and a rationale.  
 > An answer to a question  
-> That does not have any answer.  
-> <span>Ghani Khan</span>
+> That does not have any answer.
+> **Ghani Khan**
 
 It all began with a question in the summer of 2018. Just one simple, harmless question became the seed to undoing years of my religious indoctrination. I don't recall how exactly I came upon it but it started as "Why does God care?". It defied any attempts at answering it and the more I thought about it, the more it grew and evolved.
 
@@ -25,7 +25,7 @@ _Since God is an infinitely higher being than humans, what reason could he possi
 While searching for answers, I encountered more questions. _The Epicurean Paradox_, for instance.
 
 > Is God willing to prevent evil, but not able? Then he is not omnipotent. Is he able, but not willing? Then he is malevolent. Is he both able and willing? Then whence cometh evil?
-> <span>Epicurus (3rd Century BC)</span>
+> **Epicurus (3rd Century BC)**
 
 Here's an expanded version.
 
