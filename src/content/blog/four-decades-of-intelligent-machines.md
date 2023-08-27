@@ -17,7 +17,7 @@ This trend continues for the next few decades as computers shrink further to bec
 
 ## The 40 Year Cycle
 
-A recurring pattern can be discerned if one examines the history of computing. It seems that roughly every 40 years or so, a major technological breakthrough happens that drives growth and sets the direction for the next 40 years.
+A recurring pattern can be observed if one examines the history of computing. It seems that roughly every 40 years or so, a major technological breakthrough happens that drives growth and sets the direction for the next 40 years.
 
 ### 1900 - 1940
 
@@ -39,7 +39,7 @@ I believe that in the coming decades (or perhaps in a matter of just years), we 
 
 ## Accelerating Change
 
-One important thing to keep in mind is that the 40 year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all. It's actually cumulatively exponential, i.e. With each technological discovery or innovation, the time to reach the next one becomes increasingly shorter, accelerating the pace of advancement. This is known as the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
+One important thing to keep in mind is that the 40 year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all — it's cumulatively exponential, i.e. With each technological discovery or innovation, the time to reach the next one becomes increasingly shorter, accelerating the pace of advancement. This is known as the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
 
 ![Exponential change graph](/media/blog/accelerating-change.jpeg)
 
