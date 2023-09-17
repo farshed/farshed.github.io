@@ -13,8 +13,8 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
-$max-header-width: 720px;
-$max-body-width: 720px;
+$max-header-width: 60ch;
+$max-body-width: 60ch;
 
 // palettes
 
