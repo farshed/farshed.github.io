@@ -21,4 +21,4 @@ pnpm-debug.log*
 
 # misc
 resume.html
-*.draft.md*
+*.draft.*
