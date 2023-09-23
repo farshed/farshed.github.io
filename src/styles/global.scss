@@ -5,8 +5,8 @@
   }
 }
 
-$font-regular: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Roboto, Ubuntu,
-  sans-serif;
+// $font-regular: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Roboto, Ubuntu,
+//   sans-serif;
 
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
   monospace;
@@ -42,6 +42,17 @@ $dark-mode: #3bc8a4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
   }
 }
 
+:root {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.45px;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
 .light {
   @include color-scheme-def($light-mode);
 }
@@ -64,7 +75,6 @@ html {
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-family: $font-regular;
   line-height: 1.6;
   font-weight: 400;
   scroll-behavior: smooth;
