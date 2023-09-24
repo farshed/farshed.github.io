@@ -1,6 +1,6 @@
 ---
 title: 'Borderline Internals'
-description: 'A look at some of the core issues in Borderline Personality Disorder (BPD).'
+description: 'An in-depth look at some of the core issues of Borderline Personality Disorder (BPD).'
 pubDate: 'September 24 2023'
 ---
 
