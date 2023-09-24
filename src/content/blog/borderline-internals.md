@@ -8,7 +8,7 @@ In 1938, Adolph Stern noticed a group of patients who suffered from a mild form 
 
 Four years later, Helene Deutsch described what she referred to as the "als ob" ("as if") personality. People with this personality exhibited emotional disturbance and lacked a sense of their interior "self". They compensated by mimicking the emotions of others, becoming social chameleons who acted ‘as if’ they were someone else. They appeared well-adjusted and were even capable of a certain warmth, but in a number of circumstances they betrayed a lack of emotional depth.
 
-Deutsch posited that these people had experienced a "real loss of object cathexis", impairing their ability to emotionally invest in others except in a very chaotic manner. She labeled them as "depersonalized", meaning that they behaved ‘as if’ the world was real, even when they felt it was not. In the 1960s, Otto Kernberg outlined borderline personality organization (BPO) in terms of identity diffusion, impaired reality testing, and primitive defense mechanisms. These personalities were later classified as "borderline states", presenting "narcissistic disorders" or according to Kohut, "disorders of the self".
+Deutsch posited that these people had experienced a "real loss of object cathexis", impairing their ability to emotionally invest in others except in a very chaotic manner. She labeled them as "depersonalized", meaning that they behaved ‘as if’ the world was real, even when they felt it was not. In the 1960s, Otto Kernberg outlined borderline personality organization (BPO) in terms of identity diffusion, impaired reality testing, and primitive defense mechanisms. These personalities were later classified as "borderline states" presenting "narcissistic disorders" or according to Kohut, "disorders of the self".
 
 In 1980, the condition was formalized into a diagnosis called Borderline Personality Disorder (BPD), sometimes also called Emotionally Unstable Personality Disorder (EUPD). BPD is characterized by dramatic, impulsive, excessively emotional, and maladaptive behavioural patterns. Those with BPD have difficulty managing emotions, report chaotic relationships, a poor sense of self, and have trouble staying grounded in the moment. Similar to other Cluster B disorders, BPD distorts how a person perceives themself and others around them.
 
@@ -18,7 +18,7 @@ Having closely known at least two people with the said disorder and spent quite 
 
 The roots of most disordered behaviours associated with BPD and other personality disorders can often be traced back to disruptions in psychological development. These disruptions cause an individual to become 'stuck' at early stages of development, hindering further maturation. Typically originating in early childhood, these issues arise from a combination of genetic, neurological, environmental, and sociological factors. [Adverse childhood experiences](https://en.wikipedia.org/wiki/Adverse_childhood_experiences) are one of the risk factors that make someone more likely of being psychologically disturbed later in life.
 
-It's important to understand that psychological development is not completely arrested at a single point, but rather occurs as a series of disruptions affecting multiple stages. Because each stage builds upon the previous ones, compromised development at earlier stages can impact progress at subsequent stages. Over time, these disruptions accumulate, leading to complex disordered behavior.
+It's important to understand that psychological development is not completely arrested at a single point, but rather occurs as a series of disruptions affecting multiple stages. Because each stage builds upon the previous ones, compromised development at earlier stages can impact progress at subsequent stages. Over time, these disruptions accumulate, leading to complex disordered behaviour.
 
 ## Lack of a Sense of Self
 
@@ -55,7 +55,7 @@ This object inconstancy becomes apparent in behaviour in the following ways:
 - **"Out of Sight, Out of Mind"**: Struggling to maintain emotional ties when separated, even briefly. The person may emotionally detach or seek new attachments.
 - **Fear of Abandonment**: Worrying that any separation, even temporary, means permanent loss or betrayal.
 - **Idealization and Devaluation**: Viewing someone as perfect when they are present and meeting needs, but seeing them as flawed or uncaring when they're not.
-- **Overreaction to Changes**: A minor change in someone’s behavior or situation could lead to a disproportionate emotional response.
+- **Overreaction to Changes**: A minor change in someone’s behaviour or situation could lead to a disproportionate emotional response.
 - **Selective Memory**: Focusing on recent interactions to define the entire relationship, forgetting a longer history of positive or negative experiences.
 - **Need for Reassurance**: Constantly needing affirmation from loved ones to feel secure.
 - **Difficulty with Routine Separations**: Struggling with everyday situations like a partner going to work, leading to excessive anxiety or neediness.
@@ -91,7 +91,7 @@ Some of the ways that identity disturbance manifests in behaviour include:
 Mentalization is our ability to understand thought processes of ourself and others, including how they relate to external behaviour. It involves making educated assumptions about our own or someone else's mental states and understanding how those states influence behaviour. For example:
 
 1. After snapping at a friend, you recognize that your reaction was driven more by your own stress than by anything your friend did.
-2. When meeting someone shy, you understand that their reserved behavior is not a sign of arrogance or disinterest, but likely due to nervousness or social anxiety.
+2. When meeting someone shy, you understand that their reserved behaviour is not a sign of arrogance or disinterest, but likely due to nervousness or social anxiety.
 3. If your partner comes home irritated, mentalizing would involve recognizing that their mood is due to stress at work, rather than assuming they are angry with you. This understanding helps you respond empathetically instead of defensively.
 4. Your friend cancels plans at the last minute. Instead of getting angry, you remember they have been stressed lately and understand that they might need some time alone.
 
@@ -113,7 +113,7 @@ Impaired mentalizing ability results in the following behaviours among others:
 - **Psychic Equivalence**: Inability to distinguish one's thoughts and feelings from external reality, leading to rigid thinking and a lack of self-reflection. _Feelings become facts._
 - **Emotional Dysregulation**: Struggling to understand one’s own emotional state, leading to poor emotional regulation.
 - **Impaired Empathy**: Inability to put oneself in the shoes of others and see from their perspective.
-- **Misreading Motives**: Frequently misinterpreting the intentions or motivations of others, leading to defensive or aggressive behavior.
+- **Misreading Motives**: Frequently misinterpreting the intentions or motivations of others, leading to defensive or aggressive behaviour.
 - **Projection**: A tendency to attribute one's own feelings or behaviours to others without evidence.
 - **Emotional Impulsivity**: Reacting to situations without considering the underlying emotions or thoughts that fuel the behaviour.
 - **Premature Judgments**: Tendency to make snap judgments or reach premature conclusions about others' intentions or character without sufficient evidence.
@@ -153,7 +153,7 @@ Some common manifestations of emotional dysregulation in behaviour include:
 - **Emotional Numbness**: Periods of feeling emotionally "flat" or disconnected as a coping mechanism.
 - **Dissociation**: Experiencing periods of detachment from one's environment or self, often described as "zoning out".
 - **Hyper-reactivity**: Overreacting to minor triggers or perceived slights, leading to escalated emotional responses.
-- **Impulsivity**: Acting on urges without considering the consequences, leading to risky behavior.
+- **Impulsivity**: Acting on urges without considering the consequences, leading to risky behaviour.
 - **Chronic Anxiety or Worry**: Persistent feelings of unease or nervousness, often without a specific reason.
 - **Substance Abuse**: Using drugs or alcohol as coping mechanisms to regulate emotions.
 - **Psychosomatic Issues**: Experiencing physical manifestations like headaches or stomach issues due to constant emotional strain.
@@ -168,7 +168,7 @@ These gaps in reality testing are evident in behaviour in the following ways:
 - **Emotional Flooding**: Intense emotional states that overwhelm the person's capacity to see situations realistically, often leading to impulsive actions.
 - **Paranoid Thinking**: Temporary, stress-induced states of suspiciousness or the belief that others are malevolent, without substantial evidence.
 - **Impaired Social Judgment**: Making decisions based on distorted perceptions, leading to inappropriate social interactions or conflict.
-- **Self-Destructive Behavior**: Engaging in harmful actions towards oneself based on distorted beliefs or impulses, without fully grasping the consequences.
+- **Self-Destructive Behaviour**: Engaging in harmful actions towards oneself based on distorted beliefs or impulses, without fully grasping the consequences.
 
 In Aaron Beck's cognitive model of BPD, an important factor in the development of BPD is cognitive bias. This model hypothesizes that those with BPD process information through a specific set of three schemas of themselves and others, which are:
 
@@ -181,7 +181,7 @@ These schemas are deeply-ingrained core beliefs and serve as the lens through wh
 Some of the ways that these cognitive distortions manifest in behaviour include:
 
 - **Hypervigilance**: Being always on alert for signs of danger or rejection.
-- **Defensive Behavior**: Quick to react defensively to perceived criticisms or threats.
+- **Defensive Behaviour**: Quick to react defensively to perceived criticisms or threats.
 - **Victim Mentality**: A tendency to see oneself as the victim of events and circumstances rather than a participant.
 - **Paranoid Ideation**: A persistent belief that others hate, envy, or are conspiring against oneself.
 - **Zero-sum Mindset**: Seeing the world as an eat-or-get-eaten place and acting accordingly.
@@ -208,4 +208,4 @@ Part of the what makes BPD so complex is that it very often coexists with other 
 | Paranoid Personality Disorder             | 21.3        | 16.5     | 25.4       |
 | Obsessive–Compulsive Personality Disorder | 22.7        | 21.7     | 23.6       |
 
-Understanding ourselves and others is a lifelong journey, but one that can be profoundly rewarding. Exploring psychology, and specifically personality disorders, has deepened my insights into human behavior. It has also made me realize how little say each of us has in the kind of person we become. But that's a discussion for another time.
+Understanding ourselves and others is a lifelong journey, but one that can be profoundly rewarding. Exploring psychology, and specifically personality disorders, has deepened my insights into human behaviour, including my own. It has also made me realize how little say each of us has in the kind of person we become. But that's a discussion for another time.
