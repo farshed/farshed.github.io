@@ -44,7 +44,7 @@ $dark-mode: #3bc8a4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
 
 :root {
   font-family: 'Inter', sans-serif;
-  letter-spacing: -0.45px;
+  letter-spacing: -0.025rem;
 }
 
 @supports (font-variation-settings: normal) {
@@ -288,6 +288,20 @@ hr {
     &:active {
       opacity: 0.5;
     }
+  }
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  th,
+  td {
+    border: 1px solid var(--divider);
+    padding: 0.3rem;
+    white-space-collapse: collapse;
+  }
+  td {
+    line-height: 1.4;
   }
 }
 
