@@ -14,12 +14,6 @@ In 1980, the condition was formalized into a diagnosis called Borderline Persona
 
 Having closely known at least two people with the said disorder and spent quite a bit of time trying to make sense of their (seemingly) nonsensical behaviour, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all [BPD behaviours](https://www.quora.com/What-are-the-common-signs-of-a-person-with-borderline-personality-disorder-BPD-that-they-show-to-others-without-knowing-it-themselves-and-what-should-people-look-out-for/answer/Faisal-Arshed) can be understood in terms of these core issues.
 
-## Arrested Psychological Development
-
-The roots of most disordered behaviours associated with BPD and other personality disorders can often be traced back to disruptions in psychological development. These disruptions cause an individual to become 'stuck' at early stages of development, hindering further maturation. Typically originating in early childhood, these issues arise from a combination of genetic, neurological, environmental, and sociological factors. [Adverse childhood experiences](https://en.wikipedia.org/wiki/Adverse_childhood_experiences) are one of the risk factors that make someone more likely of being psychologically disturbed later in life.
-
-It's important to understand that psychological development is not completely arrested at a single point, but rather occurs as a series of disruptions affecting multiple stages. Because each stage builds upon the previous ones, compromised development at earlier stages can impact progress at subsequent stages. Over time, these disruptions accumulate, leading to complex disordered behaviour.
-
 ## Lack of a Sense of Self
 
 When we were born, there was neither subject nor object, neither self nor other. We lacked the ability to tell ourselves apart from the world around us, uncertain whether sensations came from within us or from the environment. There was no concept of "I" or "me". In a way, everything was "I". As we got older, we learned to differentiate between ourselves and our parents. We slowly realized that we were a distinct and separate entity from the rest of the world. And that everyone else was their own distinct person, each with their separate 'self'.
