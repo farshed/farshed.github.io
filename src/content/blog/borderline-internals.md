@@ -41,7 +41,7 @@ Have you ever wondered why babies find peekaboo so amusing? That's because they 
 
 When the mother hides her face and the baby is no longer able to see her, he believes that she has disappeared. It's almost as if she has ceased to exist. This is because the baby lacks the ability to understand that the mother exists independently of his ability to sense her. As the baby navigates the world around him and notices that things continue to exist regardless of his ability to experience them, he learns to rely on their mental representations and slowly grows out of this solipsistic worldview.
 
-Again, owing to a combination of various factors, some children fail to develop this understanding in their formative years. Of course, as adults, they might be able to understand this concept at a cognitive level but they are not able to feel it emotionally. As a result, they are unable to retain emotional bonds with others over distance and time.
+Again, owing to a number of reasons, some children fail to develop this understanding in their formative years. Of course, as adults, they might be able to understand this concept at a cognitive level but they are not able to feel it emotionally. As a result, they are unable to retain emotional bonds with others over distance and time.
 
 This object inconstancy becomes apparent in behaviour in the following ways:
 
@@ -145,6 +145,7 @@ Some common manifestations of emotional dysregulation in behaviour include:
 - **Difficulty Calming Down**: Takes an unusually long time to return to a baseline emotional state after being upset.
 - **Cognitive Distortions**: Viewing situations through an emotional lens, leading to irrational beliefs or interpretations.
 - **Emotional Numbness**: Periods of feeling emotionally "flat" or disconnected as a coping mechanism.
+- **Lack of Shame Repair**: Inability to effectively acknowledge, process, and move past feelings of shame.
 - **Dissociation**: Experiencing periods of detachment from one's environment or self, often described as "zoning out".
 - **Hyper-reactivity**: Overreacting to minor triggers or perceived slights, leading to escalated emotional responses.
 - **Impulsivity**: Acting on urges without considering the consequences, leading to risky behaviour.
