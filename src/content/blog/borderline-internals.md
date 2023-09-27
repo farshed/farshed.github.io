@@ -187,7 +187,7 @@ Some of the ways that these cognitive distortions manifest in behaviour include:
 
 ## Comorbidity
 
-Part of the what makes BPD so complex is that it very often coexists with other disorders. Patients with BPD frequently also suffer from mood disorders like depression and anxiety, as well as other personality disorders.
+Part of what makes BPD so complex is that it very often coexists with other disorders. Patients with BPD frequently also suffer from mood disorders like depression and anxiety, as well as other personality disorders.
 
 **Rates of comorbidity for conditions most commonly co-diagnosed with BPD**.<br/>
 <sub><sup>Based on data from [Wave 2 NESARC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676679/).</sup></sub>
