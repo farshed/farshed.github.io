@@ -82,7 +82,7 @@ Some of the ways that identity disturbance manifests in behaviour include:
 
 ## Impaired Mentalizing Ability
 
-Mentalization is our ability to understand thought processes of ourself and others, including how they relate to external behaviour. It involves making educated assumptions about our own or someone else's mental states and understanding how those states influence behaviour. For example:
+Mentalization is our ability to understand the thought processes of ourself and others, including how they relate to external behaviour. It involves making educated assumptions about our own or someone else's mental states and understanding how those states influence behaviour. For example:
 
 1. After snapping at a friend, you recognize that your reaction was driven more by your own stress than by anything your friend did.
 2. When meeting someone shy, you understand that their reserved behaviour is not a sign of arrogance or disinterest, but likely due to nervousness or social anxiety.
