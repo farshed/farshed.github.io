@@ -41,7 +41,7 @@ Have you ever wondered why babies find peekaboo so amusing? That's because they 
 
 When the mother hides her face and the baby is no longer able to see her, he believes that she has disappeared. It's almost as if she has ceased to exist. This is because the baby lacks the ability to understand that the mother exists independently of his ability to sense her. As the baby navigates the world around him and notices that things continue to exist regardless of his ability to experience them, he learns to rely on their mental representations and slowly grows out of this solipsistic worldview.
 
-Again, owing to a number of reasons, some children fail to develop this understanding in their formative years. Of course, as adults, they might be able to understand this concept at a cognitive level but they are not able to feel it emotionally. As a result, they are unable to retain emotional bonds with others over distance and time.
+Again, owing to a number of reasons, some children fail to develop this understanding in their formative years. Of course, as adults, they might be able to understand this concept at a cognitive level but they do not feel so emotionally. As a result, they are unable to retain emotional bonds with others over distance and time.
 
 This object inconstancy becomes apparent in behaviour in the following ways:
 
@@ -56,7 +56,7 @@ This object inconstancy becomes apparent in behaviour in the following ways:
 
 ## Identity Disturbance
 
-Erik Erikson described identity as "a sense of personal sameness" that is continuous over time and across situations. It is a complex interplay of factors such as values, beliefs, and goals that make up an individual's self-concept. It is essentially how we see ourselves, which in turn shapes how others will see us. Identity formation is a lifelong process that passes through various stages of crisis and resolution. The adolescent stage is particularly crucial as individuals grapple with questions of who they are and how they fit into the broader world.
+Erik Erikson described identity as "a sense of personal sameness" that is continuous over time and across situations. It is a complex interplay of factors such as values, beliefs, and goals that make up an individual's self-concept. It is essentially how we see ourselves, which in turn shapes how others will see us. Identity formation is a lifelong process that passes through various stages of [crisis](https://en.wikipedia.org/wiki/Identity_crisis) and resolution.
 
 Identity disturbance, sometimes tersely described as unstable self-image, is the inability to maintain one or more components of one's identity. It is a unique feature and one of the core issues of BPD. Identity disturbed individuals struggle with maintaining a core personality and a persistent self-concept. They are social chameleons who mimic the traits of those around them, without feeling a true connection to those adopted characteristics. Hence, their interests, goals, values, and beliefs are constantly shifting.
 
