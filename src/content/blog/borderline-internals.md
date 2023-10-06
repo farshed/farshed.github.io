@@ -203,4 +203,4 @@ Part of what makes BPD so complex is that it very often coexists with other diso
 | Paranoid Personality Disorder             | 21.3        | 16.5     | 25.4       |
 | Obsessive–Compulsive Personality Disorder | 22.7        | 21.7     | 23.6       |
 
-Understanding ourselves and others is a lifelong journey, but one that can be profoundly rewarding. Exploring psychology, and specifically personality disorders, has deepened my insights into human behaviour, including my own.
+Understanding ourselves and others is a lifelong journey, but one that can be profoundly rewarding. Exploring psychology, and specifically personality disorders, has deepened my insights into human behaviour and has made me realize how thin the line between 'crazy' and lucid can really be.
