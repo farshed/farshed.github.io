@@ -1,6 +1,6 @@
 ---
 title: 'The Sky Will Shift'
-description: 'The tale of how I lost my faith and became a godless heathen.'
+description: 'A poem about everything and nothing.'
 pubDate: 'October 14 2023'
 ---
 
