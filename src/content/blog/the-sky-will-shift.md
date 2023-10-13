@@ -4,7 +4,7 @@ description: 'A poem about everything and nothing.'
 pubDate: 'October 14 2023'
 ---
 
-_The Sky Will Shift_
+_The sky will shift_
 
 _but not as it did before._
 
