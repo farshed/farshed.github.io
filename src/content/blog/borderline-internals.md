@@ -4,7 +4,7 @@ description: 'An in-depth look at some of the core issues of Borderline Personal
 pubDate: 'September 24 2023'
 ---
 
-In 1938, Adolph Stern noticed a group of patients who suffered from a mild form of schizophrenia and seemed to function on the "borderline" between psychosis (fantasy) and neurosis (reality). These patients showed mental inflexibility and were resistant to psychotherapy, suggesting they had defense mechanisms against internal and external changes.
+In 1938, Adolph Stern noticed a group of patients who suffered from a mild form of schizophrenia and seemed to function on the "borderline" between psychosis (fantasy) and neurosis (reality). These patients showed mental inflexibility and were resistant to psychotherapy, which suggested defense mechanisms against internal and external changes.
 
 Four years later, Helene Deutsch described what she referred to as the "als ob" ("as if") personality. People with this personality exhibited emotional disturbance and lacked a sense of their interior "self". They compensated by mimicking the emotions of others, becoming social chameleons who acted ‘as if’ they were someone else. They appeared well-adjusted and were even capable of a certain warmth, but in a number of circumstances they betrayed a lack of emotional depth.
 
