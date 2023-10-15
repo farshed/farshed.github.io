@@ -4,15 +4,15 @@ description: 'An in-depth look at some of the core issues of Borderline Personal
 pubDate: 'September 24 2023'
 ---
 
-In 1938, Adolph Stern noticed a group of patients who suffered from a mild form of schizophrenia and seemed to function on the "borderline" between psychosis (fantasy) and neurosis (reality). These patients showed mental inflexibility and were resistant to psychotherapy, which suggested defense mechanisms against internal and external changes.
+In 1938, Adolph Stern [noticed](https://doi.org/10.1080/21674086.1938.11925367) a group of patients who suffered from a mild form of schizophrenia and seemed to function on the "borderline" between psychosis (fantasy) and neurosis (reality). These patients showed mental inflexibility and were resistant to psychotherapy, which suggested defense mechanisms against internal and external changes.
 
-Four years later, Helene Deutsch described what she referred to as the "als ob" ("as if") personality. People with this personality exhibited emotional disturbance and lacked a sense of their interior "self". They compensated by mimicking the emotions of others, becoming social chameleons who acted ‘as if’ they were someone else. They appeared well-adjusted and were even capable of a certain warmth, but in a number of circumstances they betrayed a lack of emotional depth.
+Four years later, Helene Deutsch [described](https://doi.org/10.1080/21674086.1942.11925501) what she referred to as the "als ob" ("as if") personality. People with this personality exhibited emotional disturbance and lacked a sense of their interior "self". They compensated by mimicking the emotions of others, becoming social chameleons who acted ‘as if’ they were someone else. They appeared well-adjusted and were even capable of a certain warmth, but in a number of circumstances they betrayed a lack of emotional depth.
 
-Deutsch posited that these people had experienced a "real loss of object cathexis", impairing their ability to emotionally invest in others except in a very chaotic manner. She labeled them as "depersonalized", meaning that they behaved ‘as if’ the world was real, even when they felt it was not. In the 1960s, Otto Kernberg outlined borderline personality organization (BPO) in terms of identity diffusion, impaired reality testing, and primitive defense mechanisms. These personalities were later classified as "borderline states" presenting "narcissistic disorders" or according to Kohut, "disorders of the self".
+Deutsch posited that these people had experienced a "real loss of object cathexis", impairing their ability to emotionally invest in others except in a very chaotic manner. She labeled them as "depersonalized", meaning that they behaved ‘as if’ the world was real, even when they felt it was not. In the 1960s, Otto Kernberg outlined [borderline personality organization](https://doi.org/10.1177/000306516701500309) (BPO) in terms of identity diffusion, impaired reality testing, and primitive defense mechanisms. These personalities were later classified as "borderline states" presenting "narcissistic disorders" or according to Kohut, "disorders of the self".
 
 In 1980, the condition was formalized into a diagnosis called Borderline Personality Disorder (BPD), sometimes also called Emotionally Unstable Personality Disorder (EUPD). BPD is characterized by dramatic, impulsive, excessively emotional, and maladaptive behavioural patterns. Those with BPD have difficulty managing emotions, report chaotic relationships, a poor sense of self, and have trouble staying grounded in the moment. Similar to other Cluster B disorders, BPD distorts how a person perceives themself and others around them.
 
-Having closely known at least two people with the said disorder and spent quite a bit of time trying to make sense of their (seemingly) nonsensical behaviour, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all [BPD behaviours](https://www.quora.com/What-are-the-common-signs-of-a-person-with-borderline-personality-disorder-BPD-that-they-show-to-others-without-knowing-it-themselves-and-what-should-people-look-out-for/answer/Faisal-Arshed) can be understood in terms of these core issues.
+Having closely known at least two people with the said disorder and spent quite a bit of time trying to make sense of their erratic behaviour, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all [BPD behaviours](https://www.quora.com/What-are-the-common-signs-of-a-person-with-borderline-personality-disorder-BPD-that-they-show-to-others-without-knowing-it-themselves-and-what-should-people-look-out-for/answer/Faisal-Arshed) can be understood in terms of these core issues.
 
 ## Lack of a Sense of Self
 
@@ -190,7 +190,7 @@ Some of the ways that these cognitive distortions manifest in behaviour include:
 Part of what makes BPD so complex is that it very often coexists with other disorders. Patients with BPD frequently also suffer from mood disorders like depression and anxiety, as well as other personality disorders.
 
 **Rates of comorbidity for conditions most commonly co-diagnosed with BPD**.<br/>
-<sub><sup>Based on data from [Wave 2 NESARC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676679/).</sup></sub>
+<sub><sup>Source: [Wave 2 NESARC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676679/).</sup></sub>
 
 | Diagnosis                                 | Overall (%) | Male (%) | Female (%) |
 | ----------------------------------------- | ----------- | -------- | ---------- |
