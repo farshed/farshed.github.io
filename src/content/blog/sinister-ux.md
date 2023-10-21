@@ -20,5 +20,3 @@ A UX qualifies to be SUX when:
 4. X [throttles](https://www.theverge.com/2023/9/15/23875251/x-twitter-links-throttling-facebook-instagram-threads) links to competitor sites.
 5. Many services deliberately introduce friction into their customer support UI flows to reduce operational costs, making it harder for users to reach out.
 6. Sites like Facebook make it difficult for users to delete their accounts, trying to convince them to stay at each step of the process.
-
-**PS**: This is a novel term introduced by yours truly and, to my knowledge, hasn't been used before. I hope it catches on.
