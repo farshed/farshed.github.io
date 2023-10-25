@@ -9,7 +9,7 @@ Sinister user experience (SUX - pun intended) is the deliberate and often decept
 A UX qualifies as SUX when:
 
 1. It has been intentionally degraded.
-2. The deterioration is meant to directly or indirectly benefit the service provider.
+2. The deterioration is meant to benefit the experience provider at the user's expense.
 3. Users have either not been made aware of the degradation or are misled about its real intent.
 
 **Some examples**,
