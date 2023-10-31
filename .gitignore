@@ -21,3 +21,4 @@ pnpm-debug.log*
 
 # resume.html
 *.draft.*
+dalle3/
