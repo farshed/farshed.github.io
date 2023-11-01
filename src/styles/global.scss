@@ -41,10 +41,10 @@ $dark-mode: #3bc8a4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
     @include color-scheme-def($dark-mode);
   }
 
-  font-family: 'Inter', sans-serif;
+  font-family: -apple-system, 'Inter', sans-serif;
   letter-spacing: -0.015rem;
   @supports (font-variation-settings: normal) {
-    font-family: 'Inter var', sans-serif;
+    font-family: -apple-system, 'Inter var', sans-serif;
   }
 }
 
@@ -120,8 +120,15 @@ b {
 a {
   cursor: pointer;
   font-weight: 500;
-  color: var(--primary);
-  text-decoration: none;
+  color: var(--foreground);
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 0.75;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+  // text-decoration: none;
 }
 
 header {
@@ -142,19 +149,28 @@ header {
     box-shadow: 0 2px 5px 1px var(--shadow);
   }
 
-  a {
-    color: var(--foreground);
-    transition: color 0.3s ease;
-    &:hover {
-      color: var(--primary);
-    }
-  }
+  // a {
+  //   color: var(--foreground);
+  //   transition: color 0.3s ease;
+  //   &:hover {
+  //     color: var(--primary);
+  //   }
+  // }
 
   h1,
   h1 > a {
     display: inline-block;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
+    font-size: 2rem;
     line-height: 1;
+    text-decoration: none;
+    color: var(--background);
+  }
+
+  h1 {
+    letter-spacing: 0px;
+    text-shadow: 2px 2px 0 var(--foreground), -1px -1px 0 var(--foreground),
+      1px -1px 0 var(--foreground), -1px 1px 0 var(--foreground), 1px 1px 0 var(--foreground);
   }
 }
 
@@ -166,9 +182,10 @@ nav > ul {
   padding-inline: 0;
   a {
     font-size: 0.95rem;
+    text-decoration: none;
     &.active {
-      color: var(--primary);
-      box-shadow: 0 2px var(--primary);
+      // color: var(--primary);
+      box-shadow: 0 2px var(--foreground);
       padding-bottom: 0.2rem;
     }
   }
@@ -205,6 +222,12 @@ main {
   row-gap: 1.6rem;
 }
 
+#socials {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.75rem;
+}
+
 time {
   font-size: 0.88rem;
 }
@@ -229,6 +252,7 @@ hr {
 
   a {
     font-size: 1.25rem;
+    text-decoration: none;
     // &:visited {
     //   color: var(--visited-a);
     // }
@@ -279,15 +303,15 @@ hr {
     }
   }
 
-  a {
-    transition: opacity 0.3s;
-    &:hover {
-      opacity: 0.75;
-    }
-    &:active {
-      opacity: 0.5;
-    }
-  }
+  // a {
+  //   transition: opacity 0.3s;
+  //   &:hover {
+  //     opacity: 0.75;
+  //   }
+  //   &:active {
+  //     opacity: 0.5;
+  //   }
+  // }
 }
 
 table {
