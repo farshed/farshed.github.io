@@ -192,17 +192,17 @@ main {
   background: var(--sun-gradient);
   cursor: pointer;
 
-  // & > div {
-  //   position: absolute;
-  //   right: 0;
-  //   width: 72%;
-  //   height: 72%;
-  //   border-radius: 100%;
-  //   background-color: var(--background);
-  //   transform: scale(var(--eclipse));
-  //   transform-origin: top right;
-  //   transition: transform 0.3s ease;
-  // }
+  & > div {
+    position: absolute;
+    right: 0;
+    width: 72%;
+    height: 72%;
+    border-radius: 100%;
+    background-color: var(--background);
+    transform: scale(var(--eclipse));
+    transform-origin: top right;
+    transition: transform 0.3s ease;
+  }
 }
 
 #socials {
