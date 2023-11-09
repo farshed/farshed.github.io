@@ -18,7 +18,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
       let [key, [plain, fancy]] = ['theme-pref', ['plain', 'fancy']];
 
       let theme = {
-        get: () => (localStorage.getItem(key) === plain ? plain : fancy),
+        get: () => (localStorage.getItem(key) === fancy ? fancy : plain),
         set(e) {
           document.body.className = e;
           localStorage.setItem(key, e);
@@ -27,7 +27,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 
       let infra = {
         sun(e) {
-          e.addEventListener('click', () => theme.set(theme.get() === plain ? fancy : plain));
+          e.addEventListener('click', () => theme.set(theme.get() === fancy ? plain : fancy));
         },
         intersecter(e) {
           let t = document.querySelector('header');
