@@ -13,20 +13,21 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
   <body>
     <Header />
     <div id="intersecter"></div>
+
     <script>
-      let [csp, [dt, lt]] = ['color-scheme-pref', ['dark', 'light']];
+      let [key, [plain, fancy]] = ['theme-pref', ['plain', 'fancy']];
 
       let theme = {
-        get: () => (localStorage.getItem(csp) === dt ? dt : lt),
+        get: () => (localStorage.getItem(key) === plain ? plain : fancy),
         set(e) {
           document.body.className = e;
-          localStorage.setItem(csp, e);
+          localStorage.setItem(key, e);
         }
       };
 
       let infra = {
         sun(e) {
-          e.addEventListener('click', () => theme.set(theme.get() == dt ? lt : dt));
+          e.addEventListener('click', () => theme.set(theme.get() === plain ? fancy : plain));
         },
         intersecter(e) {
           let t = document.querySelector('header');
@@ -37,17 +38,30 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
       };
 
       let setup = () => {
-        theme.set(theme.get()),
-          Object.keys(infra).forEach((e) => {
-            let t = document.getElementById(e);
-            t && infra[e](t);
-          });
+        theme.set(theme.get());
+        Object.keys(infra).forEach((e) => {
+          let t = document.getElementById(e);
+          t && infra[e](t);
+        });
       };
 
       ['interactive', 'complete'].includes(document.readyState)
         ? setup()
         : document.addEventListener('DOMContentLoaded', setup);
     </script>
+
     <main><slot /></main>
+
+    <div id="cloudy">
+      <video
+        src="/media/cloudy.mp4"
+        poster="/media/cloudy-poster.jpg"
+        autoplay
+        playsinline
+        muted
+        loop
+      >
+      </video>
+    </div>
   </body>
 </html>
