@@ -43,7 +43,7 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 
 :root {
   font-family: 'Inter', sans-serif;
-  letter-spacing: -0.03rem;
+  letter-spacing: -0.015rem;
   @supports (font-variation-settings: normal) {
     font-family: 'Inter var', sans-serif;
   }
