@@ -1,0 +1,189 @@
+---
+import Page from '../../layouts/Page.astro';
+---
+
+<script>
+  let specularity = 0.2;
+  let rect, active, queued;
+  const [card, glare, rangeControl, rangeLabel] = ['card', 'glare', 'spec-range', 'spec-label'].map(
+    (k) => document.getElementById(k)!
+  );
+  const curve = 'all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99)';
+
+  const round = (n) => Math.round(n * 1e3) / 1e3;
+  const setVar = (k, v) => card.style.setProperty(k, v);
+  const setCurve = (fn) => {
+    card.style.transition = fn;
+    glare.style.transition = fn;
+  };
+
+  card.addEventListener('mouseenter', () => {
+    setCurve(curve);
+    queued = setTimeout(() => setCurve('none'), 1e3);
+    setVar('--opacity', specularity);
+    rect = card.getBoundingClientRect();
+    active = true;
+  });
+
+  card.addEventListener('mouseleave', () => {
+    if (queued) clearTimeout(queued);
+    active = false;
+    setCurve(curve);
+    setVar('--tiltX', '0deg');
+    setVar('--tiltY', '0deg');
+    setVar('--opacity', 0);
+  });
+
+  card.addEventListener('mousemove', (e) => {
+    if (active) {
+      const x = (e.clientX - rect.left) / rect.width;
+      const y = (e.clientY - rect.top) / rect.height;
+      setVar('--px', `${round(x * 100)}%`);
+      setVar('--py', `${round(y * 100)}%`);
+      setVar('--tiltX', `${round((y * 2 - 1) * 15)}deg`);
+      setVar('--tiltY', `${round((x * 2 - 1) * -15)}deg`);
+    }
+  });
+
+  rangeControl.addEventListener('change', (e) => {
+    specularity = e.target.value;
+    rangeLabel.innerText = `Specularity: ${specularity}`;
+  });
+</script>
+
+<Page title="Glassmorphic Card UI">
+  <div id="card">
+    <h1 id="name">Patrick Bateman</h1>
+    <p><b>Vice President at Pierce & Pierce</b></p>
+
+    <p id="intro">
+      I don't just crunch numbers, I redefine them. In a world where details matter, I stand
+      unparalleled. My business card? Bone color, Silian Rail font – a statement in subtlety yet
+      screams sophistication. Fitness enthusiast, connoisseur of haute cuisine, and an avid
+      appreciator of Phil Collins. My expertise isn't just in mergers and acquisitions; it's in
+      cultivating an aura of excellence. When I'm not revolutionizing Wall Street, you might find me
+      at the trendiest eateries or updating my extensive wardrobe. Remember, it's not just about
+      being the best – it's about looking the best while doing it.
+    </p>
+    <a href="https://youtu.be/YHgwxVCiMyI" target="_blank">Let's see Paul Allen's card.</a>
+    <div id="glare"></div>
+  </div>
+
+  <div id="controls">
+    <label id="spec-label">Specularity: 0.2</label>
+    <input id="spec-range" type="range" min="0.1" max="1" step="0.1" value="0.2" />
+    <a
+      id="code-link"
+      href="https://github.com/farshed/farshed.github.io/tree/main/src/pages/lab/glassmorphic-card.astro"
+      >See code</a
+    >
+  </div>
+
+  <div id="cloudy">
+    <video
+      src="/media/cloudy.mp4"
+      poster="/media/cloudy-poster.jpg"
+      autoplay
+      playsinline
+      muted
+      loop
+    >
+    </video>
+  </div>
+
+  <style lang="scss">
+    #name {
+      font-family: 'The Seasons', serif;
+    }
+
+    #intro {
+      font-size: 0.92rem;
+      padding: 0.5rem 0;
+    }
+
+    a {
+      font-size: 0.95rem;
+    }
+
+    #card {
+      --px: 0%;
+      --py: 0%;
+      --tiltX: 0deg;
+      --tiltY: 0deg;
+      --opacity: 0;
+      z-index: 1;
+      font-weight: 300;
+      position: relative;
+      width: 100%;
+      max-width: 670px;
+      padding: 1.75rem;
+      padding-bottom: 1rem;
+      margin: 2rem 0;
+      border-radius: 14px;
+      will-change: transform;
+      background-color: rgba(#fff, 0.15);
+      box-shadow:
+        0 0 0 12px rgb(#fff, 0.15),
+        0 0 20px 12px rgb(#000, 0.05);
+      backdrop-filter: blur(20px);
+      transform: perspective(1000px) rotateX(var(--tiltX)) rotateY(var(--tiltY));
+      transform-style: preserve-3d;
+      transform-origin: center;
+      -webkit-backdrop-filter: blur(20px);
+      -webkit-transform: perspective(1000px) rotateX(var(--tiltX)) rotateY(var(--tiltY));
+      -webkit-transform-style: preserve-3d;
+      -webkit-transform-origin: center;
+    }
+
+    #glare {
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      border-radius: 14px;
+      opacity: var(--opacity);
+      mix-blend-mode: overlay;
+      transform: translateZ(1.4px);
+      background: radial-gradient(
+        farthest-corner circle at var(--px) var(--py),
+        rgba(#fff, 0.8) 10%,
+        rgba(#fff, 0.65) 20%,
+        rgba(#000, 0.5) 90%
+      );
+    }
+
+    #controls {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      label {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+      }
+
+      input {
+        width: 100%;
+        max-width: 360px;
+        accent-color: var(--text);
+        margin-bottom: 1rem;
+      }
+    }
+
+    #cloudy {
+      z-index: -1;
+      position: fixed;
+      inset: 0;
+
+      & > video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+      }
+    }
+  </style>
+</Page>

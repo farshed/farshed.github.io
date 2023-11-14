@@ -6,31 +6,9 @@ $max-body-width: 60ch;
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
   monospace;
 
-.plain {
-  --text: #161b3d;
-  --faded-text: #161b3d60;
-  // --text: #3e3e3e;
-  // --faded-text: #3e3e3e60;
-  --background: #fff;
-  --selection: #3cffd070;
-  --selection-text: var(--text);
-  --sun-gradient: linear-gradient(40deg, salmon, skyblue 65%);
-  --shadow: #3e3e3e1a;
-}
-
-.fancy {
-  --text: #000;
-  --faded-text: #00000060;
-  --background: transparent;
-  --selection: #3cffd070;
-  --selection-text: var(--text);
-  --sun-gradient: #fff5f5;
-}
-
 * {
   margin: 0;
   &::selection {
-    color: var(--selection-text);
     background-color: var(--selection);
   }
 }
@@ -41,6 +19,12 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   @supports (font-variation-settings: normal) {
     font-family: 'Inter var', sans-serif;
   }
+
+  --text: #161b3d;
+  --faded-text: #161b3d60;
+  --background: #fff;
+  --selection: #3cffd070;
+  --shadow: #161b3d1a;
 }
 
 html,
@@ -204,6 +188,14 @@ hr {
   border: none;
   margin: 2rem 0;
   background-color: var(--faded-text);
+}
+
+.post-list {
+  row-gap: 1.5rem;
+  padding: unset;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 .post-item {

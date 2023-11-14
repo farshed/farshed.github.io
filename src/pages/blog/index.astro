@@ -15,17 +15,7 @@ const meta = {
 ---
 
 <Page {...meta}>
-  <ul>
+  <ul class="post-list">
     {allPosts.map((post) => <PostItem post={post} />)}
   </ul>
 </Page>
-
-<style lang="scss">
-  ul {
-    row-gap: 1.5rem;
-    padding: unset;
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-  }
-</style>

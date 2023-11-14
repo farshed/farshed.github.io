@@ -15,34 +15,12 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
     <div id="intersecter"></div>
 
     <script>
-      let [key, [plain, fancy]] = ['theme-pref', ['plain', 'fancy']];
-
-      let theme = {
-        get: () => (localStorage.getItem(key) === fancy ? fancy : plain),
-        set(e) {
-          document.body.className = e;
-          localStorage.setItem(key, e);
-        }
-      };
-
-      let infra = {
-        sun(e) {
-          e.addEventListener('click', () => theme.set(theme.get() === fancy ? plain : fancy));
-        },
-        intersecter(e) {
-          let t = document.querySelector('header');
-          new IntersectionObserver(([e]) =>
-            t.classList.toggle('elevated', !e.isIntersecting)
-          ).observe(e);
-        }
-      };
-
       let setup = () => {
-        theme.set(theme.get());
-        Object.keys(infra).forEach((e) => {
-          let t = document.getElementById(e);
-          t && infra[e](t);
-        });
+        let i = document.getElementById('intersecter')!;
+        let t = document.querySelector('header')!;
+        new IntersectionObserver(([i]) =>
+          t.classList.toggle('elevated', !i.isIntersecting)
+        ).observe(i);
       };
 
       ['interactive', 'complete'].includes(document.readyState)
