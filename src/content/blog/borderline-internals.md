@@ -12,7 +12,7 @@ Deutsch posited that these people had experienced a "real loss of object cathexi
 
 In 1980, the condition was formalized into a diagnosis called Borderline Personality Disorder (BPD), sometimes also called Emotionally Unstable Personality Disorder (EUPD). BPD is characterized by dramatic, impulsive, excessively emotional, and maladaptive behavioural patterns. Those with BPD have difficulty managing emotions, report chaotic relationships, a poor sense of self, and have trouble staying grounded in the moment. Similar to other Cluster B disorders, BPD distorts how a person perceives themself and others around them.
 
-Having closely known two people with the said disorder and spent quite a bit of time trying to make sense of their erratic behaviour, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all [BPD behaviours](https://www.quora.com/What-are-the-common-signs-of-a-person-with-borderline-personality-disorder-BPD-that-they-show-to-others-without-knowing-it-themselves-and-what-should-people-look-out-for/answer/Faisal-Arshed) can be understood in terms of these core issues.
+Having closely known someone with the said disorder and spent quite a bit of time trying to make sense of their erratic behaviour, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all [BPD behaviours](https://www.quora.com/What-are-the-common-signs-of-a-person-with-borderline-personality-disorder-BPD-that-they-show-to-others-without-knowing-it-themselves-and-what-should-people-look-out-for/answer/Faisal-Arshed) can be understood in terms of these core issues.
 
 ## Lack of a Sense of Self
 
@@ -84,14 +84,14 @@ Some of the ways that identity disturbance manifests in behaviour include:
 
 ## Impaired Mentalizing Ability
 
-Mentalization is our ability to understand the thought processes of ourself and others, including how they relate to external behaviour. It involves making educated assumptions about our own or someone else's mental states and understanding how those states influence behaviour. For example:
+Mentalization is our ability to understand thought processes and how they relate to external behaviour. It involves making educated assumptions about our own or someone else's mental states and understanding how those states influence behaviour. For example:
 
 1. After snapping at a friend, you recognize that your reaction was driven more by your own stress than by anything your friend did.
 2. When meeting someone shy, you understand that their reserved behaviour is not a sign of arrogance or disinterest, but likely due to nervousness or social anxiety.
 3. If your partner comes home irritated, mentalizing would involve recognizing that their mood is due to stress at work, rather than assuming they are angry with you. This understanding helps you respond empathetically instead of defensively.
 4. Your friend cancels plans at the last minute. Instead of getting angry, you remember they have been stressed lately and understand that they might need some time alone.
 
-Correctly interpreting the above situations requires the ability to create accurate mental representations of one's own and other people's emotional states and understanding how those emotional states translate into overt behaviour. These examples can be extrapolated to apply to virtually very social situation where we make a judgment about someone's mental state based on behavioural cues. Mentalization begins to develop in early childhood, largely influenced by interactions with primary caregivers (usually our parents). Here's how it typically unfolds:
+Correctly interpreting the above situations requires the ability to create accurate mental representations of one's own and other people's emotional states and understanding how those emotional states translate into overt behaviour. These examples can be extrapolated to apply to virtually very social situation where we make a judgment about someone's mental state based on behavioural cues. Mentalization begins to develop in early childhood, largely influenced by interactions with primary caregivers (our parents). Here's how it typically unfolds:
 
 - **Mirroring**: When an infant smiles, the mother smiles back. This mirroring helps the child recognize emotional states and understand they can be shared.
 - **Marking**: Caregivers not only mirror but also "mark" emotions by exaggerating facial expressions or tone of voice. For example, when the baby grabs a toy, the mother might show exaggerated excitement, helping the baby to understand the emotion of joy.
@@ -185,7 +185,7 @@ Some of the ways that these cognitive distortions manifest in behaviour include:
 - **Lack of Trust**: Finding it difficult to trust others, always suspecting hidden motives.
 - **Self-sabotage**: Undermining one's own efforts, fearing success exposes one to scrutiny or danger.
 - **Disgust Reactivity**: Heightened feelings of disgust or irritability towards things that others find neutral. Self-disgust is projected outwards.
-- **Overthinking**: Analyzing situations excessively in a bid to avoid potential dangers or embarrassments.
+- **Rumination**: Analyzing situations excessively in a bid to avoid potential dangers or embarrassments.
 
 ## Comorbidity
 
