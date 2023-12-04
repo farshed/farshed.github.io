@@ -18,7 +18,7 @@ It all began with a question in the summer of 2018. Just one simple, harmless qu
 
 _Why does the creator of such an unfathomably vast cosmos need me, an ape on a small planet circling a yellow dwarf, to perform a ritual that involves facing in the direction of a black room on the other side of the planet, making intricate body movements, and uttering some magic words in a language that I do not understand, five times every day?_
 
-_Since God is an infinitely higher being than humans, what reason could he possibly have for asking these pointless gestures of us? I'm a (finitely) higher being than ants but would I ever want the ants to worship me? Would I be interested in appointing an ant as my prophet and asking it to go tell the other ants to either submit to my will, or to prepare themselves for the wrath of my magnifying glass? Would I ask them to mutilate the peepees of little baby ants? Or to always wear their trousers above their ankles? Do ants even have ankles?_
+_Since God is an infinitely higher being than humans, what reason could he possibly have for asking these pointless gestures of us? I'm a (finitely) higher being than an ant but would I ever want the ants to worship me? Would I be interested in appointing an ant as my prophet and asking it to go tell the other ants to either submit to my will, or to prepare themselves for the wrath of my magnifying glass? Would I ask them to mutilate the peepees of little baby ants? Or to always wear their trousers above their ankles? Do ants even have ankles?_
 
 ## Problem of Evil
 

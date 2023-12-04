@@ -3,12 +3,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
-const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
+const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.props;
 ---
 
 <html lang="en">
   <head>
-    <BaseHead {...{ title, description }} />
+    <BaseHead {...{ title, description, ...rest }} />
   </head>
   <body>
     <Header />
