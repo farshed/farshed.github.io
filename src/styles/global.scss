@@ -15,12 +15,13 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 
 :root {
   font-family: 'Inter', sans-serif;
-  letter-spacing: -0.015rem;
   @supports (font-variation-settings: normal) {
     font-family: 'Inter var', sans-serif;
   }
+  letter-spacing: -0.015rem;
 
   --text: #161b3d;
+  --link: #2563ff;
   --faded-text: #161b3d60;
   --background: #fff;
   --selection: #3cffd070;
@@ -91,8 +92,9 @@ b {
 a {
   cursor: pointer;
   font-weight: 500;
-  color: var(--text);
+  color: var(--link);
   transition: opacity 0.3s;
+  text-decoration: none;
   &:hover {
     opacity: 0.75;
   }
@@ -126,7 +128,7 @@ header {
     display: inline-block;
     font-size: 1.2rem;
     line-height: 1;
-    text-decoration: none;
+    color: var(--text);
   }
 }
 
@@ -138,7 +140,7 @@ nav > ul {
   padding-inline: 0;
   a {
     font-size: 0.95rem;
-    text-decoration: none;
+    color: var(--text);
   }
 }
 
