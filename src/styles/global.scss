@@ -1,7 +1,7 @@
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
-$max-header-width: 60ch;
-$max-body-width: 60ch;
+$max-header-width: 62ch;
+$max-body-width: 62ch;
 
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
   monospace;
@@ -21,7 +21,7 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   letter-spacing: -0.015rem;
 
   --text: #161b3d;
-  --link: #2563ff;
+  --link: #2563fb;
   --faded-text: #161b3d60;
   --background: #fff;
   --selection: #3cffd070;
