@@ -14,6 +14,7 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 }
 
 :root {
+  color-scheme: light dark;
   font-family: 'Inter', sans-serif;
   @supports (font-variation-settings: normal) {
     font-family: 'Inter var', sans-serif;
@@ -33,10 +34,6 @@ body {
   min-height: 100%;
   font-size: $one-rem;
   box-sizing: border-box;
-}
-
-html {
-  color-scheme: light dark;
 }
 
 body {
@@ -114,7 +111,7 @@ header {
   column-gap: 1.5rem;
   row-gap: 0.5rem;
   max-width: $max-header-width;
-  padding: 0.8rem max(calc((100vw - $max-header-width) / 2), 1rem);
+  padding: 1.2rem max(calc((100vw - $max-header-width) / 2), 1rem);
   background-color: inherit;
   transition: box-shadow 0.3s ease;
 
