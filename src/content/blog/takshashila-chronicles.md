@@ -2,7 +2,7 @@
 title: 'Takshashila Chronicles'
 description: 'The forgotten saga of the ancient city of Taxila.'
 pubDate: 'December 9 2023'
-image: '/media/blog/taxila/cover.webp'
+cover: '/media/blog/taxila/cover.webp'
 ---
 
 I recently had an opportunity to explore Taxila and some of the numerous archeological sites it hosts. It's a place with a long and incredibly rich history, teeming with juicy remnants of the past. I hope to give you a taste of it in this post.

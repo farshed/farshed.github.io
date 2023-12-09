@@ -4,13 +4,13 @@ import Page from '../../layouts/Page.astro';
 import PostItem from '../../components/PostItem.astro';
 import { SITE_TITLE } from '../../consts';
 
-const allPosts = (await getCollection('blog')).sort(
+const allPosts = (await getCollection('notes')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
 const meta = {
-  title: `Blog · ${SITE_TITLE}`,
-  description: "Faisal Arshed's personal blog"
+  title: `Notes · ${SITE_TITLE}`,
+  description: "Faisal Arshed's notes"
 };
 ---
 
