@@ -12,7 +12,7 @@ I recently had a chance to explore Taxila and the numerous archeological sites i
 
 ## Etymological Origins
 
-The name _Taxila_ is the hellenized form of the city's original name _Takshashila_ and comes from Greek historical records compiled in the 2nd century CE. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively. Hence, _Takshashila_ means "Rock of Taksha" ([_shila_](https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE) being the Sanskrit term for "rock" or "stone").
+The name _Taxila_ is the Greek approximation of the city's original name _Takshashila_. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively. Hence, _Takshashila_ means "Rock of Taksha" ([_shila_](https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE) being the Sanskrit term for 'rock' or 'stone'). In another interpretation, _Taksha_ is sometimes translated from Sanskrit as 'cut' or 'carve', lending the name Takshashila a meaning akin to 'City of carved rock'.
 
 ## Quick History
 
