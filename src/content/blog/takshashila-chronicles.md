@@ -8,7 +8,7 @@ cover: '/media/blog/taxila/cover.webp'
 > Between the Indus and the Hydaspes lies Taxila, a city which is large and has most excellent laws.  
 > **Strabo, Geographica**
 
-I recently had an opportunity to explore Taxila and some of the numerous archeological sites it hosts. It's a place with a long and incredibly rich history, teeming with juicy remnants of the past. I hope to give you a taste of it in this post.
+I recently had a chance to explore Taxila and the numerous archeological sites it hosts. It's a place with a long and incredibly rich history. I hope to share some of it with you in this post.
 
 ## Etymological Origins
 

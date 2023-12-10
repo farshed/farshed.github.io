@@ -35,8 +35,8 @@ cover: '/media/blog/taxila/cover.webp'
 
 Unlike English, German adverbs follow the main verb rather than precede it. For example,
 
-- _Du kochst **nie** (You **never** cook)_.
-- _Er spielt **immer** Klavier (He **always** plays the piano)_.
+1. _Du kochst **nie** (You **never** cook)_.
+2. _Er spielt **immer** Klavier (He **always** plays the piano)_.
 
 - immer
 - nie
