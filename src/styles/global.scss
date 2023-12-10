@@ -111,7 +111,7 @@ header {
   column-gap: 1.5rem;
   row-gap: 0.5rem;
   max-width: $max-header-width;
-  padding: 1.2rem max(calc((100vw - $max-header-width) / 2), 1rem);
+  padding: 1rem max(calc((100vw - $max-header-width) / 2), 1rem);
   background-color: inherit;
   transition: box-shadow 0.3s ease;
 
