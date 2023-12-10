@@ -8,11 +8,7 @@ cover: '/media/blog/taxila/cover.webp'
 > Between the Indus and the Hydaspes lies Taxila, a city which is large and has most excellent laws.  
 > **Strabo, Geographica**
 
-I recently had a chance to explore Taxila and the numerous archeological sites it hosts. It's a place with a long and incredibly rich history. I hope to share some of it with you in this post.
-
-## Etymological Origins
-
-The name _Taxila_ is the Greek approximation of the city's original name _Takshashila_. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively. Hence, _Takshashila_ means "Rock of Taksha" ([_shila_](https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE) being the Sanskrit term for 'rock' or 'stone'). In another interpretation, _Taksha_ is sometimes translated from Sanskrit as 'cut' or 'carve', lending the name Takshashila a meaning akin to 'City of carved rock'.
+The name _Taxila_ is the Greek approximation of the city's original name _Takshashila_. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively. Hence, _Takshashila_ means 'Rock of Taksha' ([_shila_](https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE) being the Sanskrit term for 'rock' or 'stone'). In another interpretation, _Taksha_ is sometimes translated from Sanskrit as 'cut' or 'carve', lending the name Takshashila a meaning akin to 'City of carved rock'.
 
 ## Quick History
 
@@ -47,13 +43,13 @@ _Central courtyard of the Jaulian Monastery. The pool in the middle was used for
 
 ![Jaulian votive stupa](/media/blog/taxila/votive-stupa.webp)
 
-_Closeup of a votive stupa at Jaulian Monastery, depicting the Buddha in the lotus position. Atlantes figures at the base indicate Greek influence._
+_Closeup of a votive stupa at Jaulian Monastery, featuring the Buddha in the lotus position. Atlantes figures at the base indicate Greek influence._
 
 ![Sirkap](/media/blog/taxila/sirkap.webp)
 
 _Remains of Sirkap, a city founded by the King Demetrius I of Bactria in around 180 BCE. Situated about 2 kilometers north-east of the Taxila Museum._
 
-The word _Sirkap_, meaning "cut-off head", similar to the nearby hill range _Margala_, meaning "cut-off throat", hints at the region's association with an ancient Buddhist legend. In the legend, Buddha, in one of his previous births, cuts off his head to feed a hungry lion. This theme of extraordinary self-sacrifice is central to _Jataka_ (stories from the past lives of the Buddha) and can be found in tales as far as Balochistan, sometimes also linked to other local saint figures. For example, in a legend associated with the ruins of Andan Dheri near Chakdara, Buddha assumes the form of a great serpent lying dead in the valley to save the people from famine. The starved people cut pieces from its body and feed themselves.
+The word _Sirkap_, meaning 'cut-off head', similar to the nearby hill range _Margala_, meaning 'cut-off throat', hints at the region's association with an ancient Buddhist legend. In the legend, Buddha, in one of his previous births, cuts off his head to feed a hungry lion. This theme of extraordinary self-sacrifice is central to _Jataka_ (stories from the past lives of the Buddha) and can be found in tales as far as Balochistan, sometimes also linked to other local saint figures. For example, in a legend associated with the ruins of Andan Dheri near Chakdara, Buddha assumes the form of a great serpent lying dead in the valley to save the people from famine. The starved people cut pieces from its body and feed themselves.
 
 One of the Sirkap artifacts that caught my eye was this terracotta "Ritual Tank" as I had seen it before in one of Salman Rashid's [videos](https://www.youtube.com/@odysseuslahori), though not in such good shape. Similar votive tanks have been discovered at several other sites across the subcontinent, including locations like Chirand and Kolhapur.
 
