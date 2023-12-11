@@ -55,3 +55,5 @@ One of the Sirkap artifacts that caught my eye was this terracotta "Ritual Tank"
 The tank is possibly Jain in nature and seems to symbolize the four natural elements and all creation arising from them. The earth is symbolized by the clay from which the tank is made; air, by the birds perched on the container's rims; fire, by the lamps on each of the four corners; and the water which partially filled the tank symbolized, well, water. You might also be able to make out depictions of various land and aquatic animals on the floor of the tank, such as a snake and turtle. A female figurine can be seen beside the stairs, likely a depiction of a mother goddess.
 
 ![Buddha statue head](/media/blog/taxila/buddha-head.webp)
+
+_A Buddha's bust on display in Taxila Museum. Likely from Kushan Period._
