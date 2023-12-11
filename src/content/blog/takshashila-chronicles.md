@@ -5,8 +5,11 @@ pubDate: 'December 9 2023'
 cover: '/media/blog/taxila/cover.webp'
 ---
 
-> Between the Indus and the Hydaspes lies Taxila, a city which is large and has most excellent laws.  
-> **Strabo, Geographica**
+<!-- > Between the Indus and the Hydaspes lies Taxila, a city which is large and has most excellent laws.
+> **Strabo, Geographica** -->
+
+> Then starting from the Indus, he \[Alexander] arrived at Taxila, a large and prosperous city, in fact the largest of those situated between the rivers Indus and Hydaspes.  
+> **Arrian, Anabasis Alexandri**
 
 The name _Taxila_ is the Greek approximation of the city's original name _Takshashila_. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively. Hence, _Takshashila_ means 'Rock of Taksha' ([_shila_](https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE) being the Sanskrit term for 'rock' or 'stone'). In another interpretation, _Taksha_ is sometimes translated from Sanskrit as 'cut' or 'carve', lending the name Takshashila a meaning akin to 'City of carved rock'.
 
@@ -19,9 +22,6 @@ Following the Mauryans, the city is ruled by the Indo-Greeks of Bactria, Indo-Sc
 Fast forward to the 19th century, the ancient city of Takshashila mentioned in Indian and Greek historical records is completely lost to us. We only have a very vague idea of its possible location, thanks to the travel itineraries of Chinese pilgrims like Xuanzang. This all changes when Alexander Cunningham, founder and the first director-general of the Archaeological Survey of India, correctly identifies the location of Takshashila at what locals call "Shah-Dheriyan" (Mounds of kings) in 1863. In 1913, John Marshall begins the excavations of ruins, which last for 21 years.
 
 ## Significance as a Center of Education
-
-> The most learned of the Indians are those who inhabit the city of Taxila.  
-> **Arrian, Anabasis Alexandri**
 
 Ancient Taxila was a center of higher learning and home to one of the earliest educational institutions in history that could be compared to a university. This institution, historical records of which date back to at least the 5th century BCE, attracted scholars like Panini, the great Sanskrit grammarian, and Chanakya, the renowned Indian polymath and author of _Arthashastra_. Jivaka, the personal physician of the Buddha and the King Bimbisara, also spent seven years in Taxila training in medicine.
 
