@@ -1,272 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://rsms.me/" />
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-  <title>faisal-arshed-resume</title>
-  <style>
-    /* @media print {
-      @page {
-        size: 826.67px 1169.33px; */
-        /* size: 210mm 297mm; */
-      /* }
-    } */
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>faisal-arshed-resume</title>
+    <style>
+      /* @media print {
+        @page {
+          size: 826.67px 1169.33px;
+          size: 210mm 297mm;
+        }
+      } */
 
-    /* @font-face {
-      font-family: 'Apercu';
-      font-weight: 100 900;
-      font-style: normal;
-      font-display: swap;
-      src: url('https://farshed.me/fonts/regular.woff2') format("woff2-variations")
-    }
+      /* @font-face {
+        font-family: 'Apercu';
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+        src: url('https://farshed.me/fonts/regular.woff2') format("woff2-variations")
+      }
 
-    @font-face {
-      font-family: 'Apercu';
-      font-weight: 100 900;
-      font-style: italic;
-      font-display: swap;
-      src: url('https://farshed.me/fonts/italic.woff2') format("woff2-variations")
-    } */
+      @font-face {
+        font-family: 'Apercu';
+        font-weight: 100 900;
+        font-style: italic;
+        font-display: swap;
+        src: url('https://farshed.me/fonts/italic.woff2') format("woff2-variations")
+      } */
 
-  :root {
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -0.4px;
-  }
+      :root {
+        font-family: 'Inter', sans-serif;
+        letter-spacing: -0.015rem;
+      }
 
-  @supports (font-variation-settings: normal) {
-    :root {
-      font-family: 'Inter var', sans-serif;
-    }
-  }
+      html {
+        /* 48px */
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.5;
+        --primary: #2a3ffb;
+        color: black;
+      }
 
+      body {
+        margin: auto;
+        /* padding: 3.125rem; */
+        padding: 1.5rem 0 1.5rem 1.5rem;
+        max-width: 826.67px;
+      }
 
-    html {
-      /* 48px */
-      font-size: 16px;
-      font-weight: normal;
-      line-height: 1.5;
-      --primary: #2A3FFB;
-      color: black;
-    }
+      p {
+        margin-block: 0;
+      }
 
-    body {
-      margin: auto;
-      /* padding: 3.125rem; */
-      padding: 1.5rem 0 1.5rem 1.5rem;
-      max-width: 826.67px;
-    }
+      a {
+        color: black;
+        text-decoration: none;
+      }
 
-    p {
-      margin-block: 0;
-    }
+      b {
+        font-weight: 500;
+      }
 
-    b {
-      font-weight: 500;
-    }
+      ul {
+        margin-block: 0.75rem;
+        padding-inline-start: 1.5rem;
+      }
 
-    ul {
-      margin-block: 0.75rem;
-      padding-inline-start: 1.5rem;
-    }
+      line {
+        stroke: var(--primary);
+        stroke-width: 0.25;
+        stroke-linecap: round;
+      }
 
-    line {
-      stroke: var(--primary);
-      stroke-width: 0.25;
-      stroke-linecap: round;
-    }
+      .hr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.25rem 0;
+      }
 
-    .hr {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin: 1.25rem 0;
-    }
+      .hr > p {
+        line-height: 1.2;
+        font-size: 1.25rem;
+        color: var(--primary);
+        white-space: nowrap;
+        margin-right: 1.3rem;
+      }
 
-    .hr>p {
-      line-height: 1.2;
-      font-size: 1.25rem;
-      color: var(--primary);
-      white-space: nowrap;
-      margin-right: 1.3rem;
-    }
+      .intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
 
-    .intro {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
+      .creds {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.1rem;
+      }
 
-    .creds {
-      display: flex;
-      flex-direction: column;
-    }
+      .bio {
+        width: 65%;
+      }
 
-    .bio {
-      width: 65%;
-    }
+      .title {
+        font-size: 2rem;
+      }
 
-    .title {
-      font-size: 2rem;
-    }
+      .role {
+        font-size: 1.15rem;
+      }
 
-    .role {
-      font-size: 1.15rem;
-    }
+      .pos {
+        width: 100%;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 1.12rem;
+        font-weight: 500;
+      }
 
-    .pos {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
+      .pos > p:nth-child(2) {
+        margin-left: 4rem;
+      }
 
-    .pos>p:first-child {
-      font-size: 1.12rem;
-    }
+      .pos > p:last-child {
+        text-align: right;
+      }
 
-    .fw400 {
-      font-weight: 400;
-    }
+      /* .pos > p:first-child {
+        font-size: 1.12rem;
+      } */
 
-    .lite {
-      opacity: 0.8;
-    }
+      /* .pos {
+        
+      } */
 
-    .skills {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
+      .fw400 {
+        font-weight: 400;
+      }
 
-    .skills>span {
-      font-size: 0.92rem;
-      padding: 0.2rem 0.4rem;
-      border: 1px solid black;
-      border-radius: 0.3rem;
-    }
-  </style>
-</head>
-<body>
-  <div class="intro">
-    <div class="creds">
-      <p class="title"><b>Faisal Arshed</b></p>
-      <p class="role"><b>Software Engineer</b></p>
-      <p>github.com/farshed</p>
-      <p>mail@farshed.me</p>
-      <p>(+92) 309 6855375</text>
+      .lite {
+        opacity: 0.8;
+      }
+
+      .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .skills > span {
+        font-size: 0.92rem;
+        padding: 0.2rem 0.4rem;
+        border: 1px solid black;
+        border-radius: 0.3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intro">
+      <div class="creds">
+        <p class="title"><b>Faisal Arshed</b></p>
+        <!-- <p class="role"><b>Software Engineer</b></p> -->
+        <a href="https://github.com/farshed">github.com/farshed</a>
+        <a href="mailto:faisalarshed28@gmail.com">faisalarshed28@gmail.com</a>
+        <p>(+92) 309 6855375</p>
+      </div>
+      <!-- <p class="bio">
+        Full Stack Software Engineer with over 4 years of experience and a proven track record of
+        building high-performance MVPs for various startups. With a keen aptitude for
+        problem-solving and a passion for open-source, I am equipped to tackle any engineering
+        challenge head-on.
+      </p> -->
+
+      <p class="bio">
+        Full Stack Software Engineer with over 4 years of experience, a keen aptitude for problem
+        solving and a proven track record of building high-performance MVPs for various startups.
+      </p>
     </div>
-    <p class="bio">
-      As a Full Stack Engineer with four years of industry experience. I thrive in small teams where I can make a high impact on the
-      product from design to delivery. Interested in roles that offer extensive opportunities for learning and
-      technical growth beyond my current expertise.
-    </p>
-  </div>
 
-  <div class="hr">
-    <p><b>Work Experience</b></p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1.5">
-      <line x1="0" y1="1" x2="100" y2="1" />
-    </svg>
-  </div>
-
-  <div>
-    <div class="pos">
-      <p><b>Senior Software Engineer</b>, SmashCloud</p>
-      <p class="lite"><b>Jul 2022 - Present</b></p>
+    <div class="hr">
+      <p><b>Work Experience</b></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1.5">
+        <line x1="0" y1="1" x2="100" y2="1" />
+      </svg>
     </div>
-    <ul>
-      <li>
-        Spearheaded the front-end development and collaborated on DevOps for a Fortune Global 500 venture in a lead
-        engineering role.
-      </li>
-      <li>Developed crucial features for a widely adopted tenant turnover management system, streamlining operations for
-        some of the top student housing owners across North America.</li>
-    </ul>
-  </div>
 
-  <div>
-    <div class="pos">
-      <p><b>Software Engineer</b>, Pursue Today</p>
-      <p class="lite"><b>Mar 2021 - Jun 2022</b></p>
+    <div>
+      <div class="pos">
+        <p>Senior Software Engineer</p>
+        <p>SmashCloud</p>
+        <p class="lite">Jul 2022 - Present</p>
+      </div>
+      <ul>
+        <li>
+          Led the front-end development and collaborated on DevOps for a Fortune Global 500 venture
+          in a lead engineering role.
+        </li>
+        <li>
+          Developed crucial features for a widely adopted tenant turnover management system,
+          streamlining operations for some of the top student housing owners across North America.
+        </li>
+      </ul>
     </div>
-    <ul>
-      <li>
-        Developed pribox.io, a SaaS product for improving email deliverability, acting as its sole engineer during most
-        of the MVP stage.
-      </li>
-      <li>Wrote automated planning and task scheduling services that closely interacted with SMTP and IMAP protocols.
-      </li>
-    </ul>
-  </div>
 
-  <div>
-    <div class="pos">
-      <p><b>Full Stack Engineer</b>, BookOtto</p>
-      <p class="lite"><b>Sep 2020 - Apr 2021</b></p>
+    <div>
+      <div class="pos">
+        <p>Software Engineer</p>
+        <p>Pursue Today</p>
+        <p class="lite">Mar 2021 - Jun 2022</p>
+      </div>
+      <ul>
+        <li>
+          Developed <i>pribox.io</i>, a SaaS product for tracking and improving email deliverability
+          and domain reputation, acting as its sole engineer during most of the MVP stage.
+        </li>
+        <li>
+          Wrote automated planning and task scheduling services that closely interacted with SMTP
+          and IMAP protocols.
+        </li>
+      </ul>
     </div>
-    <ul>
-      <li>
-        Prototyped and developed the flagship MVP using React Native and GraphQL.
-      </li>
-      <li>Helped create and maintain the AWS backend and DevOps infrastructure.</li>
-      <li>Developed solutions to streamline bureaucratic processes for the NYC real estate market.</li>
-    </ul>
-  </div>
 
-  <div>
-    <div class="pos">
-      <p><b>React Native Developer</b>, MoneyWhere</p>
-      <p class="lite"><b>Mar 2019 - Dec 2019</b></p>
+    <div>
+      <div class="pos">
+        <p>Full Stack Engineer</p>
+        <p>BookOtto</p>
+        <p class="lite">Jul 2020 - Mar 2021</p>
+      </div>
+      <ul>
+        <li>Prototyped and developed the flagship MVP using React Native and GraphQL.</li>
+        <li>Helped create and maintain the AWS backend and DevOps infrastructure.</li>
+        <li>
+          Developed CRM and document management solutions to optimize operations in the NYC real
+          estate market.
+        </li>
+      </ul>
     </div>
-    <ul>
-      <li>Developed core fintech MVP using React Native and Node.js.</li>
-      <li>Implemented a virtual currency system, geolocation services and advanced map capabilities.</li>
-    </ul>
-  </div>
 
-  <div class="hr">
-    <p><b>Education</b></p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1.5">
-      <line x1="0" y1="1" x2="100" y2="1" />
-    </svg>
-  </div>
-
-  <div>
-    <div class="pos">
-      <p><b>BS in Computer Science</b></p>
-      <p class="lite"><b>2016 - 2020</b></p>
+    <div>
+      <div class="pos">
+        <p>React Native Developer</p>
+        <p>MoneyWhere</p>
+        <p class="lite">Mar 2019 - Dec 2019</p>
+      </div>
+      <ul>
+        <li>Developed core fintech MVP using React Native and Node.js.</li>
+        <li>
+          Implemented a virtual currency system, payments, geolocation services, and advanced map
+          capabilities.
+        </li>
+      </ul>
     </div>
-    <p class="fw400">PMAS University of Arid Agriculture</p>
-  </div>
 
-  <div class="hr">
-    <p><b>Skills</b></p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1.5">
-      <line x1="0" y1="1" x2="100" y2="1" />
-    </svg>
-  </div>
+    <div class="hr">
+      <p><b>Education</b></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1.5">
+        <line x1="0" y1="1" x2="100" y2="1" />
+      </svg>
+    </div>
 
-  <div class="skills">
-    <span>JavaScript</span>
-    <span>React</span>
-    <span>Next.js</span>
-    <span>React Native</span>
-    <span>Node.js</span>
-    <span>AWS</span>
-    <span>Rust</span>
-    <span>Dart</span>
-    <span>Flutter</span>
-    <span>GraphQL</span>
-    <span>gRPC</span>
-    <span>MongoDB</span>
-    <span>PostgreSQL</span>
-    <span>MySQL</span>
-  </div>
-</body>
+    <div>
+      <div class="pos">
+        <p>B.S. in Computer Science</p>
+        <p></p>
+        <p class="lite">2016 - 2020</p>
+      </div>
+      <p class="fw400">PMAS Arid Agriculture University</p>
+    </div>
+
+    <div class="hr">
+      <p><b>Skills</b></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1.5">
+        <line x1="0" y1="1" x2="100" y2="1" />
+      </svg>
+    </div>
+
+    <div class="skills">
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Next.js</span>
+      <span>Node.js</span>
+      <span>React Native</span>
+      <span>AWS</span>
+      <span>Docker</span>
+      <span>Rust</span>
+      <span>Dart</span>
+      <span>Flutter</span>
+      <span>GraphQL</span>
+      <span>MongoDB</span>
+      <span>PostgreSQL</span>
+    </div>
+  </body>
 </html>
