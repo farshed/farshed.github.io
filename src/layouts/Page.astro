@@ -16,10 +16,10 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
 
     <script>
       let setup = () => {
-        let i = document.getElementById('intersecter')!;
-        let t = document.querySelector('header')!;
+        let i = document.getElementById('intersecter');
+        let h = document.querySelector('header');
         new IntersectionObserver(([i]) =>
-          t.classList.toggle('elevated', !i.isIntersecting)
+          h.classList.toggle('elevated', !i.isIntersecting)
         ).observe(i);
       };
 

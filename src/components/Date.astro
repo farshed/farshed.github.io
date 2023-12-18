@@ -1,8 +1,8 @@
 ---
-const { date } = Astro.props;
+const { date, short } = Astro.props;
 
 const formattedDate = date.toLocaleDateString('en-us', {
-  month: 'short',
+  month: short ? 'short' : 'long',
   day: 'numeric',
   year: 'numeric'
 });
