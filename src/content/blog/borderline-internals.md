@@ -37,11 +37,11 @@ Some of the ways that a lack of sense of self manifests as include:
 
 ## Object Inconstancy
 
-Have you ever wondered why babies find peekaboo so amusing? That's because they lack another critical psychological tool to effectively conceptualize the world around them. This tool is called object permanence or object constancy. Object constancy is the understanding that things continue to exist even when they can no longer be sensed. In more abstract terms,
+Have you ever wondered why babies find peekaboo so amusing? That's because they lack a critical psychological tool to effectively conceptualize the world around them. This tool is called object permanence or object constancy. Object constancy is the understanding that things continue to exist even when they can no longer be sensed. In more abstract terms,
 
 > Object constancy is the ability to separate one's current experience of something from its mental representation.
 
-When the mother hides her face, the baby assumes that she has ceased to exist. This is because infants lack the ability to understand that others exist independently of their ability to sense them. As they explore the world around them and notice that things continue to exist regardless of their experience, they learn to rely on their mental representations and gradually grow out of this solipsistic worldview.
+When the mother hides her face and the baby can no longer see her, the baby assumes that she has ceased to exist. This is because infants lack the ability to understand that things exist independently of their ability to sense them. As they explore the world around them and notice that things continue to exist regardless of their experience, they learn to rely on their mental representations, gradually growing out of this solipsistic worldview.
 
 Again, owing to a number of reasons, some children fail to develop this understanding in their formative years. Of course, as adults, they might be able to understand this concept at a cognitive level but they do not feel so emotionally. As a result, they are unable to retain emotional bonds with others over distance and time.
 
