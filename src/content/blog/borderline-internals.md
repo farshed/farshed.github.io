@@ -8,7 +8,7 @@ In 1938, Adolph Stern [noticed](https://doi.org/10.1080/21674086.1938.11925367) 
 
 Four years later, Helene Deutsch [described](https://doi.org/10.1080/21674086.1942.11925501) what she referred to as the "als ob" or "as if" personality. People with this personality exhibited emotional disturbance and lacked a sense of their interior "self". They compensated by mimicking the emotions of others, becoming social chameleons who acted ‘as if’ they were someone else. They appeared well-adjusted and were even capable of a certain warmth, but in a number of circumstances, they betrayed a lack of emotional depth.
 
-Deutsch posited that these people had experienced a "real loss of object cathexis", impairing their ability to emotionally invest in others except in a very chaotic manner. She labeled them as "depersonalized", meaning that they behaved ‘as if’ the world was real, even when they felt it was not. In the 1960s, Otto Kernberg expanded on it by outlining the [borderline personality organization](https://doi.org/10.1177/000306516701500309) (BPO) in terms of identity diffusion, impaired reality testing, and primitive defense mechanisms. These personalities were later classified as "borderline states" presenting "narcissistic disorders" or according to Kohut, "disorders of the self".
+Deutsch posited that these people had experienced a "real loss of object cathexis", impairing their ability to emotionally invest in others except in a very chaotic manner. She called them "depersonalized", meaning that they behaved ‘as if’ the world was real even when they felt it was not. In the 1960s, Otto Kernberg expanded on it by outlining the [borderline personality organization](https://doi.org/10.1177/000306516701500309) (BPO) in terms of identity diffusion, impaired reality testing, and primitive defense mechanisms. These personalities were later classified as "borderline states" presenting "narcissistic disorders" or according to Kohut, "disorders of the self".
 
 In 1980, the condition was formalized into a diagnosis called Borderline Personality Disorder (BPD), sometimes also called Emotionally Unstable Personality Disorder (EUPD). BPD is characterized by dramatic, impulsive, excessively emotional, and maladaptive behavioural patterns. Those with BPD have difficulty managing emotions, report chaotic relationships, a poor sense of self, and have trouble staying grounded in the moment. Similar to other Cluster B disorders, BPD distorts how a person perceives themself and others around them.
 
@@ -26,12 +26,12 @@ As adults, they may be able to grasp this seemingly simple concept at a cognitiv
 
 Some of the ways that a lack of sense of self manifests as include:
 
-- **Identity Disturbance**: Unstable self-image and inability to maintain parts of one's identity.
-- **Lack of Ego Boundaries**: Lacking clear distinction between self and other.
+- **Identity disturbance**: Unstable self-image and inability to maintain parts of one's identity.
+- **Lack of ego boundaries**: Lacking clear distinction between self and other.
 - **Egocentrism**: Inability to accurately assume or understand any perspective other than one's own.
-- **External Locus of Control**: Belief that one's life is not in one's control. _"Things happen to me and not because of me."_
-- **Emotional Dysregulation**: Difficulty self-regulating emotions and overreliance on external factors or objects for mood stability.
-- **Lack of Self-Awareness**: Difficulty in perceiving one's own thoughts, feelings, and actions and understand their impact on oneself and others.
+- **External locus of control**: Belief that one's life is not in one's control. _"Things happen to me and not because of me."_
+- **Emotional dysregulation**: Difficulty self-regulating emotions and overreliance on external factors or objects for mood stability.
+- **Lack of self-awareness**: Difficulty in perceiving one's own thoughts, feelings, and actions and understand their impact on oneself and others.
 - **Alexithymia**: Difficulty in identifying and describing one's emotions.
 - **Impulsivity**: Making rash and inconsistent choices without fully considering the long-term consequences.
 
@@ -47,14 +47,14 @@ Again, owing to a number of reasons, some children fail to develop this understa
 
 This object inconstancy in adults results in attachment issues and becomes apparent in behaviour in the following ways:
 
-- **Emotional Impermanence**: Rapid changes in feelings towards people based on their immediate actions or presence.
-- **"Out of Sight, Out of Mind"**: Struggling to maintain emotional ties when separated, even briefly. The person may emotionally detach or seek new attachments.
-- **Fear of Abandonment**: Worrying that any separation, even temporary, means permanent loss or betrayal.
-- **Idealization and Devaluation**: Viewing someone as perfect when they are present and meeting needs, but seeing them as flawed or uncaring when they're not.
-- **Overreaction to Changes**: A minor change in someone’s behaviour or situation could lead to a disproportionate emotional response.
-- **Selective Memory**: Focusing on recent interactions to define the entire relationship, forgetting a longer history of positive or negative experiences.
-- **Need for Reassurance**: Constantly needing affirmation from loved ones to feel secure.
-- **Difficulty with Routine Separations**: Struggling with everyday situations like a partner going to work, leading to excessive anxiety or neediness.
+- **Emotional impermanence**: Rapid changes in feelings towards people based on their immediate actions or presence.
+- **"Out of sight, out of mind"**: Struggling to maintain emotional ties when separated, even briefly. The person may emotionally detach or seek new attachments.
+- **Fear of abandonment**: Worrying that any separation, even temporary, means permanent loss or betrayal.
+- **Idealization and devaluation**: Viewing someone as perfect when they are present and meeting needs, but seeing them as flawed or uncaring when they're not.
+- **Overreaction to changes**: A minor change in someone’s behaviour or situation could lead to a disproportionate emotional response.
+- **Selective memory**: Focusing on recent interactions to define the entire relationship, forgetting a longer history of positive or negative experiences.
+- **Need for reassurance**: Constantly needing affirmation from loved ones to feel secure.
+- **Difficulty with routine separations**: Struggling with everyday situations like a partner going to work, leading to excessive anxiety or neediness.
 
 ## Identity Disturbance
 
@@ -66,21 +66,21 @@ There are multiple theories on what exactly causes identity disturbance. In Pete
 
 Some of the ways that identity disturbance manifests in behaviour include:
 
-- **Unstable Self-Image**: Fluctuating views about oneself, often influenced by relationships or immediate circumstances.
-- **Chronic Feelings of Emptiness**: A pervasive sense that something is missing or incomplete.
-- **Inconsistent Behaviour**: Gross inconsistencies in behaviour over time and across situations.
-- **Transient Over-Identification**: A tendency to make temporary hyperinvestments in roles, value systems, world views, and relationships that ultimately break down.
-- **Shifting Goals and Values**: Changing career aspirations, religious beliefs, or personal goals frequently and without clear rationale.
-- **Fragmented Sense of History**: Difficulty integrating past experiences into a coherent life narrative, leading to a disjointed sense of self and a lack of sense of continuity over time.
-- **Sense of a Foreshortened Future**: Belief that one has a limited future and will not experience normal life events, such as career progression, marriage, or aging.
-- **Fragmented Self-States**: Inability to integrate multiple aspects of self into a coherent whole at any given time, leading to abrupt changes in personality and behaviour.
-- **Emotional Instability**: Emotions and self-perceptions are easily influenced by external factors.
-- **Sexual or Gender Identity Confusion**: Being unsure of one's sexual orientation and/or gender.
-- **External Dependency**: Relying excessively on others for validation and sense of self.
-- **Intolerance to Being Alone**: A need to be constantly surrounded by people or engaged in activities, to avoid confronting the inner emptiness.
-- **Sensation Seeking**: Engaging in reckless activities as a way to "feel alive" or define oneself.
-- **Changes in Appearance**: Making sudden and bizarre changes in one's appearance to cope with self-image issues.
-- **Commitment Issues**: Difficulty making or maintaining long-term commitments in various aspects of life, due to uncertainty about one's own identity.
+- **Unstable self-Image**: Fluctuating views about oneself, often influenced by relationships or immediate circumstances.
+- **Chronic feelings of emptiness**: A pervasive sense that something is missing or incomplete.
+- **Inconsistent behaviour**: Gross inconsistencies in behaviour over time and across situations.
+- **Transient over-identification**: A tendency to make temporary hyperinvestments in roles, value systems, world views, and relationships that ultimately break down.
+- **Shifting goals and values**: Changing career aspirations, religious beliefs, or personal goals frequently and without clear rationale.
+- **Fragmented sense of history**: Difficulty integrating past experiences into a coherent life narrative, leading to a disjointed sense of self and a lack of sense of continuity over time.
+- **Sense of a foreshortened future**: Belief that one has a limited future and will not experience normal life events, such as career progression, marriage, or aging.
+- **Fragmented self-states**: Inability to integrate multiple aspects of self into a coherent whole at any given time, leading to abrupt changes in personality and behaviour.
+- **Emotional instability**: Emotions and self-perceptions are easily influenced by external factors.
+- **Sexual or gender identity confusion**: Being unsure of one's sexual orientation and/or gender.
+- **External dependency**: Relying excessively on others for validation and sense of self.
+- **Intolerance to being alone**: A need to be constantly surrounded by people or engaged in activities, to avoid confronting the inner emptiness.
+- **Sensation seeking**: Engaging in reckless activities as a way to "feel alive" or define oneself.
+- **Changes in appearance**: Making sudden and bizarre changes in one's appearance to cope with self-image issues.
+- **Commitment issues**: Difficulty making or maintaining long-term commitments in various aspects of life, due to uncertainty about one's own identity.
 
 ## Impaired Mentalizing Ability
 
@@ -95,10 +95,10 @@ Correctly interpreting the above situations requires the ability to create accur
 
 - **Mirroring**: When an infant smiles, the mother smiles back. This mirroring helps the child recognize emotional states and understand they can be shared.
 - **Marking**: Caregivers not only mirror but also "mark" emotions by exaggerating facial expressions or tone of voice. For example, when the baby grabs a toy, the mother might show exaggerated excitement, helping the baby to understand the emotion of joy.
-- **Contingent Communication**: As the child grows, caregivers respond contingently to their actions, helping the child understand cause and effect in social interactions. For instance, if a toddler throws food, the caregiver may respond with a firm "no", teaching that actions have consequences.
-- **Theory of Mind**: Around ages 4-5, children start to understand that others have different perspectives. For example, a child hides a toy and realizes that others don't know where it is, resulting in the understanding that other minds hold different information.
-- **Emotional Regulation**: The caregiver helps the child name their emotions and teaches coping mechanisms. For example, a child is angry because they can't have candy. The parent names the emotion ("You're feeling angry") and offers a coping strategy ("Let's take deep breaths").
-- **Narrative Competence**: As they get older, children learn to build stories around their experiences, aided by their caregivers. For example, a child may tell their parent about their day, and the parent may respond by asking prompting questions that help the child create a coherent story of their experiences.
+- **Contingent communication**: As the child grows, caregivers respond contingently to their actions, helping the child understand cause and effect in social interactions. For instance, if a toddler throws food, the caregiver may respond with a firm "no", teaching that actions have consequences.
+- **Theory of mind**: Around ages 4-5, children start to understand that others have different perspectives. For example, a child hides a toy and realizes that others don't know where it is, resulting in the understanding that other minds hold different information.
+- **Emotional regulation**: The caregiver helps the child name their emotions and teaches coping mechanisms. For example, a child is angry because they can't have candy. The parent names the emotion ("You're feeling angry") and offers a coping strategy ("Let's take deep breaths").
+- **Narrative competence**: As they get older, children learn to build stories around their experiences, aided by their caregivers. For example, a child may tell their parent about their day, and the parent may respond by asking prompting questions that help the child create a coherent story of their experiences.
 
 If the caregiver is inconsistent, neglectful, or lacks the ability to effectively mentalize themselves, it can lead to impaired mentalization in the child. For instance, if a caregiver is emotionally unavailable and doesn't mirror the child's emotions, the child might struggle to understand their own emotional states, which can have long-term impacts on their emotional well-being and ability to mentalize.
 
@@ -106,13 +106,13 @@ According to Peter Fonagy and his colleagues, those with BPD lack the ability to
 
 Impaired mentalizing ability results in the following behaviours among others:
 
-- **Psychic Equivalence**: Inability to distinguish one's thoughts and feelings from external reality, leading to rigid thinking and a lack of self-reflection. _Feelings become facts._
-- **Emotional Dysregulation**: Struggling to understand one’s own emotional state, leading to poor emotional regulation.
-- **Impaired Empathy**: Inability to put oneself in the shoes of others and see from their perspective.
-- **Misreading Motives**: Frequently misinterpreting the intentions or motivations of others, leading to defensive or aggressive behaviour.
+- **Psychic equivalence**: Inability to distinguish one's thoughts and feelings from external reality, leading to rigid thinking and a lack of self-reflection. _Feelings become facts._
+- **Emotional dysregulation**: Struggling to understand one’s own emotional state, leading to poor emotional regulation.
+- **Impaired empathy**: Inability to put oneself in the shoes of others and see from their perspective.
+- **Misreading motives**: Frequently misinterpreting the intentions or motivations of others, leading to defensive or aggressive behaviour.
 - **Projection**: A tendency to attribute one's own feelings or behaviours to others without evidence.
-- **Emotional Impulsivity**: Reacting to situations without considering the underlying emotions or thoughts that fuel the behaviour.
-- **Premature Judgments**: Tendency to make snap judgments or reach premature conclusions about others' intentions or character without sufficient evidence.
+- **Emotional impulsivity**: Reacting to situations without considering the underlying emotions or thoughts that fuel the behaviour.
+- **Premature judgments**: Tendency to make snap judgments or reach premature conclusions about others' intentions or character without sufficient evidence.
 
 ## Lack of Whole Object Relations
 
@@ -122,38 +122,38 @@ In early childhood, the ego is not fully developed and employs defense mechanism
 
 Some of the ways that a lack of whole object relations reflects in behaviour include:
 
-- **Dichotomous Thinking**: Seeing the world in binaries with little room for nuance. _Perfect or horrible, friend or enemy, all or nothing._
+- **Dichotomous thinking**: Seeing the world in binaries with little room for nuance. _Perfect or horrible, friend or enemy, all or nothing._
 - **Idealization**: Seeing someone as perfect, often in the beginning stages of relationships.
 - **Devaluation**: Rapid shift to viewing someone as entirely bad or worthless, usually triggered by a perceived slight or disappointment.
-- **Emotional Volatility**: Extreme emotional reactions because people or events are not perceived in a nuanced way.
-- **Fear of Abandonment**: Anxiety about people leaving because they are not seen as reliable or constant.
-- **Short and Unstable Relationships**: Difficulty sustaining long-term relationships due to inconsistent views of others.
-- **Impulsive Actions**: Decision-making is often based on the current perception of people as all-good or all-bad, leading to poor long-term choices.
-- **Poor Conflict Resolution**: A tendency to cut off relationships instead of resolving disagreements due to the shift from idealization to devaluation.
-- **Trust Issues**: Skepticism about the reliability or integrity of others, as they are expected to disappoint or betray eventually.
-- **Paranoid Thinking**: A tendency to see hidden motives and conspiracies, especially when someone is in the "all-bad" category.
-- **Emotional Dependency**: A tendency to rely heavily on external validation, especially from those currently being idealized.
+- **Emotional volatility**: Extreme emotional reactions because people or events are not perceived in a nuanced way.
+- **Fear of abandonment**: Anxiety about people leaving because they are not seen as reliable or constant.
+- **Short and unstable relationships**: Difficulty sustaining long-term relationships due to inconsistent views of others.
+- **Impulsive actions**: Decision-making is often based on the current perception of people as all-good or all-bad, leading to poor long-term choices.
+- **Poor conflict resolution**: A tendency to cut off relationships instead of resolving disagreements due to the shift from idealization to devaluation.
+- **Trust issues**: Skepticism about the reliability or integrity of others, as they are expected to disappoint or betray eventually.
+- **Paranoid thinking**: A tendency to see hidden motives and conspiracies, especially when someone is in the "all-bad" category.
+- **Emotional dependency**: A tendency to rely heavily on external validation, especially from those currently being idealized.
 
 ## Emotional Dysregulation
 
 Emotional dysregulation, characterized by difficulties in managing emotional responses, is a key feature of Borderline Personality Disorder (BPD). Unlike other Cluster B disorders, BPD is particularly marked by intense, unstable emotions. It's not just the intensity of the emotions that distinguishes people with BPD; it's also their struggle to effectively cope with these feelings. They lack the skills to navigate extreme forms of paranoia, jealousy, anger, and insecurity — emotions that we all encounter to a lesser extent in our daily lives.
 
-Studies indicate structural and functional abnormalities in crucial brain regions such as the prefrontal cortex, amygdala, and hippocampus in individuals with BPD. These anomalies are directly linked to symptoms like emotional dysregulation, impulsivity, and memory issues. These neurological changes are generally considered to be epigenetic, influenced by both genetic and environmental factors. Several animal [studies](https://pubmed.ncbi.nlm.nih.gov/9287218/) have shown that exposure to significant or prolonged stress during early childhood or maternal stress during pregnancy can lead to a hyper-reactive stress-response system in the child. For more on this topic, see [here](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis#Early_life_stress).
+Studies indicate structural and functional abnormalities in crucial brain regions such as the prefrontal cortex, amygdala, and hippocampus in individuals with BPD. These anomalies are directly linked to symptoms like emotional dysregulation, impulsivity, and memory issues. These neurological changes are generally considered to be epigenetic, influenced by both genetic and environmental factors. Several animal [studies](https://pubmed.ncbi.nlm.nih.gov/9287218/) have shown that exposure to significant or prolonged stress during early childhood or maternal stress during pregnancy can lead to a hyper-reactive stress response system in the child. For more on this topic, see [here](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis#Early_life_stress).
 
 Some common manifestations of emotional dysregulation in behaviour include:
 
-- **Intense Mood Swings**: Rapid shifts between emotions like happiness, sadness, and anger.
-- **Emotional Intensity**: Experiencing emotions at a higher level of intensity compared to others, making them hard to control.
-- **Difficulty Calming Down**: Takes an unusually long time to return to a baseline emotional state after being upset.
-- **Cognitive Distortions**: Viewing situations through an emotional lens, leading to irrational beliefs or interpretations.
-- **Emotional Numbness**: Periods of feeling emotionally "flat" or disconnected as a coping mechanism.
-- **Lack of Shame Repair**: Inability to effectively acknowledge, process, and move past feelings of shame.
-- **Dissociation**: Experiencing periods of detachment from one's environment or self, often described as "zoning out".
+- **Intense mood swings**: Rapid shifts between emotions like happiness, sadness, and anger.
+- **Emotional intensity**: Experiencing emotions at a higher level of intensity compared to others, making them hard to control.
+- **Difficulty calming down**: Takes an unusually long time to return to a baseline emotional state after being upset.
+- **Cognitive distortions**: Viewing situations through an emotional lens, leading to irrational beliefs or interpretations.
+- **Emotional numbness**: Periods of feeling emotionally "flat" or disconnected as a coping mechanism.
+- **Lack of shame repair**: Inability to effectively acknowledge, process, and move past feelings of shame.
+- **Dissociation**: Experiencing periods of detachment from one's environment or self, often described as "not feeling real" or "feeling outside one's body".
 - **Hyper-reactivity**: Overreacting to minor triggers or perceived slights, leading to escalated emotional responses.
 - **Impulsivity**: Acting on urges without considering the consequences, leading to risky behaviour.
-- **Chronic Anxiety or Worry**: Persistent feelings of unease or nervousness, often without a specific reason.
-- **Substance Abuse**: Using drugs or alcohol as coping mechanisms to regulate emotions.
-- **Psychosomatic Issues**: Experiencing physical manifestations like headaches or stomach issues due to constant emotional strain.
+- **Chronic anxiety or worry**: Persistent feelings of unease or nervousness, often without a specific reason.
+- **Substance abuse**: Using drugs or alcohol as coping mechanisms to regulate emotions.
+- **Psychosomatic issues**: Experiencing physical manifestations like headaches or stomach issues due to constant emotional strain.
 
 ## Cognitive Distortions
 
@@ -161,11 +161,11 @@ One of the features of Kernberg's borderline personality organization (BPO) is g
 
 These gaps in reality testing are evident in behaviour in the following ways:
 
-- **Projective Identification**: Attributing one's own unacceptable feelings to another person and then reacting as if that person actually possesses those qualities.
-- **Emotional Flooding**: Intense emotional states that overwhelm the person's capacity to see situations realistically, often leading to impulsive actions.
-- **Paranoid Thinking**: Temporary, stress-induced states of suspiciousness or the belief that others are malevolent, without substantial evidence.
-- **Impaired Social Judgment**: Making decisions based on distorted perceptions, leading to inappropriate social interactions or conflict.
-- **Self-Destructive Behaviour**: Engaging in harmful actions towards oneself based on distorted beliefs or impulses, without fully grasping the consequences.
+- **Projection**: Attributing one's own unacceptable feelings to another person and then reacting as if that person actually possesses those qualities.
+- **Emotional flooding**: Intense emotional states that overwhelm the person's capacity to see situations realistically, often leading to impulsive actions.
+- **Paranoid thinking**: Temporary, stress-induced states of suspiciousness or the belief that others are malevolent, without substantial evidence.
+- **Impaired social judgment**: Making decisions based on distorted perceptions, leading to inappropriate social interactions or conflict.
+- **Self-destructive behaviour**: Engaging in harmful actions towards oneself based on distorted beliefs or impulses, without fully grasping the consequences.
 
 In Aaron Beck's cognitive model of BPD, an important factor in the development of BPD is cognitive bias. This model hypothesizes that those with BPD process information through a specific set of three schemas of themselves and others, which are:
 
@@ -178,13 +178,13 @@ These schemas are deeply-ingrained core beliefs and serve as the lens through wh
 Some of the ways that these cognitive distortions manifest in behaviour include:
 
 - **Hypervigilance**: Being always on alert for signs of danger or rejection.
-- **Defensive Behaviour**: Quick to react defensively to perceived criticisms or threats.
-- **Victim Mentality**: A tendency to see oneself as the victim of events and circumstances rather than a participant.
-- **Paranoid Ideation**: A persistent belief that others hate, envy, or are conspiring against oneself.
-- **Zero-sum Mindset**: Seeing the world as an eat-or-get-eaten place and acting accordingly.
-- **Lack of Trust**: Finding it difficult to trust others, always suspecting hidden motives.
+- **Defensive behaviour**: Quick to react defensively to perceived criticisms or threats.
+- **Victim mentality**: A tendency to see oneself as the victim of events and circumstances rather than a participant.
+- **Paranoid ideation**: A persistent belief that others hate, envy, or are conspiring against oneself.
+- **Zero-sum mindset**: Seeing the world as an "eat or get eaten" place and acting accordingly.
+- **Lack of trust**: Finding it difficult to trust others, always suspecting hidden motives.
 - **Self-sabotage**: Undermining one's own efforts, fearing success exposes one to scrutiny or danger.
-- **Disgust Reactivity**: Heightened feelings of disgust or irritability towards things that others find neutral. Self-disgust is projected outwards.
+- **Disgust reactivity**: Heightened feelings of disgust or irritability towards things that others find neutral. Self-disgust is projected outwards.
 - **Rumination**: Analyzing situations excessively in a bid to avoid potential dangers or embarrassments.
 
 ## Comorbidity
