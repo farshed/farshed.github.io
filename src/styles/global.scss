@@ -1,3 +1,22 @@
+@mixin font-def($family, $style, $weight, $file) {
+  @font-face {
+    font-family: $family;
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+    src: url('/fonts/#{$file}.woff2') format('woff2');
+  }
+}
+
+@include font-def('InterVariable', normal, 100 900, 'InterVar');
+@include font-def('InterVariable', italic, 100 900, 'InterVar-i');
+@include font-def('Inter', normal, 400, 'Inter-400');
+@include font-def('Inter', italic, 400, 'Inter-400i');
+@include font-def('Inter', normal, 500, 'Inter-500');
+@include font-def('Inter', italic, 500, 'Inter-500i');
+@include font-def('Inter', normal, 700, 'Inter-700');
+@include font-def('Inter', italic, 700, 'Inter-700i');
+
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
 $max-header-width: 62ch;
@@ -17,7 +36,7 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   color-scheme: light dark;
   font-family: 'Inter', sans-serif;
   @supports (font-variation-settings: normal) {
-    font-family: 'Inter var', sans-serif;
+    font-family: 'InterVariable', sans-serif;
   }
   letter-spacing: -0.015rem;
 
