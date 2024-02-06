@@ -26,7 +26,7 @@ Another notable alumnus of Taxila's ancient university was Chandragupta Maurya, 
 
 ## Archeological Sites
 
-Taxila's archeological sites contain several stupas (sacred burial mounds) and Buddhist monasteries. One of the most interesting ones is _**Dharmarajika Stupa**_, located just a few minutes east of the Taxila Museum.
+Taxila's archeological sites contain several stupas (sacred burial mounds) and Buddhist monasteries. One of the most interesting is _**Dharmarajika Stupa**_, located just a few minutes east of the Taxila Museum.
 
 ![Dharmarajika Stupa and Monastery](/media/blog/taxila/dharmarajika.jpg)
 
