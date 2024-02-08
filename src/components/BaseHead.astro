@@ -15,7 +15,7 @@ const { title, description, cover } = Astro.props;
   [400, 500, 700].map((wght) => (
     <link
       rel="preload"
-      href={`/fonts/Inter-${400}.woff2`}
+      href={`/fonts/Inter-${wght}.woff2`}
       as="font"
       type="font/woff2"
       crossorigin="anonymous"
