@@ -2,6 +2,7 @@
 title: 'Our Father Who Art Sindhu'
 description: 'Tracing the flow and significance of Indus through history'
 pubDate: 'February 10 2024'
+cover: '/media/blog/sindhu.webp'
 ---
 
 > Sindhu in might surpasses all the streams that flow. \[...] Like floods of rain that fall in thunder from the cloud, so Sindhu rushes on bellowing like a bull.
