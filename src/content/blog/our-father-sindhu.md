@@ -14,7 +14,7 @@ It was later called _Indos_ or _Indus_ by the ancient Greeks during the time of 
 
 I think it's safe to say that there haven't been many instances in history where a land and its inhabitants came to be identified by the name of a river. This is a testament to the cultural and spiritual influence of Sindhu in shaping Indian society throughout history.
 
-One of the earliest foreign historical records that we have of India comes from a royal inscription on a statue from Ancient Sumer, which reads:
+One of the earliest foreign historical records that we have of India comes from a royal inscription on a statue from ancient Sumer, which reads:
 
 > Ships from Meluhha, Magan and Dilmun made fast at the docks of Akkad.
 
