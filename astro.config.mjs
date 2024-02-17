@@ -19,7 +19,7 @@ export default defineConfig({
       ]
     ],
     shikiConfig: {
-      theme: 'github-light'
+      theme: 'github-dark'
       // https://shikiji.netlify.app/guide/dual-themes#light-dark-dual-themes
       // experimentalThemes: {
       //   light: 'github-light',

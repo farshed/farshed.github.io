@@ -108,9 +108,9 @@ b {
 a {
   cursor: pointer;
   font-weight: 500;
-  color: var(--link);
+  color: inherit;
   transition: opacity 0.3s;
-  text-decoration: none;
+  // text-decoration: none;
   &:hover {
     opacity: 0.75;
   }
@@ -144,7 +144,8 @@ header {
     display: inline-block;
     font-size: 1.2rem;
     line-height: 1;
-    color: var(--text);
+    text-decoration: none;
+    // color: var(--text);
   }
 }
 
@@ -156,7 +157,8 @@ nav > ul {
   padding-inline: 0;
   a {
     font-size: 0.95rem;
-    color: var(--text);
+    text-decoration: none;
+    // color: var(--text);
   }
 }
 
@@ -291,11 +293,22 @@ table {
   }
 }
 
+code,
 pre {
   font-family: $font-mono;
-  font-size: 0.9rem;
+  letter-spacing: normal;
+}
+
+code {
+  font-size: 0.95rem;
+}
+
+pre {
   padding: 1rem;
   margin-bottom: 1.4rem;
+  span {
+    font-size: 0.8rem;
+  }
 }
 
 .err-code {
