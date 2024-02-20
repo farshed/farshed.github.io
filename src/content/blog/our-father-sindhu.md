@@ -6,7 +6,7 @@ cover: '/media/blog/sindhu.webp'
 ---
 
 > Sindhu in might surpasses all the streams that flow. \[...] Like floods of rain that fall in thunder from the cloud, so Sindhu rushes on bellowing like a bull.
-> **Rigveda, Book 10, Hymn 75**
+> **Rigveda 10.75**
 
 When Aryans first arrived in the Indian Subcontinent, they must have been left dumbfounded by the vast expanse of the Indus River. In their awe, they named it _Sindhu_, a Sanskrit term meaning "sea" or "ocean". After the split of Indo-Iranian culture into Iranian and Indo-Aryan in around 2000 BCE, _Sindhu_ gradually [became](https://en.wikipedia.org/wiki/Proto-Iranian_language#Development_into_Old_Iranian) _Hindu_ in Old Persian and the floodplains it flowed through came to be known as "_Hindu Astan_".
 
