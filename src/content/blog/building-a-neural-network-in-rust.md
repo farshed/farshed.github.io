@@ -2,6 +2,7 @@
 title: 'Building a Neural Network in Rust (From Scratch)'
 description: "Let's implement a single-layer perceptron and teach it to do math"
 pubDate: 'February 21 2024'
+cover: '/media/blog/neural-net/cover.webp'
 ---
 
 Let's build a neural network from scratch to truly understand how they work. And by scratch, I mean without using any fancy ML or linear algebra libraries. We're going to build a single-layer perceptron, the simplest neural network there is, and then teach it to perform addition.
@@ -28,11 +29,11 @@ impl NeuralNetwork {
 
 Neurons in a neural network are grouped into levels called layers. Each layer processes the input in some way and each layer's output serves as input to the next layer. The first layer receives the initial input, and the last layer produces the final output. Layers in between are called _hidden layers_ and help in extracting and transforming features from the data.
 
-![Deep neural network](/media/blog/deep-neural-net.webp)
+![Deep neural network](/media/blog/neural-net/deep-neural-net.webp)
 
 Each circle represents a neuron and each line, a connection. You can see that each neuron in a layer is connected to every neuron in the next layer.
 
-![Single-layer perceptron](/media/blog/perceptron.webp)
+![Single-layer perceptron](/media/blog/neural-net/perceptron.webp)
 
 The neural network we're building looks like this. It has two input neurons (one for each number) and an output neuron. Note that it doesn't have any hidden layers.
 
