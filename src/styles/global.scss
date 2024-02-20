@@ -298,17 +298,18 @@ code,
 pre {
   font-family: $font-mono;
   letter-spacing: normal;
+  tab-size: 3;
 }
 
 code {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
 }
 
 pre {
   padding: 1rem;
   margin-bottom: 1.4rem;
   span {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
 }
 

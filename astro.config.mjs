@@ -1,16 +1,19 @@
-import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
-import rehypeExternalLinks from 'rehype-external-links';
+import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
+import sitemap from '@astrojs/sitemap';
+import rehypeExternalLinks from 'rehype-external-links';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
-// https://astro.build/config
 export default defineConfig({
   site: 'https://farshed.me',
   compressHTML: true,
   integrations: [mdx(), sitemap(), react()],
   markdown: {
+    remarkPlugins: [remarkMath],
     rehypePlugins: [
+      rehypeKatex,
       [
         rehypeExternalLinks,
         {
