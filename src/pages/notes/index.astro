@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
-import PostItem from '../../components/PostItem.astro';
+import NotesItem from '../../components/NotesItem.astro';
 import { SITE_TITLE } from '../../consts';
 
 const allPosts = (await getCollection('notes')).sort(
@@ -15,7 +15,8 @@ const meta = {
 ---
 
 <Page {...meta}>
+  <p>My (mostly incomplete) personal notes on arbitrary topics.</p>
   <ul class="post-list">
-    {allPosts.map((post) => <PostItem post={post} />)}
+    {allPosts.map((post) => <NotesItem post={post} />)}
   </ul>
 </Page>

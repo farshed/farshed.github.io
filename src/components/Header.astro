@@ -1,9 +1,9 @@
 ---
 const pathname = Astro.url.pathname.replaceAll(/^\/+|\/+$/g, '');
 const links = {
-  Blog: 'blog'
+  notes: 'Notes',
+  blog: 'Blog'
   // Lab: 'lab'
-  // Resume: 'faisal-arshed-resume.pdf'
   // reading: 'Reading',
 };
 ---
@@ -16,7 +16,7 @@ const links = {
   <nav>
     <ul>
       {
-        Object.entries(links).map(([label, path]) => (
+        Object.entries(links).map(([path, label]) => (
           <li>
             <a href={`/${path}`} class={path === pathname ? 'active' : ''}>
               {label}

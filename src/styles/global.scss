@@ -130,13 +130,14 @@ header {
   column-gap: 1.5rem;
   row-gap: 0.5rem;
   max-width: $max-header-width;
-  padding: 1rem max(calc((100vw - $max-header-width) / 2), 1rem);
+  padding: 0.7rem max(calc((100vw - $max-header-width) / 2), 1rem);
   background-color: inherit;
   transition: box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.25);
 
   &.elevated {
     box-shadow: 0 2px 5px 1px var(--shadow);
-    backdrop-filter: blur(5px);
   }
 
   h1,
@@ -250,9 +251,8 @@ hr {
     margin-bottom: 1.4rem;
   }
 
-  ul,
-  ol {
-    margin-top: -0.2rem;
+  & > ul,
+  & > ol {
     margin-bottom: 1.2rem;
     display: flex;
     flex-direction: column;

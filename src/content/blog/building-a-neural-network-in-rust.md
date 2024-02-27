@@ -5,6 +5,10 @@ pubDate: 'February 21 2024'
 cover: '/media/blog/neural-net/cover.webp'
 ---
 
+Read on [dev.to](https://dev.to/farshed/building-a-neural-network-in-rust-from-scratch-5bm1)
+
+---
+
 Let's build a neural network from scratch to truly understand how they work. And by scratch, I mean without using any fancy ML or linear algebra libraries. We're going to build a single-layer perceptron, the simplest neural network there is, and then teach it to perform addition.
 
 I'll be using Rust but you can follow along using the JavaScript or Python implementations if that's what you prefer. Code is available [here](https://github.com/farshed/neuron-oxide).
@@ -193,7 +197,7 @@ fn main() {
 	let mut neural_net = NeuralNetwork::new();
 
 	for input in test_inputs.iter() {
-		// Pass a set of inputs (two numbers) and get a prediction back which should be a sum of the two numbers
+		// Pass a set of inputs (two numbers) and get a prediction back which should be the sum of the two numbers
 		let prediction = neural_net.predict(input);
 		println!("Input: {:?}, Prediction: {:.1}", input, prediction);
 	}
