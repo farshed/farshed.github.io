@@ -30,16 +30,16 @@ The Buddha outlined the path to liberation through the Four Noble Truths and the
 ### The Eightfold Path
 
 - **Wisdom**:
-  - Right View: Understanding things as they really are, especially the Four Noble Truths.
-  - Right Intention: Commitment to ethical and mental self-improvement.
+  - **Right View**: Understanding things as they really are, especially the Four Noble Truths.
+  - **Right Intention**: Commitment to ethical and mental self-improvement.
 - **Ethical Conduct**:
-  - Right Speech: Avoiding false, harmful, or harsh words.
-  - Right Action: Conducting oneself ethically and harmlessly.
-  - Right Livelihood: Earning a living in a way that doesn’t harm others.
+  - **Right Speech**: Avoiding false, harmful, or harsh words.
+  - **Right Action**: Conducting oneself ethically and harmlessly.
+  - **Right Livelihood**: Earning a living in a way that doesn’t harm others.
 - **Mental Discipline**:
-  - Right Effort: Cultivating positive states of mind; preventing negative states.
-  - Right Mindfulness: Being fully aware of one’s thoughts, feelings, and actions.
-  - Right Concentration: Developing deep concentration through meditation.
+  - **Right Effort**: Cultivating positive states of mind; preventing negative states.
+  - **Right Mindfulness**: Being fully aware of one’s thoughts, feelings, and actions.
+  - **Right Concentration**: Developing deep concentration through meditation.
 
 ### The Buddha
 
