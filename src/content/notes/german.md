@@ -9,20 +9,20 @@ pubDate: 'February 22 2024'
 Here's how different letters sound in German.
 
 - **ie** - Pronounced like the **ee** in "see".
-- **ei** - Pronounced like the English "eye" or like **i** in "fire"
+- **ei** - Pronounced like the English "eye" or like **i** in "fire".
 - **eu** - Pronounced like **oy** in "boy".
 - **ch** - In most cases, it's pronounced like the English **sh** as in "sheep". In some cases, it's a guttural **kh** sound, similar to the Scottish "loch".
 - **d** - Pronounced similar to the English **d** but if it's at the end of a word or syllable, it's pronounced like **t**.
-- **g** - Pronounced similar to the English **g** in most cases but if at the end of a word, it's sometimes pronounced like **sh**. For example, **billig** (meaning "cheap") is pronounced like "billish".
+- **g** - Pronounced similar to the English **g** in most cases but if at the end of a word, it's sometimes pronounced like **sh**. For example, **billig** (meaning "cheap") is pronounced "billish".
 - **j** - Pronounced like the **y** in "yes".
-- **r** - Pronounced as a guttural or uvular sound, similar to French. At the end of a word or syllable, it can be very weak or nearly silent.
+- **r** - Pronounced as a guttural or uvular sound, similar to the French **r** or Urdu **غ**. At the end of a word or syllable, it can be very weak or nearly silent.
 - **v** - Usually pronounced like **f**, but in some foreign words it can be like the English **v**.
 - **z** - Pronounced like **ts** in "cats".
 - **s** - At the beginning of words or syllables, it's pronounced like **z** in "zoo". Elsewhere, it's like the English **s**.
-- **sp** and **st** at the beginning of a word are pronounced as "shp and "sht," respectively.
+- **sp** and **st** at the beginning of a word are pronounced as "shp" and "sht", respectively.
 - **ß** (Eszett or sharp S) - Pronounced like a sharp **s** as in "hiss".
-- **w** - Pronounced like **v**
-- **h** - Pronounced as in English at the beginning of a syllable. Silent if it follows a vowel in the same syllable.
+- **w** - Pronounced like English **v**.
+- **h** - Pronounced similar to English at the beginning of a syllable. Silent if it follows a vowel in the same syllable.
 
 ## Pronomen / Pronouns
 
@@ -80,19 +80,12 @@ Unlike English, German adverbs follow the main verb rather than precede it.
 
 ## Possessivpronomen / Possessive Pronouns
 
-- mein, dein - (my, your): Masculine/neuter nominative singular.
-  - _**Mein** Hund ist klug (**My** dog is smart)_ - "Mein" because _Hund_ is masculine.
-  - _**Dein** Hund ist klug (**Your** dog is smart)_ - "Mein" because _Hund_ is masculine.
-- meine, deine - (my, your): Feminine nominative and accusative singular, plural for all genders in nominative and accusative.
-  - _**Meine** Katze ist groß (**My** cat is tall)_ - "Meine" because _Katze_ is feminine.
-  - **Deine** Katze ist groß (**Your** cat is tall)_ - "Meine" because \_Katze_ is feminine.
-- meinen, deinen - (my, your): Masculine accusative singular.
-  - _Ich liebe **meinen/deinen** Hund (I love **my/your** dog)_ - "Meinen" because accusative case and because _Hund_ is masculine.
-- Dein - (your):
-- Deine - (your):
-- Deinen - (your):
-- Sein
-- Seine
+- **mein, dein** - (my, your): Masculine/neuter nominative singular.
+  - _**Mein/Dein** Hund ist klug (**My/Your** dog is smart)_.
+- **meine, deine** - (my, your): Feminine nominative and accusative singular, plural for all genders in nominative and accusative.
+  - _**Meine/Deine** Katze ist groß (**My/Your** cat is tall)_ - Possessive is suffixed with "e" because the noun (Katze) is feminine.
+- **meinen, deinen** - (my, your): Masculine accusative singular.
+  - _Ich liebe **meinen/deinen** Hund (I love **my/your** dog)_ - "Meinen/Deinen" because of accusative case and because the noun (Hund) is masculine.
 
 ## Konjunktionen / Conjunctions
 
