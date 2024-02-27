@@ -6,7 +6,7 @@ pubDate: 'February 24 2024'
 
 ### Samsara
 
-All beings are trapped in a continuous cycle of birth, death, and rebirth called samsara. This cycle is characterized by suffering (dukkha) and is driven by ignorance (avidya), desire (tanha) and karma (actions).
+All beings are trapped in a continuous cycle of birth, death, and rebirth called samsara. This cycle is characterized by suffering (dukkha) and is driven by ignorance (avidya), desire (tanha) and actions (karma).
 
 ### Karma
 
