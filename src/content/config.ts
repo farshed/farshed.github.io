@@ -8,7 +8,8 @@ const blog = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
-    cover: z.string().optional()
+    cover: z.string().optional(),
+    redirectURL: z.string().optional()
   })
 });
 
