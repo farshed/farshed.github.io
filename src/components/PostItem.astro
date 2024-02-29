@@ -3,11 +3,14 @@ import Date from './Date.astro';
 
 const {
   slug,
-  data: { title, pubDate }
+  data: { title, pubDate, redirectURL }
 } = Astro.props.post;
+
+const href = redirectURL ? redirectURL : `/blog/${slug}`;
+const target = redirectURL ? '_blank' : '_self';
 ---
 
 <li class="post-item">
-  <a href={`/blog/${slug}`}>{title}</a>
+  <a href={href} target={target}>{title}</a>
   <Date date={pubDate} short />
 </li>

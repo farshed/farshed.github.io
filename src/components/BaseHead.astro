@@ -8,7 +8,7 @@ const { title, description, cover, redirectURL } = Astro.props;
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="generator" content={Astro.generator} />
-{redirectURL && <meta http-equiv="refresh" content={`"0; url=${redirectURL}"`} />}
+{redirectURL && <meta http-equiv="refresh" content={`0; url=${redirectURL}`} />}
 
 <link rel="sitemap" href="/sitemap-index.xml" />
 
