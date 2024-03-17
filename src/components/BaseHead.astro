@@ -11,13 +11,19 @@ const { title, description, cover, redirectURL } = Astro.props;
 {redirectURL && <meta http-equiv="refresh" content={`0; url=${redirectURL}`} />}
 
 <link rel="sitemap" href="/sitemap-index.xml" />
-
+<!-- 
 <link
   rel="preload"
   href="/fonts/Inter-400.woff2"
   as="font"
   type="font/woff2"
   crossorigin="anonymous"
+/> -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap"
+  rel="stylesheet"
 />
 
 <link

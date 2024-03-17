@@ -10,12 +10,12 @@
 
 // @include font-def('InterVariable', normal, 100 900, 'InterVar');
 // @include font-def('InterVariable', italic, 100 900, 'InterVar-i');
-@include font-def('Inter', normal, 400, 'Inter-400');
-@include font-def('Inter', italic, 400, 'Inter-400i');
-@include font-def('Inter', normal, 500, 'Inter-500');
-@include font-def('Inter', italic, 500, 'Inter-500i');
-@include font-def('Inter', normal, 700, 'Inter-700');
-@include font-def('Inter', italic, 700, 'Inter-700i');
+// @include font-def('Inter', normal, 400, 'Inter-400');
+// @include font-def('Inter', italic, 400, 'Inter-400i');
+// @include font-def('Inter', normal, 500, 'Inter-500');
+// @include font-def('Inter', italic, 500, 'Inter-500i');
+// @include font-def('Inter', normal, 700, 'Inter-700');
+// @include font-def('Inter', italic, 700, 'Inter-700i');
 
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
