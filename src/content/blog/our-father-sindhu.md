@@ -16,7 +16,7 @@ I think it's safe to say that there haven't been many instances in history where
 
 One of the earliest foreign historical records that we have of India comes from a royal inscription on a statue from ancient Sumer, which reads:
 
-> Ships from Meluhha, Magan and Dilmun made fast at the docks of Akkad.
+> "Ships from Meluhha, Magan and Dilmun made fast at the docks of Akkad."
 
 The inscription dates to the 24th century BCE and is attributed to Sargon of Akkad, founder of the Akkadian Empire and the first known emperor in recorded history. The land of Meluhha or Melukham, which is hinted as a trading partner of ancient Mesopotamia, is widely identified as the Indus Valley Civilization by modern scholars.
 
