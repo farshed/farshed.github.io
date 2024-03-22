@@ -105,6 +105,11 @@ b {
   font-weight: 500;
 }
 
+em {
+  font-style: normal;
+  font-variation-settings: 'slnt' -10;
+}
+
 a {
   cursor: pointer;
   font-weight: 500;
