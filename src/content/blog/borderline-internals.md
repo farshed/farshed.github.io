@@ -12,7 +12,7 @@ Deutsch posited that these people had experienced a "real loss of object cathexi
 
 In 1980, the condition was formalized into a diagnosis called Borderline Personality Disorder (BPD), sometimes also called Emotionally Unstable Personality Disorder (EUPD). BPD is characterized by dramatic, impulsive, excessively emotional, and maladaptive behavioural patterns. Those with BPD have difficulty managing emotions, report chaotic relationships, a poor sense of self, and have trouble staying grounded in the moment. Similar to other Cluster B disorders, BPD distorts how a person perceives themself and others around them.
 
-Having closely known someone with the said disorder and spent quite a bit of time trying to make sense of their erratic behaviour, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all [BPD behaviours](https://www.quora.com/What-are-the-common-signs-of-a-person-with-borderline-personality-disorder-BPD-that-they-show-to-others-without-knowing-it-themselves-and-what-should-people-look-out-for/answer/Faisal-Arshed) can be understood in terms of these core issues.
+Having experienced the chaos of a loved one with the said disorder, this post is an attempt at sharing what I have learned and come to understand about some of the core psychological issues underlying BPD and their developmental aspects. Almost all BPD behaviours can be understood in terms of these core issues.
 
 ## Lack of a Sense of Self
 
