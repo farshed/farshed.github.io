@@ -20,7 +20,7 @@ I still remember going to Hans Bethe and saying, "Hey, Hans! I noticed something
 
 He says, "Feynman, that's pretty interesting, but what's the importance of it? Why are you doing it?"
 
-Hah! I say. There's no importance whatsoever. I'm just doing it for the fun of it.'' His reaction didn't discourage me; I had made up my mind I was going to enjoy physics and do whatever I liked.
+"Hah!" I say. "There's no importance whatsoever. I'm just doing it for the fun of it." His reaction didn't discourage me; I had made up my mind I was going to enjoy physics and do whatever I liked.
 
 I went on to work out equations of wobbles. Then I thought about how electron orbits start to move in relativity. Then there's the Dirac Equation in electrodynamics. And then quantum electrodynamics. And before I knew it (it was a very short time) I was "playing" - working, really - with the same old problem that I loved so much, that I had stopped working on when I went to Los Alamos: my thesis-type problems; all those old-fashioned, wonderful things.
 
