@@ -41,10 +41,12 @@ The Buddha outlined the path to liberation through the Four Noble Truths and the
   - **Right Mindfulness**: Being fully aware of one’s thoughts, feelings, and actions.
   - **Right Concentration**: Developing deep concentration through meditation.
 
-### The Buddha
+### Buddha
 
-"Buddha" is a title for those who have achieved nirvana. A Buddha appears when the teachings of the previous Buddha have been forgotten. This cycle ensures that the dharma, or the teaching of the path to enlightenment, is available to beings in all eras.
+"Buddha" is a title for those who have achieved nirvana. A Buddha appears when the teachings of the previous Buddha have been forgotten. This cycle ensures that the dharma, or the teaching of the path to enlightenment, is available to beings in all eras. There are mentions of past Buddhas who lived in previous ages, and it is also prophesied that future Buddhas will appear.
 
 Siddhartha Gautama is the Buddha of the current era. Before his final lifetime, in which he reached full enlightenment and nirvana, he was born in many different forms and lives, during which he was accumulating the wisdom, merit, and qualities necessary to achieve Buddhahood.
 
-There are mentions of past Buddhas who lived in previous ages, and it is also prophesied that future Buddhas will appear. The most well-known future Buddha is Maitreya, who is expected to come when the teachings of Siddhartha Gautama have completely vanished.
+### Boddhisatva
+
+A Boddhisatva is someone who is on the path to achieving nirvana and becoming the buddha. The most well-known Boddhisatva is Boddhisatva Maitreya, the next buddha who is expected to come when the teachings of Siddhartha Gautama have completely vanished.
