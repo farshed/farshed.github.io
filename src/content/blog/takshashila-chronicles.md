@@ -48,7 +48,7 @@ _Remains of Sirkap, a city founded by the King Demetrius I of Bactria in around 
 
 The word _Sirkap_, meaning 'cut-off head', similar to the nearby hill range _Margala_, meaning 'cut-off throat', hints at the region's association with an ancient Buddhist legend. In the legend, Buddha, in one of his previous births, cuts off his head to feed a hungry lion. This theme of extraordinary self-sacrifice is central to _Jataka_ (stories from the past lives of the Buddha) and can be found in tales as far as Balochistan, sometimes also linked to other local saint figures. For example, in a legend associated with the ruins of Andan Dheri near Chakdara, Buddha assumes the form of a great serpent lying dead in the valley to save the people from famine. The starved people cut pieces from its body and feed themselves.
 
-One of the Sirkap artifacts that caught my eye was this terracotta "Ritual Tank" as I had seen it before in one of Salman Rashid's [videos](https://www.youtube.com/@odysseuslahori), though not in such good shape. Similar votive tanks have been discovered at several other sites across the subcontinent, including locations like Chirand and Kolhapur.
+One of the Sirkap artifacts that caught my eye was this terracotta "Ritual Tank" as I had seen it before in one of Salman Rashid's [videos](https://www.youtube.com/@odysseuslahori), though not in such good shape. Similar votive tanks have been discovered at several other sites across the Indian subcontinent, including locations like Chirand and Kolhapur.
 
 ![Ritual tank](/media/blog/taxila/ritual-tank.webp)
 
