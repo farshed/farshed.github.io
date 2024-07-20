@@ -144,15 +144,15 @@ em {
 
 a {
   cursor: pointer;
-  font-weight: 500;
   color: inherit;
-  transition: opacity 0.3s;
-  // text-decoration: none;
+}
+
+p a {
+  text-decoration: underline 1px var(--faded-text);
+  text-underline-offset: 2px;
   &:hover {
-    opacity: 0.75;
-  }
-  &:active {
-    opacity: 0.5;
+    text-decoration: underline 2px var(--text);
+    text-underline-offset: auto;
   }
 }
 
@@ -181,6 +181,7 @@ header {
   h1 > a {
     display: inline-block;
     font-size: 1.2rem;
+    font-weight: 500;
     line-height: 1;
     text-decoration: none;
     // color: var(--text);
@@ -195,6 +196,7 @@ nav > ul {
   padding-inline: 0;
   a {
     font-size: 0.95rem;
+    font-weight: 500;
     text-decoration: none;
     // color: var(--text);
   }
@@ -271,12 +273,13 @@ hr {
 
   a {
     font-size: 1.25rem;
+    font-weight: 500;
     text-decoration: none;
   }
 }
 
 #post-head {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 #title {
