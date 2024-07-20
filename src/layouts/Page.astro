@@ -10,22 +10,30 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
   <head>
     <BaseHead {...{ title, description, ...rest }} />
   </head>
-  <body>
+  <body class="light">
     <Header />
-    <div id="intersecter"></div>
+    <!-- <div id="intersecter"></div> -->
 
     <script>
-      let setup = () => {
-        let i = document.getElementById('intersecter');
-        let h = document.querySelector('header');
-        new IntersectionObserver(([i]) =>
-          h.classList.toggle('elevated', !i.isIntersecting)
-        ).observe(i);
+      const setup = () => {
+        const [key, lt, dk] = ['theme-pref', 'light', 'dark'];
+
+        const theme = {
+          get: () => (localStorage.getItem(key) === dk ? dk : lt),
+          set(v) {
+            document.body.className = v;
+            localStorage.setItem(key, v);
+          }
+        };
+
+        theme.set(theme.get());
+
+        const toggle = document.getElementById('sun');
+        toggle?.addEventListener('click', () => theme.set(theme.get() === dk ? lt : dk));
       };
 
-      ['interactive', 'complete'].includes(document.readyState)
-        ? setup()
-        : document.addEventListener('DOMContentLoaded', setup);
+      const ready = ['interactive', 'complete'].includes(document.readyState);
+      ready ? setup() : document.addEventListener('DOMContentLoaded', setup);
     </script>
 
     <main><slot /></main>

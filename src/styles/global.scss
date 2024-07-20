@@ -17,6 +17,13 @@
 // @include font-def('Inter', normal, 700, 'Inter-700');
 // @include font-def('Inter', italic, 700, 'Inter-700i');
 
+// $light-mode: #5200ff, #3cffd070, #172b4d, #fafafa, #0d2b5a1a, #844bfe, #c1c6cf,
+//   linear-gradient(40deg, #ff0080, #ff8c00 65%), 0;
+// $dark-mode: #21fea4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
+//   linear-gradient(40deg, #7a81ff, #a3dafb 75%), 1;
+
+// $light-mode:
+
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
 $max-header-width: 62ch;
@@ -34,18 +41,38 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 
 :root {
   color-scheme: light dark;
-  font-family: 'Inter', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, ui-sans-serif,
+    system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
   // @supports (font-variation-settings: normal) {
   //   font-family: 'InterVariable', sans-serif;
   // }
-  letter-spacing: -0.015rem;
+  // letter-spacing: -0.015rem;
 
+  // --text: #161b3d;
+  // --link: #3245ff;
+  // --faded-text: #161b3d60;
+  // --background: #fff;
+  // --selection: #3cffd070;
+  // --selection: #0281ff70;
+  // --shadow: #161b3d1a;
+}
+
+.light {
   --text: #161b3d;
-  --link: #3245ff;
-  --faded-text: #161b3d60;
+  --faded-text: #161b3dbb;
   --background: #fff;
   --selection: #3cffd070;
-  --shadow: #161b3d1a;
+  --sun-bg: linear-gradient(40deg, #ff0080, #ff8c00 65%);
+  --eclipse: 0;
+}
+
+.dark {
+  --text: #eee;
+  --faded-text: #a3a3a3;
+  --background: #161616;
+  --selection: #0281ff70;
+  --sun-bg: linear-gradient(40deg, #7a81ff, #a3dafb 75%);
+  --eclipse: 1;
 }
 
 html,
@@ -66,10 +93,15 @@ body {
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 div {
   box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
 }
 
 img,
@@ -106,8 +138,8 @@ b {
 }
 
 em {
-  font-style: normal;
-  font-variation-settings: 'slnt' -10;
+  font-style: italic;
+  // font-variation-settings: 'slnt' -10;
 }
 
 a {
@@ -125,9 +157,9 @@ a {
 }
 
 header {
-  z-index: 5;
-  position: fixed;
-  inset: 0 0 auto 0;
+  // z-index: 5;
+  // position: fixed;
+  // inset: 0 0 auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -135,15 +167,15 @@ header {
   column-gap: 1.5rem;
   row-gap: 0.5rem;
   max-width: $max-header-width;
-  padding: 0.7rem max(calc((100vw - $max-header-width) / 2), 1rem);
-  background-color: inherit;
-  transition: box-shadow 0.3s ease;
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.25);
+  padding: 1.2rem max(calc((100vw - $max-header-width) / 2), 1rem);
+  // background-color: inherit;
+  // transition: box-shadow 0.3s ease;
+  // backdrop-filter: blur(10px);
+  // background-color: rgba(255, 255, 255, 0.25);
 
-  &.elevated {
-    box-shadow: 0 2px 5px 1px var(--shadow);
-  }
+  // &.elevated {
+  //   box-shadow: 0 2px 5px 1px var(--shadow);
+  // }
 
   h1,
   h1 > a {
@@ -170,19 +202,20 @@ nav > ul {
 
 main {
   max-width: $max-body-width;
-  padding: 5.25rem max(calc((100vw - $max-body-width) / 2), 1rem);
+  // padding: 5.25rem max(calc((100vw - $max-body-width) / 2), 1rem);
+  padding: 2rem max(calc((100vw - $max-body-width) / 2), 1rem);
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  row-gap: 1.6rem;
+  // row-gap: 1rem;
 }
 
 #sun {
   position: relative;
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 1.1rem;
+  height: 1.1rem;
   border-radius: 100%;
-  background: var(--sun-gradient);
+  background: var(--sun-bg);
   cursor: pointer;
 
   & > div {
@@ -194,7 +227,7 @@ main {
     background-color: var(--background);
     transform: scale(var(--eclipse));
     transform-origin: top right;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
   }
 }
 
@@ -207,6 +240,7 @@ main {
 
 time {
   font-size: 0.88rem;
+  color: var(--faded-text);
 }
 
 hr {
@@ -242,9 +276,7 @@ hr {
 }
 
 #post-head {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px var(--faded-text) solid;
+  margin-bottom: 1rem;
 }
 
 #title {
@@ -272,8 +304,8 @@ hr {
   blockquote {
     width: 88%;
     font-size: 1.1rem;
-    // font-style: italic;
-    font-variation-settings: 'slnt' -10;
+    font-style: italic;
+    // font-variation-settings: 'slnt' -10;
     line-height: 1.6;
     margin: 1.8rem 0;
     padding-left: 1rem;
