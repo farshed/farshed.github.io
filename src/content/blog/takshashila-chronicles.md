@@ -56,4 +56,4 @@ The tank is possibly Jain in nature and seems to symbolize the four natural elem
 
 ![Buddha statue head](/media/blog/taxila/buddha-head.webp)
 
-_A Buddha's bust on display in Taxila Museum. Likely from Kushan Period._
+_A Buddha's bust on display in Taxila Museum, likely from Kushan Period._

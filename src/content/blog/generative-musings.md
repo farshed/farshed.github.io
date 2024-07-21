@@ -8,7 +8,7 @@ A collection of art experiments using DALL-E 3.
 
 ![Man stares into the abyss](/media/blog/dalle3/1.webp)
 
-_A Renaissance man stares into the abyss._
+_A Renaissance man stares into the abyss as the abyss stares back into the depths of his soul._
 
 ![Psychedelic realm of Anunnaki](/media/blog/dalle3/4.webp)
 

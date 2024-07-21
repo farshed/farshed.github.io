@@ -9,7 +9,7 @@ pubDate: 'July 7 2023'
 
 It's November of 1904. An engineer named John Ambrose Fleming is hunched over a contraption of glass and metal in his small, cluttered lab at University College London. The glow of the first practical vacuum tube fills the room as he places it into a circuit. This humble diode, capable of amplifying and switching electronic signals, provides the first glimmers of the coming age of electronic computers.
 
-Fast forward to the early 1940s. The Second World War rages on. The Ballistic Research Laboratory in Maryland needs a faster way to calculate ballistic firing tables for the artillery. So U.S. Army Ordnance Corps funds the construction of ENIAC, the world's first general-purpose, electronic computer. ENIAC hums into life in 1945. It looks more like a room than a tool — a vast, clattering array of metal and wire, vacuum tubes and punch cards, weighing in at a staggering 30 tons. And yet, it crunches numbers for the war effort with an accuracy and speed unparalleled by human hands, marking the dawn of a new era in technology.
+Fast forward to the early 1940s. The Second World War rages on. The Ballistic Research Laboratory in Maryland needs a faster way to calculate ballistic firing tables for the artillery. So U.S. Army Ordnance Corps funds the construction of ENIAC, the world's first general-purpose, electronic computer. ENIAC hums into life in 1945. It looks more like a room than a tool; A vast, clattering array of metal and wire, vacuum tubes and punch cards, weighing in at a staggering 30 tons. And yet, it crunches numbers for the war effort with an accuracy and speed unparalleled by human hands, marking the dawn of a new era in technology.
 
 The decades following the war usher in the era of mainframe computers, precursors to the corporate technology boom. It is now early 1980s. Computers have begun to shrink and are now finding their way out of university labs and corporate mainframes, and into our homes. They have now become desk-bound. Behold! The era of internet and personal computers is upon us. The static of a dial-up connection becomes a familiar sound in homes across the globe, as the World Wide Web weaves its way into everyday life.
 
@@ -39,7 +39,7 @@ I believe that in the coming decades (or perhaps in a matter of just years), we 
 
 ## Accelerating Change
 
-One important thing to keep in mind is that the 40 year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all — it's cumulatively exponential, i.e. With each technological discovery or innovation, the time to reach the next one becomes increasingly shorter, accelerating the pace of advancement. This is known as the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
+One important thing to keep in mind is that the 40 year cycle is not really an empirical metric by any means. It's just an observation that I used to weave a narrative and to get you to read my ramblings. In fact, the rate of technological advancement is not constant at all; It's cumulatively exponential, i.e. With each technological discovery or innovation, the time to reach the next one becomes increasingly shorter, accelerating the pace of advancement. This is known as the [Law of Accelerating Returns](https://www.thekurzweillibrary.com/the-law-of-accelerating-returns).
 
 ![Exponential change graph](/media/blog/accelerating-change.jpeg)
 
