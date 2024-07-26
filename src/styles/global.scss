@@ -22,8 +22,6 @@
 // $dark-mode: #21fea4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
 //   linear-gradient(40deg, #7a81ff, #a3dafb 75%), 1;
 
-// $light-mode:
-
 $one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
 $max-header-width: 62ch;
@@ -43,10 +41,6 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   color-scheme: light dark;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, ui-sans-serif,
     system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
-  // @supports (font-variation-settings: normal) {
-  //   font-family: 'InterVariable', sans-serif;
-  // }
-  // letter-spacing: -0.015rem;
 
   // --text: #161b3d;
   // --link: #3245ff;
@@ -139,7 +133,6 @@ b {
 
 em {
   font-style: italic;
-  // font-variation-settings: 'slnt' -10;
 }
 
 a {
@@ -157,9 +150,6 @@ p a {
 }
 
 header {
-  // z-index: 5;
-  // position: fixed;
-  // inset: 0 0 auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -168,14 +158,6 @@ header {
   row-gap: 0.5rem;
   max-width: $max-header-width;
   padding: 1.2rem max(calc((100vw - $max-header-width) / 2), 1rem);
-  // background-color: inherit;
-  // transition: box-shadow 0.3s ease;
-  // backdrop-filter: blur(10px);
-  // background-color: rgba(255, 255, 255, 0.25);
-
-  // &.elevated {
-  //   box-shadow: 0 2px 5px 1px var(--shadow);
-  // }
 
   h1,
   h1 > a {
@@ -184,7 +166,6 @@ header {
     font-weight: 500;
     line-height: 1;
     text-decoration: none;
-    // color: var(--text);
   }
 }
 
@@ -198,18 +179,15 @@ nav > ul {
     font-size: 0.95rem;
     font-weight: 500;
     text-decoration: none;
-    // color: var(--text);
   }
 }
 
 main {
   max-width: $max-body-width;
-  // padding: 5.25rem max(calc((100vw - $max-body-width) / 2), 1rem);
   padding: 2rem max(calc((100vw - $max-body-width) / 2), 1rem);
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  // row-gap: 1rem;
 }
 
 #sun {
@@ -237,8 +215,6 @@ main {
   display: flex;
   flex-direction: row;
   column-gap: 0.75rem;
-  font-size: 0.95rem;
-  padding-top: 0.5rem;
 }
 
 time {
@@ -309,7 +285,6 @@ hr {
     width: 88%;
     font-size: 1.1rem;
     font-style: italic;
-    // font-variation-settings: 'slnt' -10;
     line-height: 1.6;
     margin: 1.8rem 0;
     padding-left: 1rem;
