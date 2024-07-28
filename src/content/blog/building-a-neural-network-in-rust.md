@@ -3,7 +3,7 @@ title: 'Building a Neural Network in Rust (From Scratch)'
 description: "Let's implement a single-layer perceptron and teach it to do math"
 pubDate: 'February 21 2024'
 cover: '/media/blog/neural-net/cover.webp'
-redirectURL: 'https://dev.to/farshed/building-a-neural-network-in-rust-from-scratch-5bm1'
+redirectTo: 'https://dev.to/farshed/building-a-neural-network-in-rust-from-scratch-5bm1'
 ---
 
 Read on [dev.to](https://dev.to/farshed/building-a-neural-network-in-rust-from-scratch-5bm1)
