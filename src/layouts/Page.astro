@@ -13,7 +13,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
   <body class="light">
     <Header />
 
-    <script>
+    <script type="module" is:inline>
       const setup = () => {
         const [key, lt, dk] = ['theme-pref', 'light', 'dark'];
 
