@@ -8,7 +8,9 @@ cover: '/media/blog/sindhu.webp'
 > Sindhu in might surpasses all the streams that flow. \[...] Like floods of rain that fall in thunder from the cloud, so Sindhu rushes on bellowing like a bull.
 > **Rigveda 10.75**
 
-When Aryans first arrived in the Indian subcontinent, they must have been left dumbfounded by the vast expanse of the Indus River. In their awe, they named it _Sindhu_, a Sanskrit term meaning "sea" or "ocean". After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches around 2000 BCE, _Sindhu_ [became](https://en.wikipedia.org/wiki/Proto-Iranian_language#Development_into_Old_Iranian) _Hindu_ in Old Persian and the floodplains it flowed through came to be known as "_Hindu Astan_", meaning "Indus land".
+When Aryans first arrived in the Indian subcontinent, they must have been left dumbfounded by the vast expanse of the Indus River. In their awe, they named it _Sindhu_, a Sanskrit term meaning "sea" or "ocean".
+
+After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches around 2000 BCE, _Sindhu_ [became](https://en.wikipedia.org/wiki/Proto-Iranian_language#Development_into_Old_Iranian) _Hindu_ in Old Persian and the floodplains it flowed through came to be known as "_Hindu Astan_", meaning "Indus land".
 
 During the time of the Achaemenid Empire, _Hindu_ was adapted into Greek as _Indos_ before it became _Indus_ in Latin. As a result, the term _India_ was coined and used by Greek historians like Herodotus and Megasthenes to describe the lands, people, and culture of the region that lay east of the Indus.
 
@@ -18,7 +20,7 @@ One of the earliest foreign historical records that we have of India comes from 
 
 > "Ships from Meluhha, Magan and Dilmun made fast at the docks of Akkad."
 
-The inscription dates to the 24th century BCE and is attributed to Sargon of Akkad, founder of the Akkadian Empire and the first known emperor in recorded history. The land of Meluhha or Melukham, which is hinted in the inscription as a trading partner of ancient Mesopotamia, is widely identified as the Indus Valley Civilization by modern scholars.
+The inscription dates to the 24th century BCE and is attributed to Sargon of Akkad, founder of the Akkadian Empire and the earliest known emperor in recorded history. The land of Meluhha or Melukham, which is hinted in the inscription as a trading partner of ancient Mesopotamia, is widely identified as the Indus Valley Civilization by modern scholars.
 
 This was indeed around the same time when the Indus Valley Civilization was flourishing in the nurturing embrace of Sindhu. During this period, it developed sophisticated urban planning and architecture, a standardized system of weights and measures, and a complex writing system that remains undeciphered, all feats considered well ahead of their time.
 
