@@ -142,10 +142,9 @@ a {
 
 p a {
   text-decoration: underline 1px var(--faded-text);
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
   &:hover {
     text-decoration: underline 2px var(--text);
-    text-underline-offset: auto;
   }
 }
 
