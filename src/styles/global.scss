@@ -24,16 +24,10 @@ $max-body-width: 60ch;
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
   monospace;
 
-* {
-  margin: 0;
-  &::selection {
-    // background-color: var(--selection);
-    color: #3562f3;
-    background-color: #3562f30d;
-  }
-}
-
 :root {
+  --accent: #3562f3;
+  --accent-bg: #3562f30d;
+
   color-scheme: light dark;
   font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
     ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -52,7 +46,6 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   --text: #161b3d;
   --faded-text: #161b3dbb;
   --background: #fff;
-  --selection: #3cffd070;
   --sun-bg: linear-gradient(40deg, #ff0080, #ff8c00 60%);
   --eclipse: 0;
 }
@@ -61,9 +54,16 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   --text: #eee;
   --faded-text: #a3a3a3;
   --background: #161616;
-  --selection: #0281ff70;
   --sun-bg: linear-gradient(40deg, #7a81ff, #a3dafb 75%);
   --eclipse: 1;
+}
+
+* {
+  margin: 0;
+  &::selection {
+    color: var(--accent);
+    background-color: var(--accent-bg);
+  }
 }
 
 html,
@@ -140,8 +140,12 @@ a {
 p a {
   text-decoration: underline 1px var(--faded-text);
   text-underline-offset: 4px;
+  transition: all 0.2s ease;
   &:hover {
-    text-decoration: underline 2px var(--text);
+    color: var(--accent);
+    background-color: var(--accent-bg);
+    text-decoration: underline 1px var(--accent);
+    border-radius: 0.15rem;
   }
 }
 
