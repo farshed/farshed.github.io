@@ -28,7 +28,7 @@ _Siddhartha Gautama achieves Nirvana under the Bodhi tree as his past lives bear
 
 ![Cosmic complexities](/media/blog/dalle3/9.webp)
 
-_Planets and celestial bodies adrift in their orbits, representing life's unpredictable cycles. A figure stands amidst this cosmic dance, looking up, acknowledging the ever-changing sky._
+_A figure stands amidst the cosmic dance of celestial bodies, looking up, acknowledging the ever-changing sky._
 
 ![Renaissance man against the darkness](/media/blog/dalle3/3.webp)
 
