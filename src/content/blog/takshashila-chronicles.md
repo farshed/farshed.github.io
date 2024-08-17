@@ -20,13 +20,13 @@ A few years after, Chandragupta Maurya defeats Seleucus Nicator, a former genera
 
 Following the Mauryans, the city is ruled by the Indo-Greeks of Bactria, Indo-Scythians, and then the Indo-Parthians for a few centuries.
 
-In the 1st century CE, the city comes under Kushan rule, who govern it from the capital of Purushapura (Peshawar). After that, it briefly sees Gupta rule until it is devastated by the Huna invasions of India in the 5th century CE.
+In the 1st century CE, the city comes under Kushan rule, who govern it from the capital of Purushapura (Peshawar). After that, it briefly sees Gupta rule until its devastation by the Huna invasions of India in the 5th century CE.
 
 Xuanzang, a Chinese Buddhist monk, visits Taxila in 631 CE and describes it as desolate and ruined. Taxila ceases to appear in subsequent historical records.
 
-Fast forward to the 19th century, the ancient city of Takshashila mentioned in Indian and Greek historical records is completely lost to us. We only have a very vague idea of its possible location, thanks to the travel itineraries of Chinese pilgrims like Xuanzang.
+Fast forward to the 19th century, the ancient city of Takshashila mentioned in Indian and Greek historical records is completely lost to us. Historians only have a very vague idea of its possible location, thanks to the travel itineraries of Chinese pilgrims like Xuanzang.
 
-This all changes in 1863 when Alexander Cunningham, founder and the first director-general of the Archaeological Survey of India, correctly identifies the location of Takshashila at what locals call "Shah-Dheriyan" (Mounds of kings). In 1913, John Marshall begins the excavations of ruins, which last for 21 years.
+This all changes in 1863 when Alexander Cunningham, founder of the Archaeological Survey of India, correctly identifies the location of Takshashila at what locals call "Shah-Dheriyan" (Mounds of kings). In 1913, John Marshall begins the excavations of ruins, which last for 21 years.
 
 ## Significance as a Center of Education
 
