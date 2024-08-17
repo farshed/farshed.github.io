@@ -17,15 +17,18 @@
 // @include font-def('Inter', normal, 700, 'Inter-700');
 // @include font-def('Inter', italic, 700, 'Inter-700i');
 
+@include font-def('Apercu', normal, 100 900, 'apercu-regular');
+@include font-def('Apercu', italic, 50 900, 'apercu-italic');
+
 // $light-mode: #5200ff, #3cffd070, #172b4d, #fafafa, #0d2b5a1a, #844bfe, #c1c6cf,
 //   linear-gradient(40deg, #ff0080, #ff8c00 65%), 0;
 // $dark-mode: #21fea4, #7a81ff44, #b6c2cf, #1d2125, #00000020, #19bb71, #434950,
 //   linear-gradient(40deg, #7a81ff, #a3dafb 75%), 1;
 
-$one-rem: clamp(16px, calc(13.5px + 0.1vh + 0.3vw), 25px);
+$one-rem: clamp(16px, calc(14px + 0.1vh + 0.3vw), 25px);
 
-$max-header-width: 62ch;
-$max-body-width: 62ch;
+$max-header-width: 60ch;
+$max-body-width: 60ch;
 
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
   monospace;
@@ -39,8 +42,9 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 
 :root {
   color-scheme: light dark;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, ui-sans-serif,
-    system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+  font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans';
 
   // --text: #161b3d;
   // --link: #3245ff;
