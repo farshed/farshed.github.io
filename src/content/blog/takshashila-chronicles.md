@@ -8,7 +8,7 @@ cover: '/media/blog/taxila/cover.webp'
 > Then starting from the Indus, he \[Alexander] arrived at Taxila, a large and prosperous city, in fact the largest of those situated between the rivers Indus and Hydaspes.  
 > **Arrian, Anabasis Alexandri**
 
-The name _Taxila_ is the Greek approximation of the city's original name _Takshashila_. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively.
+The word _Taxila_ is the Greek approximation of the city's original name _Takshashila_. According to the Ramayana, Bharata, who was the younger half brother of Rama, founded Takshashila and the nearby city of Pushkalavati (modern Charsadda), naming them after his sons Taksha and Pushkala respectively.
 
 Hence, _Takshashila_ can be interpreted to mean 'Rock of Taksha' ([_shila_](https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%BE) being the Sanskrit term for 'rock' or 'stone'). Alternatively, _Taksha_ is sometimes translated from Sanskrit as 'cut' or 'carve', lending the name Takshashila a meaning akin to 'City of carved rock'.
 
