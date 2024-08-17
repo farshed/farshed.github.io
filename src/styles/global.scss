@@ -27,7 +27,9 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
 * {
   margin: 0;
   &::selection {
-    background-color: var(--selection);
+    // background-color: var(--selection);
+    color: #3562f3;
+    background-color: #3562f30d;
   }
 }
 
