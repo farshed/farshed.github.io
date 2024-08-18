@@ -13,7 +13,7 @@ In the classic nature vs. nurture debate, it is well-understood that our environ
 
 Now imagine two individuals who grow up in identical circumstances. They attend the same schools, have similar family structures, and experience comparable life events.
 
-Yet, as adults, they grow up to be different people. Person A is trusting and generous while person B is cynical and self-protective. This is nature.
+Yet, as adults, they grow up to be different people. Person A is trusting and generous while Person B is cynical and self-protective. This is nature.
 
 The difference boils down to their internalized worldviews.
 
