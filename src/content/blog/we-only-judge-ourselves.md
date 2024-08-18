@@ -23,6 +23,6 @@ Person B, on the other hand, has internalized a view of the world as hostile and
 
 These worldviews, once established, act as self-fulfilling prophecies. Person A's trust and openness invite positive interactions, reinforcing his belief in human goodness.
 
-However, person B's suspicion and defensiveness elicit guarded responses from others, confirming his pessimistic outlook. It's a feedback loop, with each interaction serving as evidence for their pre-existing beliefs.
+However, Person B's suspicion and defensiveness elicit guarded responses from others, confirming his pessimistic outlook. It's a feedback loop, with each interaction serving as evidence for their pre-existing beliefs.
 
 Neither of them is wrong, as they each only see a selected subset of reality, filtered through their own expectations and beliefs. But in the end, their worldviews end up saying a lot more about them than the world they inhabit.
