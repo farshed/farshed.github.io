@@ -24,7 +24,7 @@ In the 1st century CE, the city comes under Kushan rule, who govern it from the 
 
 Xuanzang, a Chinese Buddhist monk, visits Taxila in 631 CE and describes it as desolate and ruined. Taxila ceases to appear in subsequent historical records.
 
-Fast forward to the 19th century, the ancient city of Takshashila mentioned in Indian and Greek historical records is completely lost to us. Historians only have a very vague idea of its possible location, thanks to the travel itineraries of Chinese pilgrims like Xuanzang.
+Fast forward to the 19th century, the ancient city of Takshashila mentioned in Indian and Greek historical records is completely lost to us. Historians only have a very vague idea of its possible location, thanks to the travel itineraries of Chinese pilgrims like Faxian and Xuanzang.
 
 This all changes in 1863 when Alexander Cunningham, founder of the Archaeological Survey of India, correctly identifies the location of Takshashila at what locals call "Shah-Dheriyan" (Mounds of kings). In 1913, John Marshall begins the excavations of ruins, which last for 21 years.
 
