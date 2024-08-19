@@ -1,5 +1,5 @@
 ---
-title: 'We Only Judge Ourselves'
+title: 'As Within, So Without'
 description: 'How our internalized worldview reflects in our character and shapes the person we become.'
 pubDate: 'August 19 2024'
 ---
