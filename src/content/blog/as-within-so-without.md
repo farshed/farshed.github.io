@@ -25,4 +25,4 @@ These worldviews, once established, act as self-fulfilling prophecies. Person A'
 
 However, Person B's suspicion and defensiveness elicit guarded responses from others, further feeding his pessimistic outlook. It's a feedback loop, with each interaction serving as evidence for their pre-existing beliefs.
 
-Neither of them is wrong, as they each only see a selected subset of reality, filtered through their own expectations and beliefs. But in the end, their worldviews end up saying a lot more about them than the world they inhabit.
+Neither of them is wrong, as they each only see a selected subset of reality, filtered through their own expectations and beliefs. Ultimately, their worldviews say a lot more about them than the world they inhabit.
