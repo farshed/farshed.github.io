@@ -7,7 +7,7 @@ pubDate: 'August 19 2024'
 > Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?
 > **Socrates, Euthyphro**
 
-This is about a realization I had a while back about human behaviour. It had to do with how one’s internalized worldview shapes one's personality. This is in contrast to the general intuition that our personality determines how we see the world.
+This is something of a realization I had a while back about human behaviour. It has to do with how one’s internalized worldview shapes one's personality. This is in contrast to the general intuition that our personality determines how we see the world.
 
 In the classic nature vs. nurture debate, it is well-understood that our environment plays an important role in shaping who we become. For example, someone with a traumatic childhood is likely to grow up to be a psychologically unhealthy person. This is nurture.
 
