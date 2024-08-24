@@ -8,7 +8,7 @@ I have wondered for some time what makes languages like Java and C# generally sl
 
 For those who don't know, garbage collection, or GC for short, is the process by which program memory is automatically managed by a language runtime. GC is the reason why programmers don't have to deal with manually freeing up memory after use when working with languages like Java, C#, JavaScript or Python.
 
-While it's great for developer experience, GC adds overhead to the program runtime. Each time it runs, it has to pause the program execution to find and reclaim all the unused memory.
+While it's great for developer experience, GC adds overhead to program runtime, primarily due to the [delay](https://stackoverflow.com/questions/2484079/how-can-i-avoid-garbage-collection-delays-in-java-games-best-practices) imposed by the mark-and-sweep operation. Each time the GC runs, it has to pause the program execution to find and reclaim all the unused memory.
 
 Also:
 
