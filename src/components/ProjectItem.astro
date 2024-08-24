@@ -1,0 +1,8 @@
+---
+const { title, description, link } = Astro.props;
+---
+
+<li class="post-item">
+  <a href={link} target="_blank">{title}</a>
+  <p>{description}</p>
+</li>
