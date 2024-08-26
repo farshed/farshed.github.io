@@ -27,6 +27,6 @@ A common theme among garbage-collected languages is that they all attempt to be 
 - Safe type assertions.
 - No pointer arithmetic.
 
-These characteristics have performance penalties that can add up. Languages like Rust and [Inko](https://inko-lang.org), which rely on rules baked into their language semantics for memory management and safety, solve a lot of these issues.
+These characteristics have performance penalties that can add up to be significant. Languages like Rust and [Inko](https://inko-lang.org), which rely on rules baked into their language semantics for memory management and safety, solve a lot of these issues.
 
-Besides, we're always discovering new [approaches](https://verdagon.dev/grimoire/grimoire) to memory safety that provide superior performance compared to conventional GC without making the learning curve steeper.
+Besides, we're always discovering new [approaches](https://verdagon.dev/grimoire/grimoire) to memory safety that provide superior performance compared to conventional GC without making the language learning curve steeper.
