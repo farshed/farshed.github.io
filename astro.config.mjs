@@ -25,7 +25,7 @@ export default defineConfig({
       ]
     ],
     shikiConfig: {
-      theme: 'github-dark'
+      theme: 'dracula'
       // https://shikiji.netlify.app/guide/dual-themes#light-dark-dual-themes
       // experimentalThemes: {
       //   light: 'github-light',
