@@ -14,7 +14,7 @@ After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches aro
 
 During the time of the Achaemenids, Darius the Great is said to have commissioned the Greek Explorer Scylax, among others, to sail and chart the course of the Indus. According to Herodotus, Scylax sets out from a city called Caspatyrus (likely [Kashmir](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aentry%3Dcaspatyrus-geo) or a misspelling of Paskapyrus (Peshawar)) and sails downstream.
 
-Using the data gathered during this expedition, Darius conquered the lands that lay southeast of Gandhara soon afterward, adding them to his empire as a new province called _Hinduš_. The name of the province was translated by Greek historians as _India_, but with time, it came to refer to the lands, people, and culture of the region that lay east of the Indus.
+Using the data gathered during this expedition, Darius conquered the lands that lay southeast of Gandhara soon afterward, adding them to his empire as a new province called _Hinduš_. The name of the province was translated by Greek historians as _India_, but with time, it came to refer to the lands, people, and culture of the region that lay around the Indus and the subcontinent that extended much farther eastward.
 
 This makes Indus in a very real sense, the father of India. The influence of Sindhu goes much further than the subcontinent's name. It is the nourishing artery that allowed the first major civilization in the region, the Indus Valley Civilization, to flourish 5000 years ago.
 
