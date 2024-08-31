@@ -18,7 +18,7 @@ Using the data gathered during this expedition, Darius conquered the lands that 
 
 This makes Sindhu in a very real sense, the father of India. Its influence goes much further than the subcontinent's name. Sindhu is the nourishing artery that allowed the first major civilization in the region, the Indus Valley Civilization, to flourish 5000 years ago.
 
-The river's regular flooding cycles deposited rich silt along its banks, enabling agriculture to support large urban centers like Harappa and Mohenjodaro. Interestingly, we don't know for sure what name the ancient Indus Valley people had for Sindhu or their civilization.
+The river's regular flooding cycles deposited rich silt along its banks, enabling agriculture to support large urban centers like Harappa and Mohenjo-daro. Interestingly, we don't know for sure what name the ancient Indus Valley people had for Sindhu or their civilization.
 
 One of the earliest foreign historical records of India comes from a royal inscription on a statue from ancient Sumer, which reads:
 
