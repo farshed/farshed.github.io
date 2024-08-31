@@ -26,9 +26,9 @@ One of the earliest foreign historical records of India comes from a royal inscr
 
 The inscription dates to the 24th century BCE and is attributed to Sargon of Akkad, the progenitor of the Akkadian Empire and the earliest known emperor in recorded history.
 
-The land of Meluhha or Melukhkha, hinted in the inscription as a trading partner of ancient Mesopotamia, is widely identified as the Indus Valley Civilization by modern scholars. The inscription itself seems to be a boast by Sargon that he is the ruler of a land that trades with Meluhha.
+The land of Meluhha or Melukhkha, hinted in the inscription as a trading partner of ancient Mesopotamia, is widely identified as the Indus Valley Civilization by modern scholars. The inscription itself seems to be a boast by Sargon that he's the ruler of a land that trades with Meluhha.
 
-This was indeed around the same time when the Indus Valley Civilization was flourishing in the nurturing embrace of Sindhu. By this time, it had developed sophisticated urban planning and architecture, a standardized system of weights and measures, and a complex writing system that remains undeciphered, all feats considered well ahead of their time.
+This was indeed around the same time when the Indus Valley Civilization was flourishing in the nurturing embrace of Sindhu. By this time, it had developed sophisticated urban planning and architecture, a standardized system of weights and measures and a complex writing system - all feats considered well ahead of their time.
 
 By 1700 BCE, the Indus Valley Civilization had declined and most of its cities had been abandoned, possibly due to an abrupt century-long [global drought](https://en.wikipedia.org/wiki/4.2-kiloyear_event) that disrupted and caused the collapse of many other contemporary civilizations. Archaeological evidence indicates that the decline of IVC drove people eastward towards the Ganges basin.
 
