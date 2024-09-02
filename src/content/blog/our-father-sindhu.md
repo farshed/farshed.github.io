@@ -28,10 +28,10 @@ The inscription dates to the 24th century BCE and is attributed to Sargon of Akk
 
 The land of Meluhha or Melukhkha, hinted in the inscription as a trading partner of ancient Mesopotamia, is widely identified as the Indus Valley Civilization by modern scholars. The inscription itself seems to be a boast by Sargon that he's the ruler of a land that trades with Meluhha.
 
-This was indeed around the same time when the Indus Valley Civilization was flourishing in the nurturing embrace of Sindhu. By this time, it had developed sophisticated urban planning and architecture, a standardized system of weights and measures and a complex writing system - all feats considered well ahead of their time.
+This was indeed around the same time when the Indus Valley Civilization was flourishing in the nurturing embrace of Sindhu. By this time, it had developed sophisticated urban planning and architecture, a standardized system of weights and measures and a complex writing system - feats considered well ahead of their time.
 
 By 1700 BCE, the Indus Valley Civilization had declined and most of its cities had been abandoned, possibly due to an abrupt century-long [global drought](https://en.wikipedia.org/wiki/4.2-kiloyear_event) that disrupted and caused the collapse of many other contemporary civilizations. Archaeological evidence indicates that the decline of IVC drove people eastward towards the Ganges basin.
 
-The same global climatic anomaly may have also been responsible for driving Indo-Aryan peoples towards South Asia. Fueled by the migrations of Indo-Aryans into the northwestern regions of India and an influx of new ideas, beliefs and practices, the IVC transformed into what we now know of as Vedic culture.
+The same global climatic anomaly may have also been responsible for driving Indo-Aryan peoples towards South Asia. Fueled by their migrations into the northwestern regions of India that brought an influx of new ideas, beliefs and practices, the IVC transformed into what we now know of as Vedic culture.
 
 Civilizations have risen and fallen, cities have emerged and vanished, kings have ascended and been deposed. Even the gods have fallen in and out of favour. Yet, through it all, our father Sindhu has persistently flowed as the only constant.
