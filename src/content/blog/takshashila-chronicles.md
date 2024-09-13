@@ -32,7 +32,7 @@ This all changes in 1863 when Alexander Cunningham, founder of the Archaeologica
 
 Ancient Taxila was a center of higher learning and home to one of the earliest educational institutions in history that could be compared to a university.
 
-This institution, historical records of which date back to at least the 5th century BCE, attracted scholars like Panini, the great Sanskrit grammarian, and Chanakya, the renowned Indian polymath and author of _Arthashastra_. Jivaka, the personal physician of the Buddha and the King Bimbisara, also spent seven years in Taxila training in medicine.
+This institution, historical records of which date back to at least the 5th century BCE, attracted scholars like Panini, the great Sanskrit grammarian, and Chanakya, the renowned Indian polymath and author of [_Arthashastra_](https://en.wikipedia.org/wiki/Arthashastra). Jivaka, the personal physician of the Buddha and the King Bimbisara, also spent seven years in Taxila training in medicine.
 
 Another notable alumnus of Taxila's ancient university was Chandragupta Maurya, founder of the Mauryan Empire. He spent eight years as a resident student at Taxila, receiving education in "all the sciences and arts" of the period, including military sciences. According to Plutarch, Alexander the Great met a young Chandragupta while campaigning in Taxila.
 
