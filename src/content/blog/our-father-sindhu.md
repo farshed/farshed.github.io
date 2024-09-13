@@ -32,6 +32,6 @@ This was indeed around the same time when the Indus Valley Civilization was flou
 
 By 1700 BCE, the Indus Valley Civilization had declined and most of its cities had been abandoned, possibly due to an abrupt century-long [global drought](https://en.wikipedia.org/wiki/4.2-kiloyear_event) that disrupted and caused the collapse of many other contemporary civilizations. Archaeological evidence indicates that the decline of IVC drove people eastward towards the Ganges basin.
 
-The same global climatic anomaly may have also been responsible for driving Indo-Aryan peoples towards South Asia. Fueled by their migrations into the northwestern regions of India that brought an influx of new ideas, beliefs and practices, the IVC transformed into what we now know of as Vedic culture.
+The same global climatic anomaly may have also been responsible for driving Indo-Aryan peoples towards South Asia. Fueled by their migrations into the northwestern regions of India that brought an influx of new ideas, beliefs and practices, the IVC transformed into what we now know of as [Vedic culture](https://en.wikipedia.org/wiki/Vedic_period).
 
 Civilizations have risen and fallen, cities have emerged and vanished, kings have ascended and been deposed. Even the gods have fallen in and out of favour. Yet, through it all, our father Sindhu has persistently flowed as the only constant.
