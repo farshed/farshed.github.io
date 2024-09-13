@@ -276,7 +276,7 @@ hr {
     font-size: 0.8rem;
   }
 
-  a {
+  & > a {
     font-size: 1.25rem;
     font-weight: 500;
     text-decoration: none;
@@ -322,6 +322,19 @@ hr {
       font-weight: bold;
       margin-top: 1rem;
     }
+  }
+}
+
+.project-item {
+  column-gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  & .links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.75rem;
   }
 }
 
