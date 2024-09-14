@@ -25,9 +25,6 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   monospace;
 
 :root {
-  --accent: #3562f3;
-  --accent-bg: #3562f30d;
-
   color-scheme: light dark;
   font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
     ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -46,6 +43,8 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   --text: #161b3d;
   --faded-text: #161b3dbb;
   --background: #fff;
+  --accent: #3562f3;
+  --accent-bg: #3562f30d;
   --sun-bg: linear-gradient(40deg, #ff0080, #ff8c00 60%);
   --eclipse: 0;
 }
@@ -54,6 +53,8 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   --text: #eee;
   --faded-text: #a3a3a3;
   --background: #161616;
+  --accent: #21fea4;
+  --accent-bg: #21fea40d;
   --sun-bg: linear-gradient(40deg, #7a81ff, #a3dafb 75%);
   --eclipse: 1;
 }
