@@ -136,14 +136,16 @@ em {
 a {
   cursor: pointer;
   color: inherit;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    color: var(--accent);
+  }
 }
 
 p a {
   text-decoration: underline 1px var(--faded-text);
   text-underline-offset: 4px;
-  transition: all 0.2s ease;
   &:hover {
-    color: var(--accent);
     background-color: var(--accent-bg);
     text-decoration: underline 1px var(--accent);
     border-radius: 0.15rem;
