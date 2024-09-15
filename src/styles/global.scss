@@ -39,7 +39,8 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   // --shadow: #161b3d1a;
 }
 
-.light {
+:root,
+html[data-theme='light'] {
   --text: #161b3d;
   --faded-text: #161b3dbb;
   --background: #fff;
@@ -49,7 +50,7 @@ $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mo
   --eclipse: 0;
 }
 
-.dark {
+html[data-theme='dark'] {
   --text: #eee;
   --faded-text: #a3a3a3;
   --background: #161616;

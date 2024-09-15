@@ -10,7 +10,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
   <head>
     <BaseHead {...{ title, description, ...rest }} />
   </head>
-  <body class="light">
+  <body>
     <Header />
 
     <script type="module" is:inline>
@@ -20,7 +20,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
         const theme = {
           get: () => (localStorage.getItem(key) === dk ? dk : lt),
           set(v) {
-            document.body.className = v;
+            document.documentElement.setAttribute('data-theme', v);
             localStorage.setItem(key, v);
           }
         };
