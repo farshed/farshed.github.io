@@ -12,7 +12,7 @@ _A Renaissance man stares into the abyss as the abyss stares back into the depth
 
 ![Psychedelic realm of Anunnaki](/media/blog/dalle3/4.webp)
 
-_The Anunnaki, celestial beings draped in cosmic fabric, in a psychedelic realm._
+_The Anunnaki in a psychedelic dimension._
 
 ![Stoicism](/media/blog/dalle3/2.webp)
 
