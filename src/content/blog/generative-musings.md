@@ -28,7 +28,7 @@ _Siddhartha Gautama achieves Nirvana under the Bodhi tree as his past lives bear
 
 ![Cosmic complexities](/media/blog/dalle3/9.webp)
 
-_A figure stands amidst the cosmic dance of celestial bodies, looking up, acknowledging the ever-changing sky._
+_A figure stands amidst celestial bodies, looking up, acknowledging the ever-changing sky._
 
 ![Renaissance man against the darkness](/media/blog/dalle3/3.webp)
 
@@ -36,7 +36,7 @@ _A man gazes into a deep, ominous chasm. His posture suggests defiance against t
 
 ![Shiva's Tandava](/media/blog/dalle3/11.webp)
 
-_Shiva performs the Tandava in his divine rage._
+_Shiva performs the Rudra Tandava in his divine rage._
 
 ![Seneca in a garden](/media/blog/dalle3/8.webp)
 
