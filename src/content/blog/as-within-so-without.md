@@ -9,7 +9,7 @@ pubDate: 'August 19 2024'
 
 This is something of a realization I had a while back about human behaviour. It had to do with how one’s internalized worldview shapes one's personality. This is in contrast to the general intuition that our personality determines how we see the world.
 
-In the classic nature vs. nurture debate, it is well-understood that our environment plays an important role in shaping who we become. For example, someone with a traumatic childhood is likely to grow up to be a psychologically unhealthy person. This is nurture.
+In the classic nature vs. nurture debate, it is well-understood that our environment plays an important role in shaping who we become. For example, someone with a troubled or traumatic childhood is likely to grow up to be a psychologically unhealthy person. This is nurture.
 
 Now imagine two individuals who grow up in identical circumstances. They attend the same schools, have similar family structures, and experience comparable life events.
 
