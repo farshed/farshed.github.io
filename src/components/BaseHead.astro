@@ -28,7 +28,13 @@ const { title, description, cover, redirectTo } = Astro.props;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-{cover && <meta property="og:image" content={new URL(cover, Astro.url)} />}
+{
+  cover ? (
+    <meta property="og:image" content={new URL(cover, Astro.url)} />
+  ) : (
+    <meta property="og:image" content="/faisal-arshed.png" />
+  )
+}
 
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
