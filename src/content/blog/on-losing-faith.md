@@ -41,8 +41,6 @@ As these questions whirled in my mind, I must admit that I felt a little afraid.
 
 I suppose you can probably deduce the conclusions that I reached from the title of this post. They went against everything that I had spent the first 19 years of my life believing to be true. The first few weeks were tough and filled with self-doubt. "What if I'm wrong?". "What if God does exist?". "What if I end up in hell?". But with time, the doubt receded as my logical convictions took hold. Being emancipated from religion meant that I could now spend more of my time and energy to focus on the things in life that really mattered, instead of trying to appease an imaginary, authoritarian father figure with outdated morals.
 
-<iframe style="border-radius:12px;margin-bottom:1.4rem;" src="https://open.spotify.com/embed/track/4E9oMuvzEsS2T9hdxWBwPQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 ## Aftermath
 
 In the years that followed, I invested quite a bit of time learning about theistic and antitheistic arguments. I immersed myself in the works of thinkers like Christopher Hitchens, Richard Dawkins, Sam Harris and Ayaan Hirsi Ali. I gained a deeper sense of appreciation for life and my fellow creatures. I lost some people I used to call friends and found some new ones. In the end, after considering everything, I believe that losing my faith was one of the best things that ever happened to me and it left me a better human being. Now, I leave you with this compilation of George Carlin's brilliant [stand-up about religion](https://www.youtube.com/watch?v=2tp0UNcjzl8).
