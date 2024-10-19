@@ -46,7 +46,8 @@ html[data-theme='light'] {
   --background: #fff;
   --accent: #3562f3;
   --accent-bg: #3562f30d;
-  --sun-bg: linear-gradient(40deg, #ff0080, #ff8c00 60%);
+  // --sun-bg: linear-gradient(40deg, #ff0080, #ff8c00 60%);
+  --sun-bg: linear-gradient(40deg, gold, #ff8c00 60%);
   --eclipse: 0;
 }
 
