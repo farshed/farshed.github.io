@@ -70,7 +70,7 @@ One of the Sirkap artifacts that caught my eye was this terracotta "Ritual Tank"
 
 ![Ritual tank](/media/blog/taxila/ritual-tank.webp)
 
-The tank is possibly Jain in nature and seems to symbolize the four natural elements and all creation arising from them. The earth is symbolized by the clay from which the tank is made; air, by the birds perched on the container's rims; fire, by the lamps on each of the four corners; and the water which partially filled the tank symbolized, well, water.
+The tank is possibly Jain in nature and seems to symbolize the four natural elements and all creation arising from them. The earth is symbolized by the clay from which the tank is made - air, by the birds perched on the container's rims - fire, by the lamps on each of the four corners, and the water which partially filled the tank symbolized, well, water.
 
 You might be able to make out depictions of various land and aquatic animals on the floor of the tank, such as a snake and turtle. A female figurine can be seen beside the stairs, likely a depiction of a mother goddess.
 
