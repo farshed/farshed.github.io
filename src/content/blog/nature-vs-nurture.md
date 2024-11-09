@@ -1,6 +1,6 @@
 ---
-title: 'Nature, Nurture, and Free Will'
-description: "Role of nature and nurture in determining personality and why absolute free will doesn't exist"
+title: 'Nature vs. Nurture'
+description: 'Role of nature and nurture in determining personality and its implications for free will'
 pubDate: 'November 10 2024'
 ---
 
@@ -26,11 +26,11 @@ This leads her to suggest that some children are born with a marked tendency tow
 
 ## HPA Axis
 
-Hypothalamic–pituitary–adrenal axis is a neuroendocrine system inside body that regulates many neurological and physical processes, most notably reactions to stress. There's substantial scientific evidence that a dysregulation of HPA axis is responsible for the vast majority of functional mental and physical disorders.
+Hypothalamic–pituitary–adrenal axis is a neuroendocrine system inside body that regulates many neurological and physical processes, most notably reactions to stress. There's substantial scientific evidence that dysregulation of the HPA axis is responsible for the vast majority of functional mental and physical disorders.
 
 Exposure to extreme or prolonged prenatal or early-life stress can lead to a hyper-reactive HPA axis. A [study](<https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-4695(19990905)40:3%3C302::AID-NEU3%3E3.0.CO;2-7>) found that rats exposed to prenatal stress had elevated basal levels of corticosterone (a stress hormone). Moreover, it took longer for their stress response to return to normal following exposure to stressors.
 
-There's also [evidence](https://www.tandfonline.com/doi/abs/10.1080/10253890500044521) that children of mothers who suffered from depression during pregnancy had higher cortisol (another stress marker) levels than other children.
+There's also [evidence](https://www.tandfonline.com/doi/abs/10.1080/10253890500044521) that children of mothers who suffer from depression during pregnancy have higher cortisol (another stress marker) levels than other children.
 
 Another [study](https://www.science.org/doi/10.1126/science.277.5332.1659) found that rats subjected to extreme stress by prolonged separations from their mothers during the early weeks of their life showed heightened stress responses as adults. On the other hand, moderate early-life stress was linked to stress resilience in adult rats.
 
