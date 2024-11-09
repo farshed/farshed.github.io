@@ -7,7 +7,7 @@ pubDate: 'November 10 2024'
 > Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?
 > **Socrates, Euthyphro**
 
-I recently had a chance to skim Barbara Oakley's _Evil Genes_. The author feels a little prejudiced because of her personal experiences but nevertheless presents a lot of interesting research in genetics and molecular biology about how genes influence personality.
+I recently had a chance to skim Barbara Oakley's _Evil Genes_ in which she attempts to explain the relationship between genes and behaviour using cutting-edge research in genetics, molecular biology, and psychology while also trying to find an explanation for her personal experiences.
 
 There's a broad consensus among researchers that adulthood personality is largely a result of two factors.
 
