@@ -20,13 +20,13 @@ It's the study of how certain genes turn on or off in response to environmental 
 
 Oakley presents a case of abused boys with a genetic predisposition for lower levels of Monoamine oxidase A (an enzyme that breaks down neurotransmitters in the brain) who are more prone to violence or criminal behaviour than other abused boys. However, when these children are raised in a normal environment, the gene doesn't appear to affect their behaviour.
 
-She goes on to discuss the genetic origins of antisocial behaviour in highly psychopathic twins using a [study](https://pubmed.ncbi.nlm.nih.gov/15877765/) that found a heritability of 81%. The remaining 19% of influence appeared to be due to unshared environmental components, meaning differences in how the two twins were raised.
+She goes on to discuss the genetic origins of antisocial behaviour using a [study](https://pubmed.ncbi.nlm.nih.gov/15877765/) of highly psychopathic twins that found a heritability of 81%. The remaining 19% of influence appeared to be due to differences in how the two twins were raised.
 
 This leads her to suggest that some children are born with a marked tendency towards "evil". For example, a four-year-old with antisocial tendencies is highly likely to engage in criminal behaviour when they grow up and there are few, if any, professional interventions that can prevent this.
 
 ## HPA Axis
 
-Hypothalamic–pituitary–adrenal axis is a neuroendocrine system inside body that regulates many neurological and physical processes, most notably reactions to stress. There's substantial scientific evidence that dysregulation of the HPA axis is responsible for the vast majority of functional mental and physical disorders.
+Hypothalamic-pituitary-adrenal axis is a neuroendocrine system inside body that regulates many neurological and physical processes, most notably reactions to stress. There's substantial scientific evidence that dysregulation of the HPA axis is responsible for the vast majority of functional mental and physical disorders.
 
 Exposure to extreme or prolonged prenatal or early-life stress can lead to a hyper-reactive HPA axis. A [study](<https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-4695(19990905)40:3%3C302::AID-NEU3%3E3.0.CO;2-7>) found that rats exposed to prenatal stress had elevated basal levels of corticosterone (a stress hormone). Moreover, it took longer for their stress response to return to normal following exposure to stressors.
 
