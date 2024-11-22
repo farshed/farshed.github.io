@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
-import ProjectItem from '../../components/ProjectItem.astro';
+// import ProjectItem from '../../components/ProjectItem.astro';
 import { SITE_TITLE } from '../../consts';
 
 const projects = [
@@ -62,6 +62,6 @@ const projects = [
 
 <Page>
   <ul class="post-list">
-    {projects.map((p) => <ProjectItem {...p} />)}
+    <!-- {projects.map((p) => <ProjectItem {...p} />)} -->
   </ul>
 </Page>

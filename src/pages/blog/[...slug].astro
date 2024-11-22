@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
-import Date from '../../components/Date.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -22,15 +21,6 @@ const formattedDate = pubDate.toLocaleDateString('en-us', {
 });
 ---
 
-<!-- <Page {...post.data}>
-  <article>
-    <div id="post-head">
-      <h1 id="title">{title}</h1>
-      <Date date={pubDate} />
-    </div>
-    <div id="post-body"><Content /></div>
-  </article>
-</Page> -->
 <Page>
   <article>
     <header class="mb-12 text-center">

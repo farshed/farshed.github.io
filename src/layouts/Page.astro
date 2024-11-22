@@ -1,10 +1,10 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.props;
-const isIndexPage = Astro.url.pathname === '/';
+console.log(Astro.url.pathname);
+const renderHomeBtn = Astro.url.pathname !== '/';
 ---
 
 <html lang="en">
@@ -12,8 +12,6 @@ const isIndexPage = Astro.url.pathname === '/';
     <BaseHead {...{ title, description, ...rest }} />
   </head>
   <body>
-    <!-- <Header /> -->
-
     <script type="module" is:inline>
       const setup = () => {
         const [key, lt, dk] = ['theme-pref', 'light', 'dark'];
@@ -38,11 +36,11 @@ const isIndexPage = Astro.url.pathname === '/';
 
     <main class="min-h-screen bg-background p-6 md:p-12 max-w-3xl mx-auto">
       {
-        isIndexPage ? null : (
+        renderHomeBtn ? (
           <div class="flex items-center gap-4 mb-8">
             <a href="/">Home</a>
           </div>
-        )
+        ) : null
       }
       <slot />
     </main>

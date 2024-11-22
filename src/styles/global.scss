@@ -12,8 +12,14 @@
   }
 }
 
-body {
-  font-family: 'Lora', serif;
+@include font-def('Apercu', normal, 100 900, 'apercu-regular');
+@include font-def('Apercu', italic, 50 900, 'apercu-italic');
+
+:root {
+  // color-scheme: light dark;
+  font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans';
 }
 
 @layer base {
