@@ -4,7 +4,7 @@ description: 'Role of nature and nurture in determining personality and its impl
 pubDate: 'November 10 2024'
 ---
 
-> Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?
+> Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?  
 > **Socrates, Euthyphro**
 
 I recently skimmed Barbara Oakley's _Evil Genes_ where she explores the relationship between genes and behaviour. She presents some interesting research in genetics, molecular biology, and psychology while also drawing on her personal experiences to find explanations for why antisocial people behave the way they do.

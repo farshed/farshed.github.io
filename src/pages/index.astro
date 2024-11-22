@@ -1,37 +1,115 @@
 ---
+import { getCollection } from 'astro:content';
 import Page from '../layouts/Page.astro';
+import PostItem from '../components/PostItem.astro';
+import { SITE_TITLE } from '../consts';
 
 const email = 'mail@farshed.me';
+
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const projects = [
+  {
+    title: 'Million.js',
+    url: '#',
+    description:
+      'Make React 70% Faster. The Virtual DOM Replacement For React 13.6k+ GitHub stars.',
+    stars: '13.6k'
+  },
+  {
+    title: 'Million.js',
+    url: '#',
+    description:
+      'Make React 70% Faster. The Virtual DOM Replacement For React 13.6k+ GitHub stars.',
+    stars: '13.6k'
+  },
+  {
+    title: 'Million.js',
+    url: '#',
+    description:
+      'Make React 70% Faster. The Virtual DOM Replacement For React 13.6k+ GitHub stars.',
+    stars: '13.6k'
+  }
+];
 ---
 
 <Page>
-  <p>
-    Hi, I'm Faisal, a software engineer and open sourceror with a passion for building and tinkering
-    with things.
-  </p>
-  <p>
-    My current areas of active interest include compilers, data-oriented design, WASM, and 2D
-    graphics. I mostly work with JavaScript, Python, and Rust.
-  </p>
-  <p>Besides tech, I find myself drawn to science, history, and culture.</p>
-  <p>
-    I have a <a href="/blog">blog</a>
-     where I sometimes share my thoughts and opinions about stuff I find interesting.
-  </p>
-  <p>
-    If you're a recruiter, you might be interested in my <a
-      href="/Faisal_Arshed_resume.pdf"
-      target="_blank">resume</a
-    >.
-  </p>
-  <p>
-    To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
-  </p>
-  <p id="socials">
-    <a href="https://github.com/farshed" target="_blank">github</a>
-    <a href="https://linkedin.com/in/faisal-arshed" target="_blank">linkedin</a>
-  </p>
+  <div class="flex items-center gap-4 mb-8">
+    <img
+      src="/faisal-arshed-shoreline.png"
+      alt="Profile"
+      class="w-12 h-12 rounded-full object-cover hover:animate-spin motion-reduce:animate-none ease-in-out"
+    />
+    <h1 class="text-2xl font-bold">Faisal Arshed</h1>
+  </div>
 
-  <img alt="Faisal Arshed" src="/faisal-arshed-shoreline.png" style="height: 0px" />
-  <img alt="Faisal Arshed" src="/faisal-arshed-meadow.jpeg" style="height: 0px" />
+  <div class="prose-lg mb-8">
+    <p>
+      Hi, I'm Faisal, a software engineer and open sourceror with a passion for building and
+      tinkering with things.
+    </p>
+    <p>
+      My current areas of active interest include compilers, data-oriented design, WASM, and 2D
+      graphics. I mostly work with JavaScript and Rust.
+    </p>
+    <p>Besides tech, I find myself drawn to science, history, and culture.</p>
+    <p>
+      If you're a recruiter, you might be interested in my <a
+        href="/Faisal_Arshed_resume.pdf"
+        target="_blank">resume</a
+      >.
+    </p>
+    <p>
+      To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
+    </p>
+
+    <!-- <p class="italic">
+          Want to reach out?{' '}
+          <a href="#" class="font-semibold hover:underline not-italic"> Say hello!</a>
+        </p> -->
+
+    <div class="flex flex-row gap-x-3">
+      <a href="https://github.com/farshed" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- <div>
+    <h2 class="text-xl font-bold my-6">Projects</h2>
+    <ul class="space-y-6">
+      {
+        projects.map((project) => (
+          <li class="group">
+            <div class="flex items-baseline gap-2">
+              <a href={project.url}>{project.title}</a>
+            </div>
+            <p class="mt-2">{project.description}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div> -->
+
+  <div>
+    <h2 class="text-xl font-bold my-6">Writing</h2>
+    <ul class="space-y-2">
+      {
+        allPosts.map((post) => {
+          const { title, redirectTo } = post.data;
+          const href = redirectTo ? redirectTo : `/blog/${post.slug}`;
+          const target = redirectTo ? '_blank' : '_self';
+
+          return (
+            <li>
+              <a href={href} target={target} class="no-underline">
+                {title}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
 </Page>

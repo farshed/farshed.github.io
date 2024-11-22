@@ -1,0 +1,37 @@
+---
+import Page from '../layouts/Page.astro';
+
+const email = 'mail@farshed.me';
+---
+
+<Page>
+  <p>
+    Hi, I'm Faisal, a software engineer and open sourceror with a passion for building and tinkering
+    with things.
+  </p>
+  <p>
+    My current areas of active interest include compilers, data-oriented design, WASM, and 2D
+    graphics. I mostly work with JavaScript, Python, and Rust.
+  </p>
+  <p>Besides tech, I find myself drawn to science, history, and culture.</p>
+  <p>
+    I have a <a href="/blog">blog</a>
+     where I sometimes share my thoughts and opinions about stuff I find interesting.
+  </p>
+  <p>
+    If you're a recruiter, you might be interested in my <a
+      href="/Faisal_Arshed_resume.pdf"
+      target="_blank">resume</a
+    >.
+  </p>
+  <p>
+    To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
+  </p>
+  <p id="socials">
+    <a href="https://github.com/farshed" target="_blank">github</a>
+    <a href="https://linkedin.com/in/faisal-arshed" target="_blank">linkedin</a>
+  </p>
+
+  <img alt="Faisal Arshed" src="/faisal-arshed-shoreline.png" style="height: 0px" />
+  <img alt="Faisal Arshed" src="/faisal-arshed-meadow.jpeg" style="height: 0px" />
+</Page>

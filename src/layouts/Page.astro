@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.props;
+const isIndexPage = Astro.url.pathname === '/';
 ---
 
 <html lang="en">
@@ -11,7 +12,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
     <BaseHead {...{ title, description, ...rest }} />
   </head>
   <body>
-    <Header />
+    <!-- <Header /> -->
 
     <script type="module" is:inline>
       const setup = () => {
@@ -35,6 +36,15 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.pr
       ready ? setup() : document.addEventListener('DOMContentLoaded', setup);
     </script>
 
-    <main><slot /></main>
+    <main class="min-h-screen bg-background p-6 md:p-12 max-w-3xl mx-auto">
+      {
+        isIndexPage ? null : (
+          <div class="flex items-center gap-4 mb-8">
+            <a href="/">Home</a>
+          </div>
+        )
+      }
+      <slot />
+    </main>
   </body>
 </html>

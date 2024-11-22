@@ -12,7 +12,7 @@ When Aryans first arrived in the Indian subcontinent, they must have been left d
 
 After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches around 2000 BCE, _Sindhu_ [became](https://en.wikipedia.org/wiki/Proto-Iranian_language#Development_into_Old_Iranian) _Hindu_ in Old Persian and the fertile floodplains it flowed through came to be known as "_Hindu Astan_", meaning "Indus land". _Hindu_ was later adapted into Greek as _Indos_ and subsequently as _Indus_ in Latin.
 
-During the time of the Achaemenids, Darius the Great is said to have commissioned the Greek explorer Scylax, among others, to sail and chart the course of the Indus. According to Herodotus, Scylax set out from a city called Caspatyrus (likely [Kashmir](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aentry%3Dcaspatyrus-geo) or a misspelling of Paskapyrus (Peshawar)) and sailed downstream.
+During the time of the Achaemenids, Darius the Great is said to have commissioned the Greek explorer Scylax, among others, to sail and chart the course of the Indus. According to Herodotus, Scylax set out from a city called Caspatyrus (likely [Kashmir](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aentry%3Dcaspatyrus-geo) or a misspelling of Paskapyrus \[Peshawar]) and sailed downstream.
 
 Using the data gathered during this expedition, Darius conquered the region that lay southeast of Gandhara soon afterward, adding it to his empire as a new province called _Hinduš_ (modern-day Sindh). The name of the province was translated by Greek historians as _India_, but with time, it came to refer to the lands, people, and culture of the region that lay around the Indus and the subcontinent that extended much farther eastward.
 

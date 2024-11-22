@@ -14,14 +14,32 @@ export async function getStaticPaths() {
 const post = Astro.props;
 const { title, pubDate } = post.data;
 const { Content } = await post.render();
+
+const formattedDate = pubDate.toLocaleDateString('en-us', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric'
+});
 ---
 
-<Page {...post.data}>
+<!-- <Page {...post.data}>
   <article>
     <div id="post-head">
       <h1 id="title">{title}</h1>
       <Date date={pubDate} />
     </div>
     <div id="post-body"><Content /></div>
+  </article>
+</Page> -->
+<Page>
+  <article>
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl font-bold mb-4">{title}</h1>
+      <time>{formattedDate}</time>
+    </header>
+
+    <div class="prose lg:prose-lg mx-auto">
+      <Content />
+    </div>
   </article>
 </Page>
