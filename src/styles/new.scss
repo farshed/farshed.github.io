@@ -21,11 +21,10 @@ body {
     @apply text-lg;
   }
   a {
-    @apply italic font-medium underline decoration-gray-400 rounded-md;
+    @apply font-medium underline decoration-gray-400 rounded-md;
     @apply hover:bg-gray-200 transition-colors motion-reduce:transition-none duration-200;
   }
   blockquote {
-    //   @apply text-xl font-normal italic leading-relaxed w-11/12 my-7 mx-auto;
     strong {
       @apply block mt-4;
       &::before {
