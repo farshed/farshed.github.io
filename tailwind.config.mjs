@@ -9,6 +9,7 @@ export default {
       typography: {
         DEFAULT: {
           css: {
+            color: 'currentColor',
             blockquote: {
               quotes: 'none'
             }
