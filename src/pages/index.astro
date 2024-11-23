@@ -18,17 +18,19 @@ const allPosts = (await getCollection('blog')).sort(
         alt="Faisal Arshed"
         class="w-12 h-12 rounded-full object-cover hover:animate-spin motion-reduce:animate-none ease-in-out"
       />
-      <h1 class="text-xl font-semibold">Faisal Arshed</h1>
+      <h1 class="text-lg font-semibold">Faisal Arshed</h1>
     </div>
-    <nav class="font-semibold flex flex-wrap gap-3">
-      <a href="#projects" class="no-underline">Projects</a>
+    <nav class="font-semibold flex flex-wrap gap-x-4 gap-y-2">
       <a href="#writing" class="no-underline">Writing</a>
-      <!-- <a href="#reading" class="no-underline">Reading</a> -->
+      <a href="#projects" class="no-underline">Projects</a>
     </nav>
   </div>
 
   <div class="prose mb-12">
-    <p>Hi, I'm Faisal and I like building and tinkering with things.</p>
+    <p>
+      Hi! I'm Faisal, a software engineer and aspiring generalist who likes building and tinkering
+      with things.
+    </p>
     <p>
       My current areas of active interest include compilers, data-oriented design, WASM, and 2D
       graphics.
@@ -44,11 +46,6 @@ const allPosts = (await getCollection('blog')).sort(
       To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
     </p>
 
-    <!-- <p class="italic">
-          Want to reach out?{' '}
-          <a href="#" class="font-semibold hover:underline not-italic"> Say hello!</a>
-        </p> -->
-
     <div class="flex flex-row gap-x-3">
       <a href="https://github.com/farshed" target="_blank" class="font-medium">GitHub</a>
       <a href="https://linkedin.com/in/faisal-arshed" target="_blank" class="font-medium"
@@ -58,7 +55,28 @@ const allPosts = (await getCollection('blog')).sort(
   </div>
 
   <div class="mb-12">
-    <h2 id="projects" class="text-xl font-semibold my-6">Projects</h2>
+    <h2 id="writing" class="text-lg font-semibold my-6">Writing</h2>
+    <ul class="space-y-2">
+      {
+        allPosts.map((post) => {
+          const { title, redirectTo } = post.data;
+          const href = redirectTo ? redirectTo : `/blog/${post.slug}`;
+          const target = redirectTo ? '_blank' : '_self';
+
+          return (
+            <li>
+              <a href={href} target={target} class="font-medium no-underline">
+                {title}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+
+  <div class="mb-12">
+    <h2 id="projects" class="text-lg font-semibold my-6">Projects</h2>
     <ul class="space-y-2">
       {
         projects.map((project) => (
@@ -76,27 +94,6 @@ const allPosts = (await getCollection('blog')).sort(
             </a>
           </li>
         ))
-      }
-    </ul>
-  </div>
-
-  <div>
-    <h2 id="writing" class="text-xl font-semibold my-6">Writing</h2>
-    <ul class="space-y-2">
-      {
-        allPosts.map((post) => {
-          const { title, redirectTo } = post.data;
-          const href = redirectTo ? redirectTo : `/blog/${post.slug}`;
-          const target = redirectTo ? '_blank' : '_self';
-
-          return (
-            <li>
-              <a href={href} target={target} class="text-lg font-medium no-underline">
-                {title}
-              </a>
-            </li>
-          );
-        })
       }
     </ul>
   </div>
