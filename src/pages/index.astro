@@ -59,14 +59,19 @@ const allPosts = (await getCollection('blog')).sort(
     <ul class="space-y-2">
       {
         allPosts.map((post) => {
-          const { title, redirectTo } = post.data;
+          const { title, redirectTo, pubDate } = post.data;
           const href = redirectTo ? redirectTo : `/blog/${post.slug}`;
           const target = redirectTo ? '_blank' : '_self';
+          const formattedDate = pubDate.toLocaleDateString('en-CA', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+          });
 
           return (
             <li>
               <a href={href} target={target} class="font-medium no-underline">
-                {title}
+                {title} <span class="text-black/40">({formattedDate})</span>
               </a>
             </li>
           );
@@ -77,19 +82,19 @@ const allPosts = (await getCollection('blog')).sort(
 
   <div class="mb-12">
     <h2 id="projects" class="text-lg font-semibold my-6">Projects</h2>
-    <ul class="space-y-2">
+    <ul class="space-y-3">
       {
         projects.map((project) => (
           <li>
             <a
               href={project.url}
               target="_blank"
-              class="group flex items-center gap-3 rounded-lg bg-slate-100 p-2 transition-colors hover:bg-muted no-underline font-medium"
+              class="group flex items-center gap-3 rounded-md bg-slate-100 p-4 transition-colors hover:bg-muted no-underline font-medium"
             >
               <span class="flex gap-2">
                 <span>{project.title}</span>
-                <span class="text-black/60">-</span>
-                <span class="text-black/55">{project.description}</span>
+                <span class="text-black/50">-</span>
+                <span class="text-black/50">{project.description}</span>
               </span>
             </a>
           </li>

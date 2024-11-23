@@ -14,9 +14,9 @@ const post = Astro.props;
 const { title, pubDate } = post.data;
 const { Content } = await post.render();
 
-const formattedDate = pubDate.toLocaleDateString('en-us', {
-  month: 'long',
+const formattedDate = pubDate.toLocaleDateString('en-CA', {
   day: 'numeric',
+  month: 'long',
   year: 'numeric'
 });
 ---
