@@ -15,7 +15,7 @@
 @include font-def('Apercu', normal, 100 900, 'apercu-regular');
 @include font-def('Apercu', italic, 50 900, 'apercu-italic');
 
-$one-rem: clamp(17px, calc(14px + 0.1vh + 0.3vw), 25px);
+$one-rem: clamp(17px, calc(13px + 0.1vh + 0.3vw), 25px);
 
 :root {
   // color-scheme: light dark;
@@ -43,7 +43,7 @@ main {
     @apply leading-relaxed;
   }
   a {
-    @apply underline decoration-gray-400 rounded-md;
+    @apply underline leading-relaxed decoration-gray-400 rounded-sm;
     @apply hover:bg-gray-200 transition-colors motion-reduce:transition-none duration-200;
   }
   blockquote {

@@ -1,53 +1,37 @@
 ---
 import { getCollection } from 'astro:content';
 import Page from '../layouts/Page.astro';
+import projects from './projects';
 
 const email = 'mail@farshed.me';
 
 const allPosts = (await getCollection('blog')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
-
-const projects = [
-  {
-    title: 'Million.js',
-    url: '#',
-    description:
-      'Make React 70% Faster. The Virtual DOM Replacement For React 13.6k+ GitHub stars.',
-    stars: '13.6k'
-  },
-  {
-    title: 'Million.js',
-    url: '#',
-    description:
-      'Make React 70% Faster. The Virtual DOM Replacement For React 13.6k+ GitHub stars.',
-    stars: '13.6k'
-  },
-  {
-    title: 'Million.js',
-    url: '#',
-    description:
-      'Make React 70% Faster. The Virtual DOM Replacement For React 13.6k+ GitHub stars.',
-    stars: '13.6k'
-  }
-];
 ---
 
 <Page>
-  <div class="flex items-center gap-4 mb-8">
-    <img
-      src="/faisal-arshed.jpeg"
-      alt="Faisal Arshed"
-      class="w-12 h-12 rounded-full object-cover hover:animate-spin motion-reduce:animate-none ease-in-out"
-    />
-    <h1 class="text-xl font-semibold">Faisal Arshed</h1>
+  <div class="flex justify-between items-center gap-4 mb-8">
+    <div class="flex items-center gap-4">
+      <img
+        src="/faisal-arshed.jpeg"
+        alt="Faisal Arshed"
+        class="w-12 h-12 rounded-full object-cover hover:animate-spin motion-reduce:animate-none ease-in-out"
+      />
+      <h1 class="text-xl font-semibold">Faisal Arshed</h1>
+    </div>
+    <nav class="font-semibold flex flex-wrap gap-3">
+      <a href="#projects" class="no-underline">Projects</a>
+      <a href="#writing" class="no-underline">Writing</a>
+      <!-- <a href="#reading" class="no-underline">Reading</a> -->
+    </nav>
   </div>
 
-  <div class="prose mb-8">
+  <div class="prose mb-12">
     <p>Hi, I'm Faisal and I like building and tinkering with things.</p>
     <p>
       My current areas of active interest include compilers, data-oriented design, WASM, and 2D
-      graphics. I mostly work with JavaScript and Rust.
+      graphics.
     </p>
     <p>Besides tech, I find myself drawn to science, history, and culture.</p>
     <p>
@@ -73,24 +57,31 @@ const projects = [
     </div>
   </div>
 
-  <!-- <div>
-    <h2 class="text-xl font-bold my-6">Projects</h2>
-    <ul class="space-y-6">
+  <div class="mb-12">
+    <h2 id="projects" class="text-xl font-semibold my-6">Projects</h2>
+    <ul class="space-y-2">
       {
         projects.map((project) => (
-          <li class="group">
-            <div class="flex items-baseline gap-2">
-              <a href={project.url}>{project.title}</a>
-            </div>
-            <p class="mt-2">{project.description}</p>
+          <li>
+            <a
+              href={project.url}
+              target="_blank"
+              class="group flex items-center gap-3 rounded-lg bg-slate-100 p-2 transition-colors hover:bg-muted no-underline font-medium"
+            >
+              <span class="flex gap-2">
+                <span>{project.title}</span>
+                <span class="text-black/60">-</span>
+                <span class="text-black/55">{project.description}</span>
+              </span>
+            </a>
           </li>
         ))
       }
     </ul>
-  </div> -->
+  </div>
 
   <div>
-    <h2 class="text-xl font-semibold my-6">Writing</h2>
+    <h2 id="writing" class="text-xl font-semibold my-6">Writing</h2>
     <ul class="space-y-2">
       {
         allPosts.map((post) => {
@@ -100,7 +91,7 @@ const projects = [
 
           return (
             <li>
-              <a href={href} target={target} class="font-medium no-underline">
+              <a href={href} target={target} class="text-lg font-medium no-underline">
                 {title}
               </a>
             </li>
