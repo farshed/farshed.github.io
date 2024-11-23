@@ -39,12 +39,15 @@ main {
 }
 
 @layer base {
+  ::selection {
+    @apply text-customBlue bg-customBlue/5;
+  }
   body {
     @apply leading-relaxed;
   }
   a {
     @apply underline leading-relaxed decoration-gray-400 rounded-sm;
-    @apply hover:bg-gray-200 transition-colors motion-reduce:transition-none duration-200;
+    @apply hover:text-customBlue hover:bg-customBlue/5 transition-colors motion-reduce:transition-none duration-200;
   }
   blockquote {
     strong {
