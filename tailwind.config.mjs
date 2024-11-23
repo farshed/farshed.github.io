@@ -8,6 +8,9 @@ export default {
           css: {
             color: 'currentColor',
             fontSize: '1rem',
+            a: {
+              fontWeight: 'normal'
+            },
             blockquote: {
               quotes: 'none'
             }

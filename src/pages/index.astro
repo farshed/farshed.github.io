@@ -44,10 +44,7 @@ const projects = [
   </div>
 
   <div class="prose mb-8">
-    <p>
-      Hi, I'm Faisal, a software engineer and open sourceror with a passion for building and
-      tinkering with things.
-    </p>
+    <p>Hi, I'm Faisal and I like building and tinkering with things.</p>
     <p>
       My current areas of active interest include compilers, data-oriented design, WASM, and 2D
       graphics. I mostly work with JavaScript and Rust.
@@ -69,8 +66,10 @@ const projects = [
         </p> -->
 
     <div class="flex flex-row gap-x-3">
-      <a href="https://github.com/farshed" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
+      <a href="https://github.com/farshed" target="_blank" class="font-medium">GitHub</a>
+      <a href="https://linkedin.com/in/faisal-arshed" target="_blank" class="font-medium"
+        >LinkedIn</a
+      >
     </div>
   </div>
 
@@ -101,7 +100,7 @@ const projects = [
 
           return (
             <li>
-              <a href={href} target={target} class="text-lg no-underline">
+              <a href={href} target={target} class="font-medium no-underline">
                 {title}
               </a>
             </li>

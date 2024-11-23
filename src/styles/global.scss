@@ -43,7 +43,7 @@ main {
     @apply leading-relaxed;
   }
   a {
-    @apply font-medium underline decoration-gray-400 rounded-md;
+    @apply underline decoration-gray-400 rounded-md;
     @apply hover:bg-gray-200 transition-colors motion-reduce:transition-none duration-200;
   }
   blockquote {
