@@ -24,11 +24,11 @@ const formattedDate = pubDate.toLocaleDateString('en-us', {
 <Page>
   <article>
     <header class="mb-12 text-center">
-      <h1 class="text-3xl lg:text-4xl font-bold mb-4">{title}</h1>
+      <h1 class="text-3xl font-bold mb-4">{title}</h1>
       <time>{formattedDate}</time>
     </header>
 
-    <div class="prose lg:prose-lg mx-auto">
+    <div class="prose mx-auto">
       <Content />
     </div>
   </article>

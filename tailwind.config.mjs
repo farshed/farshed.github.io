@@ -7,6 +7,7 @@ export default {
         DEFAULT: {
           css: {
             color: 'currentColor',
+            fontSize: '1rem',
             blockquote: {
               quotes: 'none'
             }

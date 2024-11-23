@@ -34,7 +34,7 @@ const renderHomeBtn = Astro.url.pathname !== '/';
       ready ? setup() : document.addEventListener('DOMContentLoaded', setup);
     </script>
 
-    <main class="min-h-screen bg-background p-6 md:p-12 max-w-3xl mx-auto">
+    <main class="min-h-screen bg-background p-6 md:p-12 mx-auto">
       {
         renderHomeBtn ? (
           <div class="flex items-center gap-4 mb-8">

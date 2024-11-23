@@ -15,16 +15,32 @@
 @include font-def('Apercu', normal, 100 900, 'apercu-regular');
 @include font-def('Apercu', italic, 50 900, 'apercu-italic');
 
+$one-rem: clamp(17px, calc(14px + 0.1vh + 0.3vw), 25px);
+
 :root {
   // color-scheme: light dark;
+  font-size: $one-rem;
   font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
     ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans';
 }
 
+body {
+  scroll-behavior: smooth;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 70ch;
+}
+
 @layer base {
   body {
-    @apply text-lg;
+    @apply leading-relaxed;
   }
   a {
     @apply font-medium underline decoration-gray-400 rounded-md;
