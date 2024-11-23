@@ -20,7 +20,9 @@ export default defineConfig({
       filter: (page) => !page.includes('/noindex/')
     }),
     react(),
-    tailwind()
+    tailwind({
+      applyBaseStyles: false
+    })
   ],
   markdown: {
     remarkPlugins: [remarkMath],
