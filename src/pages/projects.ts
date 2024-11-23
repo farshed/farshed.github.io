@@ -3,7 +3,7 @@ const projects = [
     title: 'Soundspice',
     url: 'https://github.com/farshed/SoundSpice-mobile',
     description:
-      'Minimalist music player for Android. Featured in Beebom Best Open-source Android Apps of 2020.',
+      "Minimalist music player for Android. Featured in Beebom's Best Open-source Android Apps of 2020.",
     stars: '400+'
   },
   {
@@ -35,6 +35,10 @@ const projects = [
     description: 'Robust banking ledger backend.',
     url: 'https://github.com/farshed/pennywise'
   }
+
+  // Neuron oxide
+  // React clone
+  // Glassmorphic UI using CSS
 ];
 
 export default projects;

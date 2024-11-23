@@ -70,7 +70,7 @@ const allPosts = (await getCollection('blog')).sort(
 
           return (
             <li>
-              <a href={href} target={target} class="font-medium no-underline">
+              <a href={href} target={target} class="font-medium no-underline py-1">
                 {title} <span class="text-black/40">({formattedDate})</span>
               </a>
             </li>
@@ -85,17 +85,22 @@ const allPosts = (await getCollection('blog')).sort(
     <ul class="space-y-3">
       {
         projects.map((project) => (
+          // <li>
+          //   <a
+          //     href={project.url}
+          //     target="_blank"
+          //     class="group flex items-center gap-3 rounded-md bg-slate-100 p-4 transition-colors hover:bg-muted no-underline font-medium"
+          //   >
+          //     <span class="flex gap-2">
+          //       <span>{project.title}</span>
+          //       <span class="text-black/50">-</span>
+          //       <span class="text-black/50">{project.description}</span>
+          //     </span>
+          //   </a>
+          // </li>
           <li>
-            <a
-              href={project.url}
-              target="_blank"
-              class="group flex items-center gap-3 rounded-md bg-slate-100 p-4 transition-colors hover:bg-muted no-underline font-medium"
-            >
-              <span class="flex gap-2">
-                <span>{project.title}</span>
-                <span class="text-black/50">-</span>
-                <span class="text-black/50">{project.description}</span>
-              </span>
+            <a href={project.url} target="_blank" class="font-medium no-underline py-1">
+              {project.title} - <span class="text-black/50">{project.description}</span>
             </a>
           </li>
         ))
