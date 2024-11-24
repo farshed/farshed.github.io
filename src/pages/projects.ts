@@ -27,7 +27,7 @@ const projects = [
   },
   {
     title: 'Zusammen',
-    description: 'CLI-based parallel downloader using Rust and Tokio.',
+    description: 'Parallel downloader using Rust and Tokio.',
     url: 'https://github.com/farshed/zusammen'
   },
   {
