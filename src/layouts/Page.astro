@@ -3,8 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 const { title = SITE_TITLE, description = SITE_DESCRIPTION, ...rest } = Astro.props;
-console.log(Astro.url.pathname);
-const renderHomeBtn = Astro.url.pathname !== '/';
+const renderHomeBtn = Astro.url.pathname.includes('/blog/');
 ---
 
 <html lang="en">
@@ -12,28 +11,6 @@ const renderHomeBtn = Astro.url.pathname !== '/';
     <BaseHead {...{ title, description, ...rest }} />
   </head>
   <body>
-    <script type="module" is:inline>
-      const setup = () => {
-        const [key, lt, dk] = ['theme-pref', 'light', 'dark'];
-
-        const theme = {
-          get: () => (localStorage.getItem(key) === dk ? dk : lt),
-          set(v) {
-            document.documentElement.setAttribute('data-theme', v);
-            localStorage.setItem(key, v);
-          }
-        };
-
-        theme.set(theme.get());
-
-        const toggle = document.getElementById('sun');
-        toggle?.addEventListener('click', () => theme.set(theme.get() === dk ? lt : dk));
-      };
-
-      const ready = ['interactive', 'complete'].includes(document.readyState);
-      ready ? setup() : document.addEventListener('DOMContentLoaded', setup);
-    </script>
-
     <main class="min-h-screen bg-background p-6 md:p-12 mx-auto">
       {
         renderHomeBtn ? (
