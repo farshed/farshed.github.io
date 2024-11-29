@@ -3,7 +3,7 @@ const projects = [
     title: 'Soundspice',
     url: 'https://github.com/farshed/SoundSpice-mobile',
     description:
-      "Minimalist music player for Android. Featured in Beebom's Best Open-source Android Apps of 2020.",
+      "Minimalist music player for Android. Featured in Beebom's Best Open-source Android Apps of 2020. Introduced in-app lyrics years before Spotify.",
     stars: '400+'
   },
   {

@@ -15,7 +15,14 @@
 @include font-def('Apercu', normal, 100 900, 'apercu-regular');
 @include font-def('Apercu', italic, 50 900, 'apercu-italic');
 
-$one-rem: clamp(17px, calc(13px + 0.1vh + 0.3vw), 25px);
+// @include font-def('UtopiaStd', normal, normal, 'UtopiaStd-Regular');
+// @include font-def('UtopiaStd', italic, normal, 'UtopiaStd-RegularItalic');
+// @include font-def('UtopiaStd', normal, bold, 'UtopiaStd-Bold');
+
+// @include font-def('Moderat', normal, normal, 'Moderat-Regular');
+// @include font-def('Moderat', normal, bold, 'Moderat-Bold');
+
+$one-rem: clamp(17px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 
 :root {
   // color-scheme: light dark;

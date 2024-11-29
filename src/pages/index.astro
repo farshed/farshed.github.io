@@ -47,32 +47,31 @@ const allPosts = (await getCollection('blog')).sort(
     </p>
 
     <div class="flex flex-row gap-x-3">
-      <a href="https://github.com/farshed" target="_blank" class="font-medium">GitHub</a>
-      <a href="https://linkedin.com/in/faisal-arshed" target="_blank" class="font-medium"
-        >LinkedIn</a
-      >
+      <a href="https://github.com/farshed" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
     </div>
   </div>
 
   <div class="mb-12">
-    <h2 id="writing" class="text-2xl font-bold my-6">Writing</h2>
-    <ul class="space-y-2">
+    <h2 id="writing" class="text-xl font-bold my-6">Writing</h2>
+    <ul class="space-y-5">
       {
         allPosts.map((post) => {
           const { title, redirectTo, pubDate } = post.data;
           const href = redirectTo ? redirectTo : `/blog/${post.slug}`;
           const target = redirectTo ? '_blank' : '_self';
-          const formattedDate = pubDate.toLocaleDateString('en-CA', {
-            day: '2-digit',
-            month: '2-digit',
+          const date = pubDate.toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric',
             year: 'numeric'
           });
 
           return (
             <li>
-              <a href={href} target={target} class="font-medium no-underline py-1">
-                {title} <span class="text-black/40">({formattedDate})</span>
+              <a href={href} target={target} class="text-xl no-underline">
+                {title}
               </a>
+              <p class="text-sm text-black/60 mt-0.5">{date}</p>
             </li>
           );
         })
@@ -81,27 +80,15 @@ const allPosts = (await getCollection('blog')).sort(
   </div>
 
   <div class="mb-12">
-    <h2 id="projects" class="text-lg font-bold my-6">Projects</h2>
-    <ul class="space-y-3">
+    <h2 id="projects" class="text-xl font-bold my-6">Projects</h2>
+    <ul class="space-y-5">
       {
         projects.map((project) => (
-          // <li>
-          //   <a
-          //     href={project.url}
-          //     target="_blank"
-          //     class="group flex items-center gap-3 rounded-md bg-slate-100 p-4 transition-colors hover:bg-muted no-underline font-medium"
-          //   >
-          //     <span class="flex gap-2">
-          //       <span>{project.title}</span>
-          //       <span class="text-black/50">-</span>
-          //       <span class="text-black/50">{project.description}</span>
-          //     </span>
-          //   </a>
-          // </li>
           <li>
-            <a href={project.url} target="_blank" class="font-medium no-underline py-1">
-              {project.title} - <span class="text-black/50">{project.description}</span>
+            <a href={project.url} target="_blank" class="text-xl no-underline">
+              {project.title}
             </a>
+            <p class="text-sm text-black/60 mt-0.5">{project.description}</p>
           </li>
         ))
       }
