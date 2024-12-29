@@ -6,7 +6,7 @@ pubDate: 'December 29 2024'
 
 In 1959, David Hubel and Torsten Wiesel, two Harvard neuroscientists, conducted a series of experiments on anesthetized cats to understand how visual perception works in animals.
 
-They [found](https://pmc.ncbi.nlm.nih.gov/articles/PMC1363130/) that neurons in the visual cortex are specialized to detect features like specific orientations, shapes, and movements. These cells have "receptive fields" organized into excitatory and inhibitory regions which filter and highlights patterns, very much like a convolutional algorithm.
+They [found](https://pmc.ncbi.nlm.nih.gov/articles/PMC1363130/) that neurons in the visual cortex are specialized to detect features like specific orientations, shapes, and movements. These cells have "receptive fields" organized into excitatory and inhibitory regions which filter and highlight patterns, very much like a convolutional algorithm.
 
 We think we see RGB pixels but we actually see in representation space. The brain encodes the world as abstractions, edges, shapes, objects, not raw data. Both CNNs and the visual cortex use convolutions to extract meaning from raw input.
 
