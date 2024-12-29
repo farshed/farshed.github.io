@@ -42,13 +42,16 @@ main {
   ::selection {
     @apply text-customBlue bg-customBlue/5;
   }
+
   body {
     @apply leading-relaxed;
   }
+
   a {
     @apply underline leading-relaxed decoration-gray-400 rounded-sm;
     @apply hover:text-customBlue hover:bg-customBlue/5 transition-colors motion-reduce:transition-none duration-200;
   }
+
   blockquote {
     strong {
       @apply block mt-4;
@@ -56,5 +59,9 @@ main {
         content: '— ';
       }
     }
+  }
+
+  img {
+    @apply mx-auto;
   }
 }

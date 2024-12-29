@@ -21,7 +21,7 @@ export default defineConfig({
     }),
     react(),
     tailwind({
-      applyBaseStyles: false
+      // applyBaseStyles: false
     })
   ],
   markdown: {
