@@ -20,4 +20,4 @@ This should be obvious to anyone who has dabbled in psychedelics. See these imag
 
 Contrary to what you might think, DeepDream is not making these images trippy on purpose. All it does is exaggerate the existing patterns in the image to help us visualize how CNNs "see".
 
-This is also what psychedelics do to our perception of reality i.e. amplify the patterns that are already there. Normally, the brain integrates sensory data into a cohesive narrative by ironing out inconsistencies. Psychedelics weaken this integration, letting unprocessed data flood our consciousness. DeepDream’s feedback amplifies features; psychedelic feedback amplifies experience.
+This is also what psychedelics do to our perception of reality i.e. amplify the patterns that are already there. Normally, the brain integrates sensory data into a cohesive narrative by ironing out inconsistencies. Psychedelics weaken this integration, letting unprocessed data flood consciousness. DeepDream’s feedback amplifies features; psychedelic feedback amplifies experience.
