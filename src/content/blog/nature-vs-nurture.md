@@ -38,7 +38,7 @@ It seems that there's a critical period in early life during which the HPA axis 
 
 ## Free Will
 
-If we're all just products of genetics and learned behaviour, how can there be such a thing as human agency? If every action one takes is determined by factors outside their control, how can one be held responsible?
+If we're all just products of our genetics and learned behaviour, how can there be such a thing as human agency? If every action one takes is determined by factors outside their control, how can one be held responsible?
 
 Schopenhauer, in his 1838 essay _On the Freedom of the Will_, famously wrote:
 
