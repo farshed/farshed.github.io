@@ -1,32 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
 import Page from '../layouts/Page.astro';
-import projects from './projects';
 
 const email = 'mail@farshed.me';
-
-const allPosts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
 ---
 
 <Page>
-  <div class="flex justify-between items-center gap-4 mb-8">
-    <div class="flex items-center gap-4">
-      <img
-        src="/faisal-arshed.jpeg"
-        alt="Faisal Arshed"
-        class="w-12 h-12 rounded-full object-cover hover:animate-spin motion-reduce:animate-none ease-in-out"
-      />
-      <h1 class="text-lg font-semibold">Faisal Arshed</h1>
-    </div>
-    <!-- <nav class="font-semibold flex flex-wrap gap-x-4 gap-y-2">
-      <a href="#writing" class="no-underline">Writing</a>
-      <a href="#projects" class="no-underline">Projects</a>
-    </nav> -->
-  </div>
-
-  <div class="prose mb-12">
+  <div class="prose">
     <p>
       Hi! I'm Faisal, a software engineer and aspiring generalist who likes building and tinkering
       with things.
@@ -35,7 +14,7 @@ const allPosts = (await getCollection('blog')).sort(
       My current areas of active interest include compilers, data-oriented design, WASM, and 2D
       graphics.
     </p>
-    <p>Besides tech, I find myself drawn to science, history, and culture.</p>
+    <p>Besides tech, I find myself drawn to physics, philosophy, and psychology.</p>
     <p>
       If you're a recruiter, you might be interested in my <a
         href="/Faisal_Arshed_resume.pdf"
@@ -50,48 +29,5 @@ const allPosts = (await getCollection('blog')).sort(
       <a href="https://github.com/farshed" target="_blank">GitHub</a>
       <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
     </div>
-  </div>
-
-  <div class="mb-12">
-    <h2 id="blog" class="text-xl font-bold my-6">Blog</h2>
-    <ul class="space-y-5">
-      {
-        allPosts.map((post) => {
-          const { title, redirectTo, pubDate } = post.data;
-          const href = redirectTo ? redirectTo : `/blog/${post.slug}`;
-          const target = redirectTo ? '_blank' : '_self';
-          const date = pubDate.toLocaleDateString('en-US', {
-            month: 'short',
-            day: 'numeric',
-            year: 'numeric'
-          });
-
-          return (
-            <li>
-              <a href={href} target={target} class="text-xl no-underline">
-                {title}
-              </a>
-              <p class="text-sm text-black/60 mt-0.5">{date}</p>
-            </li>
-          );
-        })
-      }
-    </ul>
-  </div>
-
-  <div class="mb-12">
-    <h2 id="projects" class="text-xl font-bold my-6">Projects</h2>
-    <ul class="space-y-5">
-      {
-        projects.map((project) => (
-          <li>
-            <a href={project.url} target="_blank" class="text-xl no-underline">
-              {project.title}
-            </a>
-            <p class="text-sm text-black/60 mt-0.5">{project.description}</p>
-          </li>
-        ))
-      }
-    </ul>
   </div>
 </Page>

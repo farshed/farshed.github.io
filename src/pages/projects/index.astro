@@ -1,67 +1,22 @@
 ---
-import { getCollection } from 'astro:content';
 import Page from '../../layouts/Page.astro';
-// import ProjectItem from '../../components/ProjectItem.astro';
-import { SITE_TITLE } from '../../consts';
-
-const projects = [
-  {
-    title: 'Duofolio',
-    description:
-      'An ebook reader to help language learners effectively acquire new vocabulary in their target language.',
-    techStack: ['React Native', 'Redux'],
-    links: {
-      link: 'https://play.google.com/store/apps/details?id=com.duofolio',
-      github: 'https://github.com/farshed/duofolio'
-    }
-  },
-  {
-    title: 'SoundSpice',
-    description:
-      'A light-weight and minimalist music player for Android. Featured by Beebom as one of the best open-source Android apps of 2020. It introduced in-app lyrics years before Spotify.',
-    techStack: ['React Native', 'Redux'],
-    links: {
-      github: 'https://github.com/farshed/soundspice-mobile',
-      beebom: 'https://beebom.com/open-source-apps-android/'
-    }
-  },
-  {
-    title: 'genius-lyrics-api',
-    description: 'A library for scraping lyrics and other song metadata from genius.com.',
-    techStack: ['JavaScript'],
-    links: {
-      github: 'https://github.com/farshed/genius-lyrics-api'
-    }
-  },
-  {
-    title: 'pennywise',
-    description: 'A robust banking ledger',
-    techStack: ['Go', 'PostgreSQL'],
-    links: {
-      github: 'https://github.com/farshed/pennywise'
-    }
-  },
-  {
-    title: 'zusammen',
-    description: 'A CLI-based parallel downloader.',
-    techStack: ['Rust', 'Tokio'],
-    links: {
-      github: 'https://github.com/farshed/zusammen'
-    }
-  },
-  {
-    title: 'DeepGaze',
-    description: 'An experiment in deep learning on mobile devices.',
-    techStack: ['Flutter', 'TensorFlow'],
-    links: {
-      github: 'https://github.com/farshed/deepgaze'
-    }
-  }
-];
+import projects from './projects';
 ---
 
 <Page>
-  <ul class="post-list">
-    <!-- {projects.map((p) => <ProjectItem {...p} />)} -->
-  </ul>
+  <div>
+    <h2 class="text-xl font-bold my-6">Projects</h2>
+    <ul class="space-y-5">
+      {
+        projects.map((project) => (
+          <li>
+            <a href={project.url} target="_blank" class="text-xl no-underline">
+              {project.title}
+            </a>
+            <p class="text-sm text-black/60 mt-0.5">{project.description}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </Page>
