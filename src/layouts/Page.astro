@@ -11,7 +11,7 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION, minimal, ...rest } =
     <BaseHead {...{ title, description, ...rest }} />
   </head>
   <body>
-    <main class="min-h-screen bg-background p-6 md:px-0 md:py-10 mx-auto">
+    <main class="min-h-screen bg-background p-6 md:px-0 mx-auto">
       {!minimal && <Header />}
       <slot />
     </main>

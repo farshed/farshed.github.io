@@ -20,6 +20,7 @@ $one-rem: clamp(17px, calc(13.5px + 0.1vh + 0.3vw), 25px);
 :root {
   // color-scheme: light dark;
   font-size: $one-rem;
+  // font-family: -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, sans-serif;
   font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
     ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans';
