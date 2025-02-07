@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: 'Sage',
+    url: 'https://github.com/farshed/sage',
+    description: 'Self-hosted voice chat with LLMs.',
+    stars: '200+'
+  },
+  {
     title: 'Soundspice',
     url: 'https://github.com/farshed/SoundSpice-mobile',
     description:
