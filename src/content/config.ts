@@ -3,7 +3,7 @@ import { defineCollection, z } from 'astro:content';
 const blog = defineCollection({
   schema: z.object({
     title: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
     pubDate: z
       .string()
       .or(z.date())
@@ -16,7 +16,7 @@ const blog = defineCollection({
 const notes = defineCollection({
   schema: z.object({
     title: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
     pubDate: z
       .string()
       .or(z.date())
