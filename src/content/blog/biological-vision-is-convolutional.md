@@ -1,5 +1,5 @@
 ---
-title: 'Biological Vision Is Convolutional'
+title: 'Biological vision is convolutional'
 description: 'Convolutional Neural Networks mimic how visual cortex processes information'
 pubDate: 'December 29 2024'
 ---
