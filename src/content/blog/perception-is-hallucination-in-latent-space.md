@@ -9,7 +9,7 @@ pubDate: 'December 29 2024'
 
 In 1959, David Hubel and Torsten Wiesel, two Harvard neuroscientists, conducted a series of experiments on anesthetized cats to understand how visual perception works in animals.
 
-They [found](https://pmc.ncbi.nlm.nih.gov/articles/PMC1363130/) that neurons in the visual cortex were specialized to detect features like specific orientations, shapes, and movements. These cells had "receptive fields" organized into excitatory and inhibitory regions which filters and highlights patterns, very much like a convolutional algorithm.
+They [found](https://pmc.ncbi.nlm.nih.gov/articles/PMC1363130/) that neurons in the visual cortex were specialized to detect features like specific orientations, shapes, and movements. These cells had "receptive fields" organized into excitatory and inhibitory regions which filtered and highlighted patterns, very much like a convolutional algorithm.
 
 This discovery was the first real proof that we don’t passively absorb light and form an internal image of the world like a camera. Instead, the visual system extracts meaningful statistical patterns and constructs a _representation_.
 
@@ -17,9 +17,9 @@ We think we see RGB pixels but we actually see in representation space.
 
 ## Vision is inference, not perception
 
-This should be obvious to anyone who’s ever dabbled in psychedelics or suffered from visual hallucinations. Take Charles Bonnet syndrome where people who’ve gone blind report vivid, hyperreal hallucinations of faces, animals, or geometric patterns.
+This should be obvious to anyone who’s ever dabbled in psychedelics or suffered from visual hallucinations.
 
-Why? Because the brain expects visual input and, when it doesn’t get any, it just makes something up using its built-in priors.
+Take Charles Bonnet syndrome where people who’ve gone blind report vivid, hyperreal hallucinations of faces, animals, or geometric patterns. Why? Because the brain expects visual input and, when it doesn’t get any, it just makes something up using its built-in priors.
 
 Even in normal vision, perception is an act of inference. Ever notice how you "see" a coherent world even though our eyes constantly jitter around? These tiny movements (called microsaccades) prevent photoreceptors from adapting to a static scene. Without them, our vision would fade to a gray blur, because neurons only fire when detecting _change_.
 
@@ -35,7 +35,7 @@ Our brain is always generating an internal model of reality. In complete darknes
 
 Hallucinations (from psychedelics, sensory deprivation, etc.) happen when this internal model isn’t properly constrained. Sensory input acts as a feedback mechanism, preventing the brain from drifting into pure fantasy.
 
-In Bayesian brain hypothesis, perception is formalized as Bayesian inference:
+Bayesian brain hypothesis formalizes perception as Bayesian inference:
 
 - **Prior beliefs** (Your brain’s expectations)
 - **Likelihood** (Incoming sensory data)
@@ -53,7 +53,7 @@ If perception is inference, what happens when the priors get distorted?
 
 Vision is just one example. The mammalian brain’s entire approach to information processing is based on filtering, compressing, and pattern-matching.
 
-- Memory isn’t a perfect record. It's not a markdown document with text and images and sound. Instead, it’s a generative model that reconstructs past experiences from stored features.
+- Memory's not like a markdown document with details and images and sound. Instead, it’s a generative model that reconstructs past experiences from stored features.
 - The auditory cortex detects spectrotemporal patterns (like the harmonic structure of speech) instead of processing raw sound waveforms.
 - Even language comprehension is hierarchical: Words form phrases, phrases form sentences, and meaning emerges at higher levels.
 

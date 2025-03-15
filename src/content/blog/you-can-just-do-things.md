@@ -38,7 +38,7 @@ Scott Alexander, of the Slate Star Codex fame, once wrote:
 >
 > "Child prodigies" are autistic types who don't understand the unspoken rules of society and so naively use their full powers right away. They end out as social outcasts not by coincidence but as unconscious social punishment for this defection.
 
-This seems like an unhinged take and yet _stereotype threat_ is real, _impostor syndrome_ is real, and self-perception and confidence do influence performance, especially in subjective fields. That said, they cannot substitute for raw cognitive ability or fine motor skills. Even if talent were just "not self-sabotaging", that itself would be an innate trait that varies between people.
+This seems like an unhinged take and yet _stereotype threat_ is real, _impostor syndrome_ is real, and self-perception and confidence do influence performance, especially in subjective domains. That said, they cannot substitute for raw cognitive ability or fine motor skills. Even if talent were just "not self-sabotaging", that itself would be an innate trait that varies between people.
 
 Psychological research supports this to some extent. Robert Rosenthal’s _Pygmalion Effect_ study found that when teachers were told certain students were gifted (even though they weren’t), those students ended up outperforming their peers. Belief shapes reality. Similarly, stereotype threat research shows that people underperform when they believe they’re expected to fail.
 
