@@ -1,5 +1,5 @@
 ---
-title: 'You can just... do things?'
+title: 'You can just do things'
 pubDate: 'March 3 2025'
 ---
 
