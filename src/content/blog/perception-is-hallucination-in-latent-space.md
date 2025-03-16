@@ -47,7 +47,7 @@ If perception is inference, what happens when the priors get distorted?
 
 - Psychedelics disrupt hierarchical processing, allowing low-level feature maps to bleed into conscious awareness. This is why trippy visuals resemble [DeepDream](http://googleresearch.blogspot.ch/2015/06/inceptionism-going-deeper-into-neural.html) images (both are cases of pattern-extractors running unchecked).
 - Optical illusions exploit the brain’s reliance on heuristics. For example, the [Adelson checker shadow illusion](https://en.wikipedia.org/wiki/Checker_shadow_illusion) tricks us into seeing two identical colors as different because our visual system compensates for shadows.
-- Adversarial examples in AI betray the fragility of convolutional representations. Tweak a few pixels, and a CNN confidently misclassifies a panda as a gibbon. Disturb a human’s priors in the right way (say, with a warped face in the [uncanny valley](https://en.wikipedia.org/wiki/Uncanny_valley)), and the effect is just as disorienting.
+- Adversarial examples in AI betray the fragility of convolutional representations. Tweak a few pixels and a CNN confidently misclassifies a panda as a gibbon. Disturb a human’s priors in the right way (say, with a warped face in the [uncanny valley](https://en.wikipedia.org/wiki/Uncanny_valley)) and the effect is just as disorienting.
 
 ## All cognition is convolutional
 
@@ -58,3 +58,5 @@ Vision is just one example. The mammalian brain’s entire approach to informati
 - Even language comprehension is hierarchical: Words form phrases, phrases form sentences, and meaning emerges at higher levels.
 
 So yeah, _all of perception, thought, and memory is a recursive, hierarchical search for patterns in raw data._
+
+_A hallucination constrained by sensory input. A walk through latent space._
