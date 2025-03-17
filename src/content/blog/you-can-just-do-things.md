@@ -17,7 +17,9 @@ Sometimes the biggest breakthroughs come from people who just... don’t know th
 
 The internet, for all its wonders, makes this worse. It shows us every path that’s been walked, and when you see every well-trodden trail, stepping off it feels impossible.
 
-Hence the "beginner’s luck". Zen Buddhism calls this _shoshin_, the beginner’s mind, a state of openness and curiosity unburdened by assumptions. Cognitive psychology has a parallel concept: the Einstellung effect, where prior knowledge actually blocks people from solving problems in novel ways. Sometimes, knowing too much makes you worse at innovation.
+Hence "beginner’s luck". Zen Buddhism calls this _shoshin_, the beginner’s mind, a state of openness and curiosity free from assumptions. Cognitive psychology has a parallel concept: the Einstellung effect, where prior knowledge actually blocks people from solving problems in novel ways.
+
+Sometimes, knowing too much makes you worse at innovation. This is because expertise refines the known. It optimizes for what's been done, not what _could_ be. But novelty often demands subversion of the known.
 
 Another bottleneck: Being too smart for your own good. If you’re smart enough to see how hard something is going to be, you might lose the motivation to ever begin.
 
