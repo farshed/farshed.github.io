@@ -1,5 +1,6 @@
 ---
 title: 'You can just do things'
+description: 'How limiting beliefs, social signaling, and societal inertia hold us back.'
 pubDate: 'March 3 2025'
 ---
 
