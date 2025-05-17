@@ -7,7 +7,7 @@ pubDate: 'November 10 2024'
 > Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?  
 > **Socrates, Euthyphro**
 
-I recently skimmed Barbara Oakley's _Evil Genes_, which explores the relationship between genes and behaviour. Oakley aggregates some interesting research from genetics, molecular biology, and psychology to try and answer whether people are _born bad_ or _made bad_.
+I recently skimmed Barbara Oakley's _Evil Genes_, which explores the relationship between genes and behaviour. Oakley aggregates some interesting research from genetics, molecular biology, and psychology to try and answer whether some people are _born bad_ or _made bad_.
 
 The nature vs. nurture debate is the psychology equivalent of the chicken-or-egg question. Most researchers agree that adulthood personality largely boils down to two factors:
 
@@ -20,8 +20,8 @@ Simply put, DNA behaves more like an adaptive program that responds to input (ex
 
 Oakley points to research on boys with a predisposition for lower levels of MAOA (monoamine oxidase A), an enzyme that regulates neurotransmitters. These low-MAOA variants are linked to impulsivity and aggression. But genes alone don't predict behavior here:
 
-- Boys with low-MAOA raised in abusive homes are vastly more likely to engage in violent or criminal behaviour.
-- Boys with low-MAOA raised in stable homes display no significant difference from the general population.
+- Boys with low MAOA raised in abusive homes are vastly more likely to engage in violent or criminal behaviour.
+- Boys with low MAOA raised in stable homes display no significant difference from the general population.
 
 The genetic potential for aggression exists in both cases. But the expression depends entirely on context.
 
@@ -59,6 +59,6 @@ For example, [studies](https://en.wikipedia.org/wiki/Left-brain_interpreter) on 
 
 This doesn't mean we're robots. Just that the forces driving our choices (genes, hormones, past experiences) operate largely outside conscious awareness.
 
-Human nature isn't a thing. It's a process. And that process is recursive, self-reinforcing, and deeply dependent on context. Change the environment, and you change the expression of human nature itself.
+Human nature isn't a thing but a process. And that process is recursive, self-reinforcing, and deeply dependent on context. Change the environment, and you change the expression of human nature itself.
 
 It's about time we ditched _nature vs. nurture_ for _nature + nurture_.

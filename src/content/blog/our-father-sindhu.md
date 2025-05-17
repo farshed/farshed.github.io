@@ -10,7 +10,7 @@ cover: '/media/blog/sindhu.webp'
 
 _Sindhu_, the Indo-Iranian name for River Indus, is a Sanskrit term meaning "sea" or "ocean".
 
-After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches around 2000 BCE, _Sindhu_ [became](https://en.wikipedia.org/wiki/Proto-Iranian_language#Development_into_Old_Iranian) _Hindu_ in Old Persian and the fertile floodplains it nourished came to be known as "_Hindu Astan_", meaning "Indus land".
+After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches around 2000 BCE, _Sindhu_ [became](https://en.wikipedia.org/wiki/Proto-Iranian_language#Development_into_Old_Iranian) _Hindu_ in Old Persian and the fertile floodplains it flowed through came to be known as "_Hindu Astan_", meaning "Indus land".
 
 The word Hindu, once simply a geographical marker, would eventually evolve into an identity and a faith. Its Greek and Latin transliterations, Indos and Indus, expanded the term's reach, defining not just a region but an entire subcontinent.
 
@@ -28,11 +28,11 @@ A 24th-century BCE inscription from the Ancient Sumer, attributed to Sargon of A
 
 > "Ships from Meluhha, Magan, and Dilmun he moored at the docks of Akkad."
 
-Meluhha is widely believed to be the IVC, suggesting that its people were exporting goods, perhaps cotton textiles, carnelian beads, and lapis lazuli, to Mesopotamian city-states. Indus seals, featuring a still-undeciphered script, have been found as far as Mesopotamia, implying that not just trade but cultural and bureaucratic engagement took place.
+Meluhha is widely believed to be the IVC. This suggests that its people were exporting goods, perhaps cotton textiles, carnelian beads, and lapis lazuli, to Mesopotamian city-states. Indus seals, featuring a still-undeciphered script, have been found as far as Mesopotamia, implying that not just trade but cultural and bureaucratic engagement took place.
 
-The complexity of Indus society is also evidenced by its lack of monumental palaces or centralized religious structures, a rarity among early civilizations. Unlike the contemporaneous Mesopotamians or Egyptians, who left behind records exalting their kings and gods, the people of Sindhu left behind meticulously planned cities but few obvious signs of hierarchical rule.
+The complexity of IVC society is also evidenced by its lack of monumental palaces or centralized religious structures, a rarity among early civilizations. Unlike the contemporaneous Mesopotamians or Egyptians, who left behind records exalting their kings and gods, the people of Sindhu left behind meticulously planned cities but few obvious signs of hierarchical rule.
 
-This has led some to speculate that their political organization was either remarkably decentralized or functioned through an administrative bureaucracy that remains elusive to archaeologists.
+This has led some to speculate that their political organization was either remarkably decentralized or functioned through an administrative bureaucracy that remains elusive to us.
 
 But even great civilizations are at the mercy of nature. By 1700 BCE, the IVC had declined and most of its cities had been abandoned, possibly due to an abrupt century-long [global drought](https://en.wikipedia.org/wiki/4.2-kiloyear_event) that disrupted and caused the collapse of many other contemporary civilizations.
 

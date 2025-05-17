@@ -13,13 +13,13 @@ They [found](https://pmc.ncbi.nlm.nih.gov/articles/PMC1363130/) that neurons in 
 
 This discovery was the first real proof that we don’t passively absorb light and form an internal image of the world like a camera. Instead, the visual system extracts meaningful statistical patterns and constructs a _representation_.
 
-We think we see RGB pixels but we actually see in representation space.
+<p class="text-lg"><i>We think we see RGB pixels but we actually see in representation space.</i><p>
 
 ## Vision is inference, not perception
 
 This should be obvious to anyone who’s ever dabbled in psychedelics or suffered from visual hallucinations.
 
-Take Charles Bonnet syndrome where people who’ve gone blind report vivid, hyperreal hallucinations of faces, animals, or geometric patterns. Why? Because the brain expects visual input and, when it doesn’t get any, it just makes something up using its built-in priors.
+Take Charles Bonnet syndrome where people who’ve gone blind report vivid, hyperreal hallucinations of faces, animals, or geometric patterns. Why? Because the brain expects visual input and when it doesn’t get any, it just makes something up using its built-in priors.
 
 Even in normal vision, perception is an act of inference. Ever notice how you "see" a coherent world even though our eyes constantly jitter around? These tiny movements (called microsaccades) prevent photoreceptors from adapting to a static scene. Without them, our vision would fade to a gray blur, because neurons only fire when detecting _change_.
 
