@@ -24,6 +24,8 @@ $one-rem: clamp(17px, calc(13.5px + 0.1vh + 0.3vw), 25px);
   font-family: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
     ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans';
+
+  // background-color: #f4f0ed;
 }
 
 body {
@@ -50,7 +52,7 @@ main {
 
   a {
     @apply underline leading-relaxed decoration-gray-400 rounded-sm;
-    @apply hover:text-customBlue hover:bg-customBlue/5 transition-colors motion-reduce:transition-none duration-200;
+    @apply hover:text-customBlue hover:bg-customBlue/5 hover:decoration-customBlue transition-colors motion-reduce:transition-none duration-200;
   }
 
   blockquote {
