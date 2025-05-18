@@ -1,7 +1,7 @@
 ---
 title: 'Nature vs. Nurture'
 description: 'Role of nature and nurture in determining personality and its implications for free will'
-pubDate: 'November 10 2024'
+pubDate: 'September 18 2023'
 ---
 
 > Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?  

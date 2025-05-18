@@ -5,26 +5,29 @@ const email = 'mail@farshed.me';
 ---
 
 <Page>
-  <div class="prose">
-    <p>
-      Hi! I'm Faisal, a software engineer and aspiring generalist who likes building and tinkering
-      with things.
+  <div class="flex flex-col gap-y-10 text-2xl leading-[1.8] mt-20">
+    <p class="text-4xl">
+      Hey! I'm Faisal <span class="text-sm text-gray-600">/ˈfeɪ.səl/ — rhymes with "vassal"</span>
     </p>
-    <p>My current areas of active interest include compilers, functional programming, and WASM.</p>
-    <p>Besides tech, I find myself drawn to philosophy, psychology, and synthetic biology.</p>
-    <p>
+    <p>A software engineer and aspiring generalist who likes building & tinkering with things.</p>
+
+    <!-- <p>I'm currently growing Zeist Labs →</p> -->
+    <p>My life is all about cool ideas, cool experiences, and cool people.</p>
+
+    <!-- <p>My current areas of active interest include compilers, functional programming, and WASM.</p>
+    <p>Besides tech, I find myself drawn to philosophy, psychology, and physics.</p> -->
+    <!-- <p>
       If you're a recruiter, you might be interested in my <a
         href="/Faisal_Arshed_resume.pdf"
         target="_blank">resume</a
       >.
-    </p>
+    </p> -->
     <p>
       To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
     </p>
-
-    <div class="flex flex-row gap-x-3">
-      <a href="https://github.com/farshed" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
-    </div>
+  </div>
+  <div class="flex flex-row gap-x-6 mt-12 text-lg lowercase">
+    <a href="https://github.com/farshed" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
   </div>
 </Page>
