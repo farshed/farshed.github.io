@@ -52,34 +52,65 @@ import Page from '../../layouts/Page.astro';
 </script>
 
 <Page title="Glassmorphic Card UI">
-  <div id="card">
-    <h1 id="name">Patrick Bateman</h1>
-    <p><b>Vice President at Pierce & Pierce</b></p>
+  <div
+    id="card"
+    class="relative w-full max-w-[670px] flex flex-col gap-y-4 p-7 pb-4 my-8 rounded-[14px] font-light z-1 bg-[rgba(255,255,255,0.15)] shadow-[0_0_0_12px_rgba(255,255,255,0.15),0_0_20px_12px_rgba(0,0,0,0.05)] backdrop-blur-[20px] [--px:0%] [--py:0%] [--tiltX:0deg] [--tiltY:0deg] [--opacity:0] [transform:perspective(1000px)_rotateX(var(--tiltX))_rotateY(var(--tiltY))] [transform-style:preserve-3d] [transform-origin:center]"
+  >
+    <h1 class="font-serif text-xl" style="font-family: 'The Seasons';">Patrick Bateman</h1>
+    <p class="text-base font-semibold">Vice President at Pierce & Pierce</p>
 
-    <p id="intro">
-      I don't just crunch numbers, I redefine them. In a world where details matter, I stand
-      unparalleled. My business card? Bone color, Silian Rail font – a statement in subtlety yet
-      screams sophistication. Fitness enthusiast, connoisseur of haute cuisine, and an avid
-      appreciator of Phil Collins. My expertise isn't just in mergers and acquisitions; it's in
-      cultivating an aura of excellence. When I'm not revolutionizing Wall Street, you might find me
-      at the trendiest eateries or updating my extensive wardrobe. Remember, it's not just about
-      being the best – it's about looking the best while doing it.
+    <p class="text-2xl">
+      Hey! I'm Faisal <span class="text-sm text-gray-800 whitespace-nowrap"
+        >/ˈfeɪ.səl/ — rhymes with "vassal"</span
+      >
     </p>
-    <a href="https://youtu.be/YHgwxVCiMyI" target="_blank">Let's see Paul Allen's card.</a>
-    <div id="glare"></div>
+
+    <!-- <p class="text-[0.92rem] py-2"> -->
+    <p>A software engineer and aspiring generalist who likes building & tinkering with things.</p>
+    <p>I'm currently growing Zeist Labs</p>
+    <p>
+      Besides tech, I'm drawn to ideas at the intersection of psychology, philosophy, language,
+      history, and culture.
+    </p>
+    <!-- </p> -->
+
+    <!-- <a href="https://youtu.be/YHgwxVCiMyI" target="_blank" class="text-[0.95rem] underline">
+      Let's see Paul Allen's card.
+    </a> -->
+    <div
+      id="glare"
+      class="absolute inset-0 pointer-events-none z-2 rounded-[14px] mix-blend-overlay [transform:translateZ(1.4px)]"
+      style={{
+        opacity: 'var(--opacity)',
+        background:
+          'radial-gradient(farthest-corner circle at var(--px) var(--py), rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.65) 20%, rgba(0,0,0,0.5) 90%)'
+      }}
+    >
+    </div>
   </div>
 
-  <div id="controls">
-    <label id="spec-label">Opacity: 0.2</label>
-    <input id="spec-range" type="range" min="0.1" max="1" step="0.1" value="0.2" />
+  <!-- <div id="controls" class="w-full flex flex-col items-center">
+    <label id="spec-label" class="text-[0.95rem] mb-2">Opacity: 0.2</label>
+    <input
+      id="spec-range"
+      type="range"
+      min="0.1"
+      max="1"
+      step="0.1"
+      value="0.2"
+      class="w-full max-w-[360px] accent-inherit mb-4"
+    />
     <a
       id="code-link"
       href="https://github.com/farshed/farshed.github.io/tree/main/src/pages/lab/glassmorphic-card.astro"
-      target="_blank">See code</a
+      target="_blank"
+      class="underline"
     >
-  </div>
+      See code
+    </a>
+  </div> -->
 
-  <div id="cloudy">
+  <div id="cloudy" class="fixed inset-0 -z-10">
     <video
       src="/media/cloudy.mp4"
       poster="/media/cloudy-poster.jpg"
@@ -87,12 +118,11 @@ import Page from '../../layouts/Page.astro';
       playsinline
       muted
       loop
-    >
-    </video>
+      class="w-screen h-screen object-cover"></video>
   </div>
 </Page>
 
-<style lang="scss">
+<!-- <style lang="scss">
   #name {
     font-family: 'The Seasons', serif;
   }
@@ -186,4 +216,4 @@ import Page from '../../layouts/Page.astro';
       object-fit: cover;
     }
   }
-</style>
+</style> -->
