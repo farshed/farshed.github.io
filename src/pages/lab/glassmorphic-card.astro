@@ -1,66 +1,17 @@
 ---
 import Page from '../../layouts/Page.astro';
+
+const email = 'mail@farshed.me';
 ---
-
-<script>
-  let opacity = 0.2;
-  let rect, active, queued;
-  const [card, glare, rangeControl, rangeLabel] = ['card', 'glare', 'spec-range', 'spec-label'].map(
-    (id) => document.getElementById(id)
-  );
-  const curve = 'all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99)';
-
-  const round = (n) => Math.round(n * 1e3) / 1e3;
-  const setVar = (k, v) => card.style.setProperty(k, v);
-  const setCurve = (fn) => {
-    card.style.transition = fn;
-    glare.style.transition = fn;
-  };
-
-  card.addEventListener('mouseenter', () => {
-    setCurve(curve);
-    queued = setTimeout(() => setCurve('none'), 1e3);
-    setVar('--opacity', opacity);
-    rect = card.getBoundingClientRect();
-    active = true;
-  });
-
-  card.addEventListener('mouseleave', () => {
-    if (queued) clearTimeout(queued);
-    active = false;
-    setCurve(curve);
-    setVar('--tiltX', '0deg');
-    setVar('--tiltY', '0deg');
-    setVar('--opacity', 0);
-  });
-
-  card.addEventListener('mousemove', (e) => {
-    if (active) {
-      const x = (e.clientX - rect.left) / rect.width;
-      const y = (e.clientY - rect.top) / rect.height;
-      setVar('--px', `${round(x * 100)}%`);
-      setVar('--py', `${round(y * 100)}%`);
-      setVar('--tiltX', `${round((y * 2 - 1) * 15)}deg`);
-      setVar('--tiltY', `${round((x * 2 - 1) * -15)}deg`);
-    }
-  });
-
-  rangeControl.addEventListener('change', (e) => {
-    opacity = e.target.value;
-    rangeLabel.innerText = `Opacity: ${opacity}`;
-  });
-</script>
 
 <Page title="Glassmorphic Card UI">
   <div
     id="card"
     class="relative w-full max-w-[670px] flex flex-col gap-y-4 p-7 pb-4 my-8 rounded-[14px] font-light z-1 bg-[rgba(255,255,255,0.15)] shadow-[0_0_0_12px_rgba(255,255,255,0.15),0_0_20px_12px_rgba(0,0,0,0.05)] backdrop-blur-[20px] [--px:0%] [--py:0%] [--tiltX:0deg] [--tiltY:0deg] [--opacity:0] [transform:perspective(1000px)_rotateX(var(--tiltX))_rotateY(var(--tiltY))] [transform-style:preserve-3d] [transform-origin:center]"
   >
-    <h1 class="font-serif text-xl" style="font-family: 'The Seasons';">Patrick Bateman</h1>
-    <p class="text-base font-semibold">Vice President at Pierce & Pierce</p>
-
     <p class="text-2xl">
-      Hey! I'm Faisal <span class="text-sm text-gray-800 whitespace-nowrap"
+      Hey! I'm <span style="font-family: 'The Seasons', Apercu;">Faisal</span>
+      <span class="text-xs text-gray-800 whitespace-nowrap ml-2"
         >/ˈfeɪ.səl/ — rhymes with "vassal"</span
       >
     </p>
@@ -72,6 +23,13 @@ import Page from '../../layouts/Page.astro';
       Besides tech, I'm drawn to ideas at the intersection of psychology, philosophy, language,
       history, and culture.
     </p>
+    <p>
+      To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
+    </p>
+    <div class="flex flex-row gap-x-5 font-medium lowercase">
+      <a href="https://github.com/farshed" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
+    </div>
     <!-- </p> -->
 
     <!-- <a href="https://youtu.be/YHgwxVCiMyI" target="_blank" class="text-[0.95rem] underline">
@@ -121,6 +79,55 @@ import Page from '../../layouts/Page.astro';
       class="w-screen h-screen object-cover"></video>
   </div>
 </Page>
+
+<script>
+  let opacity = 0.4;
+  let rect, active, queued;
+  const [card, glare, rangeControl, rangeLabel] = ['card', 'glare', 'spec-range', 'spec-label'].map(
+    (id) => document.getElementById(id)
+  );
+  const curve = 'all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99)';
+
+  const round = (n) => Math.round(n * 1e3) / 1e3;
+  const setVar = (k, v) => card.style.setProperty(k, v);
+  const setCurve = (fn) => {
+    card.style.transition = fn;
+    glare.style.transition = fn;
+  };
+
+  card.addEventListener('mouseenter', () => {
+    setCurve(curve);
+    queued = setTimeout(() => setCurve('none'), 1e3);
+    setVar('--opacity', opacity);
+    rect = card.getBoundingClientRect();
+    active = true;
+  });
+
+  card.addEventListener('mouseleave', () => {
+    if (queued) clearTimeout(queued);
+    active = false;
+    setCurve(curve);
+    setVar('--tiltX', '0deg');
+    setVar('--tiltY', '0deg');
+    setVar('--opacity', 0);
+  });
+
+  card.addEventListener('mousemove', (e) => {
+    if (active) {
+      const x = (e.clientX - rect.left) / rect.width;
+      const y = (e.clientY - rect.top) / rect.height;
+      setVar('--px', `${round(x * 100)}%`);
+      setVar('--py', `${round(y * 100)}%`);
+      setVar('--tiltX', `${round((y * 2 - 1) * 15)}deg`);
+      setVar('--tiltY', `${round((x * 2 - 1) * -15)}deg`);
+    }
+  });
+
+  rangeControl.addEventListener('change', (e) => {
+    opacity = e.target.value;
+    rangeLabel.innerText = `Opacity: ${opacity}`;
+  });
+</script>
 
 <!-- <style lang="scss">
   #name {
