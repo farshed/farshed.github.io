@@ -28,7 +28,7 @@ A 24th-century BCE inscription from the Ancient Sumer, attributed to Sargon of A
 
 > "Ships from Meluhha, Magan, and Dilmun he moored at the docks of Akkad."
 
-Meluhha is widely believed to be the IVC. This suggests that its people were exporting goods, perhaps cotton textiles, carnelian beads, and lapis lazuli, to Mesopotamian city-states. Indus seals, featuring a still-undeciphered script, have been found as far as Mesopotamia, implying that not just trade but cultural and bureaucratic engagement took place.
+Meluhha is widely believed by modern scholars to be the IVC. This suggests that its people were exporting goods, perhaps cotton textiles, carnelian beads, and lapis lazuli, to Mesopotamian city-states. Indus seals, featuring a still-undeciphered script, have been found as far as Mesopotamia, implying that not just trade but cultural and bureaucratic engagement took place.
 
 The complexity of IVC society is also evidenced by its lack of monumental palaces or centralized religious structures, a rarity among early civilizations. Unlike the contemporaneous Mesopotamians or Egyptians, who left behind records exalting their kings and gods, the people of Sindhu left behind meticulously planned cities but few obvious signs of hierarchical rule.
 
