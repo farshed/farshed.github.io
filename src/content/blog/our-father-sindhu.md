@@ -14,9 +14,9 @@ After the split of Indo-Iranian culture into Iranian and Indo-Aryan branches aro
 
 The word Hindu, once simply a geographical marker, would eventually evolve into an identity and a faith. Its Greek and Latin transliterations, Indos and Indus, expanded the term's reach, defining not just a region but an entire subcontinent.
 
-During the time of the Achaemenids, Darius the Great is said to have commissioned the Greek explorer Scylax (among others) to sail and chart the course of the Indus. According to Herodotus, Scylax set out from a city called Caspatyrus (likely [Kashmir](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aentry%3Dcaspatyrus-geo) or a misspelling of Paskapyrus \[Peshawar]) and sailed downstream.
+In the time of the Achaemenids, Darius the Great commissioned the Greek explorer Scylax of Caryanda, among others, to sail and chart the course of the Indus. According to Herodotus, Scylax set out from a city called Caspatyrus, likely [Kashmir](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aentry%3Dcaspatyrus-geo) or a misrendering of Paskapyrus (Peshawar), and sailed downstream.
 
-Using the intel gathered during this expedition, Darius conquered the region that lay southeast of Gandhara soon afterward, adding it to his empire as a new province called _Hinduš_ (modern-day Sindh). The name of the province was translated by Greek historians as _India_, but with time, it came to refer to the lands, people, and culture of the region that lay around the Indus and the subcontinent that extended much farther eastward.
+Using the intel gathered during this expedition, Darius conquered the Indus Valley soon afterward, adding it to his empire as a new satrapy (province) called _Hindush_ (roughly modern-day Sindh). The name of the province was transliterated by Greek historians as _India_, but over time, it came to refer to the lands, people, and culture of the entire region that lay around the Indus and the subcontinent that extended much farther eastward.
 
 This makes Sindhu in a very real sense, the father of India. But its influence goes much further than the subcontinent's name. Sindhu is the life-giving artery that allowed the first major civilization in the region, the Indus Valley Civilization (IVC), to flourish 5000 years ago.
 
