@@ -5,7 +5,7 @@ pubDate: 'February 10 2024'
 cover: '/media/blog/sindhu.webp'
 ---
 
-> Sindhu in might surpasses all the streams that flow. \[...] Like floods of rain that fall in thunder from the cloud, so Sindhu rushes on bellowing like a bull.
+> Sindhu in might surpasses all the streams that flow.<br/>\[...] <br/>Like floods of rain that fall in thunder from the cloud,<br/>so Sindhu rushes on bellowing like a bull.
 > **Rigveda 10.75**
 
 _Sindhu_, the Indo-Iranian name for River Indus, is a Sanskrit term meaning "sea" or "ocean".
