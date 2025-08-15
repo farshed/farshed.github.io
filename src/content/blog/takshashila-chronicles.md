@@ -46,7 +46,7 @@ The story goes that after Buddha's death, his relics and cremated remains were d
 
 However, in the 3rd century BCE, Emperor Ashoka had these relics dug out and re-entombed under stupas that he ordered to be built all over India. Dharmarajika is one of those stupas and it is very much possible that a portion of Buddha's remains is buried under it. Now there's an exciting thought.
 
-Two other interesting sites are the twin Buddhist monasteries of _**Mohra Moradu**_ and _**Jaulian**_, located relatively close to each other. Both were built in the 2nd century CE during the Kushan Period and were active until the 5th century CE.
+The twin Buddhist monasteries of _**Mohra Moradu**_ and _**Jaulian**_ are two other sites of interest, located relatively close to each other. Both were built in the 2nd century CE during the Kushan Period and were active until the 5th century CE.
 
 ![Jaulian Monastery](/media/blog/taxila/jaulian.webp)
 
