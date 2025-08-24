@@ -1,49 +1,50 @@
 ---
-import Page from '../../layouts/Page.astro';
-
-const email = 'mail@farshed.me';
+import Raw from '../../layouts/Raw.astro';
+import { EMAIL } from '../../consts';
 ---
 
-<Page title="Glassmorphic Card UI">
-  <div
-    id="card"
-    class="relative w-full max-w-[670px] flex flex-col gap-y-4 p-7 pb-4 my-8 rounded-[14px] font-light z-1 bg-[rgba(255,255,255,0.15)] shadow-[0_0_0_12px_rgba(255,255,255,0.15),0_0_20px_12px_rgba(0,0,0,0.05)] backdrop-blur-[20px] [--px:0%] [--py:0%] [--tiltX:0deg] [--tiltY:0deg] [--opacity:0] [transform:perspective(1000px)_rotateX(var(--tiltX))_rotateY(var(--tiltY))] [transform-style:preserve-3d] [transform-origin:center]"
-  >
-    <p class="text-2xl">
-      Hey! I'm <span style="font-family: 'The Seasons', Apercu;">Faisal</span>
-      <span class="text-xs text-gray-800 whitespace-nowrap ml-2"
-        >/ˈfeɪ.səl/ — rhymes with "vassal"</span
-      >
-    </p>
+<Raw title="Glassmorphic Card UI">
+  <div class="h-screen max-w-xl mx-auto py-16">
+    <div
+      id="card"
+      class="relative w-full max-w-[670px] flex flex-col gap-y-4 p-7 pb-4 my-8 rounded-[14px] font-light z-1 bg-[rgba(255,255,255,0.15)] shadow-[0_0_0_12px_rgba(255,255,255,0.15),0_0_20px_12px_rgba(0,0,0,0.05)] backdrop-blur-[20px] [--px:0%] [--py:0%] [--tiltX:0deg] [--tiltY:0deg] [--opacity:0] [transform:perspective(1000px)_rotateX(var(--tiltX))_rotateY(var(--tiltY))] [transform-style:preserve-3d] [transform-origin:center]"
+    >
+      <p class="text-2xl">
+        Hey! I'm <span style="font-family: 'The Seasons', Apercu;">Faisal</span>
+        <span class="text-xs text-gray-600 whitespace-nowrap ml-2"
+          >/ˈfeɪ.səl/ — rhymes with "vassal"</span
+        >
+      </p>
 
-    <!-- <p class="text-[0.92rem] py-2"> -->
-    <p>A software engineer and aspiring generalist who likes building & tinkering with things.</p>
-    <p>I'm currently growing Zeist Labs</p>
-    <p>
-      Besides tech, I'm drawn to ideas at the intersection of psychology, philosophy, language,
-      history, and culture.
-    </p>
-    <p>
-      To get in touch, shoot me an email at <a href={`mailto:${email}`}>{email}</a>.
-    </p>
-    <div class="flex flex-row gap-x-5 font-medium lowercase">
-      <a href="https://github.com/farshed" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
-    </div>
-    <!-- </p> -->
+      <!-- <p class="text-[0.92rem] py-2"> -->
+      <p>A software engineer and aspiring generalist who likes building & tinkering with things.</p>
+      <p>I'm currently growing <a href="https://zeistlabs.com" target="_blank">Zeist Labs</a>.</p>
+      <p>
+        Besides tech, I'm drawn to ideas at the intersection of psychology, philosophy, language,
+        history, and culture.
+      </p>
+      <p>
+        To get in touch, shoot me an email at <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.
+      </p>
+      <div class="flex flex-row gap-x-5 font-medium lowercase">
+        <a href="https://github.com/farshed" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/faisal-arshed" target="_blank">LinkedIn</a>
+      </div>
+      <!-- </p> -->
 
-    <!-- <a href="https://youtu.be/YHgwxVCiMyI" target="_blank" class="text-[0.95rem] underline">
+      <!-- <a href="https://youtu.be/YHgwxVCiMyI" target="_blank" class="text-[0.95rem] underline">
       Let's see Paul Allen's card.
     </a> -->
-    <div
-      id="glare"
-      class="absolute inset-0 pointer-events-none z-2 rounded-[14px] mix-blend-overlay [transform:translateZ(1.4px)]"
-      style={{
-        opacity: 'var(--opacity)',
-        background:
-          'radial-gradient(farthest-corner circle at var(--px) var(--py), rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.65) 20%, rgba(0,0,0,0.5) 90%)'
-      }}
-    >
+      <div
+        id="glare"
+        class="absolute inset-0 pointer-events-none z-2 rounded-[14px] mix-blend-overlay [transform:translateZ(1.4px)]"
+        style={{
+          opacity: 'var(--opacity)',
+          background:
+            'radial-gradient(farthest-corner circle at var(--px) var(--py), rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.65) 20%, rgba(0,0,0,0.5) 90%)'
+        }}
+      >
+      </div>
     </div>
   </div>
 
@@ -78,15 +79,15 @@ const email = 'mail@farshed.me';
       loop
       class="w-screen h-screen object-cover"></video>
   </div>
-</Page>
+</Raw>
 
 <script>
   let opacity = 0.4;
   let rect, active, queued;
+  const curve = 'all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99)';
   const [card, glare, rangeControl, rangeLabel] = ['card', 'glare', 'spec-range', 'spec-label'].map(
     (id) => document.getElementById(id)
   );
-  const curve = 'all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99)';
 
   const round = (n) => Math.round(n * 1e3) / 1e3;
   const setVar = (k, v) => card.style.setProperty(k, v);
