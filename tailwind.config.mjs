@@ -3,6 +3,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        customRed: '#d82e24',
         customBlue: '#3562f3'
       },
       typography: {
