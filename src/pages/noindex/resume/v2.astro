@@ -9,27 +9,27 @@ const summary = `Full-Stack Engineer with over 6 years of experience building an
 
 const workExperience = [
   {
-    role: 'Software Engineer',
-    company: 'Zeist Labs',
+    role: 'Software Engineer (Self-employed)',
+    org: 'Zeist Labs',
     date: 'May 2025 - Present',
-    keypoints: ['Building AI products and helping founders scale from zero to one.']
+    keypoints: ['Building AI products and helping founders go from zero to one.']
   },
   {
     role: 'Senior Software Engineer',
-    company: 'SmashCloud',
+    org: 'SmashCloud',
     date: 'July 2022 - May 2025',
     keypoints: [
       'Led the development of a workplace experience B2B SaaS for a French Fortune Global 500 giant.',
       'Developed crucial features for a leading tenant turnover management system, streamlining operations for top student housing owners across North America.',
       // 'Developed crucial features for a tenant turnover management system used by some of the top student housing owners across North America.',
-      'Unified the fragmented ERP system of a Quebecois interior manufacturing company and migrated key services from a legacy C++ codebase to React and Node.js.',
+      'Unified the fragmented ERP system of a Quebecois interior manufacturer and migrated key services from a legacy C++ codebase to React and Node.js.',
       // 'Consolidated fragmented ERP system for a Quebecois manufacturing client into a single platform and automated manual workflows.',
       'Optimized critical backend services, reducing execution time from several minutes to mere seconds.'
     ]
   },
   {
     role: 'Software Engineer',
-    company: 'Pursue Today',
+    org: 'Pursue Today',
     date: 'March 2021 - June 2022',
     keypoints: [
       'Developed Pribox (now GoCustomer), a SaaS product for tracking and improving email deliverability and domain reputation, acting as its sole engineer during most of the MVP stage.',
@@ -39,7 +39,7 @@ const workExperience = [
   },
   {
     role: 'Full Stack Engineer',
-    company: 'BookOtto',
+    org: 'BookOtto',
     date: 'July 2020 - March 2021',
     keypoints: [
       'Prototyped and developed the flagship MVP, taking the product from concept to launch in 4 months.',
@@ -49,7 +49,7 @@ const workExperience = [
   },
   {
     role: 'React Native Developer',
-    company: 'MoneyWhere',
+    org: 'MoneyWhere',
     date: 'March 2019 - December 2019',
     keypoints: [
       'Developed core fintech MVP using React Native and Node.js.',
@@ -58,36 +58,32 @@ const workExperience = [
   }
 ];
 
-const skills_ = [
-  {
-    title: 'Languages',
-    list: ['JavaScript', 'TypeScript', 'Python', 'Rust']
-  },
+const skillCategories = [
   {
     title: 'Frontend',
-    list: ['React', 'Redux', 'Next.js', 'HTML', 'CSS', 'Tailwind', 'React Native']
+    list: ['TypeScript', 'React', 'Next.js', 'Tailwind', 'React Native']
   },
   {
     title: 'Backend',
     list: ['Node.js', 'Express', 'GraphQL', 'AWS', 'PostgreSQL', 'MongoDB', 'Docker']
   },
+  {},
   {
-    title: 'Miscellaneous',
-    list: ['Git', 'Figma']
+    title: 'Misc',
+    list: ['']
   }
 ];
 
 const skills = [
-  'JavaScript',
+  // 'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
   'Next.js',
+  'Tailwind',
   'Node.js',
   'React Native',
   // 'HTML',
-  'CSS',
-  'Tailwind',
+  // 'CSS',
   // 'Python',
   // 'Flask',
   // 'Rust',
@@ -95,9 +91,12 @@ const skills = [
   'Docker',
   'GraphQL',
   'PostgreSQL',
-  'MySQL',
+  // 'MySQL',
   'MongoDB',
-  'Redis'
+  'Redis',
+  'AI Agents',
+  'RAG',
+  'MCP'
 ];
 ---
 
@@ -168,7 +167,7 @@ const skills = [
                 <div class="flex justify-between items-start mb-2">
                   <div>
                     <h3 class="text-sm font-semibold">{exp.role}</h3>
-                    <p>{exp.company}</p>
+                    <p>{exp.org}</p>
                   </div>
                   <div class="text-right">
                     <p class="font-medium">{exp.date}</p>
