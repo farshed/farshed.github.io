@@ -1,0 +1,236 @@
+---
+import { Mail, Phone, Github, Linkedin, Link } from '@lucide/astro';
+
+const contact = [
+  { icon: Mail, label: 'mail@farshed.me', href: 'mailto:mail@farshed.me' },
+  { icon: Phone, label: '(+92) 309 6855375', href: 'tel:+923096855375' },
+  { icon: Github, label: 'github.com/farshed', href: 'https://github.com/farshed' },
+  {
+    icon: Linkedin,
+    label: 'linkedin.com/in/faisal-arshed',
+    href: 'https://linkedin.com/in/faisal-arshed'
+  }
+];
+
+const skills = [
+  { category: 'Languages', text: 'TypeScript, Rust, Python, SQL' },
+  {
+    category: 'Frameworks and Libraries',
+    text: 'React, Node.js, Next.js, FastAPI, GraphQL'
+  },
+  { category: 'Database and Infra', text: `PostgreSQL, MongoDB, Redis, Docker, AWS, Firebase` }
+];
+
+const workExperience = [
+  {
+    role: 'Founder',
+    org: 'Zeist Labs',
+    date: 'May 2025 – Present',
+    highlights: ['Building AI products and helping founders go from zero to one.'],
+    skills: 'TypeScript, Bun, Elysia, React, OpenAI, Twilio, PostgreSQL'
+  },
+  {
+    role: 'Senior Software Engineer',
+    org: 'SmashCloud',
+    date: 'July 2022 – May 2025',
+    highlights: [
+      'Led the development of a <span class="font-semibold">workplace experience B2B SaaS</span> for a <span class="font-semibold">French Fortune Global 500 giant</span>.',
+      'Built key features for a <span class="font-semibold">top tenant turnover platform</span> used by major student housing owners across North America.',
+      'Unified a fragmented ERP for a Quebec interior manufacturer, migrating core services from legacy C++.',
+      // 'Consolidated fragmented ERP system for a Quebecois manufacturing client into a single platform and automated manual workflows.',
+      'Optimized critical backend services, reducing execution time <span class="font-semibold">from several minutes to mere seconds</span>.'
+    ],
+    skills: 'JavaScript, React, Node.js, Next.js, GraphQL, MySQL, AWS'
+  },
+  {
+    role: 'Software Engineer',
+    org: 'Pursue Today',
+    date: 'March 2021 – June 2022',
+    highlights: [
+      'Built <span class="font-semibold">Pribox (now GoCustomer)</span>, a SaaS for tracking and improving email deliverability + domain reputation.',
+      'Built a PostgreSQL → Elasticsearch data pipeline that <span class="font-semibold">aggregated millions of data points in subsecond time</span>.',
+      'Implemented <span class="font-semibold">automated email campaigns</span> with real-time analytics and data visualization.'
+    ],
+    skills: 'React, React Native, Node.js, Next.js, GraphQL, MongoDB, Redis'
+  },
+  {
+    role: 'Full Stack Engineer',
+    org: 'BookOtto',
+    date: 'July 2020 – March 2021',
+    highlights: [
+      'Prototyped and developed the flagship MVP, taking the product <span class="font-semibold">from concept to launch in 4 months</span>.',
+      // 'Developed Cribfox, a CRM and document management solution to digitize bureaucratic operations in the NYC real estate market during the COVID-19 pandemic, used by 30+ agencies.',
+      'Developed Cribfox, a CRM to digitize NYC real estate bureaucracy during COVID-19, used by <span class="font-semibold">30+ agencies</span>.',
+      'Helped create and maintain the AWS backend and CI/CD infrastructure.'
+    ],
+    skills: 'React Native, AWS, React, CI/CD'
+  },
+  {
+    role: 'React Native Developer',
+    org: 'MoneyWhere',
+    date: 'March 2019 – December 2019',
+    highlights: [
+      'Developed <span class="font-semibold">core fintech MVP</span> using React Native and Node.js.',
+      'Implemented a virtual currency system, payments, geolocation services, and advanced map features.'
+    ],
+    skills: 'JavaScript, React Native, Node.js'
+  }
+];
+
+const projects = [
+  {
+    name: 'Sage',
+    description: 'Portable and self-hosted voice conversational layer for LLMs.',
+    skills: 'TypeScript, Rust, OpenAI Whisper, Kokoro, stdio, Docker'
+  },
+  {
+    name: 'SoundSpice',
+    description: `Minimalist music player for Android & Desktop. Featured as <span class="font-semibold">Beebom's Top FOSS Android App of 2020</span>.`,
+    skills: 'JavaScript, React Native, FFmpeg, Electron'
+  },
+  {
+    name: 'Duofolio',
+    description: 'Ebook reader to help language learners acquire new vocabulary effectively.',
+    skills: 'JavaScript, React Native, epub.js'
+  }
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faisal Arshed - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @font-face {
+        font-family: 'Apercu';
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+        src: url('/fonts/apercu-regular.woff2') format('woff2');
+      }
+
+      :root {
+        font-size: 15.8px;
+        --skyblue: #0070c0;
+        font-family: Helvetica, sans-serif;
+      }
+
+      hr {
+        @apply bg-gray-500;
+      }
+
+      .poppins-md {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <div class="max-w-4xl mx-auto p-4 bg-white">
+      <!-- Header -->
+      <header class="text-center mb-4">
+        <h1 class="text-3xl mb-2">Faisal Arshed</h1>
+        <div class="flex flex-wrap justify-center gap-x-2 text-sm mt-2 text-gray-700">
+          {
+            contact.map((c) => (
+              <span class="flex flex-row gap-x-1 items-center">
+                <c.icon class="size-3.5" />
+                {c.label}
+              </span>
+            ))
+          }
+        </div>
+      </header>
+
+      <!-- Skills -->
+      <section class="mb-4">
+        <div class="flex flex-row items-center">
+          <h2 class="text-sm mb-3 text-gray-500">Skills</h2>
+          <hr class="w-full mb-2 ml-2" />
+        </div>
+        <div class="ml-6">
+          {
+            skills.map((s) => (
+              <p class="text-sm">
+                {s.category} –<span class="text-[--skyblue]"> {s.text}</span>
+              </p>
+            ))
+          }
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="mb-4">
+        <div class="flex flex-row items-center">
+          <h2 class="text-sm mb-3 text-gray-500 whitespace-nowrap">Professional Experience</h2>
+          <hr class="w-full mb-2 ml-2" />
+        </div>
+
+        <div class="px-3">
+          {
+            workExperience.map((exp) => (
+              <div class="mb-3">
+                <div class="flex flex-row items-center gap-2">
+                  <h3 class="font-bold poppins-md">{exp.org}</h3>
+                  <p class="text-sm">
+                    {exp.role} ({exp.date})
+                  </p>
+                </div>
+                <p class="text-xs text-[--skyblue] mb-2">{exp.skills}</p>
+                <ul class="list-disc list-inside text-sm">
+                  {exp.highlights.map((h) => (
+                    <li set:html={h} />
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="mb-4">
+        <div class="flex flex-row items-center">
+          <h2 class="text-sm mb-3 text-gray-500 whitespace-nowrap">Education</h2>
+          <hr class="w-full mb-2 ml-2" />
+        </div>
+
+        <div class="px-3 mb-3 flex flex-row items-center gap-2">
+          <h3 class="font-bold poppins-md">PMAS Arid Agriculture University</h3>
+          <p class="text-sm text-gray-600">B.S. Computer Science – GPA 3.37 (Class of 2020)</p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <div class="flex flex-row items-center">
+          <h2 class="text-sm mb-3 text-gray-500 whitespace-nowrap">Projects</h2>
+          <hr class="w-full mb-2 ml-2" />
+        </div>
+
+        <div class="px-3">
+          {
+            projects.map((p) => (
+              <div class="mb-2">
+                <div class="flex flex-row items-center gap-2">
+                  <h3 class="font-bold poppins-md">{p.name}</h3>
+                  <p class="text-xs text-[--skyblue]">{p.skills}</p>
+                </div>
+                <p class="text-sm" set:html={p.description} />
+              </div>
+            ))
+          }
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

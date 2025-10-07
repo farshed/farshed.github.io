@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('til');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post
+  }));
+}
+
+const post = Astro.props;
+const { title, pubDate } = post.data;
+const { Content } = await post.render();
+
+const formattedDate = pubDate.toLocaleDateString('en-CA', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+});
+---
+
+<Page {...post.data}>
+  <article>
+    <header class="mb-12 text-center">
+      <h1 class="text-3xl font-bold mb-4">{title}</h1>
+      <time>{formattedDate}</time>
+    </header>
+
+    <div class="prose mx-auto">
+      <Content />
+    </div>
+  </article>
+</Page>

@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+import { SITE_TITLE } from '../../consts';
+
+const allTilPosts = (await getCollection('til')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const meta = {
+  title: `TIL · ${SITE_TITLE}`,
+  description: "Faisal Arshed's Today I Learned"
+};
+---
+
+<Page {...meta}>
+  <div>
+    <h2 class="text-xl font-bold my-6">Today I Learned</h2>
+    <ul class="space-y-5">
+      {
+        allTilPosts.map((post) => {
+          const { title, pubDate } = post.data;
+          const date = pubDate.toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            year: 'numeric'
+          });
+
+          return (
+            <li>
+              <a href={`/til/${post.slug}`} class="text-xl no-underline">
+                {title}
+              </a>
+              <p class="text-sm text-black/60 mt-0.5">{date}</p>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</Page>
