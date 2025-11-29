@@ -23,7 +23,7 @@ const skills = [
 
 const workExperience = [
   {
-    role: 'Founder',
+    role: 'Co-Founder',
     org: 'Zeist Labs',
     date: 'May 2025 – Present',
     logo: 'zeistlabs_logo.jpeg',
@@ -36,7 +36,7 @@ const workExperience = [
     date: 'July 2022 – May 2025',
     logo: 'smashcloud_logo.jpeg',
     highlights: [
-      'Led the development of a <span class="font-semibold">workplace experience B2B SaaS</span> for a <span class="font-semibold">French Fortune Global 500 giant</span>.',
+      'Led the development of a <span class="font-semibold">workplace experience B2B SaaS</span> for a French <span class="font-semibold">Fortune Global 500 giant</span>.',
       'Built key features for a <span class="font-semibold">top tenant turnover platform</span> used by major student housing owners across North America.',
       'Unified a fragmented ERP for a Quebec interior manufacturer, migrating core services from legacy C++.',
       // 'Consolidated fragmented ERP system for a Quebecois manufacturing client into a single platform and automated manual workflows.',
@@ -64,7 +64,7 @@ const workExperience = [
     highlights: [
       'Prototyped and developed the flagship MVP, taking the product <span class="font-semibold">from concept to launch in 4 months</span>.',
       // 'Developed Cribfox, a CRM and document management solution to digitize bureaucratic operations in the NYC real estate market during the COVID-19 pandemic, used by 30+ agencies.',
-      'Developed Cribfox, a CRM to digitize NYC real estate bureaucracy during COVID-19, used by <span class="font-semibold">30+ agencies</span>.',
+      'Developed Cribfox, a CRM to digitize NYC real estate bureaucracy during COVID-19, <span class="font-semibold">used by 30+ agencies</span>.',
       'Helped create and maintain the AWS backend and CI/CD infrastructure.'
     ],
     skills: 'React Native, AWS, React, CI/CD'
@@ -155,6 +155,7 @@ const projects = [
           {
             contact.map((c) => (
               <a href={c.href} class="flex flex-row gap-x-1 items-center">
+                <c.icon class="size-3.5" />
                 {c.label}
               </a>
             ))
