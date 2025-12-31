@@ -11,8 +11,8 @@ I recently skimmed Barbara Oakley's _Evil Genes_, which explores the relationshi
 
 The nature vs. nurture debate is the psychology equivalent of the chicken-or-egg question. Most researchers agree that adulthood personality largely boils down to two factors:
 
-1. Genetic predispositions (the hardware).
-2. Early childhood experiences (the software updates).
+1. Genetic predispositions (the hardware & OS).
+2. Early childhood experiences (the software patches).
 
 But genes don't act in a vacuum, nor do they dictate outcomes. Certain genes can turn on or off, or express differently in response to environmental stimuli. This is _epigenetics_.
 
