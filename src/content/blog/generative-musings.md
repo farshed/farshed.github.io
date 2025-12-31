@@ -20,7 +20,7 @@ _Marcus Aurelius encounters a menacing creature made of shadows, a personificati
 
 ![The moment of Nirvana](/media/blog/dalle3/7.webp)
 
-_Siddhartha Gautama achieves Nirvana under the Bodhi tree as his past lives bear witness to the moment._
+_Siddhartha Gautama achieves Nirvana under the Bodhi tree as his past lives in the background bear witness to the moment._
 
 ![Cosmic complexities](/media/blog/dalle3/5.webp)
 

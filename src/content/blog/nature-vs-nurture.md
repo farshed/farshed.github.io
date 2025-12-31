@@ -18,7 +18,7 @@ But genes don't act in a vacuum, nor do they dictate outcomes. Certain genes can
 
 Simply put, DNA behaves more like an adaptive program that responds to input (external conditions) than a deterministic script.
 
-Oakley points to research on boys with a predisposition for lower levels of MAOA (monoamine oxidase A), an enzyme that regulates neurotransmitters. These low-MAOA variants are linked to impulsivity and aggression. But genes alone don't predict behavior here:
+Oakley points to research on boys with a predisposition for lower levels of MAOA (Monoamine Oxidase A), an enzyme that regulates neurotransmitters. These low-MAOA variants are linked to impulsivity and aggression. But genes alone don't predict behavior here:
 
 - Boys with low MAOA raised in abusive homes are vastly more likely to engage in violent or criminal behaviour.
 - Boys with low MAOA raised in stable homes display no significant difference from the general population.
