@@ -57,6 +57,6 @@ Vision is just one example. The mammalian brain’s entire approach to informati
 - The auditory cortex detects spectrotemporal patterns (like the harmonic structure of speech) instead of processing raw sound waveforms.
 - Even language comprehension is hierarchical: Words form phrases, phrases form sentences, and meaning emerges at higher levels.
 
-So yeah, _all of perception, thought, and memory is a recursive, hierarchical search for patterns in raw data._
+So yeah, all of perception, thought, and memory is a recursive, hierarchical search for patterns in raw data.
 
 _A hallucination constrained by sensory input. A walk through latent space._
