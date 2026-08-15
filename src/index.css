@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Typography overrides ported from the old tailwind.config.mjs */
+.prose {
+  color: currentColor;
+  font-size: 1rem;
+}
+
+.prose a {
+  font-weight: normal;
+}
+
+.prose blockquote {
+  quotes: none;
+}
+
+@theme {
+  --color-customRed: #d82e24;
+  --color-customBlue: #3562f3;
+  --color-skyBlue: #0070c0;
+  --font-sans: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans';
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/apercu-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-style: italic;
+  font-weight: 50 900;
+  font-display: swap;
+  src: url('/fonts/apercu-italic.woff2') format('woff2');
+}
+
+:root {
+  font-size: clamp(17px, calc(13.5px + 0.1vh + 0.3vw), 25px);
+  font-family: var(--font-sans);
+}
+
+body {
+  scroll-behavior: smooth;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer base {
+  /* The old site ran Tailwind v3, where borders defaulted to gray-200.
+     v4 defaults to currentColor, which turns unstyled borders/hrs black. */
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+
+  ::selection {
+    @apply text-customBlue bg-customBlue/5;
+  }
+
+  body {
+    @apply leading-relaxed;
+    @apply bg-[#f3f4f6];
+  }
+
+  a {
+    @apply underline leading-relaxed decoration-gray-400 rounded-sm;
+    @apply hover:text-customBlue hover:bg-customBlue/5 hover:decoration-customBlue transition-colors motion-reduce:transition-none duration-200;
+    @apply focus-visible:text-customBlue focus-visible:bg-customBlue/5 focus-visible:decoration-customBlue;
+    @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-customBlue;
+  }
+
+  blockquote strong {
+    @apply block mt-4;
+
+    &::before {
+      content: '— ';
+    }
+  }
+
+  img {
+    @apply mx-auto;
+  }
+}

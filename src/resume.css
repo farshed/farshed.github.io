@@ -1,0 +1,22 @@
+/* Standalone stylesheet for the resume pages: bare Tailwind, none of the
+   site's base styles (matching the old Astro setup where these pages got
+   only the Tailwind integration's global styles). */
+@import "tailwindcss";
+
+@theme {
+  --color-customRed: #d82e24;
+  --color-customBlue: #3562f3;
+  --color-skyBlue: #0070c0;
+}
+
+/* The old site ran Tailwind v3, where borders defaulted to gray-200.
+   v4 defaults to currentColor, which turns unstyled borders/hrs black. */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
