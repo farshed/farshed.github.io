@@ -13,7 +13,7 @@ import { loadPosts, listedPosts } from './lib/blog';
 import { projects as portfolioProjects } from './data/portfolio';
 
 /** Client bundles. Pages without an entry are rendered as pure static HTML with no JS. */
-export type ClientEntry = 'home' | 'portfolio' | 'portfolio-project';
+export type ClientEntry = 'home';
 
 export interface Route {
   /** URL path, e.g. "/", "/blog", "/blog/my-post" */
@@ -43,7 +43,7 @@ export async function getRoutes(): Promise<Route[]> {
       element: <Home />,
       entry: 'home',
       meta: {
-        title: 'Faisal Arshed — Software Engineer',
+        title: 'Faisal Arshed – Software Engineer',
         jsonLd: {
           '@context': 'https://schema.org',
           '@type': 'Person',
@@ -68,11 +68,11 @@ export async function getRoutes(): Promise<Route[]> {
       }
     })),
     { path: '/projects', element: <Projects /> },
-    { path: '/portfolio', element: <PortfolioIndex />, entry: 'portfolio' },
+    { path: '/portfolio', element: <PortfolioIndex />, meta: { title: 'Portfolio' } },
     ...portfolioProjects.map((project) => ({
       path: `/portfolio/${project.id}`,
       element: <PortfolioProjectPage project={project} />,
-      entry: 'portfolio-project' as const
+      meta: { title: project.title, description: project.description }
     })),
     { path: '/404', element: <NotFound />, meta: { title: '404 · Page not found' } },
     {

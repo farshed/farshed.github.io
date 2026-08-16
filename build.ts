@@ -15,8 +15,6 @@ const result = await Bun.build({
     "src/styles/index.css",
     "src/styles/resume.css",
     "src/client/home.tsx",
-    "src/client/portfolio.tsx",
-    "src/client/portfolio-project.tsx",
   ],
   outdir,
   plugins: [tailwind],

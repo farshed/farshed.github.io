@@ -6,7 +6,6 @@ export interface PortfolioProject {
   loomUrl?: string;
   screenshotUrls?: string[];
   tags: string[];
-  stack: string[];
   thumbnail?: string;
   githubUrl?: string;
   liveUrl?: string;
@@ -19,8 +18,7 @@ export const projects: PortfolioProject[] = [
     loomUrl: 'https://www.loom.com/embed/dac2318e4de442c8b41556c71b5bba2c',
     writeup:
       'Erdos is a Bloomberg-like financial analytics terminal, and asset portfolio management platform for the Australian market. It integrates multiple data sources and live market APIs into a single real-time dashboard. A standout feature is the AI-powered insights engine, which reasons over financial data to surface market signals, uncover trading and investment opportunities, and deliver actionable intelligence.',
-    tags: ['AI', 'Fintech', 'Web App', 'Real-time'],
-    stack: ['TypeScript', 'React', 'Node.js', 'PostgreSQL'],
+    tags: ['AI', 'Fintech', 'Web App', 'Real-time', 'TypeScript', 'React', 'Node.js', 'PostgreSQL'],
     thumbnail: '/media/portfolio/erdos.png'
   },
   {
@@ -29,8 +27,7 @@ export const projects: PortfolioProject[] = [
     loomUrl: 'https://www.youtube.com/embed/aAl0SuJVm4g',
     writeup:
       'Sage is a self-hosted voice conversational layer for LLMs. Think ChatGPT voice mode, but with any model and full control over the pipeline. It uses whisper.cpp for transcription and Kokoro as its speech generation engine.',
-    tags: ['AI', 'Rust'],
-    stack: ['TypeScript', 'Rust', 'OpenAI Whisper'],
+    tags: ['AI', 'Rust', 'TypeScript', 'OpenAI Whisper'],
     githubUrl: 'https://github.com/farshed/sage'
   },
   {
@@ -39,8 +36,7 @@ export const projects: PortfolioProject[] = [
       "Minimalist music player for Android. Featured at #1 spot in Beebom's Best FOSS Android Apps of 2020.",
     writeup:
       'Created an agentic AI system that performs comprehensive code reviews by analyzing repositories, identifying issues, and suggesting improvements. The agent understands multiple programming languages and frameworks, evaluates code complexity, security vulnerabilities, and performance bottlenecks. Built using LLM-based reasoning with custom tools and integrations with GitHub and GitLab.',
-    tags: ['Mobile', 'Open Source'],
-    stack: ['JavaScript', 'React Native', 'FFmpeg'],
+    tags: ['Mobile', 'Open Source', 'JavaScript', 'React Native', 'FFmpeg'],
     screenshotUrls: [
       'https://raw.githubusercontent.com/farshed/SoundSpice-mobile/master/docs/screenshots.png'
     ],
@@ -54,8 +50,7 @@ export const projects: PortfolioProject[] = [
       'Ebook reader to help language learners effectively acquire new vocabulary in their target language.',
     writeup:
       'Engineered a robust payment processing platform that securely handles transactions across multiple currencies and payment methods. The system implements PCI-DSS compliance, fraud detection mechanisms, and real-time transaction monitoring. Built with Stripe and custom backend services using Node.js, with comprehensive testing and monitoring infrastructure.',
-    tags: ['Mobile', 'Open Source'],
-    stack: ['JavaScript', 'React Native', 'epub.js'],
+    tags: ['Mobile', 'Open Source', 'JavaScript', 'React Native', 'epub.js'],
     screenshotUrls: [
       'https://raw.githubusercontent.com/farshed/duofolio/master/docs/screenshots.png'
     ],
@@ -66,11 +61,10 @@ export const projects: PortfolioProject[] = [
     title: 'GoCustomer (prev. Pribox)',
     description:
       'Data-driven customer analytics platform using agentic AI for insights and predictions.',
-    loomUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    loomUrl: '',
     writeup:
       'Built a comprehensive customer intelligence platform that aggregates data from multiple sources and uses agentic AI to generate actionable insights. The system autonomously performs customer segmentation, lifetime value prediction, and churn analysis. Implemented using a modern tech stack with real-time data processing and interactive dashboards.',
-    tags: ['Agentic AI', 'Data Analytics', 'Web App'],
-    stack: ['React', 'Python', 'Data Science', 'Apache Kafka', 'Elasticsearch', 'D3.js'],
+    tags: ['Agentic AI', 'Data Analytics', 'Web App', 'React', 'Python', 'Data Science', 'Apache Kafka', 'Elasticsearch', 'D3.js'],
     thumbnail: undefined
   },
   {
@@ -79,8 +73,7 @@ export const projects: PortfolioProject[] = [
     loomUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     writeup:
       'Developed an agentic AI system that monitors compliance across multiple regulatory frameworks (AML, KYC, GDPR). The system autonomously flags suspicious activities, generates compliance reports, and updates policies based on new regulations. Built with microservices architecture and integrated with major regulatory databases.',
-    tags: ['Fintech', 'Agentic AI', 'Compliance'],
-    stack: ['Microservices', 'Docker', 'Kubernetes', 'Python', 'PostgreSQL', 'RabbitMQ'],
+    tags: ['Fintech', 'Agentic AI', 'Compliance', 'Microservices', 'Docker', 'Kubernetes', 'Python', 'PostgreSQL', 'RabbitMQ'],
     thumbnail: undefined
   },
   {
@@ -89,8 +82,16 @@ export const projects: PortfolioProject[] = [
     loomUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     writeup:
       'Developed an agentic AI system that monitors compliance across multiple regulatory frameworks (AML, KYC, GDPR). The system autonomously flags suspicious activities, generates compliance reports, and updates policies based on new regulations. Built with microservices architecture and integrated with major regulatory databases.',
-    tags: ['Fintech', 'Agentic AI', 'Compliance'],
-    stack: ['Microservices', 'Docker', 'Kubernetes', 'Python', 'PostgreSQL', 'RabbitMQ'],
+    tags: ['Fintech', 'Agentic AI', 'Compliance', 'Microservices', 'Docker', 'Kubernetes', 'Python', 'PostgreSQL', 'RabbitMQ'],
     thumbnail: undefined
   }
-].map((x, i) => ({ id: (i + 1).toString(), ...x }));
+].map((x) => ({ id: slugify(x.title), ...x }));
+
+/** "GoCustomer (prev. Pribox)" -> "gocustomer" */
+function slugify(title: string): string {
+  return title
+    .replace(/\s*\(.*\)$/, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}

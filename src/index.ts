@@ -16,8 +16,6 @@ async function buildClient() {
       path.join(import.meta.dir, "styles", "index.css"),
       path.join(import.meta.dir, "styles", "resume.css"),
       path.join(import.meta.dir, "client", "home.tsx"),
-      path.join(import.meta.dir, "client", "portfolio.tsx"),
-      path.join(import.meta.dir, "client", "portfolio-project.tsx"),
     ],
     plugins: [tailwind],
     external: ["/fonts/*", "/media/*"],
