@@ -8,28 +8,28 @@
     <link rel="canonical" href="https://farshed.me/blog/building-a-neural-network-in-rust/" />
     <title>Building a Neural Network in Rust (From Scratch)</title>
     <meta name="title" content="Building a Neural Network in Rust (From Scratch)" />
-    <meta name="description" content="Let's implement a single-layer perceptron and teach it to do math" />
+    <meta name="description" content="Let's implement a single-layer perceptron and teach it to do math." />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Faisal Arshed" />
     <meta property="og:url" content="https://farshed.me/blog/building-a-neural-network-in-rust/" />
     <meta property="og:title" content="Building a Neural Network in Rust (From Scratch)" />
-    <meta property="og:description" content="Let's implement a single-layer perceptron and teach it to do math" />
+    <meta property="og:description" content="Let's implement a single-layer perceptron and teach it to do math." />
     <meta property="og:image" content="https://farshed.me/media/blog/neural-net/cover.webp" />
     <meta property="og:image:alt" content="Building a Neural Network in Rust (From Scratch)" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://farshed.me/blog/building-a-neural-network-in-rust/" />
     <meta property="twitter:title" content="Building a Neural Network in Rust (From Scratch)" />
-    <meta property="twitter:description" content="Let's implement a single-layer perceptron and teach it to do math" />
+    <meta property="twitter:description" content="Let's implement a single-layer perceptron and teach it to do math." />
     <meta property="twitter:image" content="https://farshed.me/media/blog/neural-net/cover.webp" />
     <link rel="preload" href="/fonts/apercu-regular.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/assets/index-h0mjm08e.css" />
+    <link rel="stylesheet" href="/assets/index-jz7m53kz.css" />
   </head>
   <body>
-    <div id="root"><main class="min-h-screen py-6 px-5 pb-20 md:px-0 mx-auto max-w-2xl"><header class="flex justify-between items-center flex-wrap gap-6 pt-6 pb-10"><div class="flex items-center gap-3"><p class="text-lg font-semibold"><a href="/" class="no-underline">Faisal Arshed</a></p></div><nav class="font-semibold flex flex-wrap gap-x-6 gap-y-2"><a href="/blog" class="no-underline">Ramblings</a><a href="/projects" class="no-underline">Lab</a></nav></header><article><header class="mb-12 text-center"><h1 class="text-3xl font-bold mb-4">Building a Neural Network in Rust (From Scratch)</h1><time>February 21, 2024</time></header><div class="prose mx-auto"><p>Read on <a href="https://dev.to/farshed/building-a-neural-network-in-rust-from-scratch-5bm1" rel="nofollow" target="_blank">dev.to</a></p>
+    <div id="root"><main class="min-h-screen py-6 px-5 pb-20 md:px-0 mx-auto max-w-2xl"><header class="flex justify-between items-center flex-wrap gap-6 pt-6 pb-10"><div class="flex items-center gap-3"><p class="text-lg font-semibold"><a href="/" class="no-underline">Faisal Arshed</a></p></div><nav class="font-semibold flex flex-wrap gap-x-6 gap-y-2"><a href="/blog" class="underline decoration-2 underline-offset-8">Ramblings</a><a href="/projects" class="no-underline">Lab</a></nav></header><article><a href="/blog" class="inline-flex items-center gap-2 text-sm mb-8 no-underline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left size-3.5" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>Ramblings</a><header class="mb-12 text-center"><h1 class="text-3xl font-bold mb-4">Building a Neural Network in Rust (From Scratch)</h1><time class="text-sm text-black/60">February 21, 2024</time></header><div class="prose mx-auto"><p>Read on <a href="https://dev.to/farshed/building-a-neural-network-in-rust-from-scratch-5bm1" rel="nofollow" target="_blank">dev.to</a></p>
 <hr>
 <p>Let's build a neural network from scratch to truly understand how they work. And by scratch, I mean without using any fancy ML or linear algebra libraries. We're going to build a single-layer perceptron, the simplest neural network there is, and then teach it to perform addition.</p>
 <p>I'll be using Rust but you can follow along using the JavaScript or Python implementations if that's what you prefer. Code is available <a href="https://github.com/farshed/neuron-oxide" rel="nofollow" target="_blank">here</a>.</p>
-<h2 id="neural-network">Neural Network</h2>
+<h2 id="neural-network">Neural Network<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#neural-network">#</a></h2>
 <p>A neural network is exactly what it sounds like; A network of artificial neurons. A neuron or "node" is a computational unit that mimics the function of a biological neuron. It receives some input, performs some math on it, and then spits out an output.</p>
 <p>We'll start by defining a <code>NeuralNetwork</code> struct and an associated method to initialize it. We don't have much to go on yet so let's leave it empty for now.</p>
 <pre class="shiki dracula" style="background-color:#282A36;color:#F8F8F2" tabindex="0"><code><span class="line"><span style="color:#FF79C6">struct</span><span style="color:#8BE9FD;font-style:italic"> NeuralNetwork</span><span style="color:#F8F8F2"> {}</span></span>
@@ -39,13 +39,13 @@
 <span class="line"><span style="color:#BD93F9;font-style:italic">		Self</span><span style="color:#F8F8F2"> {}</span></span>
 <span class="line"><span style="color:#F8F8F2">	}</span></span>
 <span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
-<h2 id="layers">Layers</h2>
+<h2 id="layers">Layers<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#layers">#</a></h2>
 <p>Neurons in a neural network are grouped into levels called layers. Each layer processes the input in some way and each layer's output serves as input to the next layer. The first layer receives the initial input, and the last layer produces the final output. Layers in between are called <em>hidden layers</em> and help in extracting and transforming features from the data.</p>
-<p><img src="/media/blog/neural-net/deep-neural-net.webp" alt="Deep neural network"></p>
+<p><img src="/media/blog/neural-net/deep-neural-net.webp" alt="Deep neural network" loading="lazy" decoding="async"></p>
 <p>Each circle represents a neuron and each line, a connection. You can see that each neuron in a layer is connected to every neuron in the next layer.</p>
-<p><img src="/media/blog/neural-net/perceptron.webp" alt="Single-layer perceptron"></p>
+<p><img src="/media/blog/neural-net/perceptron.webp" alt="Single-layer perceptron" loading="lazy" decoding="async"></p>
 <p>The neural network we're building looks like this. It has two input neurons (one for each number) and an output neuron. Note that it doesn't have any hidden layers.</p>
-<h2 id="weights">Weights</h2>
+<h2 id="weights">Weights<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#weights">#</a></h2>
 <p>Each connection in a neural network has an associated <em>weight</em>. These weights determine the strength and direction (positive or negative influence) of the relationship between neurons, which in turn influences how the data is transformed as it passes from one layer to the next. During the training process, we adjust these weight values to reduce the error in the output.</p>
 <p>A good way of thinking about weights is to imagine the neural connections as tubes which carry the signals (data) from one neuron to the next. These tubes can change thickness. A thicker tube means the connection it represents is stronger, influencing the signal that passes through it more significantly.</p>
 <p>Since there are no hidden layers in our network, we only need two weights (one for each connection). We'll initialize them to random floating point values for now.</p>
@@ -63,7 +63,7 @@
 <span class="line"><span style="color:#F8F8F2">		}</span></span>
 <span class="line"><span style="color:#F8F8F2">	}</span></span>
 <span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
-<h2 id="bias">Bias</h2>
+<h2 id="bias">Bias<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#bias">#</a></h2>
 <p>Bias is another parameter that adjusts the output of a neuron. Imagine a small knob alongside each neuron. This knob can adjust how active the neuron is, regardless of the signals it receives. It’s like tweaking the baseline level of activity for the neuron, ensuring that even if all incoming signals are weak, the neuron can still choose to fire (activate) based on this bias adjustment.</p>
 <p>Only the neurons in the hidden and output layers have a bias. Since our perceptron has no hidden layers and only a single neuron in the output layer, we only need a single bias value which we'll also initialize to a random value.</p>
 <pre class="shiki dracula" style="background-color:#282A36;color:#F8F8F2" tabindex="0"><code><span class="line"><span style="color:#FF79C6">struct</span><span style="color:#8BE9FD;font-style:italic"> NeuralNetwork</span><span style="color:#F8F8F2"> {</span></span>
@@ -81,7 +81,7 @@
 <span class="line"><span style="color:#F8F8F2">		}</span></span>
 <span class="line"><span style="color:#F8F8F2">	}</span></span>
 <span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
-<h2 id="activation-function">Activation Function</h2>
+<h2 id="activation-function">Activation Function<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#activation-function">#</a></h2>
 <p>The activation function is what decides whether a neuron should fire or not. It's like a filter or a gatekeeper of sorts that looks at the incoming signals (after being modified by weights and bias) and decides how brightly the neuron should light up. Activation functions are used to introduce non-linearity in the network. This non-linearity allows the network to learn complex patterns.</p>
 <p>The output of a neuron can be computed as:</p>
 <p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mi>u</mi><mi>t</mi><mi>p</mi><mi>u</mi><mi>t</mi><mo>=</mo><mi>A</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>v</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo stretchy="false">(</mo><mi>W</mi><mi>e</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi><mi>s</mi><mo>⋅</mo><mi>I</mi><mi>n</mi><mi>p</mi><mi>u</mi><mi>t</mi><mi>s</mi><mo>+</mo><mi>B</mi><mi>i</mi><mi>a</mi><mi>s</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">Output = Activation(Weights⋅Inputs + Bias)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mord mathnormal">u</span><span class="mord mathnormal">tp</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">c</span><span class="mord mathnormal">t</span><span class="mord mathnormal">i</span><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="mord mathnormal">a</span><span class="mord mathnormal">t</span><span class="mord mathnormal">i</span><span class="mord mathnormal">o</span><span class="mord mathnormal">n</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.1389em;">W</span><span class="mord mathnormal">e</span><span class="mord mathnormal">i</span><span class="mord mathnormal" style="margin-right:0.0359em;">g</span><span class="mord mathnormal">h</span><span class="mord mathnormal">t</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.0785em;">I</span><span class="mord mathnormal">n</span><span class="mord mathnormal">p</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span><span class="mord mathnormal">ia</span><span class="mord mathnormal">s</span><span class="mclose">)</span></span></span></span></p>
@@ -102,7 +102,7 @@
 <pre class="shiki dracula" style="background-color:#282A36;color:#F8F8F2" tabindex="0"><code><span class="line"><span style="color:#FF79C6">fn</span><span style="color:#50FA7B"> sigmoid</span><span style="color:#F8F8F2">(x</span><span style="color:#FF79C6">:</span><span style="color:#8BE9FD;font-style:italic"> f64</span><span style="color:#F8F8F2">) </span><span style="color:#FF79C6">-></span><span style="color:#8BE9FD;font-style:italic"> f64</span><span style="color:#F8F8F2"> {</span></span>
 <span class="line"><span style="color:#BD93F9">	1.0</span><span style="color:#FF79C6"> /</span><span style="color:#F8F8F2"> (</span><span style="color:#BD93F9">1.0</span><span style="color:#FF79C6"> +</span><span style="color:#F8F8F2"> (</span><span style="color:#FF79C6">-</span><span style="color:#F8F8F2">x)</span><span style="color:#FF79C6">.</span><span style="color:#50FA7B">exp</span><span style="color:#F8F8F2">())</span></span>
 <span class="line"><span style="color:#F8F8F2">}</span></span></code></pre>
-<h2 id="backpropagation">Backpropagation</h2>
+<h2 id="backpropagation">Backpropagation<a class="heading-anchor" aria-hidden="true" tabindex="-1" href="#backpropagation">#</a></h2>
 <p>This is the key algorithm for training neural networks. If the final output isn’t what we expect, we "propagate" the error "backwards" through the layers of the network and find out which paths (connections) contributed how much to the overall error in the final output. We then use this information to slightly adjust the weights and biases in the network in a way that will reduce the error in future outputs. We repeat this process again and again, gradually optimizing the network's parameters until its output is close enough to what we expect.</p>
 <pre class="shiki dracula" style="background-color:#282A36;color:#F8F8F2" tabindex="0"><code><span class="line"><span style="color:#FF79C6">impl</span><span style="color:#8BE9FD;font-style:italic"> NeuralNetwork</span><span style="color:#F8F8F2"> {</span></span>
 <span class="line"></span>
