@@ -15,6 +15,34 @@
   quotes: none;
 }
 
+.prose img {
+  border-radius: 0.5rem;
+  max-height: 85vh;
+  width: auto;
+}
+
+/* An italic-only paragraph directly after an image reads as its caption */
+.prose p:has(> img) + p:has(> em:only-child) {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.75rem;
+}
+
+/* Heading anchors ("#") appear on hover or keyboard focus */
+.prose .heading-anchor {
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: #9ca3af;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.prose :is(h1, h2, h3, h4, h5, h6):hover .heading-anchor,
+.prose .heading-anchor:focus-visible {
+  opacity: 1;
+}
+
 @theme {
   --color-customRed: #d82e24;
   --color-customBlue: #3562f3;

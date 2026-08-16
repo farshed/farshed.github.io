@@ -1,7 +1,7 @@
 import tailwind from "bun-plugin-tailwind";
 import { rm, cp } from "node:fs/promises";
 import path from "node:path";
-import { renderPage, renderStandalone } from "./src/render";
+import { renderPage } from "./src/render";
 import { getRoutes } from "./src/routes";
 import { SITE_URL } from "./src/consts";
 
@@ -12,8 +12,8 @@ await rm(outdir, { recursive: true, force: true });
 // Splitting shares React between the client bundles instead of duplicating it.
 const result = await Bun.build({
   entrypoints: [
-    "src/index.css",
-    "src/resume.css",
+    "src/styles/index.css",
+    "src/styles/resume.css",
     "src/client/home.tsx",
     "src/client/portfolio.tsx",
     "src/client/portfolio-project.tsx",
@@ -51,16 +51,11 @@ if (!css) throw new Error("Expected a CSS artifact from the build");
 // Prerender every route to static HTML
 const routes = await getRoutes();
 for (const route of routes) {
-  let html: string;
-  if (route.standalone) {
-    const standaloneCss = entryHrefs.get(route.standalone.css);
-    if (!standaloneCss) throw new Error(`Missing stylesheet "${route.standalone.css}"`);
-    html = renderStandalone(route, standaloneCss);
-  } else {
-    const js = route.entry ? entryHrefs.get(route.entry) : undefined;
-    if (route.entry && !js) throw new Error(`Missing client bundle for entry "${route.entry}"`);
-    html = renderPage(route, { css, js });
-  }
+  const routeCss = entryHrefs.get(route.stylesheet ?? "index");
+  if (!routeCss) throw new Error(`Missing stylesheet "${route.stylesheet}"`);
+  const js = route.entry ? entryHrefs.get(route.entry) : undefined;
+  if (route.entry && !js) throw new Error(`Missing client bundle for entry "${route.entry}"`);
+  const html = renderPage(route, { css: routeCss, js });
   // "/404" becomes 404.html — the not-found convention on static hosts
   const file =
     route.path === "/"

@@ -1,6 +1,6 @@
 import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION } from './consts';
-import type { PageRoute, StandaloneRoute } from './routes';
+import type { Route } from './routes';
 
 interface Assets {
   css: string;
@@ -11,11 +11,7 @@ interface Assets {
 const escapeHtml = (s: string) =>
   s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
 
-export function renderStandalone(route: StandaloneRoute, cssHref: string): string {
-  return '<!doctype html>\n' + renderToStaticMarkup(route.standalone.page(cssHref)) + '\n';
-}
-
-export function renderPage(route: PageRoute, { css, js }: Assets): string {
+export function renderPage(route: Route, { css, js }: Assets): string {
   const title = escapeHtml(route.meta?.title ?? SITE_TITLE);
   const description = escapeHtml(route.meta?.description ?? SITE_DESCRIPTION);
   // GitHub Pages serves directory indexes with a trailing slash (/blog -> /blog/),
@@ -53,7 +49,7 @@ ${cover ? '' : '    <meta property="og:image:width" content="822" />\n    <meta 
     <meta property="twitter:title" content="${title}" />
     <meta property="twitter:description" content="${description}" />
     <meta property="twitter:image" content="${image}" />
-${jsonLd ? `    <script type="application/ld+json">${jsonLd}</script>\n` : ''}    <link rel="preload" href="/fonts/apercu-regular.woff2" as="font" type="font/woff2" crossorigin />
+${jsonLd ? `    <script type="application/ld+json">${jsonLd}</script>\n` : ''}${route.meta?.head ? `${route.meta.head}\n` : ''}    <link rel="preload" href="/fonts/apercu-regular.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="${css}" />
 ${js ? `    <script type="module" src="${js}"></script>\n` : ''}  </head>
   <body>

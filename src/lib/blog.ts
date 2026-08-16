@@ -8,6 +8,7 @@ import remarkRehype from 'remark-rehype';
 import rehypeRaw from 'rehype-raw';
 import rehypeKatex from 'rehype-katex';
 import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings, { type Options as AutolinkOptions } from 'rehype-autolink-headings';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeShiki from '@shikijs/rehype';
 import rehypeStringify from 'rehype-stringify';
@@ -28,6 +29,32 @@ export interface Post {
 
 const contentDir = path.join(import.meta.dir, '..', 'content', 'blog');
 
+const autolinkOptions: AutolinkOptions = {
+  behavior: 'append',
+  properties: { className: ['heading-anchor'], ariaHidden: 'true', tabIndex: -1 },
+  content: { type: 'text', value: '#' }
+};
+
+interface HastNode {
+  tagName?: string;
+  properties?: Record<string, unknown>;
+  children?: HastNode[];
+}
+
+/** Defer offscreen image loading in image-heavy posts */
+function rehypeLazyImages() {
+  const walk = (node: HastNode) => {
+    if (node.tagName === 'img' && node.properties) {
+      node.properties.loading ??= 'lazy';
+      node.properties.decoding ??= 'async';
+    }
+    for (const child of node.children ?? []) walk(child);
+  };
+  return (tree: unknown) => {
+    walk(tree as HastNode);
+  };
+}
+
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
@@ -36,6 +63,8 @@ const processor = unified()
   .use(rehypeRaw)
   .use(rehypeKatex)
   .use(rehypeSlug)
+  .use(rehypeAutolinkHeadings, autolinkOptions)
+  .use(rehypeLazyImages)
   .use(rehypeExternalLinks, { target: '_blank' })
   .use(rehypeShiki, { theme: 'dracula' })
   .use(rehypeStringify);

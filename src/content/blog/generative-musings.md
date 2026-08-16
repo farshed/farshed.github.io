@@ -1,6 +1,6 @@
 ---
 title: 'Generative Musings'
-description: 'A collection of generative art created using DALL-E 3'
+description: 'A collection of generative art created using DALL-E 3.'
 pubDate: 'November 13 2023'
 ---
 

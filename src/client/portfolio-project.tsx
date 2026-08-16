@@ -1,5 +1,5 @@
 import { hydrateRoot } from 'react-dom/client';
-import { PortfolioProjectPage } from '../pages/PortfolioProjectPage';
+import { PortfolioProjectPage } from '../pages/portfolio/PortfolioProjectPage';
 import { projects } from '../data/portfolio';
 
 // The URL is /portfolio/<id>; every project page shares this bundle.

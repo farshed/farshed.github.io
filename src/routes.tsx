@@ -1,23 +1,27 @@
 import type { ReactElement } from 'react';
 import { Home, socials } from './pages/Home';
 import { SITE_URL, EMAIL } from './consts';
-import { BlogIndex } from './pages/BlogIndex';
-import { BlogPost } from './pages/BlogPost';
-import { Projects } from './pages/Projects';
-import { PortfolioIndex } from './pages/PortfolioIndex';
-import { PortfolioProjectPage } from './pages/PortfolioProjectPage';
+import { BlogIndex } from './pages/blog/BlogIndex';
+import { BlogPost } from './pages/blog/BlogPost';
+import { Projects } from './pages/projects/Projects';
+import { PortfolioIndex } from './pages/portfolio/PortfolioIndex';
+import { PortfolioProjectPage } from './pages/portfolio/PortfolioProjectPage';
 import { NotFound } from './pages/NotFound';
-import { ResumeV1 } from './pages/ResumeV1';
-import { ResumeV2 } from './pages/ResumeV2';
+import { ResumeV1, head as resumeV1Head } from './pages/resume/ResumeV1';
+import { ResumeV2, head as resumeV2Head } from './pages/resume/ResumeV2';
 import { loadPosts, listedPosts } from './lib/blog';
 import { projects as portfolioProjects } from './data/portfolio';
 
 /** Client bundles. Pages without an entry are rendered as pure static HTML with no JS. */
 export type ClientEntry = 'home' | 'portfolio' | 'portfolio-project';
 
-interface RouteBase {
+export interface Route {
   /** URL path, e.g. "/", "/blog", "/blog/my-post" */
   path: string;
+  element: ReactElement;
+  entry?: ClientEntry;
+  /** CSS entrypoint name; defaults to "index" (src/styles/index.css). Resumes use "resume". */
+  stylesheet?: string;
   meta?: {
     title?: string;
     description?: string;
@@ -25,26 +29,10 @@ interface RouteBase {
     redirectTo?: string;
     /** Structured data rendered as an application/ld+json script */
     jsonLd?: object;
+    /** Extra raw HTML injected into <head> (font links, page-specific styles) */
+    head?: string;
   };
 }
-
-/** A page rendered inside the site shell (head, meta, site stylesheet). */
-export interface PageRoute extends RouteBase {
-  element: ReactElement;
-  entry?: ClientEntry;
-  standalone?: undefined;
-}
-
-/** A self-contained document that renders its own <html>/<head> (e.g. resumes). */
-export interface StandaloneRoute extends RouteBase {
-  standalone: {
-    /** Name of the CSS entrypoint this document links (e.g. "resume" -> src/resume.css) */
-    css: string;
-    page: (cssHref: string) => ReactElement;
-  };
-}
-
-export type Route = PageRoute | StandaloneRoute;
 
 export async function getRoutes(): Promise<Route[]> {
   const posts = await loadPosts();
@@ -89,11 +77,15 @@ export async function getRoutes(): Promise<Route[]> {
     { path: '/404', element: <NotFound />, meta: { title: '404 · Page not found' } },
     {
       path: '/noindex/resume/v1',
-      standalone: { css: 'resume', page: (css: string) => <ResumeV1 cssHref={css} /> }
+      element: <ResumeV1 />,
+      stylesheet: 'resume',
+      meta: { title: 'Faisal_Arshed_resume', head: resumeV1Head }
     },
     {
       path: '/noindex/resume/v2',
-      standalone: { css: 'resume', page: (css: string) => <ResumeV2 cssHref={css} /> }
+      element: <ResumeV2 />,
+      stylesheet: 'resume',
+      meta: { title: 'Faisal Arshed - Resume', head: resumeV2Head }
     }
   ];
 }

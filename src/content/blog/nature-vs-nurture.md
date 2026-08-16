@@ -1,6 +1,6 @@
 ---
 title: 'Nature vs. Nurture'
-description: 'Role of nature and nurture in determining personality and its implications for free will'
+description: 'Role of nature and nurture in determining personality and its implications for free will.'
 pubDate: 'September 18 2023'
 ---
 

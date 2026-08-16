@@ -13,7 +13,7 @@ export const socials = [
 export function Home() {
   return (
     <Layout>
-      <h1 className="mt-10 text-4xl md:text-5xl font-bold tracking-tight">Hi! I’m Faisal</h1>
+      <h1 className="mt-10 text-3xl md:text-4xl font-semibold tracking-tight">Hi! I’m Faisal</h1>
       <p className="mt-3 text-sm text-gray-500" data-nosnippet="">
         /ˈfeɪ.səl/ – rhymes with “vassal”
       </p>
@@ -49,7 +49,7 @@ export function Home() {
       </div>
 
       <video
-        className="fixed inset-0 w-full h-full object-cover pointer-events-none -z-10 motion-reduce:hidden"
+        className="fixed inset-0 w-full h-full object-cover pointer-events-none -z-10"
         src="/media/leaves.mp4"
         poster="/media/leaves-poster.jpg"
         autoPlay
@@ -57,13 +57,6 @@ export function Home() {
         muted
         playsInline
         preload="auto"
-      />
-      {/* Static stand-in for prefers-reduced-motion */}
-      <img
-        src="/media/leaves-poster.jpg"
-        alt=""
-        aria-hidden="true"
-        className="hidden motion-reduce:block fixed inset-0 w-full h-full object-cover pointer-events-none -z-10"
       />
 
       <VolumeButton />

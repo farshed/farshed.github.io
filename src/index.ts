@@ -1,7 +1,7 @@
 import { serve } from "bun";
 import tailwind from "bun-plugin-tailwind";
 import path from "node:path";
-import { renderPage, renderStandalone } from "./render";
+import { renderPage } from "./render";
 import { getRoutes } from "./routes";
 import { clearPostCache } from "./lib/blog";
 
@@ -13,8 +13,8 @@ let clientAssets = new Map<string, Blob>();
 async function buildClient() {
   const result = await Bun.build({
     entrypoints: [
-      path.join(import.meta.dir, "index.css"),
-      path.join(import.meta.dir, "resume.css"),
+      path.join(import.meta.dir, "styles", "index.css"),
+      path.join(import.meta.dir, "styles", "resume.css"),
       path.join(import.meta.dir, "client", "home.tsx"),
       path.join(import.meta.dir, "client", "portfolio.tsx"),
       path.join(import.meta.dir, "client", "portfolio-project.tsx"),
@@ -35,12 +35,10 @@ async function servePage(pathname: string): Promise<Response> {
   if (!route) return new Response("Not found", { status: 404 });
 
   await buildClient();
-  const html = route.standalone
-    ? renderStandalone(route, `/${route.standalone.css}.css`)
-    : renderPage(route, {
-        css: "/index.css",
-        js: route.entry ? `/${route.entry}.js` : undefined,
-      });
+  const html = renderPage(route, {
+    css: `/${route.stylesheet ?? "index"}.css`,
+    js: route.entry ? `/${route.entry}.js` : undefined,
+  });
   return new Response(html, {
     status: route.path === "/404" ? 404 : 200,
     headers: { "Content-Type": "text/html; charset=utf-8" },

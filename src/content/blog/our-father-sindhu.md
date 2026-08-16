@@ -1,6 +1,6 @@
 ---
 title: 'Our Father Who Art Sindhu'
-description: 'Tracing the flow and significance of Indus through history'
+description: 'Tracing the flow and significance of Indus through history.'
 pubDate: 'February 10 2024'
 cover: '/media/blog/sindhu.webp'
 ---

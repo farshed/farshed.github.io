@@ -67,40 +67,30 @@ const skills = [
   'MCP'
 ];
 
-const styles = `
-:root {
-  font-family: 'Inter', sans-serif;
-  letter-spacing: -0.012rem;
-}
+/** Extra head content injected by the page shell */
+export const head = `
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        font-family: 'Inter', sans-serif;
+        letter-spacing: -0.012rem;
+      }
 
-@media print {
-  body {
-    -webkit-print-color-adjust: exact;
-  }
-}
-`;
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    </style>`;
 
-export function ResumeV1({ cssHref }: { cssHref: string }) {
+export function ResumeV1() {
   return (
-    <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://rsms.me/" />
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet"
-        />
-
-        <title>Faisal_Arshed_resume</title>
-        <link rel="stylesheet" href={cssHref} />
-        <style dangerouslySetInnerHTML={{ __html: styles }} />
-      </head>
-      <body className="bg-gray-100 min-h-screen text-sm text-black">
-        <div className="max-w-4xl mx-auto bg-white overflow-hidden">
+    <div className="bg-gray-100 min-h-screen text-sm text-black">
+      <div className="max-w-4xl mx-auto bg-white overflow-hidden">
           {/* Header Section */}
           <div className="flex flex-col items-center">
             <h1 className="text-3xl font-medium">Faisal Arshed</h1>
@@ -177,7 +167,6 @@ export function ResumeV1({ cssHref }: { cssHref: string }) {
             </section>
           </div>
         </div>
-      </body>
-    </html>
+    </div>
   );
 }
