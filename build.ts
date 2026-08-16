@@ -24,7 +24,6 @@ const result = await Bun.build({
   splitting: true,
   minify: true,
   target: "browser",
-  sourcemap: "linked",
   naming: {
     entry: "assets/[name]-[hash].[ext]",
     chunk: "assets/chunk-[hash].[ext]",
