@@ -60,7 +60,7 @@ _Closeup of a votive stupa at Jaulian Monastery, featuring the Buddha in the lot
 
 _Remains of Sirkap, a city founded by the King Demetrius I of Bactria in around 180 BCE. Situated about 2 kilometers north-east of the Taxila Museum._
 
-The word _Sirkap_, meaning 'cut-off head', similar to the nearby hill range _Margala_, meaning 'cut-off throat', hints at the region's association with an ancient Buddhist legend. In the legend, Buddha, in one of his previous births, cuts off his head to feed a hungry lion.
+The word _Sirkap_, meaning 'cut-off head', similar to the nearby hill range _Margala_, meaning 'cut-off throat', hints at the region's association with an ancient Buddhist legend. In the legend, Buddha in one of his previous births, cuts off his head to feed a hungry lion.
 
 This theme of extraordinary self-sacrifice is central to _Jataka_ (stories from the past lives of the Buddha) and can be found in tales as far as Balochistan, sometimes also linked to other local saint figures.
 
@@ -70,7 +70,7 @@ One of the Sirkap artifacts that caught my eye was this terracotta "Ritual Tank"
 
 ![Ritual tank](/media/blog/taxila/ritual-tank.webp)
 
-The tank is possibly Jain in nature and seems to symbolize the four natural elements and all creation arising from them. The earth is symbolized by the clay from which the tank is made - air, by the birds perched on the container's rims - fire, by the lamps on each of the four corners, and the water which partially filled the tank symbolized, well, water.
+The tank is possibly Jain in nature and seems to symbolize the four natural elements and all creation arising from them. The earth is symbolized by the clay from which the tank is made, air by the birds perched on the container's rims, fire by the lamps on each of the four corners, and the water which partially filled the tank symbolized, well water.
 
 You might be able to make out depictions of various land and aquatic animals on the floor of the tank, such as a snake and turtle. A female figurine can be seen beside the stairs, likely a depiction of a mother goddess.
 
