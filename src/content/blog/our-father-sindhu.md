@@ -40,4 +40,4 @@ With Sindhu no longer able to sustain the same urban densities, its people migra
 
 Even as the Indo-Aryans spread eastward, they maintained a deep cultural memory of the lands they first encountered. The Vedic peoples, whose society was organized around pastoral and agrarian economies, must have found in Sindhu both a nourishing deity and an immutable landmark. This is evidenced by its reference in early Aryan hymns as a mighty force of nature.
 
-In a way, Sindhu has always been the silent architect of the Indian subcontinent’s history, shaping the land and its people. It has watched empires rise and fall, cities emerge and vanish, kings ascend and be deposed, even gods fall in and out of favor. Yet through it all, our primordial father, Sindhu, has flowed on unchanged.
+In a way, Sindhu has always been the silent architect of the Indian subcontinent’s history, shaping the land and its people. It has watched empires rise and fall, cities emerge and vanish, kings ascend and be deposed, even gods fall in and out of favor. Yet through it all, our primordial father Sindhu, has flowed on unchanged.
