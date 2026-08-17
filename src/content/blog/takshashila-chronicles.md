@@ -76,4 +76,4 @@ You might be able to make out depictions of various land and aquatic animals on 
 
 ![Buddha statue head](/media/blog/taxila/buddha-head.webp)
 
-_A Buddha's bust on display in Taxila Museum, likely from Kushan Period._
+_A Buddha's bust on display in Taxila Museum, likely from the Kushan Period._
