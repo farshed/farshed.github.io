@@ -7,6 +7,11 @@ export interface LabProject {
 
 const projects: LabProject[] = [
   {
+    title: 'Wu',
+    url: 'https://wu.farshed.me',
+    description: 'Fast, native code editor in Rust.'
+  },
+  {
     title: 'ETF Mirror',
     url: 'https://etfmirror.farshed.me',
     description: 'An ETF replicator for PSX investors.'
