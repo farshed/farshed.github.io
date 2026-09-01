@@ -12,14 +12,14 @@ const projects: LabProject[] = [
     description: 'Fast, native code editor in Rust.'
   },
   {
-    title: 'Glock',
-    url: 'https://github.com/farshed/glock',
-    description: 'GitHub LOC counter for Chrome.'
-  },
-  {
     title: 'ETF Mirror',
     url: 'https://etfmirror.farshed.me',
     description: 'An ETF replicator for PSX investors.'
+  },
+  {
+    title: 'Glock',
+    url: 'https://github.com/farshed/glock',
+    description: 'GitHub LOC counter for Chrome.'
   },
   {
     title: 'Qisse',
