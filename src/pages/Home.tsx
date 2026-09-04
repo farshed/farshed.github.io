@@ -1,27 +1,20 @@
 import { Layout } from '../components/Layout';
 import { VolumeButton } from '../components/VolumeButton';
 import { EMAIL } from '../consts';
-
-export const socials = [
-  { label: 'GitHub', href: 'https://github.com/farshed' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/faisal-arshed/' },
-  { label: 'Reading', href: 'https://www.goodreads.com/user/show/104865012-faisal-arshed' },
-  { label: 'Listening', href: 'https://open.spotify.com/user/jy6o6o9a9x3rfrhi5dtd5dj6d' },
-  { label: 'Photography', href: 'https://unsplash.com/@farshed' },
-];
+import { socials } from '../data/socials';
 
 export function Home() {
   return (
-    <Layout>
-      <h1 className="mt-10 text-3xl md:text-4xl font-semibold tracking-tight">Hi! I’m Faisal</h1>
-      <p className="mt-3 text-sm text-gray-500" data-nosnippet="">
-        /ˈfeɪ.səl/ – rhymes with “vassal”
-      </p>
-
-      <div className="flex flex-col gap-y-8 text-xl leading-[1.8] mt-8">
-        <p>
-          A software engineer and aspiring generalist who likes building and tinkering with things.
+    <Layout footer={false}>
+      <div className="mt-[4vh] md:mt-[12vh]">
+        <h1 className="text-[2.75rem] md:text-6xl leading-[1.05]">Hi! I’m Faisal</h1>
+        <p className="mt-4 text-[0.85rem] text-muted" data-nosnippet="">
+          /ˈfeɪ.səl/ – rhymes with “vassal”
         </p>
+      </div>
+
+      <div className="flex flex-col gap-y-7 mt-12 font-serif text-[1.45rem] md:text-[1.6rem] leading-[1.5] max-w-[32ch]">
+        <p>A software engineer and aspiring generalist who likes building and tinkering with things.</p>
 
         <p>Besides tech, I’m interested in evolutionary psychology, language, history, and culture.</p>
 
@@ -34,22 +27,18 @@ export function Home() {
         </p>
       </div>
 
-      <div className="flex flex-wrap items-center gap-x-6 gap-y-2 mt-10 text-lg font-medium">
+      <ul className="hairline mt-14 pt-5 flex flex-wrap gap-x-6 gap-y-2">
         {socials.map((s) => (
-          <a
-            key={s.label}
-            href={s.href}
-            target="_blank"
-            rel="noopener"
-            className="no-underline hover:underline"
-          >
-            {s.label}
-          </a>
+          <li key={s.label}>
+            <a href={s.href} target="_blank" rel="noopener" className="eyebrow no-underline hover:text-ink">
+              {s.label}
+            </a>
+          </li>
         ))}
-      </div>
+      </ul>
 
       <video
-        className="fixed inset-0 w-full h-full object-cover pointer-events-none -z-10"
+        className="fade-in fixed inset-0 w-full h-full object-cover pointer-events-none -z-20"
         src="/media/leaves.mp4"
         poster="/media/leaves-poster.jpg"
         autoPlay
@@ -57,6 +46,10 @@ export function Home() {
         muted
         playsInline
         preload="auto"
+      />
+      <div
+        aria-hidden="true"
+        className="fixed inset-0 pointer-events-none -z-10 bg-paper/80 md:bg-transparent md:bg-[linear-gradient(105deg,rgba(246,244,238,0.92)_0%,rgba(246,244,238,0.7)_45%,rgba(246,244,238,0.15)_100%)]"
       />
 
       <VolumeButton />

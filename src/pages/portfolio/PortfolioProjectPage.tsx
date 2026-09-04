@@ -4,7 +4,7 @@ import type { PortfolioProject } from '../../data/portfolio';
 
 export function PortfolioProjectPage({ project }: { project: PortfolioProject }) {
   return (
-    <Layout>
+    <Layout width="wide">
       <ProjectDetail project={project} />
     </Layout>
   );

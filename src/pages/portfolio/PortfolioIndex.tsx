@@ -3,7 +3,7 @@ import PortfolioGrid from '../../components/PortfolioGrid';
 
 export function PortfolioIndex() {
   return (
-    <Layout>
+    <Layout width="wide">
       <PortfolioGrid />
     </Layout>
   );

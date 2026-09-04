@@ -1,55 +1,22 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* Typography overrides ported from the old tailwind.config.mjs */
-.prose {
-  color: currentColor;
-  font-size: 1rem;
-}
-
-.prose a {
-  font-weight: normal;
-}
-
-.prose blockquote {
-  quotes: none;
-}
-
-.prose img {
-  border-radius: 0.5rem;
-  max-height: 85vh;
-  width: auto;
-}
-
-/* An italic-only paragraph directly after an image reads as its caption */
-.prose p:has(> img) + p:has(> em:only-child) {
-  text-align: center;
-  font-size: 0.875rem;
-  color: #6b7280;
-  margin-top: 0.75rem;
-}
-
-/* Heading anchors ("#") appear on hover or keyboard focus */
-.prose .heading-anchor {
-  margin-left: 0.4em;
-  text-decoration: none;
-  color: #9ca3af;
-  opacity: 0;
-  transition: opacity 0.15s ease;
-}
-
-.prose :is(h1, h2, h3, h4, h5, h6):hover .heading-anchor,
-.prose .heading-anchor:focus-visible {
-  opacity: 1;
-}
-
 @theme {
+  --color-paper: #f6f4ee;
+  --color-ink: #1c1b18;
+  --color-muted: #605c54;
+  --color-line: #e2ddd3;
+  --color-accent: #a9432b;
+
   --color-customRed: #d82e24;
   --color-customBlue: #3562f3;
   --color-skyBlue: #0070c0;
+
   --font-sans: 'Apercu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
-    ui-sans-serif, system-ui, 'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans';
+    ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'GT Sectra', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+
+  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 @font-face {
@@ -68,8 +35,24 @@
   src: url('/fonts/apercu-italic.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'GT Sectra';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/GT-Sectra-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GT Sectra';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/GT-Sectra-400i.woff2') format('woff2');
+}
+
 :root {
-  font-size: clamp(17px, calc(13.5px + 0.1vh + 0.3vw), 25px);
+  font-size: clamp(17px, calc(13.5px + 0.1vh + 0.3vw), 22px);
   font-family: var(--font-sans);
 }
 
@@ -82,42 +65,194 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @layer base {
-  /* The old site ran Tailwind v3, where borders defaulted to gray-200.
-     v4 defaults to currentColor, which turns unstyled borders/hrs black. */
   *,
   ::after,
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+    border-color: var(--color-line);
   }
 
   ::selection {
-    @apply text-customBlue bg-customBlue/5;
+    @apply bg-accent/15 text-ink;
   }
 
   body {
-    @apply leading-relaxed;
-    @apply bg-[#f3f4f6];
+    @apply bg-paper text-ink leading-relaxed;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif font-normal tracking-[-0.015em];
+    text-wrap: balance;
   }
 
   a {
-    @apply underline leading-relaxed decoration-gray-400 rounded-sm;
-    @apply hover:text-customBlue hover:bg-customBlue/5 hover:decoration-customBlue transition-colors motion-reduce:transition-none duration-200;
-    @apply focus-visible:text-customBlue focus-visible:bg-customBlue/5 focus-visible:decoration-customBlue;
-    @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-customBlue;
+    @apply underline decoration-ink/35 underline-offset-[0.2em] decoration-1 rounded-sm;
+    @apply transition-colors duration-200 hover:text-accent hover:decoration-accent;
+    @apply focus-visible:text-accent focus-visible:decoration-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent/60;
   }
 
   blockquote strong {
     @apply block mt-4;
 
     &::before {
-      content: '— ';
+      content: '– ';
     }
   }
 
   img {
     @apply mx-auto;
   }
+}
+
+@utility eyebrow {
+  @apply text-[0.7rem] uppercase tracking-[0.18em] font-medium text-muted;
+}
+
+@utility hairline {
+  @apply border-t border-line;
+}
+
+@utility rise {
+  & > :not(.fixed) {
+    animation: rise 0.5s var(--ease-out-soft) both;
+  }
+  & > :nth-child(2) {
+    animation-delay: 0.06s;
+  }
+  & > :nth-child(3) {
+    animation-delay: 0.12s;
+  }
+  & > :nth-child(n + 4) {
+    animation-delay: 0.18s;
+  }
+}
+
+@utility fade-in {
+  animation: fade 1.6s ease-out both;
+}
+
+.prose {
+  color: currentColor;
+  font-size: 1rem;
+  --tw-prose-body: var(--color-ink);
+  --tw-prose-headings: var(--color-ink);
+  --tw-prose-links: var(--color-ink);
+  --tw-prose-bold: var(--color-ink);
+  --tw-prose-quotes: var(--color-ink);
+  --tw-prose-quote-borders: var(--color-accent);
+  --tw-prose-hr: var(--color-line);
+  --tw-prose-th-borders: var(--color-line);
+  --tw-prose-td-borders: var(--color-line);
+  --tw-prose-captions: var(--color-muted);
+  --tw-prose-code: var(--color-ink);
+  --tw-prose-counters: var(--color-muted);
+  --tw-prose-bullets: var(--color-line);
+}
+
+.prose :is(h1, h2, h3, h4) {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.prose h2 {
+  font-size: 1.75em;
+  margin-top: 2.2em;
+}
+
+.prose h3 {
+  font-size: 1.35em;
+}
+
+.prose a {
+  font-weight: normal;
+}
+
+.prose blockquote {
+  quotes: none;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.15em;
+  border-left-width: 1px;
+  padding-left: 1.25em;
+}
+
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: none;
+}
+
+.prose hr {
+  margin: 3em auto;
+  width: 4rem;
+}
+
+.prose img {
+  border-radius: 0.25rem;
+  max-height: 85vh;
+  width: auto;
+}
+
+.prose pre {
+  border-radius: 0.375rem;
+  font-size: 0.85em;
+}
+
+.prose :not(pre) > code {
+  background: rgb(0 0 0 / 0.05);
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
+  font-weight: 400;
+}
+
+.prose :not(pre) > code::before,
+.prose :not(pre) > code::after {
+  content: none;
+}
+
+/* An italic-only paragraph directly after an image reads as its caption */
+.prose p:has(> img) + p:has(> em:only-child) {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 0.75rem;
+}
+
+/* Heading anchors ("#") appear on hover or keyboard focus */
+.prose .heading-anchor {
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: var(--color-muted);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.prose :is(h1, h2, h3, h4, h5, h6):hover .heading-anchor,
+.prose .heading-anchor:focus-visible {
+  opacity: 1;
 }

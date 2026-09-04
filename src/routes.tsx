@@ -1,5 +1,6 @@
 import type { ReactElement } from 'react';
-import { Home, socials } from './pages/Home';
+import { Home } from './pages/Home';
+import { socials } from './data/socials';
 import { SITE_URL, EMAIL } from './consts';
 import { BlogIndex } from './pages/blog/BlogIndex';
 import { BlogPost } from './pages/blog/BlogPost';
