@@ -14,7 +14,7 @@ const projects: LabProject[] = [
   {
     title: 'ETF Mirror',
     url: 'https://etfmirror.farshed.me',
-    description: 'An ETF replicator for PSX investors.'
+    description: 'ETF replicator for PSX investors.'
   },
   {
     title: 'Glock',
