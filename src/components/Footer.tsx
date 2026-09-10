@@ -3,7 +3,7 @@ import { socials } from '../data/socials';
 export function Footer() {
   return (
     <footer className="mt-auto pt-24">
-      <div className="hairline pt-6 flex flex-wrap justify-between gap-x-8 gap-y-3">
+      <div className="hairline pt-6">
         <ul className="flex flex-wrap gap-x-5 gap-y-2">
           {socials.map((s) => (
             <li key={s.label}>
@@ -13,7 +13,6 @@ export function Footer() {
             </li>
           ))}
         </ul>
-        <p className="eyebrow">Faisal Arshed · {new Date().getFullYear()}</p>
       </div>
     </footer>
   );
