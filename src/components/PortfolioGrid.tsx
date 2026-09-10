@@ -3,53 +3,43 @@ import { projects } from '../data/portfolio';
 export default function PortfolioGrid() {
   return (
     <div>
-      <h1 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">Portfolio</h1>
+      <header className="mb-16">
+        <p className="eyebrow">Selected work</p>
+        <h1 className="text-5xl md:text-6xl leading-[1.05] mt-3">Portfolio</h1>
+        <p className="font-serif italic text-muted text-xl mt-4 max-w-[40ch]">
+          Products I’ve designed and built, for clients and for myself.
+        </p>
+      </header>
 
-      <div className="py-6 md:py-8">
-        <section>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
-            {projects.map((project) => (
-              <a
-                key={project.id}
-                href={`/portfolio/${project.id}`}
-                className="flex flex-col group relative overflow-hidden rounded-lg bg-white border border-slate-200 transition-all duration-300 hover:border-customBlue hover:shadow-lg cursor-pointer h-full no-underline"
-              >
-                {project.thumbnail && (
-                  <div className="relative w-full aspect-video bg-slate-200 overflow-hidden flex-shrink-0">
-                    <img
-                      src={project.thumbnail}
-                      alt={project.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                )}
-
-                {/* Content */}
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-lg font-semibold text-slate-900 mb-2 group-hover:text-slate-700 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-slate-600 text-xs mb-4 leading-relaxed flex-grow">
-                    {project.description}
-                  </p>
-
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="inline-block px-1.5 py-0.5 text-[0.65rem] font-medium bg-slate-100 text-slate-900 rounded"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+      <ol className="flex flex-col gap-y-20">
+        {projects.map((project, i) => (
+          <li key={project.id} className="group">
+            <a href={`/portfolio/${project.id}`} className="block no-underline text-ink">
+              {project.thumbnail && (
+                <div className="overflow-hidden rounded-sm bg-line mb-7">
+                  <img
+                    src={project.thumbnail}
+                    alt={project.title}
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                    className="w-full h-auto transition-transform duration-700 ease-out group-hover:scale-[1.015]"
+                  />
                 </div>
-              </a>
-            ))}
-          </div>
-        </section>
-      </div>
+              )}
+
+              <div className="grid md:grid-cols-[5rem_1fr] gap-x-8">
+                <p className="eyebrow tabular-nums pt-2 mb-2 md:mb-0">{String(i + 1).padStart(2, '0')}</p>
+                <div>
+                  <h2 className="text-3xl leading-tight group-hover:text-accent transition-colors duration-200">
+                    {project.title}
+                  </h2>
+                  <p className="mt-2 text-muted max-w-[52ch]">{project.description}</p>
+                  <p className="eyebrow mt-4">{project.tags.slice(0, 4).join(' · ')}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }

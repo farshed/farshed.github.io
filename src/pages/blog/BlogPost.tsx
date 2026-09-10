@@ -1,9 +1,8 @@
-import { ArrowLeft } from 'lucide-react';
 import { Layout } from '../../components/Layout';
 import type { Post } from '../../lib/blog';
 
 export function BlogPost({ post }: { post: Post }) {
-  const formattedDate = post.pubDate.toLocaleDateString('en-CA', {
+  const formattedDate = post.pubDate.toLocaleDateString('en-US', {
     day: 'numeric',
     month: 'long',
     year: 'numeric'
@@ -12,17 +11,27 @@ export function BlogPost({ post }: { post: Post }) {
   return (
     <Layout active="ramblings">
       <article>
-        <a href="/blog" className="inline-flex items-center gap-2 text-sm mb-8 no-underline">
-          <ArrowLeft className="size-3.5" />
-          Ramblings
-        </a>
-
-        <header className="mb-12 text-center">
-          <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
-          <time className="text-sm text-black/60">{formattedDate}</time>
+        <header className="mb-14">
+          <p className="eyebrow">
+            <a href="/blog" className="no-underline hover:text-ink">
+              Ramblings
+            </a>
+            <span className="mx-2 text-muted/50">/</span>
+            <time>{formattedDate}</time>
+          </p>
+          <h1 className="text-[2.6rem] md:text-5xl leading-[1.08] mt-5">{post.title}</h1>
+          {post.description && (
+            <p className="font-serif italic text-muted text-xl mt-5 max-w-[40ch]">{post.description}</p>
+          )}
         </header>
 
-        <div className="prose mx-auto" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <p className="hairline mt-16 pt-6">
+          <a href="/blog" className="eyebrow no-underline hover:text-ink">
+            ← All ramblings
+          </a>
+        </p>
       </article>
     </Layout>
   );
