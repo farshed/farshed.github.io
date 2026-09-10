@@ -40,4 +40,4 @@ _Shiva performs the Rudra Tandava in his divine rage._
 
 ![Seneca in a garden](/media/blog/dalle3/8.webp)
 
-_Seneca sits in a garden, pondering, as the world burns around him._
+_Seneca sits in a garden pondering, as the world burns around him._
