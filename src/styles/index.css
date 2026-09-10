@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-paper: #f6f4ee;
+  --color-paper: #faf9f5;
   --color-ink: #1c1b18;
   --color-muted: #605c54;
   --color-line: #e2ddd3;
