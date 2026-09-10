@@ -19,7 +19,7 @@ export function BlogIndex({ posts }: { posts: Post[] }) {
           <p className="eyebrow">Writing</p>
           <h1 className="text-5xl md:text-6xl leading-[1.05] mt-3">Ramblings</h1>
           <p className="font-serif italic text-muted text-xl mt-4">
-            On tech, history, culture, and whatever else catches my eye.
+            On tech, history, culture and whatever else catches my eye.
           </p>
         </header>
 

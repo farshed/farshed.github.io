@@ -49,7 +49,7 @@ export function Home() {
       />
       <div
         aria-hidden="true"
-        className="fixed inset-0 pointer-events-none -z-10 bg-paper/80 md:bg-transparent md:bg-[linear-gradient(105deg,rgba(246,244,238,0.92)_0%,rgba(246,244,238,0.7)_45%,rgba(246,244,238,0.15)_100%)]"
+        className="fixed inset-0 pointer-events-none -z-10 bg-paper/72 md:bg-transparent md:bg-[linear-gradient(105deg,rgba(246,244,238,0.85)_0%,rgba(246,244,238,0.6)_45%,rgba(246,244,238,0.1)_100%)]"
       />
 
       <VolumeButton />
