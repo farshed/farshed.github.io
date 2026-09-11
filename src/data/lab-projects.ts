@@ -9,7 +9,7 @@ const projects: LabProject[] = [
   {
     title: 'Wu',
     url: 'https://wu.farshed.me',
-    description: 'Fast, native code editor in Rust.'
+    description: 'Fast, native code editor in Rust that feels like VS Code.'
   },
   {
     title: 'ETF Mirror',
