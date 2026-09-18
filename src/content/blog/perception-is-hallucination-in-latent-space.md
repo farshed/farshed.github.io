@@ -1,6 +1,6 @@
 ---
 title: 'Perception is hallucination in latent space'
-description: 'CNNs mimic how brain processes information.'
+description: 'CNNs mimic animal brain.'
 pubDate: 'December 29 2024'
 ---
 
