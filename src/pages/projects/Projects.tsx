@@ -10,7 +10,7 @@ export function Projects() {
           <p className="eyebrow">Building</p>
           <h1 className="text-5xl md:text-6xl leading-[1.05] mt-3">Lab</h1>
           <p className="font-serif italic text-muted text-xl mt-4">
-            Tools, experiments and side projects.
+            Tools, experiments, and side projects I'm cooking.
           </p>
         </header>
 
