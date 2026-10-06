@@ -1,7 +1,7 @@
 import type { ReactElement } from 'react';
 import { Home } from './pages/Home';
 import { socials } from './data/socials';
-import { SITE_URL, EMAIL } from './consts';
+import { SITE_URL, EMAIL, SHARE_IMAGE } from './consts';
 import { BlogIndex } from './pages/blog/BlogIndex';
 import { BlogPost } from './pages/blog/BlogPost';
 import { Projects } from './pages/projects/Projects';
@@ -50,7 +50,7 @@ export async function getRoutes(): Promise<Route[]> {
           '@type': 'Person',
           name: 'Faisal Arshed',
           url: `${SITE_URL}/`,
-          image: `${SITE_URL}/faisal-arshed.png`,
+          image: SHARE_IMAGE,
           jobTitle: 'Software Engineer',
           email: `mailto:${EMAIL}`,
           sameAs: socials.map((s) => s.href)

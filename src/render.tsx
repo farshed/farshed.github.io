@@ -1,5 +1,5 @@
 import { renderToString, renderToStaticMarkup } from 'react-dom/server';
-import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION } from './consts';
+import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION, SHARE_IMAGE } from './consts';
 import type { Route } from './routes';
 
 interface Assets {
@@ -18,7 +18,7 @@ export function renderPage(route: Route, { css, js }: Assets): string {
   // so canonical and social URLs use the final, non-redirecting form.
   const url = `${SITE_URL}${route.path === '/' ? '/' : `${route.path}/`}`;
   const cover = route.meta?.cover;
-  const image = cover ? new URL(cover, url).href : `${SITE_URL}/faisal-arshed.png`;
+  const image = cover ? new URL(cover, url).href : SHARE_IMAGE;
   const redirectTo = route.meta?.redirectTo;
   const jsonLd = route.meta?.jsonLd
     ? JSON.stringify(route.meta.jsonLd).replaceAll('<', '\\u003c')
@@ -44,7 +44,7 @@ ${redirectTo ? `    <meta http-equiv="refresh" content="0; url=${escapeHtml(redi
     <meta property="og:description" content="${description}" />
     <meta property="og:image" content="${image}" />
     <meta property="og:image:alt" content="${title}" />
-${cover ? '' : '    <meta property="og:image:width" content="822" />\n    <meta property="og:image:height" content="822" />\n'}    <meta property="twitter:card" content="${cover ? 'summary_large_image' : 'summary'}" />
+${cover ? '' : '    <meta property="og:image:width" content="1200" />\n    <meta property="og:image:height" content="630" />\n'}    <meta property="twitter:card" content="${cover ? 'summary_large_image' : 'summary'}" />
     <meta property="twitter:url" content="${url}" />
     <meta property="twitter:title" content="${title}" />
     <meta property="twitter:description" content="${description}" />
