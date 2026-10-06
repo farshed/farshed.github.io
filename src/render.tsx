@@ -18,7 +18,7 @@ export function renderPage(route: Route, { css, js }: Assets): string {
   // so canonical and social URLs use the final, non-redirecting form.
   const url = `${SITE_URL}${route.path === '/' ? '/' : `${route.path}/`}`;
   const cover = route.meta?.cover;
-  const image = cover ? new URL(cover, url).href : `${SITE_URL}/faisal-arshed.jpeg`;
+  const image = cover ? new URL(cover, url).href : `${SITE_URL}/faisal-arshed.png`;
   const redirectTo = route.meta?.redirectTo;
   const jsonLd = route.meta?.jsonLd
     ? JSON.stringify(route.meta.jsonLd).replaceAll('<', '\\u003c')

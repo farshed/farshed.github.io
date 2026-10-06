@@ -50,7 +50,7 @@ export async function getRoutes(): Promise<Route[]> {
           '@type': 'Person',
           name: 'Faisal Arshed',
           url: `${SITE_URL}/`,
-          image: `${SITE_URL}/faisal-arshed.jpeg`,
+          image: `${SITE_URL}/faisal-arshed.png`,
           jobTitle: 'Software Engineer',
           email: `mailto:${EMAIL}`,
           sameAs: socials.map((s) => s.href)
