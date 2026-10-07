@@ -3,20 +3,14 @@ import { projects } from '../data/portfolio';
 export default function PortfolioGrid() {
   return (
     <div>
-      <header className="mb-16">
-        <p className="eyebrow">Selected work</p>
-        <h1 className="text-5xl md:text-6xl leading-[1.05] mt-3">Portfolio</h1>
-        <p className="font-serif italic text-muted text-xl mt-4 max-w-[40ch]">
-          Products I’ve designed and built, for clients and for myself.
-        </p>
-      </header>
+      <h1 className="text-3xl md:text-4xl mb-12">Portfolio</h1>
 
-      <ol className="flex flex-col gap-y-20">
+      <ul className="flex flex-col gap-y-16">
         {projects.map((project, i) => (
           <li key={project.id} className="group">
-            <a href={`/portfolio/${project.id}`} className="block no-underline text-ink">
+            <a href={`/portfolio/${project.id}`} className="block no-underline text-ink hover:text-ink">
               {project.thumbnail && (
-                <div className="overflow-hidden rounded-sm bg-line mb-7">
+                <div className="overflow-hidden rounded-xl border border-line bg-line mb-5">
                   <img
                     src={project.thumbnail}
                     alt={project.title}
@@ -26,20 +20,13 @@ export default function PortfolioGrid() {
                 </div>
               )}
 
-              <div className="grid md:grid-cols-[5rem_1fr] gap-x-8">
-                <p className="eyebrow tabular-nums pt-2 mb-2 md:mb-0">{String(i + 1).padStart(2, '0')}</p>
-                <div>
-                  <h2 className="text-3xl leading-tight group-hover:text-accent transition-colors duration-200">
-                    {project.title}
-                  </h2>
-                  <p className="mt-2 text-muted max-w-[52ch]">{project.description}</p>
-                  <p className="eyebrow mt-4">{project.tags.slice(0, 4).join(' · ')}</p>
-                </div>
-              </div>
+              <h2 className="text-2xl leading-tight">{project.title}</h2>
+              <p className="mt-1.5 text-muted max-w-[56ch]">{project.description}</p>
+              <p className="meta mt-3">{project.tags.slice(0, 4).join(' · ').toLowerCase()}</p>
             </a>
           </li>
         ))}
-      </ol>
+      </ul>
     </div>
   );
 }

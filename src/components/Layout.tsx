@@ -7,6 +7,7 @@ interface LayoutProps {
   active?: NavSection;
   width?: 'prose' | 'wide';
   footer?: boolean;
+  overMedia?: boolean;
 }
 
 const widths = {
@@ -14,10 +15,10 @@ const widths = {
   wide: 'max-w-4xl'
 };
 
-export function Layout({ children, active, width = 'prose', footer = true }: LayoutProps) {
+export function Layout({ children, active, width = 'prose', footer = true, overMedia = false }: LayoutProps) {
   return (
     <main className={`rise flex flex-col min-h-screen px-6 pb-16 md:px-8 mx-auto ${widths[width]}`}>
-      <Header active={active} />
+      <Header active={active} overMedia={overMedia} />
       {children}
       {footer && <Footer />}
     </main>

@@ -8,7 +8,7 @@ export default function ProjectGallery({ images }: { images: string[] }) {
           target="_blank"
           rel="noopener"
           aria-label={`View screenshot ${i + 1} full size`}
-          className="group block rounded-sm overflow-hidden bg-line no-underline mb-4 last:mb-0"
+          className="group block rounded-xl border border-line overflow-hidden bg-line no-underline mb-4 last:mb-0"
         >
           <img
             src={src}

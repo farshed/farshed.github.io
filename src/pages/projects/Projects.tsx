@@ -5,37 +5,23 @@ import projects from '../../data/lab-projects';
 export function Projects() {
   return (
     <Layout active="lab">
-      <div>
-        <header className="mb-14">
-          <p className="eyebrow">Building</p>
-          <h1 className="text-5xl md:text-6xl leading-[1.05] mt-3">Lab</h1>
-          <p className="font-serif italic text-muted text-xl mt-4">
-            Tools, experiments, and side projects I'm cooking.
-          </p>
-        </header>
+      <h1 className="text-3xl md:text-4xl mb-10">Lab</h1>
 
-        <ol className="hairline">
-          {projects.map((project, i) => (
-            <li key={project.title} className="group border-b border-line">
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener"
-                className="grid grid-cols-[2.5rem_1fr_auto] items-baseline gap-x-4 py-5 no-underline text-ink"
-              >
-                <span className="eyebrow tabular-nums">{String(i + 1).padStart(2, '0')}</span>
+      <ul className="flex flex-col gap-y-1">
+        {projects.map((project) => (
+          <li key={project.title}>
+            <a href={project.url} target="_blank" rel="noopener" className="row group py-3">
+              <div className="flex items-baseline justify-between gap-6">
                 <span>
-                  <span className="font-serif text-[1.45rem] leading-snug group-hover:text-accent transition-colors duration-200">
-                    {project.title}
-                  </span>
+                  <span className="text-lg leading-snug tracking-[-0.01em]">{project.title}</span>
                   <span className="block text-sm text-muted mt-1 max-w-[52ch]">{project.description}</span>
                 </span>
-                <ArrowUpRight className="size-4 text-muted group-hover:text-accent transition-colors duration-200 self-center" />
-              </a>
-            </li>
-          ))}
-        </ol>
-      </div>
+                <ArrowUpRight className="size-4 shrink-0 text-muted transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-ink" />
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
     </Layout>
   );
 }

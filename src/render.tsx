@@ -49,9 +49,8 @@ ${cover ? '' : '    <meta property="og:image:width" content="1200" />\n    <meta
     <meta property="twitter:title" content="${title}" />
     <meta property="twitter:description" content="${description}" />
     <meta property="twitter:image" content="${image}" />
-${jsonLd ? `    <script type="application/ld+json">${jsonLd}</script>\n` : ''}${route.meta?.head ? `${route.meta.head}\n` : ''}    <meta name="theme-color" content="#faf9f5" />
+${jsonLd ? `    <script type="application/ld+json">${jsonLd}</script>\n` : ''}${route.meta?.head ? `${route.meta.head}\n` : ''}    <meta name="theme-color" content="#fcfcfc" />
     <link rel="preload" href="/fonts/apercu-regular.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/GT-Sectra-400.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="${css}" />
 ${js ? `    <script type="module" src="${js}"></script>\n` : ''}  </head>
   <body>

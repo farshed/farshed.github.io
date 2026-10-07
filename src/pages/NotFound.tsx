@@ -16,13 +16,12 @@ const advice = [
 export function NotFound() {
   return (
     <Layout>
-      <p className="eyebrow">Page not found</p>
-      <h1 className="text-[5.5rem] md:text-[8rem] leading-none mt-3 -ml-1 tabular-nums">404</h1>
-      <p className="font-serif text-2xl mt-6 max-w-[30ch]">
+      <h1 className="text-[5rem] md:text-[7rem] leading-none -ml-1 tracking-[-0.05em] tabular-nums">404</h1>
+      <p className="text-xl mt-6 max-w-[34ch] tracking-[-0.01em]">
         This page doesn’t exist. Here’s some unsolicited advice instead.
       </p>
 
-      <ol className="hairline mt-10 pt-6 font-serif italic text-xl leading-[1.9] text-muted">
+      <ol className="border-t mt-10 pt-6 text-lg leading-[1.9] text-muted">
         {advice.map((x) => (
           <li key={x}>{x}</li>
         ))}

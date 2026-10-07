@@ -8,16 +8,9 @@ export default function ProjectDetail({ project }: { project: PortfolioProject }
 
   return (
     <article>
-      <header className="mb-12">
-        <p className="eyebrow">
-          <a href="/portfolio" className="no-underline hover:text-ink">
-            Portfolio
-          </a>
-          <span className="mx-2 text-muted/50">/</span>
-          {project.title}
-        </p>
-        <h1 className="text-5xl md:text-6xl leading-[1.05] mt-5">{project.title}</h1>
-        <p className="font-serif italic text-muted text-xl mt-5 max-w-[40ch]">{project.description}</p>
+      <header className="mb-10">
+        <h1 className="text-3xl md:text-[2.6rem] leading-[1.1]">{project.title}</h1>
+        <p className="text-lg text-muted mt-4 max-w-[48ch]">{project.description}</p>
       </header>
 
       {!!project.screenshotUrls?.length && (
@@ -27,7 +20,7 @@ export default function ProjectDetail({ project }: { project: PortfolioProject }
       )}
 
       {project.loomUrl && (
-        <div className="aspect-video rounded-sm overflow-hidden bg-line mb-14">
+        <div className="aspect-video rounded-xl border border-line overflow-hidden bg-line mb-14">
           <iframe
             src={project.loomUrl}
             title={`${project.title} demo video`}
@@ -38,20 +31,20 @@ export default function ProjectDetail({ project }: { project: PortfolioProject }
         </div>
       )}
 
-      <div className={`grid md:grid-cols-[12rem_1fr] gap-x-12 gap-y-10 hairline pt-8 ${hasMedia ? '' : 'mt-2'}`}>
+      <div className={`grid md:grid-cols-[12rem_1fr] gap-x-12 gap-y-10 ${hasMedia ? '' : 'mt-2'}`}>
         <aside className="flex flex-col gap-y-8">
           <div>
-            <p className="eyebrow mb-3">Tags</p>
-            <ul className="text-sm leading-relaxed">
+            <p className="text-sm text-muted mb-2">Tags</p>
+            <ul className="meta text-ink leading-relaxed">
               {project.tags.map((tag) => (
-                <li key={tag}>{tag}</li>
+                <li key={tag}>{tag.toLowerCase()}</li>
               ))}
             </ul>
           </div>
 
           {(project.liveUrl || project.githubUrl) && (
             <div>
-              <p className="eyebrow mb-3">Links</p>
+              <p className="text-sm text-muted mb-2">Links</p>
               <ul className="text-sm flex flex-col gap-y-1.5">
                 {project.liveUrl && (
                   <li>
@@ -73,14 +66,14 @@ export default function ProjectDetail({ project }: { project: PortfolioProject }
         </aside>
 
         <div>
-          <p className="eyebrow mb-3">About</p>
+          <p className="text-sm text-muted mb-2">About</p>
           <p className="text-lg leading-[1.7] whitespace-pre-line max-w-[60ch]">{project.writeup}</p>
         </div>
       </div>
 
-      <p className="hairline mt-16 pt-6">
-        <a href="/portfolio" className="eyebrow no-underline hover:text-ink">
-          ← All work
+      <p className="mt-16">
+        <a href="/portfolio" className="text-sm no-underline text-muted hover:text-accent">
+          ← all work
         </a>
       </p>
     </article>
