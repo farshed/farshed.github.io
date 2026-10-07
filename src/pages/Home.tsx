@@ -6,7 +6,7 @@ import { socials } from '../data/socials';
 export function Home() {
   return (
     <Layout footer={false} overMedia>
-      <div className="mt-[2vh] md:mt-[8vh] max-w-xl">
+      <div className="my-auto pb-[6vh] md:my-0 md:mt-[8vh] md:pb-0 max-w-xl">
         <h1 className="text-4xl md:text-5xl leading-[1.05]">Hi! I’m Faisal</h1>
         <p className="meta mt-3" data-nosnippet="">
           /ˈfeɪ.səl/ – rhymes with “vassal”
