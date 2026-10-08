@@ -17,7 +17,7 @@ const widths = {
 
 export function Layout({ children, active, width = 'prose', footer = true, overMedia = false }: LayoutProps) {
   return (
-    <main className={`rise flex flex-col min-h-screen px-6 pb-16 md:px-8 mx-auto ${widths[width]}`}>
+    <main className={`flex flex-col min-h-screen px-6 pb-16 md:px-8 mx-auto ${widths[width]}`}>
       <Header active={active} overMedia={overMedia} />
       {children}
       {footer && <Footer />}

@@ -28,8 +28,6 @@
     ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
   --font-mono: ui-monospace, 'SF Mono', SFMono-Regular, 'JetBrains Mono', Menlo, Consolas,
     monospace;
-
-  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 @font-face {
@@ -60,17 +58,6 @@ body {
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
-}
-
-@keyframes rise {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 @keyframes fade {
@@ -132,21 +119,6 @@ body {
 
 @utility row {
   @apply block -mx-3 px-3 rounded-lg no-underline text-ink transition-colors duration-200 hover:bg-(--hover) hover:text-ink;
-}
-
-@utility rise {
-  & > :not(.fixed) {
-    animation: rise 0.5s var(--ease-out-soft) backwards;
-  }
-  & > :nth-child(2) {
-    animation-delay: 0.06s;
-  }
-  & > :nth-child(3) {
-    animation-delay: 0.12s;
-  }
-  & > :nth-child(n + 4) {
-    animation-delay: 0.18s;
-  }
 }
 
 @utility fade-in {

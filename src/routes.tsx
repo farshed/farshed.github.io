@@ -13,7 +13,7 @@ import { ResumeV2, head as resumeV2Head } from './pages/resume/ResumeV2';
 import { loadPosts, listedPosts } from './lib/blog';
 import { projects as portfolioProjects } from './data/portfolio';
 
-/** Client bundles. Pages without an entry are rendered as pure static HTML with no JS. */
+/** Client scripts. Pages without an entry are rendered as pure static HTML with no JS. */
 export type ClientEntry = 'home';
 
 export interface Route {

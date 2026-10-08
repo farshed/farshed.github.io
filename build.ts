@@ -1,16 +1,16 @@
-import tailwind from "bun-plugin-tailwind";
 import { rm, cp } from "node:fs/promises";
 import path from "node:path";
 import { renderPage } from "./src/render";
 import { getRoutes, type Route } from "./src/routes";
 import { SITE_URL } from "./src/consts";
+import { bundleAssets } from "./src/lib/assets";
 
 const root = process.cwd();
 const outdir = path.join(root, "dist");
 
 await rm(outdir, { recursive: true, force: true });
 
-const assets = await bundleAssets();
+const assets = await bundleAssets({ minify: true });
 const routes = await getRoutes();
 
 await prerenderRoutes(routes, assets);
@@ -19,37 +19,6 @@ await cp(path.join(root, "public"), outdir, { recursive: true });
 
 // ---------------------------------------------------------------------------
 
-/** Bundle stylesheets and client (hydration) entrypoints. Returns name -> public href. */
-async function bundleAssets(): Promise<Map<string, string>> {
-  const result = await Bun.build({
-    entrypoints: ["src/styles/index.css", "src/styles/resume.css", "src/client/home.tsx"],
-    outdir,
-    plugins: [tailwind],
-    external: ["/fonts/*", "/media/*"],
-    splitting: true,
-    minify: true,
-    target: "browser",
-    naming: {
-      entry: "assets/[name]-[hash].[ext]",
-      chunk: "assets/chunk-[hash].[ext]",
-      asset: "assets/[name]-[hash].[ext]",
-    },
-    define: { "process.env.NODE_ENV": JSON.stringify("production") },
-  });
-
-  // "assets/home-ab12cd34.js" -> "home". CSS entrypoints are reported as kind "asset".
-  const hrefs = new Map<string, string>();
-  for (const output of result.outputs) {
-    const isEntry = output.kind === "entry-point" || (output.kind === "asset" && output.path.endsWith(".css"));
-    if (!isEntry) continue;
-    const base = path.basename(output.path);
-    const name = base.slice(0, base.lastIndexOf("-"));
-    hrefs.set(name, "/" + path.relative(outdir, output.path).replaceAll(path.sep, "/"));
-    logFile(output.path, output.size);
-  }
-  return hrefs;
-}
-
 /** Render every route to a static HTML file. */
 async function prerenderRoutes(routes: Route[], assets: Map<string, string>) {
   for (const route of routes) {
@@ -57,7 +26,7 @@ async function prerenderRoutes(routes: Route[], assets: Map<string, string>) {
     if (!css) throw new Error(`Missing stylesheet "${route.stylesheet}" for ${route.path}`);
 
     const js = route.entry ? assets.get(route.entry) : undefined;
-    if (route.entry && !js) throw new Error(`Missing client bundle "${route.entry}" for ${route.path}`);
+    if (route.entry && !js) throw new Error(`Missing client script "${route.entry}" for ${route.path}`);
 
     const html = renderPage(route, { css, js });
     const file = outputPath(route.path);

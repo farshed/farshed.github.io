@@ -1,10 +1,10 @@
-import { renderToString, renderToStaticMarkup } from 'react-dom/server';
+import { renderToStaticMarkup } from 'react-dom/server';
 import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION, SHARE_IMAGE } from './consts';
 import type { Route } from './routes';
 
 interface Assets {
   css: string;
-  /** Client bundle for hydration. Omitted for pages with no interactivity. */
+  /** Client script contents. Omitted for pages with no interactivity. */
   js?: string;
 }
 
@@ -24,8 +24,7 @@ export function renderPage(route: Route, { css, js }: Assets): string {
     ? JSON.stringify(route.meta.jsonLd).replaceAll('<', '\\u003c')
     : undefined;
 
-  // Hydrated pages get reconcilable markup + a script; static pages get bare HTML.
-  const app = js ? renderToString(route.element) : renderToStaticMarkup(route.element);
+  const app = renderToStaticMarkup(route.element);
 
   return `<!doctype html>
 <html lang="en">
@@ -51,8 +50,8 @@ ${cover ? '' : '    <meta property="og:image:width" content="1200" />\n    <meta
     <meta property="twitter:image" content="${image}" />
 ${jsonLd ? `    <script type="application/ld+json">${jsonLd}</script>\n` : ''}${route.meta?.head ? `${route.meta.head}\n` : ''}    <meta name="theme-color" content="#fcfcfc" />
     <link rel="preload" href="/fonts/apercu-regular.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="${css}" />
-${js ? `    <script type="module" src="${js}"></script>\n` : ''}  </head>
+    <style>${css}</style>
+${js ? `    <script type="module">${js}</script>\n` : ''}  </head>
   <body>
     <div id="root">${app}</div>
   </body>
