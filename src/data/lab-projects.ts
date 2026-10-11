@@ -8,7 +8,7 @@ export interface LabProject {
 const projects: LabProject[] = [
   {
     title: 'Wu',
-    url: 'https://wu.farshed.me',
+    url: 'https://wu.dstrml.org',
     description: 'The fast, native code editor in Rust.'
   },
   {
