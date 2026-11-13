@@ -9,7 +9,7 @@ const projects: LabProject[] = [
   {
     title: 'Wu',
     url: 'https://wu.dstrml.org',
-    description: 'The fast, native code editor in Rust.'
+    description: 'The fast, native code editor and agent workspace in Rust.'
   },
   {
     title: 'ETF Mirror',
