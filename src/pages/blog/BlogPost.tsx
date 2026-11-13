@@ -13,7 +13,6 @@ export function BlogPost({ post }: { post: Post }) {
       <article>
         <header className="mb-12">
           <h1 className="text-3xl md:text-[2.6rem] leading-[1.1]">{post.title}</h1>
-          {post.description && <p className="text-lg text-muted mt-4 max-w-[48ch]">{post.description}</p>}
           <time className="meta block mt-5">{formattedDate}</time>
         </header>
 
